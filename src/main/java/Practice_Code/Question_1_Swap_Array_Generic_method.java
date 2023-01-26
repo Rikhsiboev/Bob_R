@@ -24,6 +24,8 @@ public  class Question_1_Swap_Array_Generic_method {
     public static <T> void swap(T[] ArrayName, T firstIndex, T lastIndex) {
         int indexA = -1; ///that means not empty => -1
         int indexB = -1;
+
+        // trying to find index number of Array
         for (int i = 0; i < ArrayName.length; i++) {
             if (ArrayName[i].equals(firstIndex)) {
                 indexA = i;
@@ -32,6 +34,8 @@ public  class Question_1_Swap_Array_Generic_method {
                 indexB = i;
             }
         }
+
+        // swap method
         if (indexA != -1 && indexB != -1) {
             T temp = ArrayName[indexA];
             ArrayName[indexA] = ArrayName[indexB];
