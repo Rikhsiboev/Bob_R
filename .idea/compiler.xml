@@ -7,6 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="m2-enum" />
+        <module name="m3-lambda" />
+        <module name="m4-double_colon_operators" />
+        <module name="m1-generics" />
         <module name="Bob_R" />
       </profile>
     </annotationProcessing>

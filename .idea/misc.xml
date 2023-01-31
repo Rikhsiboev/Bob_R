@@ -5,6 +5,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/m1-generics/pom.xml" />
+        <option value="$PROJECT_DIR$/m2-enum/pom.xml" />
+        <option value="$PROJECT_DIR$/m3-lambda/pom.xml" />
+        <option value="$PROJECT_DIR$/m4-double_colon_operators/pom.xml" />
       </list>
     </option>
   </component>
