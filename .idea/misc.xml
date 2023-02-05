@@ -9,6 +9,9 @@
         <option value="$PROJECT_DIR$/m2-enum/pom.xml" />
         <option value="$PROJECT_DIR$/m3-lambda/pom.xml" />
         <option value="$PROJECT_DIR$/m4-double_colon_operators/pom.xml" />
+        <option value="$PROJECT_DIR$/m5-comparator_interface/pom.xml" />
+        <option value="$PROJECT_DIR$/m6-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/stream-practice.newone/pom.xml" />
       </list>
     </option>
   </component>

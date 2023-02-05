@@ -7,12 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="m2-enum" />
         <module name="m3-lambda" />
+        <module name="m6-stream" />
+        <module name="stream-practice" />
+        <module name="m5-comparator_interface" />
+        <module name="m2-enum" />
         <module name="m4-double_colon_operators" />
         <module name="m1-generics" />
         <module name="Bob_R" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="stream-practice" options="-parameters" />
+    </option>
   </component>
 </project>
