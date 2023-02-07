@@ -11,12 +11,14 @@ public class Duplicated_Chars_and_integer {
     public static void main(String[] args) {
 //////////////////////////FOR STRING///////////////////////////////////////////////////////////////////////////////
         System.out.println("/////////////////FOR STRING/////////////");
-        String a = "aA11";
+        String a = "Indivisibilities";
+
         System.out.println("String => " + a);
         a=a.toLowerCase();
 
         String result = "";
         String count = "";
+
         for (int i = 0; i < a.length(); i++) {
             char c = a.charAt(i);
             if (!result.contains("" + c)) {  //String.valueOf
@@ -29,6 +31,17 @@ public class Duplicated_Chars_and_integer {
         System.out.println("Distinct characters: " + result);
         System.out.println("Duplicate characters: " + count);
         System.out.println("Count of duplicates: " + count.length());
+
+        for (int i = 0; i < a.length(); i++) {
+            char b =a.charAt(i);
+            int frequency = 0;
+            for (int j = 0; j < a.length(); j++) {
+                if (b == count.charAt(j)) {
+                    frequency++;
+                }
+            }
+            System.out.println("Character: " + b + " duplicates " + frequency + " times");
+        }
 
         System.out.println("////////////////FOR INTEGER//////////////////");
 /////////////////////////FOR INTEGER //////////////////////////////////////////////////////////////////////
