@@ -8,8 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="m3-lambda" />
-        <module name="m6-stream" />
         <module name="m7-optional-bigdecimal" />
+        <module name="m6-stream" />
         <module name="stream-practice" />
         <module name="m5-comparator_interface" />
         <module name="m2-enum" />
