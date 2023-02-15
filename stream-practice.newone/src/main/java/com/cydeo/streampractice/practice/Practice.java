@@ -272,6 +272,7 @@ public class Practice {
 //                .filter(employee -> employee.getDepartment().getDepartmentName().equals("IT"))
 //                .noneMatch(employee -> employee.getSalary()<2000);
 
+
         return getAllEmployees().stream()
                 .filter(employee -> employee.getDepartment().getDepartmentName().equals("IT"))
                 .map(Employee::getSalary)
@@ -341,12 +342,25 @@ public class Practice {
     // Display the salary of the employee Grant Douglas (lastName: Grant, firstName: Douglas)
     public static Long getGrantDouglasSalary() {
         //TODO Implement the method
-        return getAllEmployees().stream()
+        Optional<Employee> optionalEmployeew = getAllEmployees().stream()
                 .filter(employee -> employee.getFirstName().equals("Douglas"))
                 .filter(employee -> employee.getLastName().equals("Grant"))
                 // not in list don`t have this person we will get null
                 //  .collect(Collectors.toList()).get(0).getSalary();/// we are getting 1 person information as index get(0)
-                .findFirst().get().getSalary();
+                .findFirst();
+
+        if (optionalEmployeew.isPresent()) {
+            return optionalEmployeew.get().getSalary();
+        }
+        return null;
+
+//        return getAllEmployees().stream()
+//                .filter(employee -> employee.getFirstName().equals("Douglas"))
+//                .filter(employee -> employee.getLastName().equals("Grant"))
+//                // not in list don`t have this person we will get null
+//                //  .collect(Collectors.toList()).get(0).getSalary();/// we are getting 1 person information as index get(0)
+//                .findFirst().get().getSalary();
+
         /*
              List<Employee> employees = getAllEmployees();
                 for (Employee employee : employees) {
@@ -813,7 +827,7 @@ public class Practice {
                         || employee.getDepartment().getId().equals(100L)
                         || employee.getDepartment().getId().equals(120L)
                         || employee.getDepartment().getId().equals(130L)
-                        )
+                )
                 .collect(Collectors.toList());
     }
 
