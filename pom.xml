@@ -7,6 +7,10 @@
     <groupId>org.Bob_R</groupId>
     <artifactId>Bob_R</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>m9-HTML</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

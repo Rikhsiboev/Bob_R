@@ -16,7 +16,7 @@
         <module name="m4-double_colon_operators" />
         <module name="lambda-sort-doublecolon-task" />
         <module name="m1-generics" />
-        <module name="Bob_R" />
+        <module name="m9-HTML" />
         <module name="m8-new-version-updates" />
       </profile>
     </annotationProcessing>

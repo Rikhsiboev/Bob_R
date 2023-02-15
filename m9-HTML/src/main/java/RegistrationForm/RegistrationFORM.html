@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Forms practice</title>
+</head>
+<body>
+
+<form>
+
+    <p>
+        Username:
+        <input type="text" name="username" placeholder="Type username here please">
+    </p>
+    <p>
+        Password:
+        <input type="password" name="password" placeholder="Type password here please">
+    </p>
+    <p>
+        What do you think of this trip?
+    </p>
+    <textarea cols="30" rows="7" placeholder="Enter your comment here"></textarea>
+    <p>
+        Select your favourite food; </p>
+    <p>
+        <input type="radio" name="food" value="Burger">Burger
+        <input type="radio" name="food" value="Kabab">Kabab
+        <input type="radio" name="food" value="Salad">Salad
+    </p>
+    <br>
+    <input type="date" value="date">
+    <br>
+    <br>
+    <input type="datetime-local" value="datetime-local">
+    <p>Please upload your resume</p>
+    <br>
+    <input type="file">
+
+    <p>Select your favorite course(s)</p>
+    <p>
+      <label for=" Java">
+          <input type="checkbox" name="course" value="Java" id=" Java" > Java
+      </label>
+
+
+
+        <input type="checkbox" name="course" value="DS"> DS
+        <input type="checkbox" name="course" value="UA"> UA
+        <input type="checkbox" name="course" value="SoftSkill"> SoftSkill
+
+    </p>
+
+    <p>Please select the Program: </p>
+    <select name="course" id="course">
+        <option value="" disabled selected>Select a program</option>
+        <option value="jd">Java Developer</option>
+        <option value="sdet">Java SDET</option>
+        <option value="security">Java Security</option>
+        <option value="developer">Java Developer</option>
+    </select>
+
+</form>
+
+</body>
+</html>
