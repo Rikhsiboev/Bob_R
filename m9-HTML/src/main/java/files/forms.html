@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Forms practice</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+
+    </style>
+</head>
+<body>
+
+<form>
+    <h1> Welcome to APP</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <br>Aliquid beatae, culpa ducimus ex excepturi
+        exercitationem inventore libero minus nam nihil nobis obcaecati officia quasi quos rem tempora tempore veritatis
+        vitae?</p>
+    <p style="background-color: cornflowerblue;">
+        Username:
+        <input type="text" name="username" placeholder="Type your username">
+    </p>
+    <p>
+        Password:
+        <input type="password">
+    </p>
+    <p>
+        What did you think of this trip?
+    </p>
+    <textarea cols="30" rows="7" placeholder="Enter your comment"></textarea>
+    <br>
+    <p class="class1">Select your favorite food:</p>
+    <input type="radio" name="food" value="burger">Burger
+    <input type="radio" name="food" value="kabab" checked>Kabab
+    <input type="radio" name="food" value="salad">Salad
+    <br>
+    <p class="class1">Pick a date:
+        <input type="date">
+    </p>
+    <input type="datetime-local">
+
+    <p class="class1">Please upload your resume:
+        <br>
+        <input type="file">
+    </p>
+    <p>
+        Please select your favorite course(s)
+    </p>
+    <label for="abc">
+        <input type="checkbox" name="course" value="java" id="abc">Java
+    </label>
+
+    <input type="checkbox" name="course" value="DS">DS
+    <input type="checkbox" name="course" value="UI">UI
+    <input type="checkbox" name="course" value="softSkill">Soft Skill
+
+    <p>Please select the program: </p>
+    <select name="program" >
+        <option value="" disabled selected>Select a program</option>
+        <option value="jd">Java Developer</option>
+        <option value="sdet">Java SDET</option>
+        <option value="cs">Cyber Security</option>
+    </select>
+    <br>
+    <br>
+    <input class="button-33" type="submit" value="Sign Up" id="signup">
+
+</form>
+
+</body>
+</html>
