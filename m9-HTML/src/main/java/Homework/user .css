@@ -1,0 +1,435 @@
+
+.form {
+    position: relative;
+
+    z-index: 1;
+    background: linear-gradient(to right, #443C68, #AEE2FF, #001253);
+    max-width: 500px;
+    margin: 50px 0 0 50px;
+    padding: 50px;
+    text-align: -moz-center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.form h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+
+
+    font-size: 30px;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+    transition: all 0.3s ease-in-out;
+}
+
+.form input:focus {
+    outline: none;
+    box-shadow: 0 0 5px 0 #AEE2FF, 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input[type="submit"] {
+    background-color: #AEE2FF;
+    color: #443C68;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    border: 2px solid #AEE2FF;
+
+
+}
+
+.form input[type="submit"]:hover {
+    background-color: #443C68;
+    color: #fff;
+    border: 2px solid #443C68;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 30px;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid white;
+
+}
+
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    appearance: none;
+}
+
+.form-group select:focus {
+    outline: none;
+box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 0 3px #AEE2FF; /* add focus style */
+}
+.form-group input[type="checkbox"] {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 2px solid #333;
+    position: relative;
+    top: 4px;
+}
+
+.form-group input[type="checkbox"]:checked:after {
+    content: "\2713";
+    font-size: 18px;
+    position: absolute;
+    top: -3px;
+    left: 3px;
+    color: #fff;
+}
+
+.form-group label[for="terms"] {
+    font-size: 16px;
+    color: #333;
+    position: relative;
+    top: 5px;
+}
+
+.form-group button[type="submit"]:hover {
+    background-color: #443C68;
+    color: #fff;
+}
+
+footer {
+    padding: 1px;
+    border-radius: 100px;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    position: initial;
+    position: relative;
+    bottom: 0;
+    left: 60%;
+    transform: translateX(-50%);
+    background: linear-gradient(to right, #443C68, #fff, #AEE2FF, #001253);
+}
+
+table {
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    background: linear-gradient(to right, #AEE2FF, #443C68, #443C68, #001253, #AEE2FF);
+    justify-content: space-around;
+    margin: 50px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    color: whitesmoke;
+
+}
+
+th {
+    background-color: #334257;
+}
+
+tr:nth-child(even) {
+    background-color: #1F3A66;
+}
+
+tr:hover {
+    background-color: #152A4E;
+}
+
+
+/*top of page*/
+body {
+    background: linear-gradient(to right, #001253, #AEE2FF, #443C68);
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.form-group button[type="submit"] {
+    background-color: #AEE2FF;
+    color: #443C68;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #EFF5F5;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #635985;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+
+.form .message a .form button:active,.form button:focus{
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 300;
+    color: #1a1a1a;
+
+}
+
+
+
+/* dicing of Administration*/
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    margin-bottom: 10px;
+}
+/*text of Administration*/
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+/*top header*/
+main {
+    margin: 80px 0 0 220px;
+    padding: 20px;
+}
+/*bottom of list*/
+footer {
+    background: linear-gradient(to right, #AEE2FF, #fff,#635985);
+    padding: 1px;
+    text-align: center;
+}
+
+/* colors of administration*/
+nav {
+    background: linear-gradient(to right, #001253, #AEE2FF);
+
+    text-align: center;
+    overflow-y: scroll;
+    transition: width 0.5s;
+}
+
+nav ul {
+    margin-top: 50px;
+}
+
+
+
+nav a {
+    font-size: 24px;
+    padding: 15px 30px;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+main {
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #ccc;
+    background: linear-gradient(to right, #443C68, #fff, #AEE2FF,#001253);
+}
+
+
+
+.profile-btn:hover i,
+.search-btn:hover i {
+    color: #fff;
+}
+
+
+.nav-item {
+    position: relative;
+    background: linear-gradient(to right, #001253, #AEE2FF);
+    transition: all 0.5s ease;
+}
+
+.nav-item:hover {
+    background-color: #00153E;
+    color: #fff;
+}
+
+.submenu {
+    display: none;
+    position: revert;
+    top: 100%;
+    left: 0;
+    z-index: 999;
+    background: linear-gradient(to right, #001253, #AEE2FF);
+    /* Change the color here */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 0 0 1px 1px;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s, transform 0.3s, background-color 0.5s ease;
+}
+
+.nav-item:hover .submenu {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.submenu:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    border-color: transparent transparent #001253 transparent; /* Change the color here */
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link:hover:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: #00153E;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.submenu {
+    position: static;
+    z-index: auto;
+}
+.nav-user-img {
+    position: relative;
+}
+
+.nav-user-img:hover .nav-user-name {
+    display: block;
+}
+
+.nav-user-name {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 110%;
+    transform: translateY(-50%);
+    background-color: #00153E;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 999;
+}
+
+.dropdown-item {
+    position: relative;
+}
+
+.dropdown-item:hover::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 2px;
+    background-color: #00153E;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    z-index: 999;
+}
+.nav-user-img:hover .user-avatar-md {
+    transform: rotate(360deg);
+    transition: all 0.5s ease;
+}
+.user-avatar-md {
+    border-radius: 50%;
+}
+.dropdown-item:hover {
+    background-color: #00153E;
+    color: #fff;
+    transition: all 0.3s ease;
+}

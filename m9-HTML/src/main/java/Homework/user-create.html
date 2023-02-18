@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome page</title>
+
+    <link rel="stylesheet" href="user%20.css">
+</head>
+<body>
+<main>
+<div class="dashboard-main-wrapper">
+    <div class="dashboard-wrapper">
+        <div class="container-fluid dashboard-content">
+            <div class="row">
+                <div class="col-xl-10">
+
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="page-header" id="top">
+                                <h2 class="pageheader-title"> </h2>
+                                <p class="pageheader-text"></p>
+                                <div class="page-breadcrumb">
+                                    <nav aria-label="breadcrumb">
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#" data-toggle="collapse" data-target="#submenu-3"><i class="fa fa-fw fa-rocket"></i>Administration</a>
+                                                <div id="submenu-1" class="submenu collapse">
+                                                    <ul class="nav flex-column">
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="pages/cards.html">Task Create<span class="badge badge-secondary">New</span></a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="pages/general.html">Project Status</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="true" data-target="#submenu-2" aria-controls="submenu-2"><i class="fa fa-fw fa-rocket"></i>Manager</a>
+                                                <div id="submenu-2" class="submenu collapse">
+                                                    <ul class="nav flex-column">
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="pages/cards.html">User Create <span class="badge badge-secondary">New</span></a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="pages/general.html">Project Create</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="true" data-target="#submenu-4" aria-controls="submenu-4"><i class="fa fa-fw fa-rocket"></i>Employee</a>
+                                                <div id="submenu-3" class="submenu collapse">
+                                                    <ul class="nav flex-column">
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="pages/cards.html">Pending Task <span class="badge badge-secondary">New</span></a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" href="pages/general.html">Archive</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row left">
+                            <div class="row"><div class="form">
+                                <h2>Create an Account</h2>
+
+                                <form>
+                                    <div class="form-group">
+                                        <label for="first-name">First Name</label>
+                                        <input type="text" id="first-name" name="first-name" placeholder="First-Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="last-name">Last Name</label>
+                                        <input type="text" id="last-name" name="last-name" placeholder="Last-Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" id="email" name="email" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="phone">Phone Number</label>
+                                        <input type="tel" id="phone" name="phone"placeholder="Phone Number">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password">Password</label>
+                                        <input type="password" id="password" name="password"placeholder="Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="confirm-password">Confirm Password</label>
+                                        <input type="password" id="confirm-password" name="confirm-password" placeholder="Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="gender">Gender</label>
+                                        <select id="gender" name="gender">
+                                            <option value="male">Male</option>
+                                            <option value="female">Female</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="role">Choose a Role</label>
+                                        <select id="role" name="role">
+                                            <option value="admin">Admin</option>
+                                            <option value="manager">Manager</option>
+                                            <option value="employee">Employee</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="checkbox" id="terms" name="terms">
+                                        <label for="terms">I agree to the <a href="#">Terms and Conditions</a></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit">Sign Up</button>
+                                    </div>
+                                </form>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="row right">
+                            <table>
+                                <thead>
+                                <tr>
+                                    <th>User List</th>
+                                    <th>Name</th>
+                                    <th>Email (username)</th>
+                                    <th>Gender</th>
+                                    <th>Phone Number</th>
+                                    <th>Role</th>
+                                    <th>Action</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>John Smith</td>
+                                    <td>john.smith@example.com</td>
+                                    <td>Male</td>
+                                    <td>+1 555-1234</td>
+                                    <td>
+                                        <select>
+                                            <option value="user">User</option>
+                                            <option value="admin">Admin</option>
+                                            <option value="moderator">Moderator</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <button>Update</button>
+                                        <button>Delete</button>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+<footer>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+
+                <p>Copyright © 2023 Our Company. All rights reserved.</p>
+
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="text-md-right footer-links d-none d-sm-block">
+                    <a href="javascript: void(0);">About</a>
+                    <a href="javascript: void(0);">Support</a>
+                    <a href="javascript: void(0);">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div></p>
+</footer>
+
+<!-- ============================================================== -->
+<!-- end main wrapper -->
+<!-- ============================================================== -->
+<!-- Optional JavaScript -->
+<script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+<script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+<script src="../assets/vendor/slimscroll/jquery.slimscroll.js"></script>
+<script src="../assets/libs/js/main-js.js"></script>
+<script src="../assets/vendor/inputmask/js/jquery.inputmask.bundle.js"></script>
+<script>
+    $(function(e) {
+        "use strict";
+        $(".date-inputmask").inputmask("dd/mm/yyyy"),
+            $(".phone-inputmask").inputmask("(999) 999-9999"),
+            $(".international-inputmask").inputmask("+9(999)999-9999"),
+            $(".xphone-inputmask").inputmask("(999) 999-9999 / x999999"),
+            $(".purchase-inputmask").inputmask("aaaa 9999-****"),
+            $(".cc-inputmask").inputmask("9999 9999 9999 9999"),
+            $(".ssn-inputmask").inputmask("999-99-9999"),
+            $(".isbn-inputmask").inputmask("999-99-999-9999-9"),
+            $(".currency-inputmask").inputmask("$9999"),
+            $(".percentage-inputmask").inputmask("99%"),
+            $(".decimal-inputmask").inputmask({
+                alias: "decimal",
+                radixPoint: "."
+            }),
+
+            $(".email-inputmask").inputmask({
+                mask: "*{1,20}[.*{1,20}][.*{1,20}][.*{1,20}]@*{1,20}[*{2,6}][*{1,2}].*{1,}[.*{2,6}][.*{1,2}]",
+                greedy: !1,
+                onBeforePaste: function(n, a) {
+                    return (e = e.toLowerCase()).replace("mailto:", "")
+                },
+                definitions: {
+                    "*": {
+                        validator: "[0-9A-Za-z!#$%&'*+/=?^_`{|}~/-]",
+                        cardinality: 1,
+                        casing: "lower"
+                    }
+                }
+            })
+    });
+</script>
+</body>
+</html>
