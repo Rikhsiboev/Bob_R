@@ -1,3 +1,3 @@
 module module8{
-    exports com.cydeo.java9;
+    exports com.Bob_R.java9;
 }
