@@ -7,7 +7,7 @@ public class GuestTask {
 
 
     public static void main(String[] args) {
-
+/*
         var result =
                 Stream.of(
                                 new Guest("Marco", true, 3),
@@ -16,7 +16,7 @@ public class GuestTask {
                         .collect(Collectors.teeing(Collectors.filtering(Guest::isParticipating, Collectors.mapping(Guest::getName, Collectors.toList())),
                                 Collectors.filtering(Guest::isParticipating, Collectors.summingInt(Guest::getParticipantsNumber)), EventParticipation::new));
 
-        System.out.println(result);
+        System.out.println(result);*/
 
     }
 }
