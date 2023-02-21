@@ -15,6 +15,7 @@
         <module name="m2-enum" />
         <module name="m4-double_colon_operators" />
         <module name="lambda-sort-doublecolon-task" />
+        <module name="spring-00-Coupling" />
         <module name="m1-generics" />
         <module name="m9-HTML" />
         <module name="m8-new-version-updates" />
