@@ -1,4 +1,4 @@
-package com.cydeo.bean_annotation.monitorfactory;
+package com.cydeo.Bob_R.monitorfactory;
 
 public abstract class Monitor {
 

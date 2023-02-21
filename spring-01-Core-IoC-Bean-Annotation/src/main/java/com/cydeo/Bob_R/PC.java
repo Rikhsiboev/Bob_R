@@ -1,9 +1,9 @@
-package com.cydeo.bean_annotation;
+package com.cydeo.Bob_R;
 
 
-import com.cydeo.bean_annotation.casefactory.Case;
-import com.cydeo.bean_annotation.monitorfactory.Monitor;
-import com.cydeo.bean_annotation.motherboardfactory.Motherboard;
+import com.cydeo.Bob_R.casefactory.Case;
+import com.cydeo.Bob_R.monitorfactory.Monitor;
+import com.cydeo.Bob_R.motherboardfactory.Motherboard;
 
 public class PC {
 

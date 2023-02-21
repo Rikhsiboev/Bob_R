@@ -1,13 +1,11 @@
-package com.cydeo.bean_annotation;
+package com.cydeo.Bob_R;
 
-import com.cydeo.bean_annotation.casefactory.Case;
-import com.cydeo.bean_annotation.casefactory.DellCase;
-import com.cydeo.bean_annotation.config.ComputerConfig;
-import com.cydeo.bean_annotation.config.RandomConfig;
-import com.cydeo.bean_annotation.monitorfactory.Monitor;
-import com.cydeo.bean_annotation.monitorfactory.SonyMonitor;
-import com.cydeo.bean_annotation.motherboardfactory.AsusMotherboard;
-import com.cydeo.bean_annotation.motherboardfactory.Motherboard;
+import com.cydeo.Bob_R.casefactory.DellCase;
+import com.cydeo.Bob_R.config.ComputerConfig;
+import com.cydeo.Bob_R.config.RandomConfig;
+import com.cydeo.Bob_R.monitorfactory.Monitor;
+import com.cydeo.Bob_R.monitorfactory.SonyMonitor;
+import com.cydeo.Bob_R.motherboardfactory.AsusMotherboard;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
