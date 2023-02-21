@@ -40,7 +40,7 @@ public class ComputerConfig {
     }
 
     @Bean
-    public Motherboard motherboardAsus(){
+    public Motherboard motherboardAsus( ){
         return new AsusMotherboard("BJ-200","Asus",4,6,"v2.44");
     }
 
