@@ -1,4 +1,4 @@
-package com.cydeo.solid.interfaceSegregation.example.bad;
+package com.Bob_R1.solid.interfaceSegregation.example.bad;
 
 public class Chicken implements Bird {
 

@@ -1,4 +1,4 @@
-package com.cydeo.solid.singleResponsibility.example.good;
+package com.Bob_R1.solid.singleResponsibility.example.good;
 
 public class CRUDService {
 

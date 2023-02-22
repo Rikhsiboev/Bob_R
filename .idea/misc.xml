@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/m7-optional-bigdecimal/m6-stream/pom.xml" />
         <option value="$PROJECT_DIR$/spring-00-Coupling/pom.xml" />
         <option value="$PROJECT_DIR$/spring-01-Core-IoC-Bean-Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-02-Core-IoC-Stereotype-Annotation/pom.xml" />
       </list>
     </option>
   </component>

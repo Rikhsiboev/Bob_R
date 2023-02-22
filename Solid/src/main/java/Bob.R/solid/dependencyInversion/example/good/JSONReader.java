@@ -1,4 +1,4 @@
-package com.cydeo.solid.dependencyInversion.example.good;
+package com.Bob_R1.solid.dependencyInversion.example.good;
 
 public class JSONReader implements Reader {
 

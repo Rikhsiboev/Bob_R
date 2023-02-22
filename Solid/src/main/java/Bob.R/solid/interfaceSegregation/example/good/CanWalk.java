@@ -1,4 +1,4 @@
-package com.cydeo.solid.interfaceSegregation.example.good;
+package com.Bob_R1.solid.interfaceSegregation.example.good;
 
 public interface CanWalk {
 

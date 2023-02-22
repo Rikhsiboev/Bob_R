@@ -1,4 +1,4 @@
-package com.cydeo.solid.openClosed.example2.good;
+package com.Bob_R1.solid.openClosed.example2.good;
 
 public class Calculator {
 

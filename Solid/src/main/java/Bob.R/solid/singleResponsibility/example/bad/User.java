@@ -1,4 +1,4 @@
-package com.cydeo.solid.singleResponsibility.example.bad;
+package com.Bob_R1.solid.singleResponsibility.example.bad;
 
 public class User {
 

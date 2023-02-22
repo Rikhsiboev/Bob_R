@@ -1,4 +1,4 @@
-package com.cydeo.solid.openClosed.example1.good;
+package com.Bob_R1.solid.openClosed.example1.good;
 
 import java.util.List;
 

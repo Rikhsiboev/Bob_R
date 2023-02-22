@@ -1,4 +1,4 @@
-package com.cydeo.solid.liskovSubstitution.example.bad;
+package com.Bob_R1.solid.liskovSubstitution.example.bad;
 
 public class Rectangle {
 

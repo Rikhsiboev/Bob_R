@@ -16,6 +16,7 @@
         <module name="m9-HTML" />
         <module name="Solid" />
         <module name="m8-new-version-updates" />
+        <module name="spring-02-Core-IoC-Stereotype-Annotation" />
         <module name="m7-optional-bigdecimal" />
         <module name="m6-stream" />
         <module name="m5-comparator_interface" />

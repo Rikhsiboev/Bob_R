@@ -1,4 +1,4 @@
-package com.cydeo.solid.dependencyInversion.example.bad;
+package com.Bob_R1.solid.dependencyInversion.example.bad;
 
 public class XMLReader {
 

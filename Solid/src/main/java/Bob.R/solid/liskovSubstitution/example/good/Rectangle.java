@@ -1,4 +1,4 @@
-package com.cydeo.solid.liskovSubstitution.example.good;
+package com.Bob_R1.solid.liskovSubstitution.example.good;
 
 public class Rectangle implements Shape {
 
