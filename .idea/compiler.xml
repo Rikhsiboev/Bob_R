@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="m3-lambda" />
         <module name="stream-practice" />
+        <module name="spring-03-Wiring" />
         <module name="m2-enum" />
         <module name="lambda-sort-doublecolon-task" />
         <module name="spring-00-Coupling" />
