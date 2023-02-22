@@ -1,7 +1,7 @@
-package com.cydeo;
+package com.Bob.R;
 
-import com.cydeo.casefactory.Case;
-import com.cydeo.config.PcConfig;
+import com.Bob.R.casefactory.Case;
+import com.Bob.R.config.PcConfig;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

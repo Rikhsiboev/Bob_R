@@ -1,10 +1,8 @@
-package com.cydeo.motherboardfactory;
+package com.Bob_R.streotype_annotation.motherboardfactory;
 
 import lombok.Getter;
-import lombok.Setter;
 
 @Getter
-@Setter
 public abstract class Motherboard {
 
     private String model;

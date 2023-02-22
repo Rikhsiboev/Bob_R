@@ -1,10 +1,9 @@
-package com.cydeo;
+package com.Bob.R;
 
-import com.cydeo.casefactory.Case;
-import com.cydeo.monitorfactory.Monitor;
-import com.cydeo.motherboardfactory.Motherboard;
+import com.Bob.R.casefactory.Case;
+import com.Bob.R.monitorfactory.Monitor;
+import com.Bob.R.motherboardfactory.Motherboard;
 import lombok.Getter;
-import org.springframework.beans.factory.annotation.Autowired;
 
 @Getter
 public class PC {
