@@ -1,4 +1,4 @@
-package com.cydeo.Bob_R.monitorfactory;
+package com.Bob_R.monitorfactory;
 
 public abstract class Monitor {
 

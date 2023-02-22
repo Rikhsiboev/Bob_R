@@ -1,4 +1,4 @@
-package com.cydeo.Bob_R.casefactory;
+package com.Bob_R.casefactory;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package com.cydeo.Bob_R.monitorfactory;
+package com.Bob_R.monitorfactory;
 
 import lombok.Getter;
 import lombok.Setter;

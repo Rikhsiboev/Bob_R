@@ -1,4 +1,4 @@
-package com.cydeo.Bob_R.casefactory;
+package com.Bob_R.casefactory;
 
 public abstract class Case {
 

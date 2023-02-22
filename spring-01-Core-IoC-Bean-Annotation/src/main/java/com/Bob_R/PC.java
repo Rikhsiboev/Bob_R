@@ -1,9 +1,9 @@
-package com.cydeo.Bob_R;
+package com.Bob_R;
 
 
-import com.cydeo.Bob_R.casefactory.Case;
-import com.cydeo.Bob_R.monitorfactory.Monitor;
-import com.cydeo.Bob_R.motherboardfactory.Motherboard;
+import com.Bob_R.casefactory.Case;
+import com.Bob_R.monitorfactory.Monitor;
+import com.Bob_R.motherboardfactory.Motherboard;
 
 public class PC {
 

@@ -1,4 +1,4 @@
-package com.cydeo.Bob_R.motherboardfactory;
+package com.Bob_R.motherboardfactory;
 
 public class AsusMotherboard extends Motherboard {
 

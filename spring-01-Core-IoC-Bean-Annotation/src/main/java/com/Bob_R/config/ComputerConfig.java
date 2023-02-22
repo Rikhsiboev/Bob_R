@@ -1,12 +1,12 @@
-package com.cydeo.Bob_R.config;
+package com.Bob_R.config;
 
-import com.cydeo.Bob_R.casefactory.Case;
-import com.cydeo.Bob_R.casefactory.DellCase;
-import com.cydeo.Bob_R.monitorfactory.AcerMonitor;
-import com.cydeo.Bob_R.monitorfactory.Monitor;
-import com.cydeo.Bob_R.monitorfactory.SonyMonitor;
-import com.cydeo.Bob_R.motherboardfactory.AsusMotherboard;
-import com.cydeo.Bob_R.motherboardfactory.Motherboard;
+import com.Bob_R.casefactory.Case;
+import com.Bob_R.casefactory.DellCase;
+import com.Bob_R.monitorfactory.AcerMonitor;
+import com.Bob_R.monitorfactory.Monitor;
+import com.Bob_R.monitorfactory.SonyMonitor;
+import com.Bob_R.motherboardfactory.AsusMotherboard;
+import com.Bob_R.motherboardfactory.Motherboard;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;

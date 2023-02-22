@@ -1,4 +1,4 @@
-package com.cydeo.Bob_R.config;
+package com.Bob_R.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
