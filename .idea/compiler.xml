@@ -15,6 +15,7 @@
         <module name="spring-00-Coupling" />
         <module name="spring-01-Core-IoC-Bean-Annotation" />
         <module name="m9-HTML" />
+        <module name="spring-05-Core-Abstraction" />
         <module name="Solid" />
         <module name="m8-new-version-updates" />
         <module name="spring-02-Core-IoC-Stereotype-Annotation" />
