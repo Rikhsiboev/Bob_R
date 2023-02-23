@@ -12,6 +12,8 @@
         <module>m9-HTML</module>
         <module>Solid</module>
         <module>spring-05-Core-Abstraction</module>
+        <module>bob_R</module>
+        <module>Java_Ecommersial</module>
     </modules>
 
     <properties>

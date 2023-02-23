@@ -1,4 +1,4 @@
-package Practice_Code;
+package src.main.java.Practice_Code;
 
 public class First_Unique_Character {
     public static void main(String[] args) {

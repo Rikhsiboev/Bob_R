@@ -1,4 +1,4 @@
-package Practice_Code;
+package src.main.java.Practice_Code;
 
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package Practice_Code;
+package src.main.java.Practice_Code;
 
 public class Shuffle_String {
     public String restoreString(String s, int[] indices) {

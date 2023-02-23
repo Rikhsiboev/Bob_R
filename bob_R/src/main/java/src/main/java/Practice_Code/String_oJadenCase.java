@@ -1,4 +1,4 @@
-package Practice_Code;
+package src.main.java.Practice_Code;
 
 public class String_oJadenCase {
     public static String toJadenCase(String phrase) {

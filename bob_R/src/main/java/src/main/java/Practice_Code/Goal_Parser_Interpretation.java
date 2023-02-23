@@ -1,4 +1,4 @@
-package Practice_Code;
+package src.main.java.Practice_Code;
 
 public class Goal_Parser_Interpretation {
     public String interpret(String command) {

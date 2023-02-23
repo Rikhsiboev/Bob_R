@@ -1,4 +1,4 @@
-package Lambda;
+package src.main.java.Lambda;
 
 
 
