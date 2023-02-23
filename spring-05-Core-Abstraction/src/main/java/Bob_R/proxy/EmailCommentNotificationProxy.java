@@ -1,9 +1,11 @@
 package Bob_R.proxy;
 
 import Bob_R.model.Comment;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
+
 public class EmailCommentNotificationProxy implements CommentNotificationProxy {
 
     @Override
