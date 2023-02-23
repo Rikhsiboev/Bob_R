@@ -1,4 +1,4 @@
-package Bob_R.repostory;
+package Bob_R.repository;
 
 import Bob_R.model.Comment;
 
