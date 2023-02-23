@@ -19,7 +19,7 @@ public class CommentService {
         commentNotificationProxy.sendComment(comment);
     }
    /// WHEN WE CREATE CONSTRUCTOR IT WILL BE AUTOMATIC    @Autowired
-    public CommentService(CommentRepository commentRepository,/*@Qualifier("emailCommentNotificationProxy")*/ CommentNotificationProxy commentNotificationProxy) {
+    public CommentService(CommentRepository commentRepository,@Qualifier("Push") CommentNotificationProxy commentNotificationProxy) {
         this.commentRepository = commentRepository;
         this.commentNotificationProxy = commentNotificationProxy;
     }
