@@ -1,0 +1,25 @@
+package com.Bob_R.service;
+
+import com.Bob_R.model.Comment;
+import com.Bob_R.proxy.CommentNotificationProxy;
+import com.Bob_R.repository.CommentRepository;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
+public class CommentService {
+   // @Autowired
+    /// don`t forget to write final make sure that constructor correct adn added
+    private final CommentRepository commentRepository;
+    private final CommentNotificationProxy commentNotificationProxy;
+   // @Autowired
+    public void publishComment(Comment comment) {
+        commentRepository.storeComment(comment);
+        commentNotificationProxy.sendComment(comment);
+    }
+   /// WHEN WE CREATE CONSTRUCTOR IT WILL BE AUTOMATIC    @Autowired
+    public CommentService(CommentRepository commentRepository,@Qualifier("Push") CommentNotificationProxy commentNotificationProxy) {
+        this.commentRepository = commentRepository;
+        this.commentNotificationProxy = commentNotificationProxy;
+    }
+}
