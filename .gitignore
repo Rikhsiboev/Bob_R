@@ -1,87 +1,138 @@
-##############################
-## Java
-##############################
-.mtj.tmp/
-*.class
-*.jar
-*.war
-*.ear
-*.nar
-hs_err_pid*
 
-##############################
-## Maven
-##############################
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-pom.xml.bak
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
-
-##############################
-## Gradle
-##############################
-bin/
-build/
-.gradle
-.gradletasknamecache
-gradle-app.setting
-!gradle-wrapper.jar
-
-##############################
-## IntelliJ
-##############################
-out/
-.idea/
-.idea_modules/
-*.iml
-*.ipr
-*.iws
-
-##############################
-## Eclipse
-##############################
-.settings/
-bin/
-tmp/
-.metadata
-.classpath
+######################
+# Project Specific
+######################
+/build/www/**
+/src/test/javascript/coverage/
+/src/test/javascript/PhantomJS*/
+######################
+# Node
+######################
+/node/
+node_tmp/
+node_modules/
+npm-debug.log.*
+######################
+# SASS
+######################
+.sass-cache/
+######################
+# Eclipse
+######################
+*.pydevproject
 .project
+.metadata
+tmp/
+tmp/**/*
 *.tmp
 *.bak
 *.swp
 *~.nib
 local.properties
+.classpath
+.settings/
 .loadpath
 .factorypath
-
-##############################
-## NetBeans
-##############################
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-nbactions.xml
-nb-configuration.xml
-
-##############################
-## Visual Studio Code
-##############################
+/src/main/resources/rebel.xml
+# External tool builders
+.externalToolBuilders/**
+# Locally stored “Eclipse launch configurations”
+*.launch
+# CDT-specific
+.cproject
+# PDT-specific
+.buildpath
+######################
+# Intellij
+######################
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+######################
+# Visual Studio Code
+######################
 .vscode/
-.code-workspace
+######################
+# Maven
+!.mvn/wrapper/maven-wrapper.jar
+/.mvn/
+/mvnw
+/mvnw.bat
+mvnw.cmd
+/log/
+*.log*
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+######################
+/log/
+/target/
+######################
+# Gradle
+######################
+.gradle/
+/build/
+######################
+# Package Files
+######################
+*.jar
+*.war
+*.ear
+*.db
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
+# Folder config file
+Desktop.ini
+######################
+# Mac OSX
+######################
+.DS_Store
+.svn
+# Thumbnails
+._*
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+######################
+# Directories
+######################
+/out/
+/bin/
+/deploy/
+######################
+# Logs
+######################
+*.log
+######################
+# Others
+######################
+*.class
+*.*~
+*~
+.merge_file*
+######################
+# Gradle Wrapper
+######################
+!gradle/wrapper/gradle-wrapper.jar
+######################
+# Maven Wrapper
+######################
+!.mvn/wrapper/maven-wrapper.jar
+######################
+# ESLint
+######################
+.eslintcache
+# Other projects .gitignore files
+######################
+.gitignore
 
-##############################
-## OS X
-##############################
-.DS_Store/src/main/java/gitIgnore_file/
-/src/main/java/gitIgnore_file/
-/src/main/java/gitIgnore_file/
-/.idea/
+
+Displaying 1676567444245-Global_GitIgnore_File.txt.
