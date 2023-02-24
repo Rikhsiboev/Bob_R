@@ -16,21 +16,29 @@
         <module name="spring-01-Core-IoC-Bean-Annotation" />
         <module name="m9-HTML" />
         <module name="spring-05-Core-Abstraction" />
+        <module name="Java_Ecommersial" />
         <module name="Solid" />
         <module name="m8-new-version-updates" />
+        <module name="Bob_R (1)" />
         <module name="spring-02-Core-IoC-Stereotype-Annotation" />
         <module name="m7-optional-bigdecimal" />
         <module name="m6-stream" />
         <module name="m5-comparator_interface" />
         <module name="spring-04-Autowiring" />
         <module name="spring-06-Core-BeanScope" />
+        <module name="spring-07-SpringBoot-Demo" />
         <module name="m4-double_colon_operators" />
         <module name="m1-generics" />
+        <module name="FOR_ME" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BOB_R" target="11" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-07-SpringBoot-Demo" options="-parameters" />
       <module name="stream-practice" options="-parameters" />
     </option>
   </component>

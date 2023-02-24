@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring-07--SpringBoot-Demo" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -22,10 +25,18 @@
         <option value="$PROJECT_DIR$/spring-03-Wiring/pom.xml" />
         <option value="$PROJECT_DIR$/spring-04-Autowiring/pom.xml" />
         <option value="$PROJECT_DIR$/spring-06-Core-BeanScope/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-07-SpringBoot-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/Java_Ecommersial/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/spring/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/Java_Ecommersial.src/java-lab-ecommerce-project/out/out" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/Java_Ecommersial/src/main/java/Java_Ecommersial.src/java-lab-ecommerce-project/out/out" />
   </component>
 </project>
