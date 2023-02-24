@@ -28,6 +28,11 @@
             <artifactId>datafaker</artifactId>
             <version>1.5.0</version>
         </dependency>
+        <dependency>
+            <groupId>de.plushnikov.lombok-intellij-plugin</groupId>
+            <artifactId>lombok-plugin</artifactId>
+            <version>0.5</version>
+        </dependency>
 
     </dependencies>
 

@@ -23,6 +23,11 @@
             <version>1.18.26</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>de.plushnikov.lombok-intellij-plugin</groupId>
+            <artifactId>lombok-plugin</artifactId>
+            <version>0.5</version>
+        </dependency>
     </dependencies>
 
 </project>

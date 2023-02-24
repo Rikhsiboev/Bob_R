@@ -33,6 +33,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="BOB_R" target="11" />
+      <module name="Bob_R" target="11" />
       <module name="Bob_R (1)" target="1.5" />
     </bytecodeTargetLevel>
   </component>
