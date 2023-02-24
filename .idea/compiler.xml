@@ -19,7 +19,6 @@
         <module name="Java_Ecommersial" />
         <module name="Solid" />
         <module name="m8-new-version-updates" />
-        <module name="Bob_R (1)" />
         <module name="spring-02-Core-IoC-Stereotype-Annotation" />
         <module name="m7-optional-bigdecimal" />
         <module name="m6-stream" />
@@ -34,6 +33,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="BOB_R" target="11" />
+      <module name="Bob_R (1)" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
