@@ -1,6 +1,5 @@
-package com.bob_r.spring07springbootdemo;
+package com.bob_r;
 import com.bob_r.service.CommentService;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -16,13 +15,14 @@ public class Bob_R_Application {
         comment.setAuthor("Johnson");
         comment.setText("Spring Framework");
 
-        SpringApplication.run(Bob_R_Application.class, args);
 
-//        CommentService commentService = container.getBean(CommentService.class);
-//        commentService.publishComment(comment);
-//
-//        commentService.printConfigData();
-//        commentService.printDbConfigData();
+        ApplicationContext container =  SpringApplication.run(Bob_R_Application.class, args);
+
+        CommentService commentService = container.getBean(CommentService.class);
+        commentService.publishComment(comment);
+
+        commentService.printConfigData();
+        commentService.printDbConfigData();
     }
 
 }
