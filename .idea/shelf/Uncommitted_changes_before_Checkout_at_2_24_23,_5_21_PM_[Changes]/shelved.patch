@@ -1,0 +1,64 @@
+Index: spring-07-SpringBoot-Demo/src/main/java/com/bob_r/spring07springbootdemo/Bob_R_Application.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.bob_r.spring07springbootdemo;\nimport com.bob_r.service.CommentService;\nimport org.springframework.boot.SpringApplication;\nimport org.springframework.boot.SpringApplication;\nimport org.springframework.boot.autoconfigure.SpringBootApplication;\nimport org.springframework.context.ApplicationContext;\nimport com.bob_r.model.Comment;\n\n@SpringBootApplication\npublic class Bob_R_Application {\n\n    public static void main(String[] args) {\n\n\n        Comment comment  = new Comment();\n        comment.setAuthor(\"Johnson\");\n        comment.setText(\"Spring Framework\");\n\n        SpringApplication.run(Bob_R_Application.class, args);\n\n//        CommentService commentService = container.getBean(CommentService.class);\n//        commentService.publishComment(comment);\n//\n//        commentService.printConfigData();\n//        commentService.printDbConfigData();\n    }\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/spring-07-SpringBoot-Demo/src/main/java/com/bob_r/spring07springbootdemo/Bob_R_Application.java b/spring-07-SpringBoot-Demo/src/main/java/com/bob_r/spring07springbootdemo/Bob_R_Application.java
+--- a/spring-07-SpringBoot-Demo/src/main/java/com/bob_r/spring07springbootdemo/Bob_R_Application.java	(revision 040c1f40ba4fb42a5669e24f1c17e80a35f39fdf)
++++ b/spring-07-SpringBoot-Demo/src/main/java/com/bob_r/spring07springbootdemo/Bob_R_Application.java	(date 1677284156156)
+@@ -1,28 +1,30 @@
+ package com.bob_r.spring07springbootdemo;
++
+ import com.bob_r.service.CommentService;
+ import org.springframework.boot.SpringApplication;
+ import org.springframework.boot.SpringApplication;
+ import org.springframework.boot.autoconfigure.SpringBootApplication;
+ import org.springframework.context.ApplicationContext;
+ import com.bob_r.model.Comment;
++import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+ 
+ @SpringBootApplication
+ public class Bob_R_Application {
+ 
+     public static void main(String[] args) {
+ 
+-
+         Comment comment  = new Comment();
+         comment.setAuthor("Johnson");
+         comment.setText("Spring Framework");
+ 
+-        SpringApplication.run(Bob_R_Application.class, args);
++        ApplicationContext container = SpringApplication.run(Bob_R_Application.class, args);
++
++        CommentService commentService = container.getBean(CommentService.class);
++        commentService.publishComment(comment);
+ 
+-//        CommentService commentService = container.getBean(CommentService.class);
+-//        commentService.publishComment(comment);
+-//
+-//        commentService.printConfigData();
+-//        commentService.printDbConfigData();
++        commentService.printConfigData();
++        commentService.printDbConfigData();
++
+     }
+ 
+ }
+Index: spring-07-SpringBoot-Demo/src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/spring-07-SpringBoot-Demo/src/main/resources/application.properties b/spring-07-SpringBoot-Demo/src/main/resources/application.properties
+--- a/spring-07-SpringBoot-Demo/src/main/resources/application.properties	(revision 040c1f40ba4fb42a5669e24f1c17e80a35f39fdf)
++++ b/spring-07-SpringBoot-Demo/src/main/resources/application.properties	(date 1677281625882)
+@@ -1,1 +1,5 @@
++#AppConfig
+ 
++username = Ozzy
++password = abc123
++url = www.Bob_R.com
