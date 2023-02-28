@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="done">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "true",
+    "full.screen.before.presentation.mode": "false",
     "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/Bob_R/spring-07-SpringBoot-Demo/src/main/java/com/bob_r",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -48,7 +54,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.editor",
-    "spring.configuration.checksum": "a5c2c56c93aaa7b509069f9a83cc6419",
+    "spring.configuration.checksum": "17fae49a801d2fcff81783ec98ee213f",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -115,7 +121,10 @@
       <workItem from="1677276450627" duration="435000" />
       <workItem from="1677277689914" duration="388000" />
       <workItem from="1677279277524" duration="1007000" />
-      <workItem from="1677280427831" duration="7185000" />
+      <workItem from="1677280427831" duration="7289000" />
+      <workItem from="1677293482233" duration="29000" />
+      <workItem from="1677426139836" duration="2538000" />
+      <workItem from="1677521209753" duration="62000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1677277948336</created>
@@ -145,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677286557313</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="done">
+      <created>1677287798514</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677287798514</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -14,10 +14,7 @@
         <module name="lambda-sort-doublecolon-task" />
         <module name="spring-00-Coupling" />
         <module name="spring-01-Core-IoC-Bean-Annotation" />
-        <module name="m9-HTML" />
-        <module name="spring-05-Core-Abstraction" />
         <module name="Java_Ecommersial" />
-        <module name="Solid" />
         <module name="m8-new-version-updates" />
         <module name="spring-02-Core-IoC-Stereotype-Annotation" />
         <module name="m7-optional-bigdecimal" />
@@ -28,13 +25,16 @@
         <module name="spring-07-SpringBoot-Demo" />
         <module name="m4-double_colon_operators" />
         <module name="m1-generics" />
-        <module name="FOR_ME" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="BOB_R" target="11" />
       <module name="Bob_R" target="11" />
       <module name="Bob_R (1)" target="1.5" />
+      <module name="FOR_ME" target="11" />
+      <module name="m9-HTML" target="11" />
+      <module name="Solid" target="11" />
+      <module name="spring-05-Core-Abstraction" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
