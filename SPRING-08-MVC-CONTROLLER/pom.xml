@@ -5,18 +5,19 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.9</version>
+        <version>2.7.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.BOB</groupId>
-    <artifactId>SPRING-08-MVC-CONTROLLER</artifactId>
+    <groupId>com.Bob_R</groupId>
+    <artifactId>spring-08-MVC-CONTROLLER</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>SPRING-08-MVC-CONTROLLER</name>
-    <description>SPRING-08-MVC-CONTROLLER</description>
+    <name>spring-08-MVC-Controller</name>
+    <description>spring-08-MVC-Controller</description>
     <properties>
         <java.version>11</java.version>
     </properties>
     <dependencies>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

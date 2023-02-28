@@ -8,7 +8,7 @@
         <version>2.7.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.cydeo</groupId>
+    <groupId>com.BOB_R</groupId>
     <artifactId>stream-practice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>stream-practice</name>

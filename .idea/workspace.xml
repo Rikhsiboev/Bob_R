@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="FIX">
-      <change afterPath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/src/main/java/com/bob/BOB_R_Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/src/test/java/com/bob/BOB_R_ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream-practice.newone/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stream-practice.newone/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +39,7 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="280b8f9b-2f93-447e-b913-151afd8a9d08" />
+        <option name="accountId" value="7dd7881b-4739-4116-8c73-5495a87aa84b" />
         <option name="url" value="https://github.com/Rikhsiboev/Bob_R.git" />
       </UrlAndAccount>
     </option>
@@ -72,34 +67,34 @@
     <option name="showModules" value="false" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/Bob_R",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Perforce",
-    "spring.configuration.checksum": "17fae49a801d2fcff81783ec98ee213f",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/Bob_R&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Perforce&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f66515eb316d3e06b8cd98df6af9cf5f&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/java/com/bob_r" />
@@ -125,7 +120,7 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.StreamPracticeApplication (1)">
+  <component name="RunManager" selected="Spring Boot.BOB_R_Application (1)">
     <configuration name="Bob_R_ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-07-SpringBoot-Demo" />
       <extension name="coverage">
@@ -142,23 +137,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOB_R_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="SPRING-08-MVC-CONTROLLER" />
+    <configuration name="BOB_R_Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-08-MVC-CONTROLLER" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob.BOB_R_Application" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bob.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Bob_R_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.BOB_R.Bob_R_Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,24 +159,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamPracticeApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="stream-practice" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.streampractice.StreamPracticeApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamPracticeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.streampractice.StreamPracticeApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.BOB_R_Application" />
         <item itemvalue="JUnit.Bob_R_ApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
@@ -224,6 +189,9 @@
       <workItem from="1677565755474" duration="202000" />
       <workItem from="1677566468115" duration="713000" />
       <workItem from="1677596851845" duration="63000" />
+      <workItem from="1677603573003" duration="54000" />
+      <workItem from="1677603630702" duration="434000" />
+      <workItem from="1677604069689" duration="623000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1677277948336</created>

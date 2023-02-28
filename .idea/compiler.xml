@@ -7,7 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SPRING-08-MVC-CONTROLLER" />
+        <module name="spring-08-MVC-CONTROLLER" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -36,6 +36,7 @@
       <module name="spring-05-Core-Abstraction" target="11" />
       <module name="spring-06-Core-BeanScope" target="11" />
       <module name="spring-07-SpringBoot-Demo" target="11" />
+      <module name="SPRING-08-MVC-CONTROLLER" target="11" />
       <module name="stream-practice" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -44,6 +45,7 @@
       <module name="SPRING-08-MVC-CONTROLLER" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="spring-07-SpringBoot-Demo" options="-parameters" />
+      <module name="spring-08-MVC-CONTROLLER" options="-parameters" />
       <module name="stream-practice" options="-parameters" />
     </option>
   </component>
