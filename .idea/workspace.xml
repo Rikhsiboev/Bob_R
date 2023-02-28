@@ -4,37 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="done">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/demo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/demo/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/demo/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/demo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/demo/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/m7-optional-bigdecimal/m6-stream/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m7-optional-bigdecimal/m6-stream/src/main/java/com/Bob_R/CollectorsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/Bob_R/CollectorsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m7-optional-bigdecimal/m6-stream/src/main/java/com/Bob_R/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/Bob_R/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m7-optional-bigdecimal/m6-stream/src/main/java/com/Bob_R/CreateStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/Bob_R/CreateStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m7-optional-bigdecimal/m6-stream/src/main/java/com/Bob_R/FindingMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/Bob_R/FindingMatching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m7-optional-bigdecimal/m6-stream/src/main/java/com/Bob_R/Reducing.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/Bob_R/Reducing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m7-optional-bigdecimal/m6-stream/src/main/java/com/Bob_R/StreamOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/Bob_R/StreamOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m7-optional-bigdecimal/m6-stream/src/main/java/com/Bob_R/task/CharStreamTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/Bob_R/task/CharStreamTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m7-optional-bigdecimal/m6-stream/src/main/java/com/Bob_R/task/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/Bob_R/task/Dish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m7-optional-bigdecimal/m6-stream/src/main/java/com/Bob_R/task/DishData.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/Bob_R/task/DishData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m7-optional-bigdecimal/m6-stream/src/main/java/com/Bob_R/task/DishTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/Bob_R/task/DishTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m7-optional-bigdecimal/m6-stream/src/main/java/com/Bob_R/task/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/Bob_R/task/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m7-optional-bigdecimal/m6-stream/src/main/java/com/Bob_R/task/EmployeeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/Bob_R/task/EmployeeData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m7-optional-bigdecimal/m6-stream/src/main/java/com/Bob_R/task/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/Bob_R/task/EmployeeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m7-optional-bigdecimal/m6-stream/src/main/java/com/Bob_R/task/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/Bob_R/task/Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-practice.newone/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stream-practice.newone/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="FIX">
+      <change afterPath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/src/main/java/com/bob/BOB_R_Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER/src/test/java/com/bob/BOB_R_ApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +267,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677562533362</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="FIX">
+      <created>1677603031317</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677603031317</updated>
+    </task>
+    <task id="LOCAL-00008" summary="FIX">
+      <created>1677603112436</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677603112436</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +301,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="FIX" />
+    <option name="LAST_COMMIT_MESSAGE" value="FIX" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
