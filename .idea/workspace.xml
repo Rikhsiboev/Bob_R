@@ -5,13 +5,103 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="done">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_Ecommersial/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_Ecommersial/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_Ecommersial/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_Ecommersial/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_Ecommersial/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java_Ecommersial/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/demo/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m1-generics/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m1-generics/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m1-generics/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m1-generics/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m1-generics/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m1-generics/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m1-generics/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2-enum/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m4-double_colon_operators/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m5-comparator_interface/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m5-comparator_interface/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m5-comparator_interface/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m5-comparator_interface/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m5-comparator_interface/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m5-comparator_interface/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m7-optional-bigdecimal/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m7-optional-bigdecimal/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m7-optional-bigdecimal/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m7-optional-bigdecimal/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m7-optional-bigdecimal/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m7-optional-bigdecimal/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m8-new-version-updates/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m8-new-version-updates/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m8-new-version-updates/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m8-new-version-updates/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m8-new-version-updates/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m8-new-version-updates/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m8-new-version-updates/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m9-HTML/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m9-HTML/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m9-HTML/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m9-HTML/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m9-HTML/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m9-HTML/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m9-HTML/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-00-Coupling/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-00-Coupling/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-00-Coupling/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-00-Coupling/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-00-Coupling/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-01-Core-IoC-Bean-Annotation/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-01-Core-IoC-Bean-Annotation/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-01-Core-IoC-Bean-Annotation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-01-Core-IoC-Bean-Annotation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-01-Core-IoC-Bean-Annotation/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-02-Core-IoC-Stereotype-Annotation/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-02-Core-IoC-Stereotype-Annotation/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-02-Core-IoC-Stereotype-Annotation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-02-Core-IoC-Stereotype-Annotation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-02-Core-IoC-Stereotype-Annotation/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-03-Wiring/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-03-Wiring/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-03-Wiring/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-Autowiring/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,42 +117,66 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="280b8f9b-2f93-447e-b913-151afd8a9d08" />
+        <option name="url" value="https://github.com/Rikhsiboev/Bob_R.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MCfNqPOUB8BelKLyzFOIB47L6W" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
-    <option name="showLibraryContents" value="true" />
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showModules" value="false" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "false",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/Bob_R/spring-07-SpringBoot-Demo/src/main/java/com/bob_r",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "spring.configuration.checksum": "17fae49a801d2fcff81783ec98ee213f",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/Bob_R&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;17fae49a801d2fcff81783ec98ee213f&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/java/com/bob_r" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-06-Core-BeanScope" />
       <recent name="$PROJECT_DIR$/.idea" />
       <recent name="$PROJECT_DIR$/m9-HTML" />
     </key>
@@ -73,7 +187,14 @@
       <recent name="com.bob_r.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Bob_R_ApplicationTests.contextLoads">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Bob_R_Application">
     <configuration name="Bob_R_ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-07-SpringBoot-Demo" />
       <extension name="coverage">
@@ -125,6 +246,15 @@
       <workItem from="1677293482233" duration="29000" />
       <workItem from="1677426139836" duration="2538000" />
       <workItem from="1677521209753" duration="62000" />
+      <workItem from="1677521405616" duration="5764000" />
+      <workItem from="1677563391969" duration="31000" />
+      <workItem from="1677563459055" duration="173000" />
+      <workItem from="1677563647102" duration="544000" />
+      <workItem from="1677564213043" duration="452000" />
+      <workItem from="1677564695273" duration="776000" />
+      <workItem from="1677565755474" duration="202000" />
+      <workItem from="1677566468115" duration="713000" />
+      <workItem from="1677596851845" duration="63000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1677277948336</created>
@@ -161,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677287798514</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="done">
+      <created>1677562533361</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677562533362</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +316,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="done" />
     <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
