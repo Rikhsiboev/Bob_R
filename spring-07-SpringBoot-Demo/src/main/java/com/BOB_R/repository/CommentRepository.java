@@ -1,6 +1,6 @@
-package com.bob_r.repository;
+package com.BOB_R.repository;
 
-import com.bob_r.model.Comment;
+import com.BOB_R.model.Comment;
 
 public interface CommentRepository {
     void storeComment(Comment comment);

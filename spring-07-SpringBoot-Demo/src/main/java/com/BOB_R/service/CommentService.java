@@ -1,10 +1,10 @@
-package com.bob_r.service;
+package com.BOB_R.service;
 
-import com.bob_r.config.AppConfigData;
-import com.bob_r.config.DBConfigData;
-import com.bob_r.model.Comment;
-import com.bob_r.proxy.CommentNotificationProxy;
-import com.bob_r.repository.CommentRepository;
+import com.BOB_R.config.AppConfigData;
+import com.BOB_R.config.DBConfigData;
+import com.BOB_R.model.Comment;
+import com.BOB_R.proxy.CommentNotificationProxy;
+import com.BOB_R.repository.CommentRepository;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
