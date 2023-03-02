@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="MVC-model">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_r/model/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_r/controller/studentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_r/controller/studentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/resources/templates/student/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/resources/templates/student/welcome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-practice.newone/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stream-practice.newone/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -285,7 +282,7 @@
       <workItem from="1677604069689" duration="5292000" />
       <workItem from="1677614417407" duration="14159000" />
       <workItem from="1677776357054" duration="1851000" />
-      <workItem from="1677778752624" duration="1702000" />
+      <workItem from="1677778752624" duration="2415000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1677277948336</created>
@@ -399,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677777331430</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="MVC-model">
+      <created>1677780586706</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1677780586706</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
