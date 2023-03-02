@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="m3-lambda" />
         <module name="stream-practice" />
-        <module name="spring-08-MVC-CONTROLLER" />
         <module name="spring-03-Wiring" />
         <module name="m2-enum" />
         <module name="spring-00-Coupling" />
@@ -19,7 +18,9 @@
         <module name="spring-05-Core-Abstraction" />
         <module name="Java_Ecommersial" />
         <module name="Solid" />
+        <module name="spring-09-MVC-Model" />
         <module name="m8-new-version-updates" />
+        <module name="spring-08-MVC-Controller" />
         <module name="spring-02-Core-IoC-Stereotype-Annotation" />
         <module name="m6-stream" />
         <module name="m7-optional-bigdecimal" />
@@ -38,6 +39,7 @@
       <module name="Bob_R (1)" target="1.5" />
       <module name="demo" target="17" />
       <module name="SPRING-08-MVC-CONTROLLER" target="11" />
+      <module name="spring-08-MVC-CONTROLLER" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -46,6 +48,8 @@
       <module name="demo" options="-parameters" />
       <module name="spring-07-SpringBoot-Demo" options="-parameters" />
       <module name="spring-08-MVC-CONTROLLER" options="-parameters" />
+      <module name="spring-08-MVC-Controller" options="-parameters" />
+      <module name="spring-09-MVC-Model" options="-parameters" />
       <module name="stream-practice" options="-parameters" />
     </option>
   </component>

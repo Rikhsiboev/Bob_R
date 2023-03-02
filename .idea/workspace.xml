@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="welcome web" />
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="MVC-model">
+      <change afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_r/controller/studentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/resources/templates/student/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_r/Spring09MvcModelApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_r/BobApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/test/java/com/bob_r/Spring09MvcModelApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/test/java/com/bob_r/BobApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream-practice.newone/src/main/java/com/Bob_R/streampractice/StreamPracticeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-practice.newone/src/main/java/com/Bob_R/streampractice/BobApplication.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,8 +31,8 @@
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
       <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
       </GitPushTagMode>
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -83,7 +93,7 @@
     "WebServerToolWindowFactoryState": "false",
     "full.screen.before.presentation.mode": "true",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/Bob_R",
+    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -104,6 +114,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER" />
       <recent name="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/java/com/bob_r" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -127,7 +139,7 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.BOB_R_Application (1)">
+  <component name="RunManager" selected="Spring Boot.BobApplication">
     <configuration name="CommentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Bob_R.CommentApp" />
       <module name="spring-06-Core-BeanScope" />
@@ -182,6 +194,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BobApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="stream-practice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.streampractice.BobApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BobApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-09-MVC-Model" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.BobApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Bob_R_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-07-SpringBoot-Demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.BOB_R.Bob_R_Application" />
@@ -200,13 +226,6 @@
     <configuration name="Bob_R_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-07-SpringBoot-Demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.BOB_R.Bob_R_Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamPracticeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="stream-practice" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.streampractice.StreamPracticeApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -248,7 +267,7 @@
       <workItem from="1677603573003" duration="54000" />
       <workItem from="1677603630702" duration="434000" />
       <workItem from="1677604069689" duration="5292000" />
-      <workItem from="1677614417407" duration="1144000" />
+      <workItem from="1677614417407" duration="14159000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1677277948336</created>
@@ -334,7 +353,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677615442847</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="welcome web">
+      <created>1677616895146</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677616895146</updated>
+    </task>
+    <task id="LOCAL-00014" summary="welcome web">
+      <created>1677617090079</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677617090079</updated>
+    </task>
+    <task id="LOCAL-00015" summary="MVC-model">
+      <created>1677617697818</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677617697819</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +397,8 @@
     <MESSAGE value="FIX" />
     <MESSAGE value="MVC" />
     <MESSAGE value="welcome web" />
-    <option name="LAST_COMMIT_MESSAGE" value="welcome web" />
+    <MESSAGE value="MVC-model" />
+    <option name="LAST_COMMIT_MESSAGE" value="MVC-model" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
