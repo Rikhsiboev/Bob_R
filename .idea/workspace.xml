@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="MVC-model">
-      <change afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_r/controller/studentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/resources/templates/student/welcome.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_r/Spring09MvcModelApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_r/BobApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/test/java/com/bob_r/Spring09MvcModelApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/test/java/com/bob_r/BobApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-practice.newone/src/main/java/com/Bob_R/streampractice/StreamPracticeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-practice.newone/src/main/java/com/Bob_R/streampractice/BobApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_r/controller/studentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_r/controller/studentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/resources/templates/student/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/resources/templates/student/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream-practice.newone/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/stream-practice.newone/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,40 +76,40 @@
     <option name="showModules" value="false" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.42528737",
-    "settings.editor.selected.configurable": "vcs.Perforce",
-    "spring.configuration.checksum": "a77fdd74dad1d7e83991db9790c37560",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.42528737&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Perforce&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b6b57afc7270d15f952bec312e0fb363&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -132,27 +130,9 @@
     </key>
   </component>
   <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.BobApplication">
-    <configuration name="CommentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Bob_R.CommentApp" />
-      <module name="spring-06-Core-BeanScope" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Bob_R.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.BobApplication (1)">
     <configuration name="All in Bob_R (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bob_R" />
       <option name="PACKAGE_NAME" value="" />
@@ -187,9 +167,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BobApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-09-MVC-Model" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bob_r.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bob_r" />
+      <option name="MAIN_CLASS_NAME" value="com.bob_r.BobApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BOB_R_Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-08-MVC-CONTROLLER" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob.BOB_R_Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BobApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-09-MVC-Model" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.BobApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bob_r.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -230,13 +239,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CydeoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-08-MVC-Controller" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.CydeoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.BobApplication (1)" />
+        <item itemvalue="JUnit.BobApplicationTests.contextLoads" />
         <item itemvalue="JUnit.All in Bob_R (2)" />
         <item itemvalue="JUnit.All in Bob_R (1)" />
         <item itemvalue="JUnit.All in Bob_R" />
-        <item itemvalue="Application.CommentApp" />
-        <item itemvalue="JUnit.All in Bob_R (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -268,6 +284,8 @@
       <workItem from="1677603630702" duration="434000" />
       <workItem from="1677604069689" duration="5292000" />
       <workItem from="1677614417407" duration="14159000" />
+      <workItem from="1677776357054" duration="1851000" />
+      <workItem from="1677778752624" duration="1702000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1677277948336</created>
@@ -374,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677617697819</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="MVC-model">
+      <created>1677777331430</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677777331430</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

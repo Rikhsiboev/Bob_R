@@ -7,30 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="m3-lambda" />
-        <module name="stream-practice" />
-        <module name="spring-03-Wiring" />
-        <module name="m2-enum" />
-        <module name="spring-00-Coupling" />
-        <module name="spring-01-Core-IoC-Bean-Annotation" />
-        <module name="lambda-sort-doublecolon-task" />
-        <module name="m9-HTML" />
-        <module name="spring-05-Core-Abstraction" />
-        <module name="Java_Ecommersial" />
-        <module name="Solid" />
         <module name="spring-09-MVC-Model" />
-        <module name="m8-new-version-updates" />
-        <module name="spring-08-MVC-Controller" />
-        <module name="spring-02-Core-IoC-Stereotype-Annotation" />
-        <module name="m6-stream" />
-        <module name="m7-optional-bigdecimal" />
-        <module name="m5-comparator_interface" />
-        <module name="spring-04-Autowiring" />
-        <module name="spring-06-Core-BeanScope" />
-        <module name="spring-07-SpringBoot-Demo" />
-        <module name="m4-double_colon_operators" />
-        <module name="m1-generics" />
-        <module name="FOR_ME" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -38,8 +15,31 @@
       <module name="Bob_R" target="11" />
       <module name="Bob_R (1)" target="1.5" />
       <module name="demo" target="17" />
+      <module name="FOR_ME" target="11" />
+      <module name="Java_Ecommersial" target="11" />
+      <module name="lambda-sort-doublecolon-task" target="11" />
+      <module name="m1-generics" target="11" />
+      <module name="m2-enum" target="11" />
+      <module name="m3-lambda" target="11" />
+      <module name="m4-double_colon_operators" target="11" />
+      <module name="m5-comparator_interface" target="11" />
+      <module name="m6-stream" target="11" />
+      <module name="m7-optional-bigdecimal" target="18" />
+      <module name="m8-new-version-updates" target="18" />
+      <module name="m9-HTML" target="11" />
+      <module name="Solid" target="11" />
+      <module name="spring-00-Coupling" target="11" />
+      <module name="spring-01-Core-IoC-Bean-Annotation" target="11" />
+      <module name="spring-02-Core-IoC-Stereotype-Annotation" target="11" />
+      <module name="spring-03-Wiring" target="11" />
+      <module name="spring-04-Autowiring" target="11" />
+      <module name="spring-05-Core-Abstraction" target="11" />
+      <module name="spring-06-Core-BeanScope" target="11" />
+      <module name="spring-07-SpringBoot-Demo" target="11" />
       <module name="SPRING-08-MVC-CONTROLLER" target="11" />
       <module name="spring-08-MVC-CONTROLLER" target="11" />
+      <module name="spring-08-MVC-Controller" target="11" />
+      <module name="stream-practice" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
