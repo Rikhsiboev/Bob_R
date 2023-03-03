@@ -5,9 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="MVC-model">
-      <change afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_r/controller/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/resources/templates/car/car-info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/src/main/java/cydeo/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/src/main/java/cydeo/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/src/main/java/cydeo/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/src/main/java/cydeo/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/src/main/java/cydeo/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/src/main/java/cydeo/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/src/main/java/cydeo/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/src/main/java/cydeo/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/src/main/java/cydeo/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/src/main/java/cydeo/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/src/main/java/cydeo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/src/main/java/cydeo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/src/main/java/cydeo/PromotedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/src/main/java/cydeo/PromotedEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/src/main/java/cydeo/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/src/main/java/cydeo/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/src/main/java/cydeo/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/src/main/java/cydeo/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m3-lambda/src/main/java/com/Bob_R/FunctionalInterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/m3-lambda/src/main/java/com/Bob_R/FunctionalInterfaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m6-stream/src/main/java/com/Bob_R/task/EmployeeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/Bob_R/task/EmployeeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m8-new-version-updates/src/main/java/com/Bob_R/java10/LocalVariableTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/m8-new-version-updates/src/main/java/com/Bob_R/java10/LocalVariableTypeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m8-new-version-updates/src/main/java/com/Bob_R/java9/CompactStringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/m8-new-version-updates/src/main/java/com/Bob_R/java9/CompactStringDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/src/main/java/files/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML/src/main/java/files/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-00-Coupling/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-00-Coupling/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-01-Core-IoC-Bean-Annotation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-01-Core-IoC-Bean-Annotation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-01-Core-IoC-Bean-Annotation/src/main/java/com/Bob_R/config/RandomConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-01-Core-IoC-Bean-Annotation/src/main/java/com/Bob_R/config/RandomConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-02-Core-IoC-Stereotype-Annotation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-02-Core-IoC-Stereotype-Annotation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-03-Wiring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-03-Wiring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-04-Autowiring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-04-Autowiring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-06-Core-BeanScope/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-06-Core-BeanScope/target/classes/com/Bob_R/CommentApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-06-Core-BeanScope/target/classes/com/Bob_R/config/CommentConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-06-Core-BeanScope/target/classes/com/Bob_R/model/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-06-Core-BeanScope/target/classes/com/Bob_R/proxy/CommentNotificationProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-06-Core-BeanScope/target/classes/com/Bob_R/proxy/EmailCommentNotificationProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-06-Core-BeanScope/target/classes/com/Bob_R/proxy/PushCommentNotificationProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-06-Core-BeanScope/target/classes/com/Bob_R/repository/CommentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-06-Core-BeanScope/target/classes/com/Bob_R/repository/DBCommentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-06-Core-BeanScope/target/classes/com/Bob_R/service/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-MVC-Controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/java/com/Bob/CydeoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/java/com/Bob_R/Bob_rApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/java/com/Bob/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/java/com/Bob_R/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/java/com/Bob/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/java/com/Bob_R/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/resources/static/student/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/resources/static/student/welcome.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,40 +105,40 @@
     <option name="showModules" value="false" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.42528737&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Perforce&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;b6b57afc7270d15f952bec312e0fb363&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.42528737",
+    "settings.editor.selected.configurable": "vcs.Perforce",
+    "spring.configuration.checksum": "e752d220f065df2db7246160f38d5aa8",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.bob_r.mentor" />
@@ -132,7 +165,7 @@
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.BobApplication (1)">
+  <component name="RunManager" selected="Spring Boot.Bob_R_Application">
     <configuration name="All in Bob_R (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bob_R" />
       <option name="PACKAGE_NAME" value="" />
@@ -141,7 +174,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in Bob_R (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in Bob_R (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bob_R" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -163,22 +196,6 @@
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BobApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-09-MVC-Model" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bob_r.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bob_r" />
-      <option name="MAIN_CLASS_NAME" value="com.bob_r.BobApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -239,7 +256,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CydeoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="Bob_rApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-08-MVC-Controller" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.Bob_rApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Bob_R.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bob_rApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-08-MVC-Controller" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.Bob_rApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bob_rApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-08-MVC-Controller" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.CydeoApplication" />
       <method v="2">
@@ -248,11 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.BobApplication (1)" />
-        <item itemvalue="JUnit.BobApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.All in Bob_R (2)" />
         <item itemvalue="JUnit.All in Bob_R (1)" />
+        <item itemvalue="Spring Boot.Bob_rApplication (1)" />
         <item itemvalue="JUnit.All in Bob_R" />
+        <item itemvalue="JUnit.All in Bob_R (3)" />
+        <item itemvalue="Spring Boot.BobApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -286,6 +323,7 @@
       <workItem from="1677614417407" duration="14159000" />
       <workItem from="1677776357054" duration="1851000" />
       <workItem from="1677778752624" duration="6100000" />
+      <workItem from="1677812911559" duration="1786000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1677277948336</created>
@@ -420,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677782825360</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="MVC-model">
+      <created>1677813269187</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1677813269187</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
