@@ -11,28 +11,6 @@
         <option value="$PROJECT_DIR$/m7-optional-bigdecimal/m6-stream/pom.xml" />
         <option value="$PROJECT_DIR$/spring/pom.xml" />
         <option value="$PROJECT_DIR$/spring-09-MVC-Model/pom.xml" />
-        <option value="$PROJECT_DIR$/FOR_ME/pom.xml" />
-        <option value="$PROJECT_DIR$/lambda-sort-doublecolon-task1/pom.xml" />
-        <option value="$PROJECT_DIR$/m1-generics/pom.xml" />
-        <option value="$PROJECT_DIR$/m2-enum/pom.xml" />
-        <option value="$PROJECT_DIR$/m3-lambda/pom.xml" />
-        <option value="$PROJECT_DIR$/m4-double_colon_operators/pom.xml" />
-        <option value="$PROJECT_DIR$/m5-comparator_interface/pom.xml" />
-        <option value="$PROJECT_DIR$/m6-stream/pom.xml" />
-        <option value="$PROJECT_DIR$/m7-optional-bigdecimal/pom.xml" />
-        <option value="$PROJECT_DIR$/m8-new-version-updates/pom.xml" />
-        <option value="$PROJECT_DIR$/m9-HTML/pom.xml" />
-        <option value="$PROJECT_DIR$/Solid/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-00-Coupling/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-01-Core-IoC-Bean-Annotation/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-02-Core-IoC-Stereotype-Annotation/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-03-Wiring/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-04-Autowiring/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-05-Core-Abstraction/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-06-Core-BeanScope/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-07-SpringBoot-Demo/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-08-MVC-Controller/pom.xml" />
-        <option value="$PROJECT_DIR$/stream-practice.newone/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

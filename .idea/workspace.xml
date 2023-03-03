@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="MVC-model">
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lambda-sort-doublecolon-task1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m9-HTML/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-08-MVC-Controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-practice.newone/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/stream-practice.newone/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_r/controller/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_r/controller/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +32,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="e84bee7d5b329460a546c6cded453e882b685328" />
+        <entry key="$PROJECT_DIR$" value="3a3e60a6c49e71f74f44f92c699634f01f0a980a" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -135,9 +131,14 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.All in spring-09-MVC-Model">
+  <component name="RunManager" selected="Spring Boot.BobApplication (1)">
     <configuration name="All in Bob_R (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bob_R" />
       <option name="PACKAGE_NAME" value="" />
@@ -281,10 +282,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in spring-09-MVC-Model" />
-        <item itemvalue="JUnit.All in Bob_R" />
-        <item itemvalue="JUnit.All in Bob_R (4)" />
-        <item itemvalue="JUnit.All in Bob_R (5)" />
         <item itemvalue="JUnit.All in Bob_R (3)" />
+        <item itemvalue="JUnit.All in Bob_R" />
+        <item itemvalue="JUnit.All in Bob_R (5)" />
+        <item itemvalue="JUnit.All in Bob_R (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +319,7 @@
       <workItem from="1677614417407" duration="14159000" />
       <workItem from="1677776357054" duration="1851000" />
       <workItem from="1677778752624" duration="6100000" />
-      <workItem from="1677812911559" duration="3200000" />
+      <workItem from="1677812911559" duration="5883000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1677277948336</created>
@@ -474,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677815225107</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary=".">
+      <created>1677816489410</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1677816489410</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +506,8 @@
     <MESSAGE value="MVC" />
     <MESSAGE value="welcome web" />
     <MESSAGE value="MVC-model" />
-    <option name="LAST_COMMIT_MESSAGE" value="MVC-model" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
