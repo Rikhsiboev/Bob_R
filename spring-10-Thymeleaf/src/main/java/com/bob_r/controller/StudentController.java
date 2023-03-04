@@ -23,7 +23,7 @@ public class StudentController {
     }
 
 
-    @RequestMapping("welcome") //localhost8080/student/map
+    @RequestMapping("welcome") //localhost8080/student/welcome
     public String welcome(){
 
         return "student/welcome";

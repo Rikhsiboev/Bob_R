@@ -13,8 +13,9 @@
 <!--Concatenation -->
 <h2 th:text="${'Hello'+students.get(0).fistName}"></h2>
 <h2 th:text="${students.get(0).fistName+' '+students.get(0).getLastName()}"></h2>
-<!--Link -->
 
+
+<!--Link -->
 <h2>
     <a th:href="@{http://google.com}">Google Page</a>
 </h2>

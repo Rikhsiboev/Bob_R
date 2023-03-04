@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_r/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_r/controller/mentorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/welcome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_r/bootstrap/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_r/bootstrap/DataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_r/nodel/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_r/nodel/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_r/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_r/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/welcome.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +101,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.42528737",
     "settings.editor.selected.configurable": "project.propCompiler",
-    "spring.configuration.checksum": "e752d220f065df2db7246160f38d5aa8",
+    "spring.configuration.checksum": "1c5ef22429f2b0f6391f911632c02cf8",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -341,6 +334,7 @@
       <workItem from="1677778752624" duration="6100000" />
       <workItem from="1677812911559" duration="14367000" />
       <workItem from="1677865856227" duration="8934000" />
+      <workItem from="1677951490144" duration="637000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1677277948336</created>
@@ -531,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677859480490</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary=".">
+      <created>1677951577753</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1677951577753</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
