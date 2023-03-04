@@ -22,5 +22,50 @@
 <h2>
     <a th:href="@{/student/welcome}">welcome</a>
 </h2>
+
+<!--Link -->
+
+<h2>
+    <a th:href="@{/student/welcome(id=3)}">Link</a>
+</h2>
+<h2>
+    <a th:href="@{/student/welcome(name=${students.get(0).getFistName()})}">First Name</a>
+</h2>
+
+<!--Iteration or LOOP-->
+
+<!--<li>Apple</li>-->
+<!--<li>Orange</li>-->
+<!--<li>Banana</li>-->
+<h2>printing Student`s First Name</h2>
+<li th:each=" name : ${students} " th:text="${name.getFistName()}"></li>
+<!--for(String {name} or {student}: student){}-->
+<h2>printing Student`s Last Name</h2>
+<li th:each=" name : ${students} " th:text="${name.getLastName()}"></li>
+<!--for(String {name} or {student}: student){}-->
+
+
+
+<h2>Printing Student's in table</h2>
+
+<table>
+    <thead>
+    <tr>
+        <td>First Name</td>
+        <td>Last Name</td>
+        <td>Age</td>
+        <td>State</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="name : ${students} ">
+        <td th:text="${name.getFistName()}"></td>
+        <td th:text="${name.getLastName()}"></td>
+        <td th:text="${name.getAge()}"></td>
+        <td th:text="${name.getState()}"></td>
+    </tr>
+
+    </tbody>
+</table>
 </body>
 </html>

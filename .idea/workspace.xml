@@ -6,9 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Ecommersial/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Ecommersial/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Ecommersial/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Ecommersial/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Ecommersial/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Ecommersial/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Ecommersial/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/resources/templates/mentor/mentor.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/resources/templates/mentor/mentor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_r/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_r/controller/StudentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/welcome.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,7 +341,7 @@
       <workItem from="1677778752624" duration="6100000" />
       <workItem from="1677812911559" duration="14367000" />
       <workItem from="1677865856227" duration="8934000" />
-      <workItem from="1677951490144" duration="637000" />
+      <workItem from="1677951490144" duration="8408000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1677277948336</created>
@@ -532,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677951577753</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary=".">
+      <created>1677953099655</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1677953099655</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
