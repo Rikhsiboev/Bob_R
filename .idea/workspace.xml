@@ -5,39 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Move_Zeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Remove_Duplicates_from_Sorted_array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/images/welcome-38249.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/fregments/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/java_day_Data_Structures_and_Algorithms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/Dsa_01_BigO/BigOSingleLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/Dsa_02_Array/AnotherOptimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/Dsa_02_Array/Assignment1_TwoSumOptimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/Dsa_02_Array/Assignment1_TwoSumSolution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/Dsa_02_Array/Assignment2_NumOfPeopleInTheBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/Dsa_02_Array/Review/KidsWithCandies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/ArrayListReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/MapReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/Review/ArrayListReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/Review/BoxAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/Review/LetterCandles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/Review/MergeSameItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/Review/Roman2Integer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/SetReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/Bob_R/CommentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/Bob_R/CommentApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/Bob_R/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/src/main/java/Bob_R/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/AllTopicByCoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/AllTopicByCoding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Duplicated_Chars_and_integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Duplicated_Chars_and_integer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Question_1_Swap_Array_Generic_method.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Question_1_Swap_Array_Generic_method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m6-stream/src/main/java/com/Bob_R/CreateStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/Bob_R/CreateStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/js/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/js/jquery-3.3.1.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +114,7 @@
     "WebServerToolWindowFactoryState": "false",
     "full.screen.before.presentation.mode": "true",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/spring-10-Thymeleaf/src/main/resources/static",
+    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/Review",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -144,10 +138,11 @@
       <recent name="com.bob_r.mentor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/Review" />
+      <recent name="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src" />
+      <recent name="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview" />
+      <recent name="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/Array" />
       <recent name="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/SPRING-08-MVC-CONTROLLER" />
-      <recent name="$PROJECT_DIR$/spring-07-SpringBoot-Demo/src/main/java/com/bob_r" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/student" />
@@ -160,6 +155,7 @@
       <recent name="com.bob_r" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="com.bob_r.service" />
     </key>
   </component>
@@ -379,7 +375,7 @@
       <workItem from="1677778752624" duration="6100000" />
       <workItem from="1677812911559" duration="14367000" />
       <workItem from="1677865856227" duration="8934000" />
-      <workItem from="1677951490144" duration="24792000" />
+      <workItem from="1677951490144" duration="26968000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1677277948336</created>
@@ -591,7 +587,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677970723730</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary=".">
+      <created>1678000952478</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1678000952478</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

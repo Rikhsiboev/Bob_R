@@ -19,7 +19,7 @@ public class AllTopicByCoding {
         //Create a new ArrayList
         List<Integer> list2 = new ArrayList<>(Arrays.asList(arr2));   // List only accept Integer Wrapped classes
 
-        //Create a new Array
+        //Create a new Dsa_02_Array
         String [] newArr = list.toArray(new String[list.size()]);
         Integer[] newArray =list.toArray(new Integer[list2.size()]);
 

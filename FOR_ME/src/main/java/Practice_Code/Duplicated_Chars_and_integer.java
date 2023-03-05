@@ -63,12 +63,12 @@ public class Duplicated_Chars_and_integer {
         System.out.println("/////////////////////////Generic Method/////////////////////////////////////////////////////////////");
         /////////////////////////Generic Method//////////////////////////////////////////////////////////////////////
         List<String> list1 = Arrays.asList("aA11", "bB22", "cC33", "aA11");
-        System.out.println("Given String in Array"+(list1));
+        System.out.println("Given String in Dsa_02_Array"+(list1));
         Map<String, Integer> result4 = getDuplicatesCount(list1);
         System.out.println("For Strings: " + result4);
 
         List<Integer> list2 = Arrays.asList(1, 2, 3, 2, 4, 5, 3, 6);
-        System.out.println("Given Integer in Array"+(list2));
+        System.out.println("Given Integer in Dsa_02_Array"+(list2));
         Map<Integer, Integer> result5 = getDuplicatesCount(list2);
         System.out.println("For Integers: " + result5);
 

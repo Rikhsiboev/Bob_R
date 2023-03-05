@@ -7,7 +7,7 @@ public class Factorial {
     public static void main(String[] args) {
         int[] array = {6, 8, 3, 5, 1, 9};
         System.out.println("-----------------------");
-        System.out.println("from Array each element is factorial: ");
+        System.out.println("from Dsa_02_Array each element is factorial: ");
 
         for (int k = 0; k < array.length; k++) {
             int num = array[k];

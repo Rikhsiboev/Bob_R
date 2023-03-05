@@ -25,7 +25,7 @@ public  class Question_1_Swap_Array_Generic_method {
         int indexA = -1; ///that means not empty => -1
         int indexB = -1;
 
-        // trying to find index number of Array
+        // trying to find index number of Dsa_02_Array
         for (int i = 0; i < ArrayName.length; i++) {
             if (ArrayName[i].equals(firstIndex)) {
                 indexA = i;

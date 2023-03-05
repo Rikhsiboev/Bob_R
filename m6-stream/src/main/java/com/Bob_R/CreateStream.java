@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 public class CreateStream {
     public static void main(String[] args) {
 
-        //Creating Stream from Array
+        //Creating Stream from Dsa_02_Array
         String[] courses = {"Java","Spring","Agile"};
 
         Stream<String> courseStream = Arrays.stream(courses);

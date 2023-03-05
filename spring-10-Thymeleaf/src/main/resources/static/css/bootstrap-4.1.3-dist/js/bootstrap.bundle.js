@@ -2221,10 +2221,10 @@
   }
 
   /**
-   * Mimics the `find` method of Array
+   * Mimics the `find` method of Dsa_02_Array
    * @method
    * @memberof Popper.Utils
-   * @argument {Array} arr
+   * @argument {Dsa_02_Array} arr
    * @argument prop
    * @argument value
    * @returns index or -1
@@ -2243,7 +2243,7 @@
    * Return the index of the matching object
    * @method
    * @memberof Popper.Utils
-   * @argument {Array} arr
+   * @argument {Dsa_02_Array} arr
    * @argument prop
    * @argument value
    * @returns index or -1
@@ -3467,7 +3467,7 @@
       /** @prop {ModifierFn} */
       fn: preventOverflow,
       /**
-       * @prop {Array} [priority=['left','right','top','bottom']]
+       * @prop {Dsa_02_Array} [priority=['left','right','top','bottom']]
        * Popper will try to prevent overflow following these priorities by default,
        * then, it could overflow on the left and on top of the `boundariesElement`
        */
@@ -3545,7 +3545,7 @@
       /** @prop {ModifierFn} */
       fn: flip,
       /**
-       * @prop {String|Array} behavior='flip'
+       * @prop {String|Dsa_02_Array} behavior='flip'
        * The behavior used to change the popper's placement. It can be one of
        * `flip`, `clockwise`, `counterclockwise` or an array with a list of valid
        * placements (with optional variations).
@@ -3817,7 +3817,7 @@
         _this.options.modifiers[name] = _extends({}, Popper.Defaults.modifiers[name] || {}, options.modifiers ? options.modifiers[name] : {});
       });
 
-      // Refactoring modifiers' list (Object => Array)
+      // Refactoring modifiers' list (Object => Dsa_02_Array)
       this.modifiers = Object.keys(this.options.modifiers).map(function (name) {
         return _extends({
           name: name
