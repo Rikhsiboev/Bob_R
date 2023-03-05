@@ -12,6 +12,7 @@ public class CommentApp {
         Comment comment = new Comment();
         comment.setText("Johnson");
         System.out.println("Spring Framework");
+
         ApplicationContext context = new AnnotationConfigApplicationContext(CommentConfig.class);
         CommentService commentService = context.getBean(CommentService.class);
         commentService.publishComment(comment);

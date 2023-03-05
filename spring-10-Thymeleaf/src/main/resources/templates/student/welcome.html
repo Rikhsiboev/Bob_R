@@ -2,9 +2,14 @@
 <html lang="en"xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome student !</title>
+    <title>Welcome student !!</title>
 </head>
 <body>
 <h2>Welcome student !</h2>
+
+<!--Fragment-->
+<dev th:replace="/fragments/index :: footer-menu"></dev>
+<dev th:replace="/fragments/index :: main-menu"></dev>
+
 </body>
 </html>

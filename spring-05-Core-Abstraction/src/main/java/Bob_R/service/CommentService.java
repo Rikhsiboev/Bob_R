@@ -23,4 +23,5 @@ public class CommentService {
         this.commentRepository = commentRepository;
         this.commentNotificationProxy = commentNotificationProxy;
     }
+
 }
