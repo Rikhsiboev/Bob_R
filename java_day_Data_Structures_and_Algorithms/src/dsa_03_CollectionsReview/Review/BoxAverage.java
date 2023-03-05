@@ -1,15 +1,18 @@
 package dsa_03_CollectionsReview.Review;
+import java.math.BigDecimal;
+import java.math.BigInteger;
 import java.util.*;
 import java.io.*;
 import java.lang.Math;
-public class BoxAverage {
+public class  BoxAverage {
     public static void main(String[] args) throws IOException {
         //INPUT [uncomment & modify if required]
         ArrayList<Integer> ans=new ArrayList<>();
         BufferedReader br=new BufferedReader(new InputStreamReader(System.in)); String S=br.readLine().trim();
         while(S.equals("FULL") ==false)
         {
-            ans.add(Integer.parseInt(S)); S=br.readLine().trim();
+            ans.add(Integer.parseInt(S));
+            S=br.readLine().trim();
         }
         //OUTPUT [uncomment & modify if required]
 
@@ -22,7 +25,7 @@ public class BoxAverage {
 
             // WRITE YOUR LOGIC HERE
 
-            return result;
+            return result = Math.round(Collections.min(ans)+Collections.max(ans))/2;
     }
 
     /*Box Average
