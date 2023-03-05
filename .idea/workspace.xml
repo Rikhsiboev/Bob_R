@@ -5,33 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/java_day_Data_Structures_and_Algorithms.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/Dsa_01_BigO/BigOSingleLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/Dsa_02_Array/AnotherOptimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/Dsa_02_Array/Assignment1_TwoSumOptimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/Dsa_02_Array/Assignment1_TwoSumSolution1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/Dsa_02_Array/Assignment2_NumOfPeopleInTheBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/Dsa_02_Array/Review/KidsWithCandies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/ArrayListReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/MapReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/Review/ArrayListReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/Review/BoxAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/Review/LetterCandles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/Review/MergeSameItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/Review/Roman2Integer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/SetReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/AllTopicByCoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/AllTopicByCoding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Duplicated_Chars_and_integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Duplicated_Chars_and_integer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Question_1_Swap_Array_Generic_method.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Question_1_Swap_Array_Generic_method.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/m6-stream/src/main/java/com/Bob_R/CreateStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/m6-stream/src/main/java/com/Bob_R/CreateStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/css/bootstrap-4.1.3-dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/js/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/static/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/Review/ArrayListReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_day_Data_Structures_and_Algorithms/src/dsa_03_CollectionsReview/Review/ArrayListReview.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +141,20 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Remove_Duplicates_from_Sorted_array">
+  <component name="RunManager" selected="Application.ArrayListReview2">
+    <configuration name="ArrayListReview2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa_03_CollectionsReview.Review.ArrayListReview2" />
+      <module name="java_day_Data_Structures_and_Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dsa_03_CollectionsReview.Review.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bob_R.CommentApp" />
       <module name="spring-05-Core-Abstraction" />
@@ -203,14 +190,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in Bob_R (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bob_R" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -319,11 +298,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ArrayListReview2" />
       <item itemvalue="Application.CommentApp" />
       <item itemvalue="Application.Move_Zeroes" />
       <item itemvalue="Application.Remove_Duplicates_from_Sorted_array" />
       <item itemvalue="JUnit.All in spring-09-MVC-Model" />
-      <item itemvalue="JUnit.All in Bob_R (3)" />
       <item itemvalue="Spring Boot.BobApplication (2)" />
       <item itemvalue="Spring Boot.Bob_R_Application (1)" />
       <item itemvalue="Spring Boot.ThymeleafApplication" />
@@ -335,11 +314,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListReview2" />
         <item itemvalue="Application.Remove_Duplicates_from_Sorted_array" />
         <item itemvalue="Application.Move_Zeroes" />
         <item itemvalue="Application.CommentApp" />
         <item itemvalue="JUnit.All in spring-09-MVC-Model" />
-        <item itemvalue="JUnit.All in Bob_R (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -375,7 +354,7 @@
       <workItem from="1677778752624" duration="6100000" />
       <workItem from="1677812911559" duration="14367000" />
       <workItem from="1677865856227" duration="8934000" />
-      <workItem from="1677951490144" duration="26968000" />
+      <workItem from="1677951490144" duration="27373000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1677277948336</created>
@@ -594,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678000952478</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary=".">
+      <created>1678030176155</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1678030176155</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

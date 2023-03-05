@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class ArrayListReview {
+public class ArrayListReview2 {
     public static void main(String[] args) {
 
         //Convert an Array to ArrayList with Arrays.asList()
@@ -27,7 +27,8 @@ public class ArrayListReview {
         int[] arr3 = list3.stream().mapToInt(i -> i).toArray();
 
         // Sort without comparator
-
+        Collections.sort(list2);
+        System.out.println(list2);
 
         // Binary Search on collections
 
