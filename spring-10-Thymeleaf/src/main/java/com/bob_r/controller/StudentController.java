@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 @RequestMapping("/student")
 public class StudentController {
-    @RequestMapping(value = "register", method = RequestMethod.GET) //localhost8080/student/register
+   // @RequestMapping(value = "register", method = RequestMethod.GET) //localhost8080/student/register
     @GetMapping("/register")
     public String register(Model model) {
 
@@ -18,7 +18,7 @@ public class StudentController {
         return "student/register";
     }
 
-    @RequestMapping(value = "/drop", method=RequestMethod.POST) //localhost8080/student/map
+  //  @RequestMapping(value = "/drop", method=RequestMethod.POST) //localhost8080/student/map
     @PostMapping("/drop")
     public String drop() {
         return "student/register";
