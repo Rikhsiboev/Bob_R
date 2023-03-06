@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Bob_R.iml" filepath="$PROJECT_DIR$/Bob_R.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-lab-ecommerce-project/java-lab-ecommerce-project.iml" filepath="$PROJECT_DIR$/java-lab-ecommerce-project/java-lab-ecommerce-project.iml" />
     </modules>
   </component>
 </project>

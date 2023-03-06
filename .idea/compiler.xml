@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-10-Thymeleaf" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -39,7 +40,6 @@
       <module name="spring-08-MVC-CONTROLLER" target="11" />
       <module name="spring-08-MVC-Controller" target="11" />
       <module name="spring-09-MVC-Model" target="11" />
-      <module name="spring-10-Thymeleaf" target="11" />
       <module name="stream-practice" target="11" />
     </bytecodeTargetLevel>
   </component>
