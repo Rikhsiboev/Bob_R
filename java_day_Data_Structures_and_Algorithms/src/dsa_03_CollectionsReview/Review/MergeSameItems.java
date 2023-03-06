@@ -2,7 +2,6 @@ package dsa_03_CollectionsReview.Review;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.TreeMap;
 
 public class MergeSameItems {
     public static void main(String[] args) {
