@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_r/nodel/Mentor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/mentor/mentor-register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/mentor/mentor-confirmation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_r/controller/mentorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_r/controller/mentorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/mentor/mentor-register.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/resources/templates/mentor/mentor-register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -364,7 +364,7 @@
       <workItem from="1677812911559" duration="14367000" />
       <workItem from="1677865856227" duration="8934000" />
       <workItem from="1677951490144" duration="36553000" />
-      <workItem from="1678128890054" duration="6684000" />
+      <workItem from="1678128890054" duration="12271000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1677277948336</created>
@@ -653,7 +653,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678141017763</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary=".">
+      <created>1678142594011</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1678142594011</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
