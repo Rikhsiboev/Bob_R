@@ -26,7 +26,7 @@ public class FunctionalInterfaceTest {
 
         System.out.println("************FUNCTION***************");
         Function<String,String> fun = s -> "Hello " + s;
-        System.out.println(fun.apply("Bob_r"));
+        System.out.println(fun.apply("Bob_R"));
 
         System.out.println("************BI FUNCTION***************");
         BiFunction<Integer,Integer,Integer> func = (x1,x2) -> x1+x2;

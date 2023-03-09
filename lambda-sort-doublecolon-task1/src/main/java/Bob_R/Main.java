@@ -1,13 +1,13 @@
-package Bob_r;
+package Bob_R;
 
 
 import java.util.*;
 import java.util.function.Consumer;
 
-import static Bob_r.DataGenerator.*;
-import static Bob_r.Service.*;
-import static Bob_r.Gender.*;
-import static Bob_r.Role.*;
+import static Bob_R.DataGenerator.*;
+import static Bob_R.Service.*;
+import static Bob_R.Gender.*;
+import static Bob_R.Role.*;
 
 public class Main {
 

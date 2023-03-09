@@ -1,4 +1,4 @@
-package Bob_r;
+package Bob_R;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

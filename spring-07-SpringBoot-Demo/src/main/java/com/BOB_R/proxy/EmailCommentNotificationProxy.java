@@ -1,6 +1,6 @@
-package com.BOB_R.proxy;
+package com.Bob_R.proxy;
 
-import com.BOB_R.model.Comment;
+import com.Bob_R.model.Comment;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 

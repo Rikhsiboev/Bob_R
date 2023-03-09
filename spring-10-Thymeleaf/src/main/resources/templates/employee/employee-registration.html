@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Employee-Registration</title>
+</head>
+<body>
+<div align="center">
+    <h2>Welcome to Employee Registration Page</h2>
+    <form th:action="@{templates/employee/employee-config.html}" method="post" th:object="${employee}">    </form>
+    <la>FistName</la>
+    <input type="text" th:field="*{employee.firstName}">
+    <br>
+    <br>
+
+    <la>LastName</la>
+    <input type="text" th:field="*{employee.lastName}">
+    <br>
+    <br>
+    <la>Birthday</la>
+    <input type="date" th:field="*{employee.birthday} ">
+    <br>
+    <br>
+    <la>Email</la>
+    <input type="email" th:field="*{employee.email}">
+    <br>
+    <br>
+    <la>Password</la>
+    <input type="password" th:field="*{employee.password}">
+    <br>
+    <br>
+    <la>Address</la>
+    <input type="text" th:field="*{employee.address}">
+    <br>
+    <br>
+    <la>Address2</la>
+    <input type="text" th:field="*{employee.address2}">
+    <br>
+    <br>
+    <la>City</la>
+    <input type="text" th:field="*{employee.city}">
+    <br>
+    <br>
+    <la>State</la>
+    <select  th:field="*{state}">
+        <option th:each="state:${state}" th:value="${state}" th:text="${state}"></option>
+    </select>
+
+    <br>
+    <br>
+    <la th:align="center">Zip</la>
+    <input type="text" th:field="*{employee.zip}">
+    <br>
+    <br>
+
+    <button type="submit">Register</button>
+
+    </form>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

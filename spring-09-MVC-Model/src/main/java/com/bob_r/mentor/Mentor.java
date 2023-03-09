@@ -1,4 +1,4 @@
-package com.bob_r.mentor;
+package com.Bob_R.mentor;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

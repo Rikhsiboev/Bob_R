@@ -1,9 +1,9 @@
-package com.BOB_R;
-import com.BOB_R.service.CommentService;
+package com.Bob_R;
+import com.Bob_R.service.CommentService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-import com.BOB_R.model.Comment;
+import com.Bob_R.model.Comment;
 
 @SpringBootApplication
 public class Bob_R_Application {

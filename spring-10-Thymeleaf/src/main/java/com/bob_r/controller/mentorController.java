@@ -1,6 +1,6 @@
-package com.bob_r.controller;
+package com.Bob_R.controller;
 
-import com.bob_r.nodel.Mentor;
+import com.Bob_R.nodel.Mentor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -25,7 +25,7 @@ public class mentorController {
         return "mentor/mentor-register";
     }
 
-    @PostMapping("/confirm")
+    @PostMapping("/confirmmation")
     public String submitForm(@ModelAttribute("mentor") Mentor mentor, Model model) {
 
 

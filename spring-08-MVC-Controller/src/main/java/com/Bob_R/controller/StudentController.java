@@ -1,4 +1,4 @@
-package com.Bob_r.controller;
+package com.Bob_R.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

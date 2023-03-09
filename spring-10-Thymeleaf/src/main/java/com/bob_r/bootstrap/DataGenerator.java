@@ -1,6 +1,6 @@
-package com.bob_r.bootstrap;
+package com.Bob_R.bootstrap;
 
-import com.bob_r.nodel.Student;
+import com.Bob_R.nodel.Student;
 import com.github.javafaker.Faker;
 
 import java.util.Arrays;

@@ -1,7 +1,7 @@
-package com.bob_r.controller;
+package com.Bob_R.controller;
 
-import com.bob_r.mentor.Gender;
-import com.bob_r.mentor.Mentor;
+import com.Bob_R.mentor.Gender;
+import com.Bob_R.mentor.Mentor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

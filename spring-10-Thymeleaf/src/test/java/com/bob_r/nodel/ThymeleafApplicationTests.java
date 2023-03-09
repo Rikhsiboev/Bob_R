@@ -1,4 +1,4 @@
-package com.bob_r.nodel;
+package com.Bob_R.nodel;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

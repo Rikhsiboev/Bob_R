@@ -1,6 +1,6 @@
-package com.bob_r.controller;
+package com.Bob_R.controller;
 
-import com.bob_r.model.Student;
+import com.Bob_R.model.Student;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,4 +1,4 @@
-package com.BOB_R.spring07springbootdemo;
+package com.Bob_R.spring07springbootdemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

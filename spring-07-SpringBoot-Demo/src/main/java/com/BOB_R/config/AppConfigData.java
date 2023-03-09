@@ -1,4 +1,4 @@
-package com.BOB_R.config;
+package com.Bob_R.config;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;

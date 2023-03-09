@@ -1,6 +1,6 @@
-package com.BOB_R.repository;
+package com.Bob_R.repository;
 
-import com.BOB_R.model.Comment;
+import com.Bob_R.model.Comment;
 import org.springframework.stereotype.Component;
 
 @Component

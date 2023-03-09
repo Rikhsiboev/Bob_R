@@ -1,4 +1,4 @@
-package com.bob_r.nodel;
+package com.Bob_R.nodel;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -8,7 +8,7 @@ public class LocalVariableTypeDemo {
         String s ;
         s = "Ozzy";
 
-        var str = "Bob_r";
+        var str = "Bob_R";
 
         var number = 5;
 
