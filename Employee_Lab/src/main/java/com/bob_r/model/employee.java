@@ -1,14 +1,14 @@
-package com.bob_r.nodel;
+package com.bob_r.model;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
-@Setter
-@Getter
-@AllArgsConstructor
+@Data
 @NoArgsConstructor
-@ToString
-public class Employee {
+@AllArgsConstructor
+public class employee {
     private String firstName;
     private String lastName;
     private LocalDate birthday;
@@ -19,6 +19,4 @@ public class Employee {
     private String city;
     private String state;
     private String zipCode;
-
-
 }
