@@ -8,7 +8,7 @@ import java.time.LocalDate;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class employee {
+public class Employee {
     private String firstName;
     private String lastName;
     private LocalDate birthday;
