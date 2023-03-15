@@ -5,56 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/Pizza/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/Enum/QuantityEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/PizzaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/controller/controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/dto/Souce/RedSauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/dto/Souce/Sauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/dto/Souce/SweetPizzaSauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/dto/Souce/TomatoSauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/dto/Topping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/dto/adress/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/dto/chesse/Cheddar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/dto/chesse/Cheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/dto/chesse/Mozzarella.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/dto/chesse/Parmesan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/entity/Cheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/entity/Sauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/entity/Topping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/service/serviceImp/CheeseInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/service/serviceImp/CommonInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/service/serviceImp/SauceInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/service/serviceImp/ToppingInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/service/serviceImp/serviceImp/CheeseImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/service/serviceImp/serviceImp/CommonAbstractImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/service/serviceImp/serviceImp/SauceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/java/com/pizza/service/serviceImp/serviceImp/ToppingImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/resources/static/Screenshot 2023-03-14 at 12.49.38 PM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/resources/templates/OrderAction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/resources/templates/ThankYouPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/resources/templates/design.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pizza/src/test/java/com/pizza/PizzaApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/convertor/RoleDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Length_of_Last_Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Two_by_Two.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/boostrap/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/boostrap/DataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/RoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/RoleServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/RoleServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/UserServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/templates/user/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/templates/user/create.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -123,40 +78,40 @@
     <option name="showModules" value="false" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/ticketing-project-mvc/src/main/java/com/Bob_R",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.42528737",
-    "settings.editor.selected.configurable": "inlay.hints",
-    "spring.configuration.checksum": "c6586b2e09d0ed0ee6431a1bb280657f",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/ticketing-project-mvc/src/main/java/com/Bob_R&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.42528737&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;c6586b2e09d0ed0ee6431a1bb280657f&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.bob_r.mentor" />
@@ -191,7 +146,7 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.PizzaApplication (1)">
+  <component name="RunManager" selected="Application.Two_by_Two">
     <configuration name="ArrayListReview2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dsa_03_CollectionsReview.Review.ArrayListReview2" />
       <module name="java_day_Data_Structures_and_Algorithms" />
@@ -218,8 +173,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Move_Zeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice_Code.Move_Zeroes" />
+    <configuration name="Length_of_Last_Word" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice_Code.Length_of_Last_Word" />
       <module name="FOR_ME" />
       <extension name="coverage">
         <pattern>
@@ -231,8 +186,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Remove_Duplicates_from_Sorted_array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice_Code.Remove_Duplicates_from_Sorted_array" />
+    <configuration name="Two_by_Two" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice_Code.Two_by_Two" />
       <module name="FOR_ME" />
       <extension name="coverage">
         <pattern>
@@ -394,10 +349,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Length_of_Last_Word" />
+      <item itemvalue="Application.Two_by_Two" />
       <item itemvalue="Application.ArrayListReview2" />
       <item itemvalue="Application.BoxAverage" />
-      <item itemvalue="Application.Move_Zeroes" />
-      <item itemvalue="Application.Remove_Duplicates_from_Sorted_array" />
       <item itemvalue="JUnit.All in ticketing-project-mvc" />
       <item itemvalue="Spring Boot.PizzaApplication" />
       <item itemvalue="Spring Boot.PizzaApplication (1)" />
@@ -418,11 +373,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Two_by_Two" />
+        <item itemvalue="Application.Length_of_Last_Word" />
         <item itemvalue="JUnit.All in ticketing-project-mvc" />
         <item itemvalue="Application.BoxAverage" />
         <item itemvalue="Application.ArrayListReview2" />
-        <item itemvalue="Application.Remove_Duplicates_from_Sorted_array" />
-        <item itemvalue="Application.Move_Zeroes" />
       </list>
     </recent_temporary>
   </component>
@@ -473,13 +428,8 @@
       <workItem from="1678676287798" duration="1513000" />
       <workItem from="1678740134756" duration="4947000" />
       <workItem from="1678768667345" duration="35393000" />
-    </task>
-    <task id="LOCAL-00011" summary="welcome web">
-      <created>1677614604679</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1677614604679</updated>
+      <workItem from="1678855979419" duration="32000" />
+      <workItem from="1678856225535" duration="6189000" />
     </task>
     <task id="LOCAL-00012" summary="welcome web">
       <created>1677615442847</created>
@@ -817,7 +767,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678567567977</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary=".">
+      <created>1678856000707</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1678856000708</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -855,6 +812,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Length_of_Last_Word.java</url>
+          <line>5</line>
+          <properties class="Practice_Code.Length_of_Last_Word" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Move_Zeroes.java</url>
