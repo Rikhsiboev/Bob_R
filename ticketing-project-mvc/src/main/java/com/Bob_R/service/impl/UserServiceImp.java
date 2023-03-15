@@ -2,9 +2,10 @@ package com.Bob_R.service.impl;
 
 import com.Bob_R.dto.UserDTO;
 import com.Bob_R.service.UserService;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
-
+@Component
 public class UserServiceImp extends AbstractMapService<UserDTO, String> implements UserService {
     @Override
     public UserDTO save(UserDTO user) {

@@ -2,9 +2,11 @@ package com.Bob_R.service.impl;
 
 import com.Bob_R.dto.RoleDTO;
 import com.Bob_R.service.RoleService;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service // like @Component - creates bean
 public class RoleServiceImp extends AbstractMapService <RoleDTO,Long> implements RoleService {
     @Override
     public RoleDTO save(RoleDTO role) {
