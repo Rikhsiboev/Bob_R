@@ -5,8 +5,9 @@ import com.pizza.service.serviceImp.CheeseInterface;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+
 @Service
-public class CheeseImp extends CommonAbstractImp<Cheese,String> implements CheeseInterface {
+public class CheeseImp extends CommonAbstractImp<Cheese, String> implements CheeseInterface {
     @Override
     public Object save(Object type) {
         return null;

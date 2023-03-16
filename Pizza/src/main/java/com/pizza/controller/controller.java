@@ -33,7 +33,7 @@ public class controller {
     }
 
     @PostMapping ("/homeAction")
-    public String home2(@ModelAttribute("cheese") Cheese cheese) {
+    public String home2() {
 
         return "design";
     }
@@ -46,14 +46,10 @@ public class controller {
 
     @PostMapping("/create-pizza")
     public String home4(){
-
-
         return "redirect:/ThankYouDone";
     }
     @GetMapping("/ThankYouDone")
     public String home5(){
-
-
         return "/ThankYouPage";
     }
 }

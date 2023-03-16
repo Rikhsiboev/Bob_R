@@ -1,4 +1,4 @@
 package com.pizza.service.serviceImp;
 
-public interface ToppingInterface extends CommonInterface{
+public interface ToppingInterface extends CrudService {
 }

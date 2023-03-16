@@ -1,10 +1,8 @@
 package com.pizza.service.serviceImp;
 
-import com.pizza.Enum.QuantityEnum;
-
 import java.util.List;
 
-public interface CommonInterface<T,Quantity> {
+public interface CrudService<T,Quantity> {
     T save(T type);
     T findByType(Quantity typename);
     List<T> findAll();

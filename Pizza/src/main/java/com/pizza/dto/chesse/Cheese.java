@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 
 public abstract class Cheese  {
     private QuantityEnum quantityEnum;
-    private int id;
+    private String id;
 
 
 }
