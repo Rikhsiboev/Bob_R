@@ -8,9 +8,9 @@ import java.util.List;
 public interface CrudService <T,ID> {
 
   //this method come for all
-    T save(T user);
-    T findBYID(ID username);
+    T save(T object);
+    T findById(ID username);
     List<T> findAll();
-    void deleteById(ID username);
+    void deleteById(ID id);
 
 }

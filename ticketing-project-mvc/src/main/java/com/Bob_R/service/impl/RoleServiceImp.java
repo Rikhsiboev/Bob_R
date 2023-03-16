@@ -8,15 +8,16 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 @Service // like @Component - creates bean
 public class RoleServiceImp extends AbstractMapService <RoleDTO,Long> implements RoleService {
+
+
     @Override
-    public RoleDTO save(RoleDTO role) {
-        return super.save(role.getId(), role);
+    public RoleDTO save(RoleDTO roleDTO) {
+        return super.save(roleDTO.getId(),roleDTO);
     }
 
     @Override
-    public RoleDTO findBYID(Long id) {
-
-    return null;
+    public RoleDTO findById(Long id) {
+        return super.findById(id);
     }
 
     @Override

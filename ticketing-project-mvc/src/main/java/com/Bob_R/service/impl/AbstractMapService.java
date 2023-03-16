@@ -18,7 +18,7 @@ public abstract class AbstractMapService <T,ID> {
         return new ArrayList<>(map.values());
     }
 
-    T findByID(ID id){
+    T findById(ID id){
         return map.get(id);
     }
     void deleteById(ID id){
