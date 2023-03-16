@@ -63,13 +63,6 @@ public class UserController {
     }
 
 
-    @GetMapping("/procject")
-    public String projectCreate(Model model){
-        model.addAttribute("role",new ProjectDTO());
 
-
-
-        return "/project/create";
-    }
 }
 
