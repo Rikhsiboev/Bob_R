@@ -7,12 +7,12 @@ import java.util.List;
 
 public interface CrudService <T,ID> {
 
-  //this method come for all
-    T save(T object);
-    T findById(ID username);
-    List<T> findAll();
-    void deleteById(ID id);
+  T save(T user);
+  T findById(ID username);
+  List<T> findAll();
+  void deleteById(ID username);
+  void update(T object);
 
-    void update(T object);
 
 }
+

@@ -1,6 +1,7 @@
 package com.Bob_R.service.impl;
 
 import com.Bob_R.dto.ProjectDTO;
+import com.Bob_R.enums.Status;
 import com.Bob_R.service.ProjectService;
 import org.springframework.stereotype.Service;
 
@@ -11,11 +12,15 @@ public class ProjectImp extends AbstractMapService <ProjectDTO,String>  implemen
 
     @Override
     public ProjectDTO save(ProjectDTO project) {
+
+        if(project.getProjectStatus()==null)
+            project.setProjectStatus(Status.OPEN);
+
         return super.save(project.getProjectCode(),project);
     }
 
     @Override
-    public ProjectDTO findById(String  projectCode) {
+    public ProjectDTO findById(String projectCode) {
         return super.findById(projectCode);
     }
 
@@ -25,12 +30,14 @@ public class ProjectImp extends AbstractMapService <ProjectDTO,String>  implemen
     }
 
     @Override
-    public void deleteById(String projectCode) {
-    super.deleteById(projectCode);
+    public void deleteById(String id) {
+        super.deleteById(id);
     }
 
     @Override
-    public void update(ProjectDTO project) {
-        super.update(project.getProjectCode(),project);
+    public void update(ProjectDTO object) {
+        super.update(object.getProjectCode(),object);
     }
+
+
 }
