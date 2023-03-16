@@ -1,5 +1,7 @@
 package com.Bob_R.controller;
 
+import com.Bob_R.dto.ProjectDTO;
+import com.Bob_R.dto.RoleDTO;
 import com.Bob_R.dto.UserDTO;
 import com.Bob_R.service.RoleService;
 import com.Bob_R.service.UserService;
@@ -41,7 +43,7 @@ public class UserController {
 
     }
 
-    @GetMapping("/update/{username")
+    @GetMapping("/update/{username}")
     public String editUser(@PathVariable("username") String username, Model model) {
         model.addAttribute("user", userService.findById(username));
         model.addAttribute("roles",roleService.findAll());
@@ -49,6 +51,25 @@ public class UserController {
         return "/user/update";
     }
 
+    @PostMapping("/update")
+    public String updateUser( @ModelAttribute("user") UserDTO user){
+        userService.update(user);
+        return "redirect:/user/create";
+    }
+    @GetMapping("/delete/{username}")
+    public String deleteUser(@PathVariable("username") String username){
+        userService.deleteById(username);
+        return "redirect:/user/create";
+    }
 
+
+    @GetMapping("/procject")
+    public String projectCreate(Model model){
+        model.addAttribute("role",new ProjectDTO());
+
+
+
+        return "/project/create";
+    }
 }
 
