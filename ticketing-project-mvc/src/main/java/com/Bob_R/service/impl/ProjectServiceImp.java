@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 @Service
-public class ProjectImp extends AbstractMapService <ProjectDTO,String>  implements ProjectService {
+public class ProjectServiceImp extends AbstractMapService <ProjectDTO,String>  implements ProjectService {
 
 
     @Override

@@ -39,7 +39,9 @@
                                                 <div class="form-group">
                                                     <label>Project</label>
                                                     <select name="project" class="custom-select">
-                                                        <option></option>
+                                                        <option th:field="*{task}" ></option>
+                                                        <option th:value="''" th:text="Select"></option>
+                                                        <option th:each="eachTask:${}" th:value="${}"></option>
                                                     </select>
                                                 </div>
                                             </div>
