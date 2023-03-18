@@ -17,7 +17,9 @@ public class RoleDtoConverter implements Converter<String, RoleDTO> {  // String
 
     @Override
     public RoleDTO convert(String source) {
-
+        if(source==null||source.equals("")){  // select ->""
+            return null;
+        }
         return roleService.findById(Long.parseLong(source));
     }
 }
