@@ -21,6 +21,8 @@ public class ProjectDTO {
     private LocalDate endDate;
     private String projectDetail;
     private Status projectStatus;
+
+
     private int completeTaskCounts;
     private int unfinishedTaskCounts;
 
