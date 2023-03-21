@@ -1,0 +1,108 @@
+Index: src/main/resources/templates/orderForm.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\"\n      xmlns:th=\"http://www.thymeleaf.org\">\n\n<head>\n\n    <title>Pizza Cloud</title>\n\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3\" crossorigin=\"anonymous\">\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p\" crossorigin=\"anonymous\"></script>\n\n</head>\n\n<body>\n\n<div class=\"container\">\n\n    <br>\n\n    <div class=\"row\">\n\n        <div class=\"col-xl-6 col-lg-6 col-md-6\">\n            <h1>Order your pizza!</h1>\n            <img th:src=\"@{/images/pizza.png}\"/>\n        </div>\n\n        <div class=\"col-xl-6 col-lg-6 col-md-6\">\n            <h2><a class=\"btn btn-danger\" th:href=\"@{/design}\" id=\"another\">Design another pizza</a></h2>\n        </div>\n\n    </div>\n\n    <form method=\"post\" th:action=\"@{/orders}\" th:object=\"${pizzaOrder}\">\n\n        <div class=\"form-group\">\n\n            <h3>Deliver my pizza to...</h3>\n\n            <div class=\"row\">\n                <div class=\"col-xl-3 col-lg-3 col-md-3\">\n                    <label><b>Name:</b></label>\n                    <input class=\"form-control\" type=\"text\" th:field=\"*{deliveryName}\"/>\n                </div>\n            </div>\n\n            <div class=\"row\">\n\n                <div class=\"col-xl-3 col-lg-3 col-md-3\">\n                    <label><b>Street address:</b></label>\n                    <input class=\"form-control\" type=\"text\" th:field=\"*{deliveryStreet}\"/>\n                </div>\n\n                <div class=\"col-xl-3 col-lg-3 col-md-3\">\n                    <label><b>City:</b></label>\n                    <input class=\"form-control\" type=\"text\" th:field=\"*{deliveryCity}\"/>\n                </div>\n\n                <div class=\"col-xl-3 col-lg-3 col-md-3\">\n                    <label><b>State:</b></label>\n                    <input class=\"form-control\" type=\"text\" th:field=\"*{deliveryState}\"/>\n                </div>\n\n                <div class=\"col-xl-3 col-lg-3 col-md-3\">\n                    <label><b>Zip code:</b></label>\n                    <input class=\"form-control\" type=\"text\" th:field=\"*{deliveryZip}\"/>\n                </div>\n\n            </div>\n\n            <br>\n\n            <h3>Here's how I'll pay...</h3>\n\n            <div class=\"row\">\n\n                <div class=\"col-xl-4 col-lg-4 col-md-4\">\n                    <label><b>Credit Card Number:</b></label>\n                    <input class=\"form-control\" type=\"text\" th:field=\"*{ccNumber}\"/>\n                </div>\n\n                <div class=\"col-xl-4 col-lg-4 col-md-4\">\n                    <label><b>Expiration:</b></label>\n                    <input class=\"form-control\" type=\"text\" th:field=\"*{ccExpiration}\"/>\n                </div>\n\n                <div class=\"col-xl-4 col-lg-4 col-md-4\">\n                    <label><b>CVV:</b></label>\n                    <input class=\"form-control\" type=\"text\" th:field=\"*{ccCVV}\"/>\n                </div>\n\n            </div>\n\n            <br>\n\n            <div class=\"row\">\n                <div class=\"col-xl-3 col-lg-3 col-md-3\">\n                    <button type=\"submit\" class=\"btn btn-success\">Submit Order</button>\n                </div>\n            </div>\n\n        </div>\n\n    </form>\n\n</div>\n\n</body>\n\n</html>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/templates/orderForm.html b/src/main/resources/templates/orderForm.html
+--- a/src/main/resources/templates/orderForm.html	
++++ b/src/main/resources/templates/orderForm.html	
+@@ -30,7 +30,7 @@
+ 
+     </div>
+ 
+-    <form method="post" th:action="@{/orders}" th:object="${pizzaOrder}">
++    <form method="post" th:action="@{/orders/{Id}(id=${pizzaOrder.pizza.id})}" th:object="${pizzaOrder}">
+ 
+         <div class="form-group">
+ 
+Index: src/main/java/com/cydeo/controller/OrderController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.cydeo.controller;\n\nimport com.cydeo.model.Pizza;\nimport com.cydeo.model.PizzaOrder;\nimport com.cydeo.repository.PizzaRepository;\nimport org.springframework.stereotype.Controller;\nimport org.springframework.ui.Model;\nimport org.springframework.web.bind.annotation.*;\n\nimport java.util.UUID;\n\n@Controller\n@RequestMapping(\"/orders\")\npublic class OrderController {\n\n    private final PizzaRepository pizzaRepository;\n\n    public OrderController(PizzaRepository pizzaRepository) {\n        this.pizzaRepository = pizzaRepository;\n    }\n\n    @GetMapping(\"/current\")\n    public String orderForm(UUID pizzaId, Model model) {\n\n        PizzaOrder pizzaOrder = new PizzaOrder();\n\n        // Fix the getPizza method below in line 49.\n        pizzaOrder.setPizza(getPizza(pizzaId));\n\n        model.addAttribute(\"pizzaOrder\", pizzaOrder);\n\n        return \"/orderForm\";\n    }\n\n    @PostMapping(\"/{pizzaId}\")\n    public String processOrder(UUID pizzaId, PizzaOrder pizzaOrder) {\n\n        // Save the order\n\n        pizzaOrder.setPizza(getPizza(pizzaId));\n        return \"redirect:/home\";\n    }\n\n    //TODO\n    private Pizza getPizza(UUID pizzaId) {\n        // Get the pizza from repository based on it's id\n        return new Pizza();\n    }\n\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/cydeo/controller/OrderController.java b/src/main/java/com/cydeo/controller/OrderController.java
+--- a/src/main/java/com/cydeo/controller/OrderController.java	
++++ b/src/main/java/com/cydeo/controller/OrderController.java	
+@@ -1,5 +1,6 @@
+ package com.cydeo.controller;
+ 
++import com.cydeo.exception.PizzaNotFoundException;
+ import com.cydeo.model.Pizza;
+ import com.cydeo.model.PizzaOrder;
+ import com.cydeo.repository.PizzaRepository;
+@@ -20,7 +21,7 @@
+     }
+ 
+     @GetMapping("/current")
+-    public String orderForm(UUID pizzaId, Model model) {
++    public String orderForm(@RequestParam UUID pizzaId, Model model) {
+ 
+         PizzaOrder pizzaOrder = new PizzaOrder();
+ 
+@@ -33,7 +34,7 @@
+     }
+ 
+     @PostMapping("/{pizzaId}")
+-    public String processOrder(UUID pizzaId, PizzaOrder pizzaOrder) {
++    public String processOrder(@PathVariable("pizzaId") UUID pizzaId, PizzaOrder pizzaOrder) {
+ 
+         // Save the order
+ 
+@@ -42,9 +43,12 @@
+     }
+ 
+     //TODO
+-    private Pizza getPizza(UUID pizzaId) {
++    private Pizza getPizza(UUID pizzaId) throws PizzaNotFoundException {
+         // Get the pizza from repository based on it's id
+-        return new Pizza();
++        return pizzaRepository.readAll().stream().filter(p -> p.getId().equals(pizzaId))
++                .findFirst().orElseThrow(() -> new PizzaNotFoundException("Pizza not found"));
++
++
+     }
+ 
+ }
+Index: src/main/resources/templates/design.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html xmlns:th=\"http://www.thymeleaf.org\">\n\n<head>\n    <title>Pizza Cloud</title>\n\n    <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3\" crossorigin=\"anonymous\">\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p\" crossorigin=\"anonymous\"></script>\n\n</head>\n\n<body>\n\n<div class=\"container\">\n\n    <br>\n\n    <h1>Design your pizza!</h1>\n    <img th:src=\"@{/images/pizza.png}\"/>\n\n    <form th:action=\"@{/design}\" method=\"post\" th:object=\"${pizza}\" >\n\n        <div class=\"row\">\n            <div class=\"col-xl-4 col-lg-4 col-md-4\">\n                <h3>Select Cheese:</h3>\n                <div th:each=\"cheese : ${cheeses}\">\n                    <input th:field=\"*{cheeseList}\" type=\"checkbox\"\n                           th:value=\"${cheese}\"/>\n                    <span th:text=\"${cheese.value}\"></span><br/>\n                </div>\n            </div>\n            <div class=\"col-xl-4 col-lg-4 col-md-4\">\n                <h3>Select Sauce:</h3>\n                <div th:each=\"sauces : ${sauces}\">\n                    <input th:field=\"*{sauceList}\" type=\"checkbox\"\n                           th:value=\"${sauces}\"/>\n                    <span th:text=\"${sauces}\"></span><br/>\n                </div>\n            </div>\n            <div class=\"col-xl-4 col-lg-4 col-md-4\">\n                <h3>Select Topping:</h3>\n                <div th:each=\"topping : ${toppings}\">\n                    <input th:field=\"*{toppingList}\" type=\"checkbox\"\n                           th:value=\"${topping}\"/>\n                    <span th:text=\"${topping.value}\"></span><br/>\n                </div>\n            </div>\n        </div>\n        <br>\n        <div>\n            <button class=\"btn btn-primary\">Submit Your Pizza</button>\n        </div>\n\n    </form>\n\n</div>\n\n</body>\n\n</html>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/templates/design.html b/src/main/resources/templates/design.html
+--- a/src/main/resources/templates/design.html	
++++ b/src/main/resources/templates/design.html	
+@@ -18,23 +18,23 @@
+     <h1>Design your pizza!</h1>
+     <img th:src="@{/images/pizza.png}"/>
+ 
+-    <form th:action="@{/design}" method="post" th:object="${pizza}" >
++    <form th:action="@{/design/createPizza}" method="post" th:object="${pizza}" >
+ 
+         <div class="row">
+             <div class="col-xl-4 col-lg-4 col-md-4">
+                 <h3>Select Cheese:</h3>
+                 <div th:each="cheese : ${cheeses}">
+-                    <input th:field="*{cheeseList}" type="checkbox"
++                       <input th:field="*{cheeseList}" type="checkbox"
+                            th:value="${cheese}"/>
+                     <span th:text="${cheese.value}"></span><br/>
+                 </div>
+             </div>
+             <div class="col-xl-4 col-lg-4 col-md-4">
+                 <h3>Select Sauce:</h3>
+-                <div th:each="sauces : ${sauces}">
++                <div th:each="sauce : ${sauces}">
+                     <input th:field="*{sauceList}" type="checkbox"
+-                           th:value="${sauces}"/>
+-                    <span th:text="${sauces}"></span><br/>
++                           th:value="${sauce}"/>
++                    <span th:text="${sauce.value}"></span><br/>
+                 </div>
+             </div>
+             <div class="col-xl-4 col-lg-4 col-md-4">
