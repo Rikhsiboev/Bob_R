@@ -29,6 +29,7 @@
       <module name="m8-new-version-updates" target="18" />
       <module name="m9-HTML" target="11" />
       <module name="Pizza" target="11" />
+      <module name="pizza-cloud-project" target="11" />
       <module name="Solid" target="11" />
       <module name="spring-00-Coupling" target="11" />
       <module name="spring-01-Core-IoC-Bean-Annotation" target="11" />
@@ -52,6 +53,7 @@
       <module name="Pizza" options="-parameters" />
       <module name="SPRING-08-MVC-CONTROLLER" options="-parameters" />
       <module name="demo" options="-parameters" />
+      <module name="pizza-cloud-project" options="-parameters" />
       <module name="spring-07-SpringBoot-Demo" options="-parameters" />
       <module name="spring-08-MVC-CONTROLLER" options="-parameters" />
       <module name="spring-08-MVC-Controller" options="-parameters" />
