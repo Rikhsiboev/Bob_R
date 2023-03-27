@@ -7,7 +7,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ticketing-project-mvc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -45,6 +44,7 @@
       <module name="spring-09-MVC-Model" target="11" />
       <module name="spring-10-Thymeleaf" target="11" />
       <module name="stream-practice" target="11" />
+      <module name="ticketing-project-mvc" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
