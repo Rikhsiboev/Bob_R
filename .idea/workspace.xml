@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/singleNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +27,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -98,6 +102,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "database.data.extractors.current.export.id": "Excel (xlsx)",
     "full.screen.before.presentation.mode": "true",
     "jdk.selected.JAVA_MODULE": "11",
@@ -111,7 +118,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.42528737",
     "settings.editor.selected.configurable": "preferences.editor",
-    "spring.configuration.checksum": "0b9860ce9ef2fc1417e87c9291898e09",
+    "spring.configuration.checksum": "80abe15672938249048cf15984724c36",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -141,8 +148,14 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/FOR_ME" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.bob_r" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Practice_Code" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -152,13 +165,26 @@
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.TicketingProjectMvcApplication">
+  <component name="RunManager" selected="Application.singleNumber">
     <configuration name="max" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice_Code.max" />
       <module name="FOR_ME" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Practice_Code.LinkedLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="singleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice_Code.singleNumber" />
+      <module name="FOR_ME" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice_Code.note" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,6 +214,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.singleNumber" />
         <item itemvalue="Application.userListApp" />
         <item itemvalue="Application.max" />
       </list>
@@ -263,14 +290,9 @@
       <workItem from="1679773003088" duration="11667000" />
       <workItem from="1679843454289" duration="3952000" />
       <workItem from="1679861821400" duration="1440000" />
-      <workItem from="1679927641594" duration="16586000" />
-    </task>
-    <task id="LOCAL-00029" summary=".">
-      <created>1677953099655</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1677953099655</updated>
+      <workItem from="1679927641594" duration="20242000" />
+      <workItem from="1680033687450" duration="13560000" />
+      <workItem from="1680104377897" duration="1637000" />
     </task>
     <task id="LOCAL-00030" summary=".">
       <created>1677970723730</created>
@@ -608,7 +630,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679799303485</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary=".">
+      <created>1679959447234</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1679959447235</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
