@@ -7,7 +7,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="FOR_ME" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +15,7 @@
       <module name="Bob_R (1)" target="1.5" />
       <module name="demo" target="17" />
       <module name="Employee_Lab" target="11" />
+      <module name="FOR_ME" target="11" />
       <module name="Java_Ecommersial" target="11" />
       <module name="lambda-sort-doublecolon-task" target="11" />
       <module name="m1-generics" target="11" />
