@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/CircularLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/Node2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/java.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +161,20 @@
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="Application.java">
+    <configuration name="java" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice_Code.java" />
+      <module name="FOR_ME" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice_Code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkList.main" />
       <module name="FOR_ME" />
@@ -228,6 +236,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.java" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.singleNumber" />
         <item itemvalue="Application.userListApp" />
@@ -311,14 +320,8 @@
       <workItem from="1680130162495" duration="3997000" />
       <workItem from="1680443762920" duration="29990000" />
       <workItem from="1680491278184" duration="21958000" />
-      <workItem from="1680558471578" duration="6807000" />
-    </task>
-    <task id="LOCAL-00034" summary=".">
-      <created>1678031181752</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1678031181752</updated>
+      <workItem from="1680558471578" duration="6848000" />
+      <workItem from="1680620669734" duration="988000" />
     </task>
     <task id="LOCAL-00035" summary=".">
       <created>1678037082497</created>
@@ -656,7 +659,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680467778875</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary=".">
+      <created>1680577911141</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1680577911142</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
