@@ -7,7 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="FOR_ME" />
+        <module name="spring-11-Data-TableCreation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +16,7 @@
       <module name="Bob_R (1)" target="1.5" />
       <module name="demo" target="17" />
       <module name="Employee_Lab" target="11" />
+      <module name="FOR_ME" target="11" />
       <module name="Java_Ecommersial" target="11" />
       <module name="lambda-sort-doublecolon-task" target="11" />
       <module name="m1-generics" target="11" />
@@ -59,6 +60,7 @@
       <module name="spring-08-MVC-Controller" options="-parameters" />
       <module name="spring-09-MVC-Model" options="-parameters" />
       <module name="spring-10-Thymeleaf" options="-parameters" />
+      <module name="spring-11-Data-TableCreation" options="-parameters" />
       <module name="stream-practice" options="-parameters" />
       <module name="ticketing-project-mvc" options="-parameters" />
     </option>
