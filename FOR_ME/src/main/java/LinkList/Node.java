@@ -1,8 +1,8 @@
 package LinkList;
 
 public class Node {
-    int value;  // which value
-    Node next;  // which one love
+    public int value;  // which value
+    public Node next;  // which one love
 
     private Node head;
     private Node tail;

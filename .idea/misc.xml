@@ -12,7 +12,6 @@
         <option value="$PROJECT_DIR$/spring/pom.xml" />
         <option value="$PROJECT_DIR$/Pizzza/pom.xml" />
         <option value="$PROJECT_DIR$/Pizza/pizza-cloud-project/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-11-Data-TableCreation/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -22,6 +21,7 @@
     </option>
   </component>
   <component name="PWA">
+    <option name="enabled" value="true" />
     <option name="wasEnabledAtLeastOnce" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
