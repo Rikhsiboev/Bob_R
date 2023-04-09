@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/Hw/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/Hw/MyNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/Hw/Note.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Plus_One.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Plus_OneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/Spring12DataRelationshipApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/entity/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/entity/PaymentDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/entity/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/test/java/com/bob_r/spring12datarelationship/Spring12DataRelationshipApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,52 +87,52 @@
     <option name="showModules" value="false" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ToolWindowRun.ShowToolbar": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "database.data.extractors.current.export.id": "Excel (xlsx)",
-    "full.screen.before.presentation.mode": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/spring-11-Data-TableCreation/src/main/java/com/bob_r/Bob_R",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.42528737",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "spring.configuration.checksum": "80abe15672938249048cf15984724c36",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Excel (xlsx)&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/spring-11-Data-TableCreation/src/main/java/com/bob_r/Bob_R&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.42528737&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;80abe15672938249048cf15984724c36&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ],
-    "DatabaseDriversLRU": [
-      "postgresql"
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
-      "PostgreSQL"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;PostgreSQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.bob_r.Bob_R.bootstrap" />
@@ -380,13 +358,8 @@
       <workItem from="1680729406257" duration="14834000" />
       <workItem from="1680752613697" duration="25245000" />
       <workItem from="1680791787526" duration="3641000" />
-    </task>
-    <task id="LOCAL-00038" summary=".">
-      <created>1678140317584</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1678140317584</updated>
+      <workItem from="1680921309098" duration="1637000" />
+      <workItem from="1680974517899" duration="606000" />
     </task>
     <task id="LOCAL-00039" summary=".">
       <created>1678140654098</created>
@@ -724,7 +697,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680766845348</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary=".">
+      <created>1680921371088</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1680921371089</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
