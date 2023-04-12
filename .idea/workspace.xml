@@ -5,6 +5,186 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/bootstrap/DataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/entity/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/entity/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/entity/Merchant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/enums/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/repository/CartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/repository/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/repository/MerchantRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/repository/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_65.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_65.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_65.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_springframework_spring_aop_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_springframework_spring_beans_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_springframework_spring_context_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_springframework_spring_core_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_springframework_spring_expression_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_springframework_spring_test_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_springframework_spring_web_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/spring-labs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-00-coupling/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-00-coupling/src/main/java/com/cydeo/CustomerBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-00-coupling/src/main/java/com/cydeo/GiftCardBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-00-coupling/src/main/java/com/cydeo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-00-coupling/src/main/java/com/cydeo/loosely/Balance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-00-coupling/src/main/java/com/cydeo/loosely/BalanceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-00-coupling/src/main/java/com/cydeo/tightly/BalanceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-01-ioc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-01-ioc/src/main/java/com/cydeo/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-01-ioc/src/main/java/com/cydeo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-01-ioc/src/main/java/com/cydeo/account/Current.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-01-ioc/src/main/java/com/cydeo/account/Saving.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-01-ioc/src/main/java/com/cydeo/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/cydeo/config/ConfigApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/cydeo/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/cydeo/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/cydeo/repository/CartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/cydeo/repository/CartRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/cydeo/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/cydeo/service/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/cydeo/service/StockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/cydeo/service/StockServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/test/java/com/cydeo/CartRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/test/java/com/cydeo/CartServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/cydeo/lab04springmvc/Lab04SpringmvcApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/cydeo/lab04springmvc/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/cydeo/lab04springmvc/model/CartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/cydeo/lab04springmvc/model/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/cydeo/lab04springmvc/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/cydeo/lab04springmvc/model/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/cydeo/lab04springmvc/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/cydeo/lab04springmvc/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/cydeo/lab04springmvc/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/cydeo/lab04springmvc/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/resources/templates/cart/cart-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/resources/templates/cart/cart-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/resources/templates/lab/lab-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/resources/templates/login/login-info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/resources/templates/product/product-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/resources/templates/profile/profile-info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/lab-05-thymeleaf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/Lab05ThymeleafApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/controller/ProductList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/model/CartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/repository/impl/ProductRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/resources/templates/cart/show-cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/resources/templates/product/create-product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/resources/templates/product/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/target/classes/com/cydeo/spring05thymeleaf/Lab05ThymeleafApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/target/classes/com/cydeo/spring05thymeleaf/controller/ProductList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/target/classes/com/cydeo/spring05thymeleaf/model/Cart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/target/classes/com/cydeo/spring05thymeleaf/model/CartItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/target/classes/com/cydeo/spring05thymeleaf/model/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/target/classes/com/cydeo/spring05thymeleaf/repository/ProductRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/target/classes/com/cydeo/spring05thymeleaf/repository/impl/ProductRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/target/classes/com/cydeo/spring05thymeleaf/service/CartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/target/classes/com/cydeo/spring05thymeleaf/service/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/target/classes/com/cydeo/spring05thymeleaf/service/impl/CartServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/target/classes/com/cydeo/spring05thymeleaf/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/target/classes/templates/cart/show-cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/target/classes/templates/product/create-product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/target/classes/templates/product/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/Lab06OrmApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Balance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Cart_item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/enums/CartState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/enums/DiscountType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/enums/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/test/java/com/bob_r/Lab06OrmApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +201,8 @@
         <option value="HTML File" />
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -99,7 +279,6 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
@@ -107,7 +286,7 @@
     &quot;database.data.extractors.current.export.id&quot;: &quot;Excel (xlsx)&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/spring-11-Data-TableCreation/src/main/java/com/bob_r/Bob_R&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/spring-labs/lab-06-orm/src/main/resources&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -117,8 +296,8 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.42528737&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;80abe15672938249048cf15984724c36&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d9779de65b25a25e561a1354a9f14c2c&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -127,6 +306,10 @@
     ],
     &quot;DatabaseDriversLRU&quot;: [
       &quot;postgresql&quot;
+    ],
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;8ae2c351-7586-4389-9573-d48e4456d440/database/\&quot;ecommerce\&quot;&quot;,
+      &quot;8ae2c351-7586-4389-9573-d48e4456d440/database/\&quot;ecommerce\&quot;/schema/\&quot;public\&quot;&quot;
     ],
     &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
       &quot;PostgreSQL&quot;
@@ -139,11 +322,11 @@
       <recent name="com.bob_r.mentor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_r/Bob_R" />
-      <recent name="$PROJECT_DIR$/Pizza" />
-      <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R" />
-      <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/repository" />
+      <recent name="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/entity" />
+      <recent name="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/static/images" />
@@ -164,6 +347,7 @@
       <recent name="Practice_Code" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bob_r.bootstrap" />
       <recent name="" />
       <recent name="com.bob_r.service" />
     </key>
@@ -171,108 +355,29 @@
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Plus_One">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkList.Hw.Main" />
-      <module name="FOR_ME" />
+  <component name="RunManager" selected="Spring Boot.Lab06OrmApplication">
+    <configuration name="discount.sql" type="DatabaseScript" editBeforeRun="true" singleton="false" temporary="true" nameIsGenerated="true">
+      <script-mode>FILE</script-mode>
+      <data-source id="8ae2c351-7586-4389-9573-d48e4456d440" namespace="database/&quot;ecommerce&quot;/schema/&quot;public&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Lab06OrmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lab-06-orm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.Lab06OrmApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkList.Hw.*" />
+          <option name="PATTERN" value="com.bob_r.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Plus_One" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice_Code.Plus_One" />
-      <module name="FOR_ME" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practice_Code.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyNoteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FOR_ME" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkList.Hw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LinkList.Hw" />
-      <option name="MAIN_CLASS_NAME" value="LinkList.Hw.MyNoteTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyNoteTest.removeDuplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FOR_ME" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinkList.Hw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LinkList.Hw" />
-      <option name="MAIN_CLASS_NAME" value="LinkList.Hw.MyNoteTest" />
-      <option name="METHOD_NAME" value="removeDuplicates" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Plus_OneTest.testPlusOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FOR_ME" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practice_Code.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Practice_Code" />
-      <option name="MAIN_CLASS_NAME" value="Practice_Code.Plus_OneTest" />
-      <option name="METHOD_NAME" value="testPlusOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="spring-11-Data-TableCreation" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.Bob_R.DataApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Spring12DataRelationshipApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="spring-12-Data-Relationship" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.Spring12DataRelationshipApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TicketingProjectMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="ticketing-project-mvc" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.TicketingProjectMvcApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Plus_One" />
-        <item itemvalue="JUnit.MyNoteTest.removeDuplicates" />
-        <item itemvalue="JUnit.MyNoteTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.Plus_OneTest.testPlusOne" />
+        <item itemvalue="Spring Boot.Lab06OrmApplication" />
+        <item itemvalue="Database Script.discount.sql" />
       </list>
     </recent_temporary>
   </component>
@@ -359,14 +464,9 @@
       <workItem from="1680752613697" duration="25245000" />
       <workItem from="1680791787526" duration="3641000" />
       <workItem from="1680921309098" duration="1637000" />
-      <workItem from="1680974517899" duration="606000" />
-    </task>
-    <task id="LOCAL-00039" summary=".">
-      <created>1678140654098</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1678140654098</updated>
+      <workItem from="1680974517899" duration="10971000" />
+      <workItem from="1681075666529" duration="14771000" />
+      <workItem from="1681240118529" duration="1047000" />
     </task>
     <task id="LOCAL-00040" summary=".">
       <created>1678140699493</created>
@@ -704,7 +804,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680921371089</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary=".">
+      <created>1681063211298</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1681063211299</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
