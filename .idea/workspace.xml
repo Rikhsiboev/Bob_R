@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/Entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/Entity/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/Spring13DataCinemaLLabApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/resources/db/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/resources/db/db/migration/V1.0.1__insertdata.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/test/java/com/bob_r/Spring13DataCinemaLLabApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="ENUM">
+      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/Entity/Genre.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +20,8 @@
       <list>
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -286,21 +270,7 @@
       <workItem from="1680974517899" duration="10971000" />
       <workItem from="1681075666529" duration="14771000" />
       <workItem from="1681240118529" duration="2187000" />
-      <workItem from="1681295353853" duration="11199000" />
-    </task>
-    <task id="LOCAL-00042" summary=".">
-      <created>1678142594011</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1678142594011</updated>
-    </task>
-    <task id="LOCAL-00043" summary=".">
-      <created>1678210446491</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1678210446492</updated>
+      <workItem from="1681295353853" duration="11592000" />
     </task>
     <task id="LOCAL-00044" summary=".">
       <created>1678211638806</created>
@@ -631,7 +601,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681326621455</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="create entity with @">
+      <created>1681335545859</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1681335545860</updated>
+    </task>
+    <task id="LOCAL-00092" summary="ENUM">
+      <created>1681335776484</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1681335776484</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -656,7 +640,9 @@
     <MESSAGE value="welcome web" />
     <MESSAGE value="MVC-model" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="create entity with @" />
+    <MESSAGE value="ENUM" />
+    <option name="LAST_COMMIT_MESSAGE" value="ENUM" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

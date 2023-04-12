@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.List;
 
 @Entity
 @NoArgsConstructor
@@ -25,5 +26,7 @@ public class Movie extends BaseEntity {
     @Enumerated(EnumType.STRING)
     private MovieState state;
     private BigDecimal price;
+    @ManyToMany
+    private List< Genre > genre;
 
 }
