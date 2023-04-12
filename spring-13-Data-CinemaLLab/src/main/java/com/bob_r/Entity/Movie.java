@@ -1,11 +1,12 @@
 package com.bob_r.Entity;
 
+import com.bob_r.enums.MovieState;
+import com.bob_r.enums.MovieType;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
+import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Entity
@@ -19,5 +20,10 @@ public class Movie extends BaseEntity {
     private Integer duration;
     @Column(columnDefinition = "text")
     private String summary;
+    @Enumerated(EnumType.STRING)
+    private MovieType type;
+    @Enumerated(EnumType.STRING)
+    private MovieState state;
+    private BigDecimal price;
 
 }
