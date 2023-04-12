@@ -27,6 +27,9 @@ public class Movie extends BaseEntity {
     private MovieState state;
     private BigDecimal price;
     @ManyToMany
+    @JoinTable(name = "MovieGenreRel",
+    joinColumns = @JoinColumn(name = "movie_id"),
+    inverseJoinColumns = @JoinColumn(name = "genre_id"))
     private List< Genre > genre;
 
 }

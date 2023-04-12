@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="ENUM">
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/Entity/Genre.java" afterDir="false" />
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="Genre and @ManyToMany">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/Entity/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/Entity/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,14 +272,7 @@
       <workItem from="1680974517899" duration="10971000" />
       <workItem from="1681075666529" duration="14771000" />
       <workItem from="1681240118529" duration="2187000" />
-      <workItem from="1681295353853" duration="11592000" />
-    </task>
-    <task id="LOCAL-00044" summary=".">
-      <created>1678211638806</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1678211638806</updated>
+      <workItem from="1681295353853" duration="12936000" />
     </task>
     <task id="LOCAL-00045" summary=".">
       <created>1678331888372</created>
@@ -615,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681335776484</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Genre and @ManyToMany">
+      <created>1681336042078</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1681336042079</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -642,7 +644,8 @@
     <MESSAGE value="." />
     <MESSAGE value="create entity with @" />
     <MESSAGE value="ENUM" />
-    <option name="LAST_COMMIT_MESSAGE" value="ENUM" />
+    <MESSAGE value="Genre and @ManyToMany" />
+    <option name="LAST_COMMIT_MESSAGE" value="Genre and @ManyToMany" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
