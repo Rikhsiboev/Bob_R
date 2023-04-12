@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="  @OneToOne (mappedBy = &quot;account&quot;)&#10;    private User user;">
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="&#9;@Bean&#10;&#9;// from here create table  main&#10;&#9;public MigrateResult migrateResult(DataSource dataSource){&#10;&#9;&#9;return Flyway.configure().baselineOnMigrate(true).dataSource(dataSource).load().migrate();&#10;&#9;}">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/Entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/Entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/resources/db/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/resources/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,7 @@
         <option value="JUnit5 Test Class" />
         <option value="Class" />
         <option value="Enum" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -151,8 +151,8 @@
       <recent name="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/resources/db" />
       <recent name="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/resources" />
+      <recent name="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/resources/db" />
       <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/static/images" />
       <recent name="$PROJECT_DIR$/Pizza/src/main/resources/static" />
       <recent name="$PROJECT_DIR$/Pizza/src/main/resources/templates" />
@@ -272,14 +272,7 @@
       <workItem from="1680974517899" duration="10971000" />
       <workItem from="1681075666529" duration="14771000" />
       <workItem from="1681240118529" duration="2187000" />
-      <workItem from="1681295353853" duration="16473000" />
-    </task>
-    <task id="LOCAL-00048" summary=".">
-      <created>1678387450059</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1678387450059</updated>
+      <workItem from="1681295353853" duration="17242000" />
     </task>
     <task id="LOCAL-00049" summary=".">
       <created>1678407924578</created>
@@ -617,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681340909180</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="&#9;@Bean&#10;&#9;// from here create table  main&#10;&#9;public MigrateResult migrateResult(DataSource dataSource){&#10;&#9;&#9;return Flyway.configure().baselineOnMigrate(true).dataSource(dataSource).load().migrate();&#10;&#9;}">
+      <created>1681342053544</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1681342053544</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +648,8 @@
     <MESSAGE value="Create own database" />
     <MESSAGE value="    @ManyToOne(fetch = FetchType.LAZY)&#10;    private Location location;" />
     <MESSAGE value="  @OneToOne (mappedBy = &quot;account&quot;)&#10;    private User user;" />
-    <option name="LAST_COMMIT_MESSAGE" value="  @OneToOne (mappedBy = &quot;account&quot;)&#10;    private User user;" />
+    <MESSAGE value="&#9;@Bean&#10;&#9;// from here create table  main&#10;&#9;public MigrateResult migrateResult(DataSource dataSource){&#10;&#9;&#9;return Flyway.configure().baselineOnMigrate(true).dataSource(dataSource).load().migrate();&#10;&#9;}" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#9;@Bean&#10;&#9;// from here create table  main&#10;&#9;public MigrateResult migrateResult(DataSource dataSource){&#10;&#9;&#9;return Flyway.configure().baselineOnMigrate(true).dataSource(dataSource).load().migrate();&#10;&#9;}" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
