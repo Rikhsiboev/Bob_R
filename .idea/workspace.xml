@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="    @ManyToOne(fetch = FetchType.LAZY)&#10;    private Location location;">
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/Entity/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/Entity/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/Entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/enums/UserRole.java" afterDir="false" />
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="  @OneToOne (mappedBy = &quot;account&quot;)&#10;    private User user;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/Entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/Entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,14 +272,7 @@
       <workItem from="1680974517899" duration="10971000" />
       <workItem from="1681075666529" duration="14771000" />
       <workItem from="1681240118529" duration="2187000" />
-      <workItem from="1681295353853" duration="15345000" />
-    </task>
-    <task id="LOCAL-00047" summary=".">
-      <created>1678337634132</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1678337634132</updated>
+      <workItem from="1681295353853" duration="16473000" />
     </task>
     <task id="LOCAL-00048" summary=".">
       <created>1678387450059</created>
@@ -619,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681339434410</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="  @OneToOne (mappedBy = &quot;account&quot;)&#10;    private User user;">
+      <created>1681340909179</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1681340909180</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +647,8 @@
     <MESSAGE value="Genre and @ManyToMany" />
     <MESSAGE value="Create own database" />
     <MESSAGE value="    @ManyToOne(fetch = FetchType.LAZY)&#10;    private Location location;" />
-    <option name="LAST_COMMIT_MESSAGE" value="    @ManyToOne(fetch = FetchType.LAZY)&#10;    private Location location;" />
+    <MESSAGE value="  @OneToOne (mappedBy = &quot;account&quot;)&#10;    private User user;" />
+    <option name="LAST_COMMIT_MESSAGE" value="  @OneToOne (mappedBy = &quot;account&quot;)&#10;    private User user;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

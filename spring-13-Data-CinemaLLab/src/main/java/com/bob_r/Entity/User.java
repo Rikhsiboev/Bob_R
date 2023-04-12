@@ -1,13 +1,16 @@
 package com.bob_r.Entity;
 
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 
 @Entity
 @NoArgsConstructor
-@Data
+@Getter
+@Setter
 @Table(name = "user_account")
 public class User extends BaseEntity{
     private String email;
@@ -17,4 +20,13 @@ public class User extends BaseEntity{
     @JoinColumn(name = "account_Details_id")
     private Account account;
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", username='" + username + '\'' +
+                ", account=" + account +
+                '}';
+    }
 }
