@@ -2,8 +2,7 @@ package com.bob_r.Entity;
 
 import com.bob_r.enums.Gender;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import java.time.LocalDate;
@@ -20,10 +19,10 @@ public class Employee extends BaseEntity {
     @Enumerated(EnumType.STRING)
     private Gender gender;
     private Integer salary;
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name="department")
+    @ManyToOne
+    @JoinColumn(name = "department")
     private Department department;
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     @JoinColumn(name = "region_id")
     private Region region;
 

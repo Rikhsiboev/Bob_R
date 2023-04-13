@@ -1,7 +1,9 @@
 package com.bob_r.repository;
 
+import com.bob_r.Entity.Employee;
 import com.bob_r.Entity.Region;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
 

@@ -36,8 +36,10 @@ public class QueryDemo implements CommandLineRunner {
 
         System.out.println("<<<<<<<<<<<<<<<<<<<EMPLOYEE>>>>>>>>>>>>>>>>>");
         System.out.println("findByEmail" + employeeRepository.findByEmail("bob@gmail.com"));
-        System.out.println("findByFirstNameAndLastNameAndEmail" + employeeRepository.findByFirstNameAndLastNameOrEmail("Bob","R","Rikhs@gmail.com"));
-       System.out.println("findByFirstNameIsNot" + employeeRepository.findByFirstNameIsNot("Bob"));
-       System.out.println("findByLastNameStartingWith" + employeeRepository.findByLastNameStartingWith("Bob"));
+        System.out.println("findByFirstNameAndLastNameAndEmail" + employeeRepository.findByFirstNameAndLastNameOrEmail("Bob", "R", "Rikhs@gmail.com"));
+        System.out.println("findByFirstNameNot" + employeeRepository.findByFirstNameIs("Berrie"));
+        System.out.println("findByLastNameStartingWith" + employeeRepository.findByLastNameStartingWith("Bob"));
+        System.out.println("<<<<<<<<<<<<<<<<<<<EMPLOYEE 2>>>>>>>>>>>>>>>>>");
+        System.out.println(employeeRepository.retrieveEmployeeDetail());
     }
 }
