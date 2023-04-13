@@ -7,7 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Spring-14-Data-Queries" />
+        <module name="spring-14-Data-Queries" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -48,6 +48,7 @@
       <module name="spring-11-Data-TableCreation" target="11" />
       <module name="spring-12-Data-Relationship" target="11" />
       <module name="spring-13-Data-CinemaLLab" target="11" />
+      <module name="Spring-14-Data-Queries" target="11" />
       <module name="stream-practice" target="11" />
       <module name="ticketing-project-mvc" target="11" />
     </bytecodeTargetLevel>
@@ -69,6 +70,7 @@
       <module name="spring-11-Data-TableCreation" options="-parameters" />
       <module name="spring-12-Data-Relationship" options="-parameters" />
       <module name="spring-13-Data-CinemaLLab" options="-parameters" />
+      <module name="spring-14-Data-Queries" options="-parameters" />
       <module name="stream-practice" options="-parameters" />
       <module name="ticketing-project-mvc" options="-parameters" />
     </option>

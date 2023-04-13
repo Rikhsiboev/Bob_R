@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="EmployeeRepository">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/Entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/Entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/Entity/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/Entity/Region.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/QueryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/QueryDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/repository/EmployeeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/repository/RegionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/repository/RegionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/resources/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +178,14 @@
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Spring14DataQuariesApplication">
+    <configuration name="Spring14DataQuariesApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-14-Data-Queries" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.Spring14DataQuariesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spring14DataQuariesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Spring-14-Data-Queries" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.Spring14DataQuariesApplication" />
@@ -277,13 +281,6 @@
       <workItem from="1681075666529" duration="14771000" />
       <workItem from="1681240118529" duration="2187000" />
       <workItem from="1681295353853" duration="18607000" />
-    </task>
-    <task id="LOCAL-00052" summary=".">
-      <created>1678483423529</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1678483423530</updated>
     </task>
     <task id="LOCAL-00053" summary=".">
       <created>1678507165018</created>
@@ -621,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681425218245</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="EmployeeRepository">
+      <created>1681429319271</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1681429319272</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
