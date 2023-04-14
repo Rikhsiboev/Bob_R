@@ -1,6 +1,5 @@
-package com.bob_r.Entity;
+package com.bob_r.entity;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

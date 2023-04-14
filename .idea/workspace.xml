@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="EmployeeRepository">
-      <change beforePath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/repository/DepartmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/repository/DepartmentRepository.java" afterDir="false" />
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="work done">
+      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/repository/CinemaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/repository/GenreRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/repository/MovieCinemaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/repository/MovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/repository/TicketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/repository/UserRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +113,7 @@
     "database.data.extractors.current.export.id": "Excel (xlsx)",
     "full.screen.before.presentation.mode": "true",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Spring-14-Data-Queries/src/main/java/com/bob_r/Entity",
+    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/spring-13-Data-CinemaLLab/src/main/java/com/bob_r",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -143,11 +149,11 @@
       <recent name="com.bob_r.mentor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r" />
       <recent name="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/Entity" />
       <recent name="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/repository" />
       <recent name="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/resources" />
       <recent name="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/resources/db" />
-      <recent name="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/resources" />
@@ -177,6 +183,13 @@
     <option name="openRunningConfigInTab" value="true" />
   </component>
   <component name="RunManager" selected="Spring Boot.Spring14DataQuariesApplication">
+    <configuration name="Spring13DataCinemaLLabApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-13-Data-CinemaLLab" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.Spring13DataCinemaLLabApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spring14DataQuariesApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-14-Data-Queries" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.Spring14DataQuariesApplication" />
@@ -279,13 +292,6 @@
       <workItem from="1681075666529" duration="14771000" />
       <workItem from="1681240118529" duration="2187000" />
       <workItem from="1681295353853" duration="18607000" />
-    </task>
-    <task id="LOCAL-00056" summary=".">
-      <created>1678507439839</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1678507439841</updated>
     </task>
     <task id="LOCAL-00057" summary=".">
       <created>1678507711799</created>
@@ -623,7 +629,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681433215107</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="work done">
+      <created>1681433883414</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1681433883415</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -659,7 +672,8 @@
     <MESSAGE value="CourseRepository" />
     <MESSAGE value="fixed code" />
     <MESSAGE value="EmployeeRepository" />
-    <option name="LAST_COMMIT_MESSAGE" value="EmployeeRepository" />
+    <MESSAGE value="work done" />
+    <option name="LAST_COMMIT_MESSAGE" value="work done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,4 +1,4 @@
-package com.bob_r.Entity;
+package com.bob_r.entity;
 
 import com.bob_r.enums.UserRole;
 import lombok.Data;

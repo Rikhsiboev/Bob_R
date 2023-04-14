@@ -1,4 +1,4 @@
-package com.bob_r.Entity;
+package com.bob_r.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
