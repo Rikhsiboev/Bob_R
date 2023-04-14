@@ -49,7 +49,7 @@ public interface EmployeeRepository extends JpaRepository <Employee,Integer>{
     Integer retrieveEmployeeSalary();
 
     //Not Equal
-    @Query("SELECT e FROM Employee e WHERE e.salary <> ?1")
+    @Query("SELECT e FROM Employee e WHERE e.salary <> ?1")  //===>  ! =>  <> in  SQL
     List<Employee> retrieveEmployeeSalaryNotEqual(int salary);
 
     //Like / Contains / Starts-with / Ends-with
