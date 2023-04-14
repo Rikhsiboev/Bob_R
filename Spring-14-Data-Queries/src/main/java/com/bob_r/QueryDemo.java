@@ -3,7 +3,7 @@ package com.bob_r;
 import com.bob_r.repository.DepartmentRepository;
 import com.bob_r.repository.EmployeeRepository;
 import com.bob_r.repository.RegionRepository;
-import jdk.swing.interop.SwingInterOpUtils;
+
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -37,8 +37,8 @@ public class QueryDemo implements CommandLineRunner {
         System.out.println("<<<<<<<<<<<<<<<<<<<EMPLOYEE>>>>>>>>>>>>>>>>>");
         System.out.println("findByEmail" + employeeRepository.findByEmail("bob@gmail.com"));
         System.out.println("findByFirstNameAndLastNameAndEmail" + employeeRepository.findByFirstNameAndLastNameOrEmail("Bob", "R", "Rikhs@gmail.com"));
-        System.out.println("findByFirstNameNot" + employeeRepository.findByFirstNameIs("Berrie"));
-        System.out.println("findByLastNameStartingWith" + employeeRepository.findByLastNameStartingWith("Bob"));
+        System.out.println("findByFirstNameIsNot" + employeeRepository.findByFirstNameIsNot("Berrie"));
+        System.out.println("findByLastNameStartsWith" + employeeRepository.findByLastNameStartsWith("Bob"));
         System.out.println("<<<<<<<<<<<<<<<<<<<EMPLOYEE 2>>>>>>>>>>>>>>>>>");
         System.out.println(employeeRepository.retrieveEmployeeDetail());
     }
