@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="com.bob_r.repository lab">
-      <change afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/entity/stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/entity/Account.java" afterDir="false" />
-    </list>
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="&#10;." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -288,13 +284,6 @@
       <workItem from="1681075666529" duration="14771000" />
       <workItem from="1681240118529" duration="2187000" />
       <workItem from="1681295353853" duration="18607000" />
-    </task>
-    <task id="LOCAL-00059" summary=".">
-      <created>1678567567975</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1678567567977</updated>
     </task>
     <task id="LOCAL-00060" summary=".">
       <created>1678856000707</created>
@@ -632,7 +621,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681502451614</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="&#10;.">
+      <created>1681583807420</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1681583807421</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -670,7 +666,8 @@
     <MESSAGE value="EmployeeRepository" />
     <MESSAGE value="work done" />
     <MESSAGE value="com.bob_r.repository lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="com.bob_r.repository lab" />
+    <MESSAGE value="&#10;." />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
