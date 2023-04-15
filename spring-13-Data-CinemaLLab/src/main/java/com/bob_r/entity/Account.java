@@ -23,4 +23,5 @@ public class Account extends BaseEntity {
     @OneToOne (mappedBy = "account")
     private User user;
 
+
 }
