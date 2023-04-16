@@ -15,6 +15,7 @@ import java.math.BigDecimal;
 @Setter
 public class Payment  extends BaseEntity {
     private BigDecimal paidPrice;
+
     @Enumerated(EnumType.STRING)
     private PaymentMethod paymentMethod;
 

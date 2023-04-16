@@ -15,7 +15,8 @@ public class User extends BaseEntity{
     private String email;
     private String password;
     private String username;
-    @OneToOne (fetch = FetchType.LAZY)
+
+    @OneToOne (fetch = FetchType.LAZY) // do not bring object when load
     @JoinColumn(name = "account_Details_id")
     private Account account;
 
@@ -25,7 +26,6 @@ public class User extends BaseEntity{
                 "email='" + email + '\'' +
                 ", password='" + password + '\'' +
                 ", username='" + username + '\'' +
-                ", account=" + account +
                 '}';
     }
 }
