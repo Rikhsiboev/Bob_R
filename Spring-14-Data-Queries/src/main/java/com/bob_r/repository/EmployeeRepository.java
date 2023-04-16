@@ -1,6 +1,7 @@
 package com.bob_r.repository;
 
-import com.bob_r.entity.Employee;
+import com.bob_r.Entity.Employee;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

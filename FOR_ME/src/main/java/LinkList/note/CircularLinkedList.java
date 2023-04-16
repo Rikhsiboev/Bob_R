@@ -1,4 +1,4 @@
-package LinkList;
+package LinkList.note;
 
 public class CircularLinkedList {
     private Node head;

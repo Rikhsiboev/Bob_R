@@ -1,4 +1,4 @@
-package LinkList;
+package LinkList.note;
 
 public class Node {
     public int value;  // which value

@@ -1,7 +1,7 @@
 package LinkList.Hw;
 
 
-import LinkList.Node;
+import LinkList.note.Node;
 
 public class MyNote {
 

@@ -1,7 +1,5 @@
 package LinkList.myLinklist;
 
-import LinkList.Node;
-
 public class NoteCreating {
     private Node1 head;
     private Node1 tail;

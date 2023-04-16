@@ -1,4 +1,4 @@
-package com.bob_r.entity;
+package com.bob_r.Entity;
 
 import com.bob_r.enums.Gender;
 
@@ -11,7 +11,7 @@ import java.time.LocalDate;
 @Table(name = "employees")
 @NoArgsConstructor
 @Data
-public class Employee extends BaseEntity {
+public class Employee extends com.bob_r.entity.BaseEntity {
     private String firstName;
     private String lastName;
     private String email;
@@ -24,7 +24,7 @@ public class Employee extends BaseEntity {
     private Department department;
     @ManyToOne
     @JoinColumn(name = "region_id")
-    private Region region;
+    private com.bob_r.entity.Region region;
 
 
 }
