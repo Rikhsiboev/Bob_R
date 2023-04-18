@@ -2,29 +2,29 @@ package com.Bob_R.entity;
 
 import com.Bob_R.enums.Gender;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+import javax.persistence.*;
 import java.time.LocalDateTime;
 
-@Data
+@Getter
+@Setter
+@Entity
 @NoArgsConstructor
+@Table(name = "users")
 public class User extends BaseEntity {
     private String fistName;
     private String lastName;
     private String userName;
     private String passWord;
     private boolean enable;
+    private String phone;
+    @ManyToOne
     private Role role;
+    @Enumerated(EnumType.STRING)
     private Gender gender;
 
-    public User(Long id, LocalDateTime insertDateTime, Long insertUserId, LocalDateTime lastUpdateDateTime, Long lastUpdateUserid, String fistName, String lastName, String userName, String passWord, boolean enable, Role role, Gender gender) {
-        super(id, insertDateTime, insertUserId, lastUpdateDateTime, lastUpdateUserid);
-        this.fistName = fistName;
-        this.lastName = lastName;
-        this.userName = userName;
-        this.passWord = passWord;
-        this.enable = enable;
-        this.role = role;
-        this.gender = gender;
-    }
+
 }

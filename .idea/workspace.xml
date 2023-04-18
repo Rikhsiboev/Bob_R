@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="Drivers for DataBAse   spring-boot-starter-data-jpa and postgresql">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="@Table(name=&quot;roles&quot;)">
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,28 +274,7 @@
       <workItem from="1681240118529" duration="2187000" />
       <workItem from="1681295353853" duration="18607000" />
       <workItem from="1681625112116" duration="29373000" />
-      <workItem from="1681786869118" duration="1964000" />
-    </task>
-    <task id="LOCAL-00066" summary=".">
-      <created>1678989991597</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1678989991597</updated>
-    </task>
-    <task id="LOCAL-00067" summary=".">
-      <created>1678999239612</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1678999239613</updated>
-    </task>
-    <task id="LOCAL-00068" summary=".">
-      <created>1679016828780</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1679016828782</updated>
+      <workItem from="1681786869118" duration="2865000" />
     </task>
     <task id="LOCAL-00069" summary=".">
       <created>1679021596166</created>
@@ -620,7 +598,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681788334446</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="@Id&#10;    @GeneratedValue(strategy = GenerationType.IDENTITY)">
+      <created>1681789482340</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1681789482340</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Role extends BaseEntity">
+      <created>1681789593517</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1681789593517</updated>
+    </task>
+    <task id="LOCAL-00117" summary="@Table(name=&quot;roles&quot;)">
+      <created>1681789678330</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1681789678330</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,9 +638,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="done" />
-    <MESSAGE value="FIX" />
-    <MESSAGE value="MVC" />
     <MESSAGE value="welcome web" />
     <MESSAGE value="MVC-model" />
     <MESSAGE value="create entity with @" />
@@ -664,7 +660,10 @@
     <MESSAGE value="NoteReverseAndRecreation" />
     <MESSAGE value="." />
     <MESSAGE value="Drivers for DataBAse   spring-boot-starter-data-jpa and postgresql" />
-    <option name="LAST_COMMIT_MESSAGE" value="Drivers for DataBAse   spring-boot-starter-data-jpa and postgresql" />
+    <MESSAGE value="@Id&#10;    @GeneratedValue(strategy = GenerationType.IDENTITY)" />
+    <MESSAGE value="Role extends BaseEntity" />
+    <MESSAGE value="@Table(name=&quot;roles&quot;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Table(name=&quot;roles&quot;)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
