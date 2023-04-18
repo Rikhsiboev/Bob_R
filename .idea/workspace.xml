@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="@Table(name=&quot;roles&quot;)">
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/User.java" afterDir="false" />
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="   @ManyToOne&#10;    private Role role;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,14 +275,7 @@
       <workItem from="1681240118529" duration="2187000" />
       <workItem from="1681295353853" duration="18607000" />
       <workItem from="1681625112116" duration="29373000" />
-      <workItem from="1681786869118" duration="2865000" />
-    </task>
-    <task id="LOCAL-00069" summary=".">
-      <created>1679021596166</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1679021596167</updated>
+      <workItem from="1681786869118" duration="4089000" />
     </task>
     <task id="LOCAL-00070" summary=".">
       <created>1679021609210</created>
@@ -619,7 +613,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681789678330</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="   @ManyToOne&#10;    private Role role;">
+      <created>1681790301345</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1681790301346</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,7 +639,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="welcome web" />
     <MESSAGE value="MVC-model" />
     <MESSAGE value="create entity with @" />
     <MESSAGE value="ENUM" />
@@ -663,7 +663,8 @@
     <MESSAGE value="@Id&#10;    @GeneratedValue(strategy = GenerationType.IDENTITY)" />
     <MESSAGE value="Role extends BaseEntity" />
     <MESSAGE value="@Table(name=&quot;roles&quot;)" />
-    <option name="LAST_COMMIT_MESSAGE" value="@Table(name=&quot;roles&quot;)" />
+    <MESSAGE value="   @ManyToOne&#10;    private Role role;" />
+    <option name="LAST_COMMIT_MESSAGE" value="   @ManyToOne&#10;    private Role role;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
