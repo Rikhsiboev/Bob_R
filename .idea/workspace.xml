@@ -4,9 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="   @ManyToOne&#10;    private Role role;">
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="create table">
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/ArrayOFStringWithMaxAndMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/userServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/boostrap/DataGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/convertor/ProjectDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/convertor/ProjectDtoConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/convertor/RoleDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/convertor/RoleDtoConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/convertor/UserDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/convertor/UserDtoConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/CrudService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/ProjectService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/TaskService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/AbstractMapService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/ProjectServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/RoleServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/TaskServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/UserServiceImp.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +43,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="JavaScript File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -119,7 +142,7 @@
     "project.structure.side.proportion": "0.42528737",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "database.query.execution",
-    "spring.configuration.checksum": "6e006fb8414b60495d4beaf0f89a04e3",
+    "spring.configuration.checksum": "0b9860ce9ef2fc1417e87c9291898e09",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -178,7 +201,14 @@
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BOB">
+    <configuration name="BOB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOB" />
+      <module name="FOR_ME" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TicketingProjectMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ticketing-project-mvc" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.TicketingProjectMvcApplication" />
@@ -186,6 +216,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BOB" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -275,14 +310,8 @@
       <workItem from="1681240118529" duration="2187000" />
       <workItem from="1681295353853" duration="18607000" />
       <workItem from="1681625112116" duration="29373000" />
-      <workItem from="1681786869118" duration="4089000" />
-    </task>
-    <task id="LOCAL-00070" summary=".">
-      <created>1679021609210</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1679021609210</updated>
+      <workItem from="1681786869118" duration="7144000" />
+      <workItem from="1681831983809" duration="2293000" />
     </task>
     <task id="LOCAL-00071" summary=".">
       <created>1679023846009</created>
@@ -620,7 +649,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681790301346</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="create table">
+      <created>1681791072521</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1681791072522</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,7 +675,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="MVC-model" />
     <MESSAGE value="create entity with @" />
     <MESSAGE value="ENUM" />
     <MESSAGE value="Genre and @ManyToMany" />
@@ -664,7 +699,8 @@
     <MESSAGE value="Role extends BaseEntity" />
     <MESSAGE value="@Table(name=&quot;roles&quot;)" />
     <MESSAGE value="   @ManyToOne&#10;    private Role role;" />
-    <option name="LAST_COMMIT_MESSAGE" value="   @ManyToOne&#10;    private Role role;" />
+    <MESSAGE value="create table" />
+    <option name="LAST_COMMIT_MESSAGE" value="create table" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
