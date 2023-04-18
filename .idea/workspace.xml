@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="create table">
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/mapper/RoleMapper.java" afterDir="false" />
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="RoleMapper">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/TicketingProjectMvcApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/TicketingProjectMvcApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/RoleServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -291,14 +288,7 @@
       <workItem from="1681295353853" duration="18607000" />
       <workItem from="1681625112116" duration="29373000" />
       <workItem from="1681786869118" duration="7144000" />
-      <workItem from="1681831983809" duration="4831000" />
-    </task>
-    <task id="LOCAL-00072" summary=".">
-      <created>1679030471567</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1679030471568</updated>
+      <workItem from="1681831983809" duration="5847000" />
     </task>
     <task id="LOCAL-00073" summary=".">
       <created>1679103121081</created>
@@ -636,7 +626,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681857922151</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="RoleMapper">
+      <created>1681860698806</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1681860698807</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -655,7 +652,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="create entity with @" />
     <MESSAGE value="ENUM" />
     <MESSAGE value="Genre and @ManyToMany" />
     <MESSAGE value="Create own database" />
@@ -680,7 +676,8 @@
     <MESSAGE value="@Table(name=&quot;roles&quot;)" />
     <MESSAGE value="   @ManyToOne&#10;    private Role role;" />
     <MESSAGE value="create table" />
-    <option name="LAST_COMMIT_MESSAGE" value="create table" />
+    <MESSAGE value="RoleMapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="RoleMapper" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
