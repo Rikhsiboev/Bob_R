@@ -5,31 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="create table">
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/ArrayOFStringWithMaxAndMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/userServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/mapper/RoleMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/boostrap/DataGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/ProjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/convertor/ProjectDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/convertor/ProjectDtoConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/convertor/RoleDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/convertor/RoleDtoConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/convertor/UserDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/convertor/UserDtoConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/CrudService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/ProjectService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/RoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/TaskService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/AbstractMapService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/ProjectServiceImp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/RoleServiceImp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/TaskServiceImp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/UserServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/TicketingProjectMvcApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/TicketingProjectMvcApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/RoleServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,14 +291,7 @@
       <workItem from="1681295353853" duration="18607000" />
       <workItem from="1681625112116" duration="29373000" />
       <workItem from="1681786869118" duration="7144000" />
-      <workItem from="1681831983809" duration="2293000" />
-    </task>
-    <task id="LOCAL-00071" summary=".">
-      <created>1679023846009</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1679023846010</updated>
+      <workItem from="1681831983809" duration="4831000" />
     </task>
     <task id="LOCAL-00072" summary=".">
       <created>1679030471567</created>
@@ -656,7 +629,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681791072522</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="create table">
+      <created>1681857922150</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1681857922151</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
