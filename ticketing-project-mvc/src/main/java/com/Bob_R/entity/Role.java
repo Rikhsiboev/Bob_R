@@ -1,13 +1,15 @@
 package com.Bob_R.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
-@Data
+import javax.persistence.Entity;
+
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Role {
-    private long id;
+@Entity
+public class Role extends BaseEntity{
+
     private String description;
 }
