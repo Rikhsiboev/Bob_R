@@ -5,9 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="    public List&lt;RoleDTO&gt; listAllRole() {&#10;//        List&lt;Role&gt; roleList = roleRepository.findAll();&#10;        return  roleRepository.findAll().stream().map(roleMapper::convertToDto).collect(Collectors.toList());&#10;    }">
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/PalindromeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/stacks/CollectionDequeAsStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/stacks/MyStacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/stacks/StacksNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/stacks/StockApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/stacks/maxBodybuilding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/convertor/RoleDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/convertor/RoleDtoConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Lambda/Banana.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/lambda/Banana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Lambda/Data_Base_Enum.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/lambda/Data_Base_Enum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Lambda/InterfaceBanana.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/lambda/InterfaceBanana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Lambda/Note " beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/lambda/Note " afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Lambda/testBanana.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/lambda/testBanana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/Hw/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/Hw/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/Hw/MyNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/Hw/MyNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/Hw/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/Hw/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/LeetCode/MyNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/LeetCode/MyNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/LeetCode/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/LeetCode/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/LeetCode/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/LeetCode/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/REVERSE_RECRUTION/NoteReverseAndRecreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/REVERSE_RECRUTION/NoteReverseAndRecreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/REVERSE_RECRUTION/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/REVERSE_RECRUTION/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/myLinklist/Node1.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/myLinklist/Node1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/myLinklist/NoteCreating.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/myLinklist/NoteCreating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/myLinklist/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/myLinklist/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/note/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/note/CircularLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/note/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/note/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/note/Node2.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/note/Node2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/note/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/note/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/AllTopicByCoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/AllTopicByCoding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/ArrayOFStringWithMaxAndMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/ArrayOFStringWithMaxAndMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Best_Time_to_Buy_and_Sell_Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Best_Time_to_Buy_and_Sell_Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Divisible3_5_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Divisible3_5_15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Duplicated_Chars_and_integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Duplicated_Chars_and_integer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/First_Unique_Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/First_Unique_Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/FrequencyOfArrayElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/FrequencyOfArrayElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Goal_Parser_Interpretation.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Goal_Parser_Interpretation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Length_of_Last_Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Length_of_Last_Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/MaxOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/MaxOfArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Maximum_Number_of_Words.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Maximum_Number_of_Words.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Move_Zeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Move_Zeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Plus_One.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Plus_One.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Plus_OneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Plus_OneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Question_1_Swap_Array_Generic_method.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Question_1_Swap_Array_Generic_method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Remove_Duplicates_from_Sorted_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Remove_Duplicates_from_Sorted_array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Shuffle_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Shuffle_String.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/String_oJadenCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/String_oJadenCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/SumAllNumbersAsString.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/SumAllNumbersAsString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Two_by_Two.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Two_by_Two.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/java.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/java.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/singleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/singleNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +72,8 @@
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -109,7 +157,7 @@
     "database.data.extractors.current.export.id": "Excel (xlsx)",
     "full.screen.before.presentation.mode": "true",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/FOR_ME/src/main/java",
+    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/FOR_ME/src/main/java/llnkList",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -120,7 +168,7 @@
     "project.structure.side.proportion": "0.42528737",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "database.query.execution",
-    "spring.configuration.checksum": "0b9860ce9ef2fc1417e87c9291898e09",
+    "spring.configuration.checksum": "80abe15672938249048cf15984724c36",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -145,11 +193,11 @@
       <recent name="com.bob_r.mentor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList" />
       <recent name="$PROJECT_DIR$/FOR_ME/src/main/java" />
       <recent name="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r" />
       <recent name="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/Entity" />
       <recent name="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/repository" />
-      <recent name="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/resources" />
@@ -171,6 +219,7 @@
       <recent name="Practice_Code" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="llnkList.REVERSE_RECRUTION" />
       <recent name="com.bob_r.bootstrap" />
       <recent name="" />
       <recent name="com.bob_r.service" />
@@ -179,7 +228,54 @@
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.maxBodybuilding">
+    <configuration name="StockApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stacks.StockApp" />
+      <module name="FOR_ME" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="maxBodybuilding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stacks.maxBodybuilding" />
+      <module name="FOR_ME" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stacks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab05ThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="lab-05-thymeleaf" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.spring05thymeleaf.Lab05ThymeleafApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab06OrmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="lab-06-orm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.Lab06OrmApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring13DataCinemaLLabApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-13-Data-CinemaLLab" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.Spring13DataCinemaLLabApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TicketingProjectMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ticketing-project-mvc" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.TicketingProjectMvcApplication" />
@@ -187,6 +283,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.maxBodybuilding" />
+        <item itemvalue="Application.StockApp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -277,14 +379,8 @@
       <workItem from="1681295353853" duration="18607000" />
       <workItem from="1681625112116" duration="29373000" />
       <workItem from="1681786869118" duration="7144000" />
-      <workItem from="1681831983809" duration="7246000" />
-    </task>
-    <task id="LOCAL-00074" summary=".">
-      <created>1679112862845</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1679112862845</updated>
+      <workItem from="1681831983809" duration="8893000" />
+      <workItem from="1681892752895" duration="11369000" />
     </task>
     <task id="LOCAL-00075" summary=".">
       <created>1679116718199</created>
@@ -622,7 +718,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681861505924</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="    public List&lt;RoleDTO&gt; listAllRole() {&#10;//        List&lt;Role&gt; roleList = roleRepository.findAll();&#10;        return  roleRepository.findAll().stream().map(roleMapper::convertToDto).collect(Collectors.toList());&#10;    }">
+      <created>1681862891949</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1681862891949</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -672,7 +775,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Move_Zeroes.java</url>
+          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Move_Zeroes.java</url>
           <line>17</line>
           <properties class="Practice_Code.Move_Zeroes" method="moveZeroes">
             <option name="EMULATED" value="true" />
@@ -681,7 +784,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Length_of_Last_Word.java</url>
+          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Length_of_Last_Word.java</url>
           <line>5</line>
           <properties class="Practice_Code.Length_of_Last_Word" method="main">
             <option name="EMULATED" value="true" />
@@ -690,7 +793,7 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Move_Zeroes.java</url>
+          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Move_Zeroes.java</url>
           <line>35</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
