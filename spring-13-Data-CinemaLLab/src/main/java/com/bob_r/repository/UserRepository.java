@@ -13,52 +13,53 @@ public interface UserRepository extends JpaRepository<User, Long> {
     // ------------------- DERIVED QUERIES ------------------- //
 
     //Write a derived query to read a user with an email?
-
-    @Override
-    List<User> findAll();
-
+    Optional<User> findByEmail(String email);
 
     //Write a derived query to read a user with a username?
-
-    @Override
-    Optional<User> findById(Long aLong);
-
+    Optional<User> findByUsername(String username);
 
     //Write a derived query to list all users that contain a specific name?
-    Optional<User> findByUsernameContaining(String name);
+    List<User> findAllByAccountNameContaining(String name);
 
     //Write a derived query to list all users that contain a specific name in the ignore case mode?
-    Optional<User> findByUsernameContainingIgnoreCase(String name);
+    List<User> findAllByAccountNameContainingIgnoreCase(String name);
 
     //Write a derived query to list all users with an age greater than a specified age?
-    List<User> findAllByAccountGreaterThanEqual(Integer age);
+    List<User> findAllByAccountAgeGreaterThan(Integer age);
 
     // ------------------- JPQL QUERIES ------------------- //
 
     //Write a JPQL query that returns a user read by email?
-    @Query("select u from User u where u.email=?1")
-    List<User> userEmail(@Param("Email")String email);
+    @Query("SELECT u FROM User u WHERE u.email = ?1")
+    Optional<User> fetchByEmailJPQL(@Param("email") String email);
+
     //Write a JPQL query that returns a user read by username?
-    @Query("select u from User u where u.username=?1")
-    List<User> username(@Param("username")String username);
+    @Query("SELECT u FROM User u WHERE u.username = ?1")
+    Optional<User> fetchByUsernameJPQL(@Param("username") String username);
+
     //Write a JPQL query that returns all users?
-    @Query("select u from User u where u=?1")
-    List<User> users(@Param("users")String users);
+    @Query("SELECT u FROM User u")
+    List<User> fetchAllUsers();
 
     // ------------------- Native QUERIES ------------------- //
 
-    //Write a native query that returns all users that contain a specific name?\
-    @Query("select u from User u WHERE u.account.name ILIKE concat('%',?1,'%')")
-    List<User> Name(@Param("users")String users);
+    //Write a native query that returns all users that contain a specific name?
+    @Query(value = "SELECT * FROM user_account u JOIN account_details ad " +
+            "ON ad.id = u.account_details_id WHERE ad.name ILIKE concat('%',?1,'%')",nativeQuery = true)
+    List<User> retrieveAllByName(@Param("name") String name);
+
     //Write a native query that returns all users?
-    @Query("select u from User u WHERE u.username=?1")
-    List<User> users1(@Param("users")String users);
+    @Query(value = "SELECT * FROM user_account",nativeQuery = true)
+    List<User> retrieveAll();
+
     //Write a native query that returns all users in the range of ages?
-    @Query("select u from User u WHERE u.account.age between ?1 and ?2")
-    List<User> users1(@Param("age1")Integer user1,@Param("age2")Integer user2);
+    @Query(value = "SELECT * FROM user_account u " +
+            "JOIN account_details ad ON ad.id = u.account_details_id " +
+            "WHERE ad.age BETWEEN ?1 AND ?2",nativeQuery = true)
+    List<User> retrieveBetweenAgeRange(@Param("age1") Integer age1, @Param("age2") Integer age2);
 
     //Write a native query to read a user by email?
-    @Query("select u from User u WHERE u.email =?1")
-    List<User> email(@Param("email")String email);
+    @Query(value = "SELECT * FROM user_account WHERE email = ?1",nativeQuery = true)
+    User retrieveByEmail(@Param("email") String email);
 
 }

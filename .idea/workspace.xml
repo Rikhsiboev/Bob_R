@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="fix">
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/TwoArrayAndMaxRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Uniq.java" afterDir="false" />
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="./">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/sorting/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/repository/TicketRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/repository/TicketRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +180,7 @@
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Uniq">
+  <component name="RunManager" selected="Spring Boot.TicketingProjectMvcApplication">
     <configuration name="Uniq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Uniq" />
       <module name="FOR_ME" />
@@ -202,6 +198,13 @@
     <configuration name="Spring13DataCinemaLLabApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-13-Data-CinemaLLab" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.Spring13DataCinemaLLabApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketingProjectMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ticketing-project-mvc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.TicketingProjectMvcApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -306,14 +309,7 @@
       <workItem from="1681892752895" duration="16673000" />
       <workItem from="1682119110526" duration="12351000" />
       <workItem from="1682175158622" duration="8884000" />
-      <workItem from="1682259873162" duration="6801000" />
-    </task>
-    <task id="LOCAL-00082" summary=".">
-      <created>1680467778875</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1680467778875</updated>
+      <workItem from="1682259873162" duration="9766000" />
     </task>
     <task id="LOCAL-00083" summary=".">
       <created>1680577911141</created>
@@ -651,7 +647,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682264061382</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="./">
+      <created>1682352397012</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1682352397013</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -670,7 +673,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="CourseRepository" />
     <MESSAGE value="fixed code" />
     <MESSAGE value="EmployeeRepository" />
     <MESSAGE value="work done" />
@@ -695,7 +697,8 @@
     <MESSAGE value="UserDTO update" />
     <MESSAGE value="UserDTO" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="./" />
+    <option name="LAST_COMMIT_MESSAGE" value="./" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
