@@ -62,6 +62,6 @@ public interface TicketRepository extends JpaRepository<Ticket, Long> {
     @Query(value = "SELECT * FROM Ticket t JOIN MovieCinema mc ON " +
             "mc.cinema_id = t.id JOIN User u ON t.user = u.id " +
             "WHERE l.name = ?1",nativeQuery = true)
-    List<Ticket> retrieveAllNameUserNameMOvieNAME(@Param("name") String name);
+    List<Ticket> retrieveAllNameUserNameMщvieNAME(@Param("name") String name);
 
 }

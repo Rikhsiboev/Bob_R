@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="FOR_ME" />
+        <module name="spring-13-Data-CinemaLLab" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -47,7 +48,6 @@
       <module name="spring-10-Thymeleaf" target="11" />
       <module name="spring-11-Data-TableCreation" target="11" />
       <module name="spring-12-Data-Relationship" target="11" />
-      <module name="spring-13-Data-CinemaLLab" target="11" />
       <module name="Spring-14-Data-Queries" target="11" />
       <module name="spring-14-Data-Queries" target="11" />
       <module name="stream-practice" target="11" />
