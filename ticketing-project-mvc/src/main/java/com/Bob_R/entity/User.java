@@ -9,11 +9,10 @@ import org.hibernate.annotations.Where;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
-
 @Getter
 @Setter
-@Entity
 @NoArgsConstructor
+@Entity
 @Table(name = "users")
 @Where(clause = "is_deleted=false")
 public class User extends BaseEntity {
