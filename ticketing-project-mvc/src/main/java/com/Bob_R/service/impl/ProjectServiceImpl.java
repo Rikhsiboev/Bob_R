@@ -26,7 +26,7 @@ public class ProjectServiceImpl implements ProjectService {
 
     @Override
     public ProjectDTO getByProjectCode(String code) {
-        return null;
+        return projectMapper.convertToDto(projectRepository.findByProjectCode(code));
     }
 
     @Override
@@ -48,12 +48,16 @@ public class ProjectServiceImpl implements ProjectService {
 
     @Override
     public void update(ProjectDTO dto) {
+        Project project = projectRepository.findByProjectCode(dto.getProjectCode());
+        Project convert = projectMapper.convertToEntity(dto);
+        convert.setId(project.getId());
+        convert.setProjectStatus(project.getProjectStatus());
+        projectRepository.save(convert);
 
     }
 
     @Override
     public void delete(String code) {
-
         Project project = projectRepository.findByProjectCode(code);
         project.setIsDeleted(true);
         projectRepository.save(project);
@@ -61,6 +65,9 @@ public class ProjectServiceImpl implements ProjectService {
 
     @Override
     public void complete(String projectCode) {
+        Project project = projectRepository.findByProjectCode(projectCode);
+        project.setProjectStatus(Status.COMPLETE);
+        projectRepository.save(project);
 
     }
 }
