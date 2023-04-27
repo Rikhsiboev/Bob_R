@@ -66,8 +66,15 @@ public class TaskServiceImp implements TaskService {
         }
     }
 
-    @Override
-    public void complete(Long Id) {
 
+
+    @Override
+    public int totalNonCompletedTask(String projectCode) {
+        return taskRepository.totalNonCompletedTasks(projectCode);
+    }
+
+    @Override
+    public int totalCompletedTask(String projectCode) {
+        return taskRepository.totalCompletedTasks(projectCode);
     }
 }

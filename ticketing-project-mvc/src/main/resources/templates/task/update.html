@@ -42,7 +42,7 @@
                                                     <select name="project" class="custom-select" th:field="*{project}">
                                                         <option th:each="project : ${projects}"
                                                                 th:value="${project.projectCode}"
-                                                                th:text="${project.name}"></option>
+                                                                th:text="${project.projectName}"></option>
                                                     </select>
                                                     <div class="invalid-feedback" th:if="${#fields.hasErrors('project')}">
                                                         <ul>
@@ -153,7 +153,7 @@
                                             </thead>
                                             <tbody>
                                             <tr th:each="task : ${tasks}">
-                                                <td th:text="${task.project.projectCode + '-' + task.project.name}"></td>
+                                                <td th:text="${task.project.projectCode + '-' + task.project.projectName}"></td>
                                                 <td th:text="${task.taskSubject}"></td>
                                                 <td th:text="${task.assignedEmployee.firstName +' ' + task.assignedEmployee.lastName}"></td>
                                                 <td th:text="${#temporals.format(task.assignedDate,'MM/dd/yyyy')}"></td>
