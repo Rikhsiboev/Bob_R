@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface TaskRepository extends JpaRepository<Task, Long> {
 
-    List<Task> findByProjectCode(String code);
+    List<Task> findByTaskCode(String code);
 
 
 }
