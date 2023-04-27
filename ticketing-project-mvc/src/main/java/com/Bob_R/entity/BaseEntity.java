@@ -15,7 +15,7 @@ public class BaseEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private Boolean isDeleted = false;
+    private Boolean isDeleted = false; // check from db is it deleted or no for all repository
 
     @Column(nullable = false,updatable = false)
     private LocalDateTime insertDateTime;
@@ -27,7 +27,7 @@ public class BaseEntity {
     private Long lastUpdateUserId;
 
 
-    @PrePersist
+    @PrePersist // when ever i change in db it weill been created automatic
     private void onPrePersist(){
         this.insertDateTime = LocalDateTime.now();
         this.lastUpdateDateTime=LocalDateTime.now();

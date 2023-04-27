@@ -13,7 +13,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @Entity
 @Table(name = "projects")
-@Where(clause = "is_deleted=false")
+@Where(clause = "is_deleted=false")  // to check from which column
 public class Project extends BaseEntity {
 
     private String projectCode;

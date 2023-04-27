@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="for me">
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="DATA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/Project.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,14 +294,7 @@
       <workItem from="1682259873162" duration="9766000" />
       <workItem from="1682454642909" duration="17855000" />
       <workItem from="1682489124289" duration="926000" />
-      <workItem from="1682558527174" duration="1483000" />
-    </task>
-    <task id="LOCAL-00089" summary=".">
-      <created>1681293912336</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1681293912338</updated>
+      <workItem from="1682558527174" duration="2957000" />
     </task>
     <task id="LOCAL-00090" summary=".">
       <created>1681326621454</created>
@@ -637,7 +632,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682559710771</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="DATA">
+      <created>1682560279570</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1682560279570</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -656,7 +658,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="com.bob_r.repository lab" />
     <MESSAGE value="&#10;." />
     <MESSAGE value="&#10;sorting" />
     <MESSAGE value="linklist" />
@@ -681,7 +682,8 @@
     <MESSAGE value="fixed all finally" />
     <MESSAGE value="ProjectService" />
     <MESSAGE value="for me" />
-    <option name="LAST_COMMIT_MESSAGE" value="for me" />
+    <MESSAGE value="DATA" />
+    <option name="LAST_COMMIT_MESSAGE" value="DATA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
