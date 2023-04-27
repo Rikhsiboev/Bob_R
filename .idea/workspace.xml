@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="ProjectService">
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/giyhub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/week15/Climbing_Stairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/week15/Climbing_StairsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/week15/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/week15/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/week15/SolutionTest.java" afterDir="false" />
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="for me">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/TwoArrayAndMaxRange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/PalindromeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/PalindromeList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -331,14 +323,7 @@
       <workItem from="1682259873162" duration="9766000" />
       <workItem from="1682454642909" duration="17855000" />
       <workItem from="1682489124289" duration="926000" />
-      <workItem from="1682558527174" duration="289000" />
-    </task>
-    <task id="LOCAL-00087" summary=".">
-      <created>1680921371088</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1680921371089</updated>
+      <workItem from="1682558527174" duration="1064000" />
     </task>
     <task id="LOCAL-00088" summary=".">
       <created>1681063211298</created>
@@ -676,7 +661,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682489071085</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="for me">
+      <created>1682558994918</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1682558994919</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -695,7 +687,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="work done" />
     <MESSAGE value="com.bob_r.repository lab" />
     <MESSAGE value="&#10;." />
     <MESSAGE value="&#10;sorting" />
@@ -720,7 +711,8 @@
     <MESSAGE value="./" />
     <MESSAGE value="fixed all finally" />
     <MESSAGE value="ProjectService" />
-    <option name="LAST_COMMIT_MESSAGE" value="ProjectService" />
+    <MESSAGE value="for me" />
+    <option name="LAST_COMMIT_MESSAGE" value="for me" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -742,15 +734,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/week15/SolutionTest.java</url>
-          <line>18</line>
-          <properties class="week15.SolutionTest" method="testCycle">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Move_Zeroes.java</url>
