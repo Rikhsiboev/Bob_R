@@ -2,6 +2,9 @@ package com.Bob_R.controller;
 
 import com.Bob_R.dto.TaskDTO;
 import com.Bob_R.enums.Status;
+import com.Bob_R.service.ProjectService;
+import com.Bob_R.service.TaskService;
+import com.Bob_R.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -9,28 +12,28 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 @RequestMapping("/task")
 public class TaskController {
-//
-//    private final ProjectService projectService;
-//    private final UserService userService;
-//    private final TaskService taskService;
-//
-//    public TaskController(ProjectService projectService, UserService userService, TaskService taskService) {
-//        this.projectService = projectService;
-//        this.userService = userService;
-//        this.taskService = taskService;
-//    }
-//
-//
-//    @GetMapping("/create")
-//    public String taskCreate(Model model) {
-//
-//        model.addAttribute("task", new TaskDTO());
-//        model.addAttribute("projects", projectService.findAll());
-//        model.addAttribute("employees", userService.findEmployees());
-//        model.addAttribute("tasks", taskService.findAll());
-//        return "/task/create";
-//    }
-//
+
+    private final ProjectService projectService;
+    private final UserService userService;
+    private final TaskService taskService;
+
+    public TaskController(ProjectService projectService, UserService userService, TaskService taskService) {
+        this.projectService = projectService;
+        this.userService = userService;
+        this.taskService = taskService;
+    }
+
+
+    @GetMapping("/create")
+    public String taskCreate(Model model) {
+
+        model.addAttribute("task", new TaskDTO());
+        model.addAttribute("projects", projectService.listAllProjects());
+        model.addAttribute("employees", userService.listAllByRole("employee"));
+        model.addAttribute("tasks", taskService.listAllTask());
+        return "/task/create";
+    }
+
 //    @PostMapping("/create")
 //    public String insertTask(@ModelAttribute("task") TaskDTO task) {
 //        taskService.save(task);

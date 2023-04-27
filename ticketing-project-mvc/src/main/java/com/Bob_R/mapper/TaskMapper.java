@@ -6,7 +6,10 @@ import com.Bob_R.entity.Task;
 import com.Bob_R.entity.User;
 import org.apache.catalina.mapper.Mapper;
 import org.modelmapper.ModelMapper;
+import org.springframework.stereotype.Component;
 
+import javax.persistence.Column;
+@Component
 public class TaskMapper {
     private final ModelMapper modelMapper;
 
