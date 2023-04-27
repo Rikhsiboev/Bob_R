@@ -15,7 +15,7 @@ import java.time.LocalDate;
 @Table(name = "projects")
 @Where(clause = "is_deleted=false")  // to check from which column
 public class Project extends BaseEntity {
-
+    @Column(unique = true) // to make sure that unique code for project
     private String projectCode;
     private String projectName;
 
