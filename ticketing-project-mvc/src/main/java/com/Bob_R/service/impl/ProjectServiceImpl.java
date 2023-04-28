@@ -71,7 +71,9 @@ public class ProjectServiceImpl implements ProjectService {
     public void delete(String code) {
         Project project = projectRepository.findByProjectCode(code);
         project.setIsDeleted(true);
+        project.setProjectCode(project.getProjectCode() + "-" + project.getId());  // if code SP00 after this code will be SP00-1 as unique
         projectRepository.save(project);
+        taskService.deleteByProject(projectMapper.convertToDto(project)); // to make sure task also from project delete but saved in db
     }
 
     @Override

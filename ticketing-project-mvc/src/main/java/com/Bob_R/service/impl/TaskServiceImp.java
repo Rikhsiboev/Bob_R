@@ -1,12 +1,14 @@
 package com.Bob_R.service.impl;
 
+import com.Bob_R.dto.ProjectDTO;
 import com.Bob_R.dto.TaskDTO;
+import com.Bob_R.entity.Project;
 import com.Bob_R.entity.Task;
 import com.Bob_R.enums.Status;
+import com.Bob_R.mapper.ProjectMapper;
 import com.Bob_R.mapper.TaskMapper;
 import com.Bob_R.repository.TaskRepository;
 import com.Bob_R.service.TaskService;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -18,19 +20,18 @@ import java.util.stream.Collectors;
 public class TaskServiceImp implements TaskService {
     private final TaskRepository taskRepository;
     private final TaskMapper taskMapper;
+    private final ProjectMapper projectMapper;
 
-    public TaskServiceImp(TaskRepository taskRepository, TaskMapper taskMapper) {
+    public TaskServiceImp(TaskRepository taskRepository, TaskMapper taskMapper, ProjectMapper projectMapper) {
         this.taskRepository = taskRepository;
         this.taskMapper = taskMapper;
+        this.projectMapper = projectMapper;
     }
 
     @Override
     public TaskDTO findById(Long id) {
         Optional<Task> task = taskRepository.findById(id);
-        if (task.isPresent()) {
-            return taskMapper.convertToDTO(task.get());
-        }
-        return null;
+        return task.map(taskMapper::convertToDTO).orElse(null);
     }
 
     @Override
@@ -39,7 +40,7 @@ public class TaskServiceImp implements TaskService {
     }
 
     @Override
-    public void save(TaskDTO dto) {
+    public void save(TaskDTO dto) { //
         dto.setTaskStatus(Status.OPEN);
         dto.setAssignedDate(LocalDate.now());
         Task task = taskMapper.convertToEntity(dto);
@@ -50,7 +51,7 @@ public class TaskServiceImp implements TaskService {
     public void update(TaskDTO dto) {
         Optional<Task> task = taskRepository.findById(dto.getId());
         Task convertedTask = taskMapper.convertToEntity(dto);
-        if (task.isPresent()) {
+        if (task.isPresent()) {   // we need more information from db to show in List
             convertedTask.setTaskStatus(task.get().getTaskStatus());
             convertedTask.setAssignedDate(task.get().getAssignedDate());
             taskRepository.save(convertedTask);
@@ -60,8 +61,8 @@ public class TaskServiceImp implements TaskService {
     @Override
     public void delete(Long id) {
         Optional<Task> foundTask = taskRepository.findById(id);
-        if (foundTask.isPresent()) {
-            foundTask.get().setIsDeleted(true);
+        if (foundTask.isPresent()) { /// condition of delete and show on list
+            foundTask.get().setIsDeleted(true); // but save this task in DB
             taskRepository.save(foundTask.get());
         }
     }
@@ -77,4 +78,13 @@ public class TaskServiceImp implements TaskService {
     public int totalCompletedTask(String projectCode) {
         return taskRepository.totalCompletedTasks(projectCode);
     }
+
+    @Override
+    public void deleteByProject(ProjectDTO projectDTO) {  /// deleting project but this method for task deleting at same time
+        Project project=projectMapper.convertToEntity(projectDTO); //converting project to Entity from DTO
+        List<Task> tasks = taskRepository.findAllByProject(project); // from DB
+        tasks.forEach(task-> delete(task.getId()));// deleting each of them by id
+     }
+
+
 }
