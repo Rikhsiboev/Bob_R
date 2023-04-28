@@ -68,7 +68,6 @@ public class TaskServiceImp implements TaskService {
     }
 
 
-
     @Override
     public int totalNonCompletedTask(String projectCode) {
         return taskRepository.totalNonCompletedTasks(projectCode);
@@ -81,10 +80,21 @@ public class TaskServiceImp implements TaskService {
 
     @Override
     public void deleteByProject(ProjectDTO projectDTO) {  /// deleting project but this method for task deleting at same time
-        Project project=projectMapper.convertToEntity(projectDTO); //converting project to Entity from DTO
+        Project project = projectMapper.convertToEntity(projectDTO); //converting project to Entity from DTO
         List<Task> tasks = taskRepository.findAllByProject(project); // from DB
-        tasks.forEach(task-> delete(task.getId()));// deleting each of them by id
-     }
+        tasks.forEach(task -> delete(task.getId()));// deleting each of them by id by using delete method ahead
+    }
+
+    @Override
+    public void completeByProject(ProjectDTO projectDTO) {/// complete project but this method for task complete at same time
+        Project project = projectMapper.convertToEntity(projectDTO); //convert
+        List<Task> tasks = taskRepository.findAllByProject(project); // find from task Data Base
+        tasks.stream().map(taskMapper::convertToDTO).forEach(taskDTO -> {     //converting and bring them status complete and update method ahead
+           taskDTO.setTaskStatus(Status.COMPLETE);
+           update(taskDTO);
+        });
+
+    }
 
 
 }
