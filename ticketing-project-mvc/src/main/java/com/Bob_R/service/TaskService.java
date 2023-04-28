@@ -2,6 +2,7 @@ package com.Bob_R.service;
 
 import com.Bob_R.dto.ProjectDTO;
 import com.Bob_R.dto.TaskDTO;
+import com.Bob_R.enums.Status;
 
 import java.util.List;
 
@@ -16,6 +17,8 @@ public interface TaskService {
     int totalCompletedTask(String projectCode);
     void deleteByProject(ProjectDTO projectDTO);
     void completeByProject(ProjectDTO projectDTO);
+    List<TaskDTO> listAllTasksByStatusIsNot(Status status);
+    List<TaskDTO> listAllTasksByStatus(Status status);
 
 
 
