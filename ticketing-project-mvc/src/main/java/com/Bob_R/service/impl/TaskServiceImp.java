@@ -52,7 +52,7 @@ public class TaskServiceImp implements TaskService {
         Optional<Task> task = taskRepository.findById(dto.getId());
         Task convertedTask = taskMapper.convertToEntity(dto);
         if (task.isPresent()) {   // we need more information from db to show in List
-            convertedTask.setTaskStatus(task.get().getTaskStatus());
+            convertedTask.setTaskStatus(dto.getTaskStatus()==null? task.get().getTaskStatus() : dto.getTaskStatus()); // if condition to check is it coming from new page or from complete page project
             convertedTask.setAssignedDate(task.get().getAssignedDate());
             taskRepository.save(convertedTask);
         }
