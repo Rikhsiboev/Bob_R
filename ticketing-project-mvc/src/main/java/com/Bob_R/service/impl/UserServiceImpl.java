@@ -50,11 +50,10 @@ public class UserServiceImpl implements UserService {
         userRepository.save(userMapper.convertToEntity(user));
     }
 
-    @Override
-    public void deleteByUserName(String username) {
-
-        userRepository.deleteByUserName(username);
-    }
+//    @Override // this is for hard deleting
+//    public void deleteByUserName(String username) {
+//        userRepository.deleteByUserName(username);
+//    }
 
     @Override
     public UserDTO update(UserDTO user) {
@@ -79,10 +78,9 @@ public class UserServiceImpl implements UserService {
 
         if (checkIfUserCanBeDeleted(user)){
             user.setIsDeleted(true);
+            user.setUserName(user.getUserName()+" - " + user.getId()); //=> if i deleted +> harol@manager.com - 2
             userRepository.save(user);
         }
-
-
 
     }
 
