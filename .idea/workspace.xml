@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="th:if=&quot;${task.taskStatus.value != 'Completed'}&quot;             th:if=&quot;${project.projectStatus.value != 'Completed'}&quot;" />
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="EMAIL DURING UPDATE DON`T NEED CHANGE &quot;READONLY&quot; IN HTML">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/UserController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -305,14 +310,7 @@
       <workItem from="1682653096214" duration="777000" />
       <workItem from="1682659918899" duration="286000" />
       <workItem from="1682698179214" duration="654000" />
-      <workItem from="1682700563459" duration="27262000" />
-    </task>
-    <task id="LOCAL-00117" summary="@Table(name=&quot;roles&quot;)">
-      <created>1681789678330</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1681789678330</updated>
+      <workItem from="1682700563459" duration="27940000" />
     </task>
     <task id="LOCAL-00118" summary="   @ManyToOne&#10;    private Role role;">
       <created>1681790301345</created>
@@ -650,7 +648,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682744718780</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="EMAIL DURING UPDATE DON`T NEED CHANGE &quot;READONLY&quot; IN HTML">
+      <created>1682745024028</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1682745024029</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -669,7 +674,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="comments" />
     <MESSAGE value="public class Task extends BaseEntity{" />
     <MESSAGE value="TaskService" />
     <MESSAGE value=" @Column(unique = true)" />
@@ -694,7 +698,8 @@
     <MESSAGE value="MapperUtil" />
     <MESSAGE value="th:if=&quot;${task.taskStatus.value != 'Completed'}&quot;" />
     <MESSAGE value="th:if=&quot;${task.taskStatus.value != 'Completed'}&quot;             th:if=&quot;${project.projectStatus.value != 'Completed'}&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="th:if=&quot;${task.taskStatus.value != 'Completed'}&quot;             th:if=&quot;${project.projectStatus.value != 'Completed'}&quot;" />
+    <MESSAGE value="EMAIL DURING UPDATE DON`T NEED CHANGE &quot;READONLY&quot; IN HTML" />
+    <option name="LAST_COMMIT_MESSAGE" value="EMAIL DURING UPDATE DON`T NEED CHANGE &quot;READONLY&quot; IN HTML" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
