@@ -1,9 +1,13 @@
 package com.Bob_R.service.impl;
 
+import com.Bob_R.dto.ProjectDTO;
+import com.Bob_R.dto.TaskDTO;
 import com.Bob_R.dto.UserDTO;
 import com.Bob_R.entity.User;
 import com.Bob_R.mapper.UserMapper;
 import com.Bob_R.repository.UserRepository;
+import com.Bob_R.service.ProjectService;
+import com.Bob_R.service.TaskService;
 import com.Bob_R.service.UserService;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
@@ -16,10 +20,14 @@ public class UserServiceImpl implements UserService {
 
     private final UserRepository userRepository;
     private final UserMapper userMapper;
+    private final ProjectService projectService;
+    private final TaskService taskService;
 
-    public UserServiceImpl(UserRepository userRepository, UserMapper userMapper) {
+    public UserServiceImpl(UserRepository userRepository, UserMapper userMapper, ProjectService projectService, TaskService taskService) {
         this.userRepository = userRepository;
         this.userMapper = userMapper;
+        this.projectService = projectService;
+        this.taskService = taskService;
     }
 
     @Override
@@ -67,8 +75,13 @@ public class UserServiceImpl implements UserService {
     public void delete(String username) {
 
         User user = userRepository.findByUserName(username);
-        user.setIsDeleted(true);
-        userRepository.save(user);
+
+        if (checkIfUserCanBeDeleted(user)){
+            user.setIsDeleted(true);
+            userRepository.save(user);
+        }
+
+
 
     }
 
@@ -79,4 +92,20 @@ public class UserServiceImpl implements UserService {
 
         return users.stream().map(userMapper::convertToDTO).collect(Collectors.toList());
     }
+
+
+    private boolean checkIfUserCanBeDeleted(User user) {
+        switch (user.getRole().getDescription()) {
+            case "Manager":
+                    List<ProjectDTO> projectDTOList = projectService.listAllNonCompletedByAssignedManager(userMapper.convertToDTO(user));
+                    return  projectDTOList.size()==0;
+            case "Employee":
+                List<TaskDTO> TaskDTOList = taskService.listAllNonCompletedByAssignedEmployee(userMapper.convertToDTO(user));
+                return  TaskDTOList.size()==0;
+            default:
+                return true;
+        }
+    }
+
+
 }
