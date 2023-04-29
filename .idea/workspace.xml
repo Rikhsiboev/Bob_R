@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="complete project but this method for task complete at same time">
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="listAllTasksByStatusIsNot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/repository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/repository/TaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/TaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/TaskServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/TaskServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/templates/task/status-update.html" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/templates/task/status-update.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,14 +309,7 @@
       <workItem from="1682653096214" duration="777000" />
       <workItem from="1682659918899" duration="286000" />
       <workItem from="1682698179214" duration="654000" />
-      <workItem from="1682700563459" duration="8412000" />
-    </task>
-    <task id="LOCAL-00104" summary="EmployeeRepository">
-      <created>1681433215106</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1681433215107</updated>
+      <workItem from="1682700563459" duration="10293000" />
     </task>
     <task id="LOCAL-00105" summary="work done">
       <created>1681433883414</created>
@@ -656,7 +647,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682720759408</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="listAllTasksByStatusIsNot">
+      <created>1682722799388</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1682722799389</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,7 +673,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="RoleMapper" />
     <MESSAGE value="    public List&lt;RoleDTO&gt; listAllRole() {&#10;//        List&lt;Role&gt; roleList = roleRepository.findAll();&#10;        return  roleRepository.findAll().stream().map(roleMapper::convertToDto).collect(Collectors.toList());&#10;    }" />
     <MESSAGE value="TicketRepository QUERIES" />
     <MESSAGE value="UserRepository" />
@@ -700,7 +697,8 @@
     <MESSAGE value="." />
     <MESSAGE value=".deleting project but this method for task deleting at same time WITH CONDITION" />
     <MESSAGE value="complete project but this method for task complete at same time" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete project but this method for task complete at same time" />
+    <MESSAGE value="listAllTasksByStatusIsNot" />
+    <option name="LAST_COMMIT_MESSAGE" value="listAllTasksByStatusIsNot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

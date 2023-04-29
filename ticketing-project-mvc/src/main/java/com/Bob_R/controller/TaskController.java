@@ -10,6 +10,8 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
+
 @Controller
 @RequestMapping("/task")
 public class TaskController {
@@ -102,21 +104,34 @@ public class TaskController {
         model.addAttribute("tasks", taskService.listAllTasksByStatus(Status.COMPLETE));
         return "/task/archive";
     }
-//
-//    @GetMapping("/employee/edit/{id}")
-//    public String updatePendingTask(@PathVariable("id") Long task,Model model) {
-//        model.addAttribute("task", taskService.findById(task));
-//        model.addAttribute("projects",projectService.findAll());
+
+    @GetMapping("/employee/edit/{id}")
+    public String updatePendingTask(@PathVariable("id") Long task,Model model) {
+        model.addAttribute("task", taskService.findById(task));
+//        model.addAttribute("projects",projectService.findAll());    /// ===> in MVC
 //        model.addAttribute("employees",userService.findEmployees());
-//
-//        model.addAttribute("statuses",Status.values());
-//        model.addAttribute("tasks",taskService.findAllTasksByStatusIsNot(Status.COMPLETE));
-//        return "/task/status-update";
-//    }
-//
-//    @PostMapping("/employee/update/{id}")
-//    public String employeeUpdateTask(TaskDTO task){
-//        taskService.updateStatus(task);
-//        return "redirect:/task/employee/pending-tasks";
-//    }
+
+        model.addAttribute("statuses",Status.values());
+        model.addAttribute("tasks",taskService.listAllTasksByStatusIsNot(Status.COMPLETE));
+        return "/task/status-update";
+    }
+
+    @PostMapping("/employee/update/{id}")
+    public String employeeUpdateTask(@Valid @ModelAttribute("task") TaskDTO task, BindingResult bindingResult, Model model) {
+
+        if (bindingResult.hasErrors()) {
+
+            model.addAttribute("statuses", Status.values());
+            model.addAttribute("tasks", taskService.listAllTasksByStatusIsNot(Status.COMPLETE));
+
+            return "/task/status-update";
+
+        }
+
+        taskService.update(task);
+
+        return "redirect:/task/employee/pending-tasks";
+
+    }
+
 }
