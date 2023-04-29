@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="commend out hard code for deleting From USer LIst">
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="changing List&lt;User&gt; findAllByIsDeletedOrderByFirstNameDesc(Boolean deleted); don`t using @where">
+      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/templates/user/java/lang/annotations.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/ProjectController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,14 +309,7 @@
       <workItem from="1682653096214" duration="777000" />
       <workItem from="1682659918899" duration="286000" />
       <workItem from="1682698179214" duration="654000" />
-      <workItem from="1682700563459" duration="23297000" />
-    </task>
-    <task id="LOCAL-00112" summary="NoteReverseAndRecreation">
-      <created>1681779601263</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1681779601264</updated>
+      <workItem from="1682700563459" duration="24302000" />
     </task>
     <task id="LOCAL-00113" summary=".">
       <created>1681779621821</created>
@@ -655,7 +647,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682735237981</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="changing List&lt;User&gt; findAllByIsDeletedOrderByFirstNameDesc(Boolean deleted); don`t using @where">
+      <created>1682740871653</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1682740871653</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -674,7 +673,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="./" />
     <MESSAGE value="fixed all finally" />
     <MESSAGE value="ProjectService" />
     <MESSAGE value="for me" />
@@ -699,44 +697,12 @@
     <MESSAGE value="we create loop and broke in our APP by dependency injection as solution we add &quot;&quot;@Lazy ProjectService projectService, @Lazy TaskService taskService&quot; in UserServiceImpl to fix" />
     <MESSAGE value="fixed problem by deleting user after done task error was findAllByTaskStatusIsNotAndAssignedEmployee repository method wrong" />
     <MESSAGE value="commend out hard code for deleting From USer LIst" />
-    <option name="LAST_COMMIT_MESSAGE" value="commend out hard code for deleting From USer LIst" />
+    <MESSAGE value="changing List&lt;User&gt; findAllByIsDeletedOrderByFirstNameDesc(Boolean deleted); don`t using @where" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing List&lt;User&gt; findAllByIsDeletedOrderByFirstNameDesc(Boolean deleted); don`t using @where" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Move_Zeroes.java</url>
-          <line>17</line>
-          <properties class="Practice_Code.Move_Zeroes" method="moveZeroes">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Length_of_Last_Word.java</url>
-          <line>5</line>
-          <properties class="Practice_Code.Length_of_Last_Word" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Move_Zeroes.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/TaskServiceImp.java</url>
-          <line>99</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.7.8/spring-data-commons-2.7.8-sources.jar!/org/springframework/data/mapping/PropertyPath.java</url>
-          <line>89</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="5" />
@@ -746,6 +712,9 @@
           <option name="timeStamp" value="7" />
         </breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception" />
+      </default-breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
