@@ -16,9 +16,10 @@ import java.time.LocalDateTime;
 @Table(name = "users")
 //@Where(clause = "is_deleted=false")  // Select * from user WHERE id = 4 and id_deleted = false;  ==> null ????
 public class User extends BaseEntity {
-    @Column(unique = true)
+
     private String firstName;
     private String lastName;
+    @Column(unique = true)
     private String userName;
     private String passWord;
     private boolean enabled;
