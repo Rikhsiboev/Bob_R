@@ -34,14 +34,14 @@ public class UserServiceImpl implements UserService {
     @Override
     public List<UserDTO> listAllUsers() {
 
-        List<User> userList = userRepository.findAll(Sort.by("firstName"));
+        List<User> userList = userRepository.findAllByIsDeletedOrderByFirstNameDesc(false);
         return userList.stream().map(userMapper::convertToDTO).collect(Collectors.toList());
     }
 
     @Override
     public UserDTO findByUserName(String username) {
 
-        User user = userRepository.findByUserName(username);
+        User user = userRepository.findByUserNameAndIsDeleted(username, false);
         return userMapper.convertToDTO(user);
     }
 
@@ -59,7 +59,7 @@ public class UserServiceImpl implements UserService {
     public UserDTO update(UserDTO user) {
 
         //Find current user
-        User user1 = userRepository.findByUserName(user.getUserName());  //has id
+        User user1 = userRepository.findByUserNameAndIsDeleted(user.getUserName(),false);  //has id
         //Map update user dto to entity object
         User convertedUser = userMapper.convertToEntity(user);   // has id?
         //set id to the converted object
@@ -74,7 +74,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public void delete(String username) {
 
-        User user = userRepository.findByUserName(username);
+        User user = userRepository.findByUserNameAndIsDeleted(username,false);
 
         if (checkIfUserCanBeDeleted(user)){
             user.setIsDeleted(true);
@@ -87,7 +87,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public List<UserDTO> listAllByRole(String role) {
 
-        List<User> users = userRepository.findByRoleDescriptionIgnoreCase(role);
+        List<User> users = userRepository.findByRoleDescriptionIgnoreCaseAndIsDeleted(role,false);
 
         return users.stream().map(userMapper::convertToDTO).collect(Collectors.toList());
     }

@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="we create loop and broke in our APP by dependency injection as solution we add &quot;&quot;@Lazy ProjectService projectService, @Lazy TaskService taskService&quot; in UserServiceImpl to fix">
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="commend out hard code for deleting From USer LIst">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/TaskServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/TaskServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -311,21 +310,7 @@
       <workItem from="1682653096214" duration="777000" />
       <workItem from="1682659918899" duration="286000" />
       <workItem from="1682698179214" duration="654000" />
-      <workItem from="1682700563459" duration="18083000" />
-    </task>
-    <task id="LOCAL-00110" summary="linklist">
-      <created>1681625594989</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1681625594989</updated>
-    </task>
-    <task id="LOCAL-00111" summary="QUERIES for Spring 13">
-      <created>1681662470298</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1681662470299</updated>
+      <workItem from="1682700563459" duration="23297000" />
     </task>
     <task id="LOCAL-00112" summary="NoteReverseAndRecreation">
       <created>1681779601263</created>
@@ -656,7 +641,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682732183645</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="fixed problem by deleting user after done task error was findAllByTaskStatusIsNotAndAssignedEmployee repository method wrong">
+      <created>1682735180739</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1682735180740</updated>
+    </task>
+    <task id="LOCAL-00160" summary="commend out hard code for deleting From USer LIst">
+      <created>1682735237981</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1682735237981</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,8 +674,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="UserDTO" />
-    <MESSAGE value="fix" />
     <MESSAGE value="./" />
     <MESSAGE value="fixed all finally" />
     <MESSAGE value="ProjectService" />
@@ -700,7 +697,9 @@
     <MESSAGE value="checkIfUserCanBeDeleted" />
     <MESSAGE value="checkIfUserCanBeDeleted logic if task bot completed can not be deleted" />
     <MESSAGE value="we create loop and broke in our APP by dependency injection as solution we add &quot;&quot;@Lazy ProjectService projectService, @Lazy TaskService taskService&quot; in UserServiceImpl to fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="we create loop and broke in our APP by dependency injection as solution we add &quot;&quot;@Lazy ProjectService projectService, @Lazy TaskService taskService&quot; in UserServiceImpl to fix" />
+    <MESSAGE value="fixed problem by deleting user after done task error was findAllByTaskStatusIsNotAndAssignedEmployee repository method wrong" />
+    <MESSAGE value="commend out hard code for deleting From USer LIst" />
+    <option name="LAST_COMMIT_MESSAGE" value="commend out hard code for deleting From USer LIst" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -733,6 +732,11 @@
           <line>99</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.7.8/spring-data-commons-2.7.8-sources.jar!/org/springframework/data/mapping/PropertyPath.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="5" />
@@ -743,6 +747,11 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="owningType" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @Entity
 @Table(name = "users")
-@Where(clause = "is_deleted=false")
+//@Where(clause = "is_deleted=false")  // Select * from user WHERE id = 4 and id_deleted = false;  ==> null ????
 public class User extends BaseEntity {
 
     private String firstName;
