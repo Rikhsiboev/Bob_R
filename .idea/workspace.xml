@@ -4,70 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="@Valid">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/lambda/Banana.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Lambda/Banana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/lambda/Data_Base_Enum.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Lambda/Data_Base_Enum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/lambda/InterfaceBanana.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Lambda/InterfaceBanana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/lambda/Note " beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Lambda/Note " afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/lambda/testBanana.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Lambda/testBanana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/Hw/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/Hw/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/Hw/MyNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/Hw/MyNote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/Hw/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/Hw/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/LeetCode/MyNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/LeetCode/MyNote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/LeetCode/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/LeetCode/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/LeetCode/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/LeetCode/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/PalindromeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/PalindromeList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/REVERSE_RECRUTION/NoteReverseAndRecreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/REVERSE_RECRUTION/NoteReverseAndRecreation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/REVERSE_RECRUTION/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/REVERSE_RECRUTION/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/myLinklist/Node1.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/myLinklist/Node1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/myLinklist/NoteCreating.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/myLinklist/NoteCreating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/myLinklist/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/myLinklist/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/note/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/note/CircularLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/note/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/note/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/note/Node2.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/note/Node2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/note/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/note/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/AllTopicByCoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/AllTopicByCoding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/ArrayOFStringWithMaxAndMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/ArrayOFStringWithMaxAndMin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Best_Time_to_Buy_and_Sell_Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Best_Time_to_Buy_and_Sell_Stock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Divisible3_5_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Divisible3_5_15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Duplicated_Chars_and_integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Duplicated_Chars_and_integer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/First_Unique_Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/First_Unique_Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/FrequencyOfArrayElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/FrequencyOfArrayElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Goal_Parser_Interpretation.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Goal_Parser_Interpretation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Length_of_Last_Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Length_of_Last_Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/MaxOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/MaxOfArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Maximum_Number_of_Words.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Maximum_Number_of_Words.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Move_Zeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Move_Zeroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Plus_One.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Plus_One.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Plus_OneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Plus_OneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Question_1_Swap_Array_Generic_method.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Question_1_Swap_Array_Generic_method.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Remove_Duplicates_from_Sorted_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Remove_Duplicates_from_Sorted_array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Shuffle_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Shuffle_String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/String_oJadenCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/String_oJadenCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/SumAllNumbersAsString.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/SumAllNumbersAsString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Two_by_Two.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Two_by_Two.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/java.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/java.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/singleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/singleNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Sorting/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Sorting/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Sorting/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/stacks/CollectionDequeAsStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Stacks/CollectionDequeAsStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/stacks/MyStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Stacks/MyStacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/stacks/StacksNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Stacks/StacksNote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/stacks/StockApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Stacks/StockApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/stacks/maxBodybuilding.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Stacks/maxBodybuilding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-practice.newone/src/main/java/com/Bob_R/streampractice/practice/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-practice.newone/src/main/java/com/Bob_R/streampractice/practice/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threads_report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/threads_report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/static/assets/vendor/charts/charts-bundle/Chart.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/static/assets/vendor/charts/charts-bundle/Chart.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/static/assets/vendor/datepicker/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/static/assets/vendor/datepicker/moment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/static/assets/vendor/fonts/material-design-iconic-font/fonts/materialdesignicons-webfontdc99.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/static/assets/vendor/fonts/material-design-iconic-font/fonts/materialdesignicons-webfontdc99.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/static/assets/vendor/full-calendar/js/fullcalendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/static/assets/vendor/full-calendar/js/fullcalendar.js" afterDir="false" />
-    </list>
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="fixed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +115,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.42528737",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "project.propCompiler",
+    "settings.editor.selected.configurable": "advanced.settings",
     "spring.configuration.checksum": "6e006fb8414b60495d4beaf0f89a04e3",
     "vue.rearranger.settings.migration": "true"
   },
@@ -377,14 +314,7 @@
       <workItem from="1682786656314" duration="4406000" />
       <workItem from="1682904789202" duration="603000" />
       <workItem from="1682959766565" duration="16418000" />
-      <workItem from="1684182740188" duration="545000" />
-    </task>
-    <task id="LOCAL-00119" summary="create table">
-      <created>1681791072521</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1681791072522</updated>
+      <workItem from="1684182740188" duration="1184000" />
     </task>
     <task id="LOCAL-00120" summary="create table">
       <created>1681857922150</created>
@@ -722,7 +652,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682745500823</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="fixed">
+      <created>1684183873479</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1684183873480</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -741,7 +678,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="TaskService" />
     <MESSAGE value=" @Column(unique = true)" />
     <MESSAGE value="TaskRepository" />
     <MESSAGE value="TaskRepositoryTaskMapper and Task Repository" />
@@ -766,7 +702,8 @@
     <MESSAGE value="th:if=&quot;${task.taskStatus.value != 'Completed'}&quot;             th:if=&quot;${project.projectStatus.value != 'Completed'}&quot;" />
     <MESSAGE value="EMAIL DURING UPDATE DON`T NEED CHANGE &quot;READONLY&quot; IN HTML" />
     <MESSAGE value="@Valid" />
-    <option name="LAST_COMMIT_MESSAGE" value="@Valid" />
+    <MESSAGE value="fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
