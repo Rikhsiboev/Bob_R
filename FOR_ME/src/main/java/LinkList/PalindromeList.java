@@ -1,4 +1,4 @@
-package llnkList;
+package LinkList;
 
 public class PalindromeList {
 //    public static void main(String[] args) {

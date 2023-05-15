@@ -1,4 +1,4 @@
-package stacks;
+package Stacks;
 
 public class StacksNote <T> {
     public T value;

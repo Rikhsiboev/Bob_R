@@ -1,4 +1,4 @@
-package stacks;
+package Stacks;
 
 import java.util.ArrayList;
 import java.util.Collections;

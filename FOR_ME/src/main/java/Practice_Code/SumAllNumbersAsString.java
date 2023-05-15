@@ -15,7 +15,7 @@ public class SumAllNumbersAsString {
 
 
 
-        // interface with 2 <T,I> name              lambda
+        // interface with 2 <T,I> name              Lambda
         Function<String, Integer> sumOfAllIntegers = p -> {
             // for get final result
             Integer sum = 0;

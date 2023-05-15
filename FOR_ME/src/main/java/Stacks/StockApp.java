@@ -1,4 +1,4 @@
-package stacks;
+package Stacks;
 
 public class StockApp {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package kemal.sorting;
+package Sorting;
 
 import java.util.Arrays;
 

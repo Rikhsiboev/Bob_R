@@ -2671,9 +2671,9 @@ function localeMonthsParse (monthName, format, strict) {
         this._shortMonthsParse = [];
     }
 
-    // TODO: add sorting
+    // TODO: add Sorting
     // Sorting makes sure if one month (or abbr) is a prefix of another
-    // see sorting in computeMonthsParse
+    // see Sorting in computeMonthsParse
     for (i = 0; i < 12; i++) {
         // make the regex if we don't have it already
         mom = createUTC([2000, i]);
@@ -6703,7 +6703,7 @@ module.exports = function(Chart) {
 		},
 
 		/**
-		 * Returns the stacks based on groups and bar visibility.
+		 * Returns the Stacks based on groups and bar visibility.
 		 * @param {Number} [last] - The dataset index
 		 * @returns {Array} The stack list
 		 * @private
@@ -6731,7 +6731,7 @@ module.exports = function(Chart) {
 		},
 
 		/**
-		 * Returns the effective number of stacks based on groups and bar visibility.
+		 * Returns the effective number of Stacks based on groups and bar visibility.
 		 * @private
 		 */
 		getStackCount: function() {
@@ -13138,7 +13138,7 @@ module.exports = function(Chart) {
 					});
 				}
 
-				// If the user provided a sorting function, use it to modify the tooltip items
+				// If the user provided a Sorting function, use it to modify the tooltip items
 				if (opts.itemSort) {
 					tooltipItems = tooltipItems.sort(function(a, b) {
 						return opts.itemSort(a, b, data);

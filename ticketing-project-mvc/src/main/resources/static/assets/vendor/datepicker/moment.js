@@ -999,9 +999,9 @@
             this._shortMonthsParse = [];
         }
 
-        // TODO: add sorting
+        // TODO: add Sorting
         // Sorting makes sure if one month (or abbr) is a prefix of another
-        // see sorting in computeMonthsParse
+        // see Sorting in computeMonthsParse
         for (i = 0; i < 12; i++) {
             // make the regex if we don't have it already
             mom = createUTC([2000, i]);

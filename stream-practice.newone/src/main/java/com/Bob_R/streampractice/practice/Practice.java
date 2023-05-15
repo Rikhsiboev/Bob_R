@@ -87,7 +87,7 @@ public class Practice {
         //Map
         //accept Function of interface accept object, return object
         //R apply(T t);  sending employee object and return iterate
-        // we can use lambda
+        // we can use Lambda
 
         return getAllEmployees().stream()
                 //.map(Employee::getFirstName)

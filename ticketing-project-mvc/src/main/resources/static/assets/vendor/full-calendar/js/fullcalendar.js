@@ -13913,7 +13913,7 @@ var TimeGridEventRenderer = /** @class */ (function (_super) {
         return seg2.forwardPressure - seg1.forwardPressure ||
             // put segments that are closer to initial edge first (and favor ones with no coords yet)
             (seg1.backwardCoord || 0) - (seg2.backwardCoord || 0) ||
-            // do normal sorting...
+            // do normal Sorting...
             this.compareEventSegs(seg1, seg2);
     };
     // Given foreground event segments that have already had their position coordinates computed,

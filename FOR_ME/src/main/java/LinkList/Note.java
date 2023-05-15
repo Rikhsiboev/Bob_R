@@ -1,4 +1,4 @@
-package llnkList;
+package LinkList;
 
 public class Note {
     int value;
