@@ -1,4 +1,4 @@
-package com.bob_r.enums;
+package com.bob_R.enums;
 
 public enum PaymentMethod {
     CREDIT_CARD,

@@ -4,69 +4,199 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="@Valid">
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="EMAIL DURING UPDATE DON`T NEED CHANGE &quot;READONLY&quot; IN HTML">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/lambda/Banana.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Lambda/Banana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/lambda/Data_Base_Enum.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Lambda/Data_Base_Enum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/lambda/InterfaceBanana.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Lambda/InterfaceBanana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/lambda/Note " beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Lambda/Note " afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/lambda/testBanana.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Lambda/testBanana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/Hw/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/Hw/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/Hw/MyNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/Hw/MyNote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/Hw/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/Hw/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/LeetCode/MyNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/LeetCode/MyNote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/LeetCode/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/LeetCode/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/LeetCode/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/LeetCode/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/PalindromeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/PalindromeList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/REVERSE_RECRUTION/NoteReverseAndRecreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/REVERSE_RECRUTION/NoteReverseAndRecreation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/REVERSE_RECRUTION/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/REVERSE_RECRUTION/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/myLinklist/Node1.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/myLinklist/Node1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/myLinklist/NoteCreating.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/myLinklist/NoteCreating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/myLinklist/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/myLinklist/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/note/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/note/CircularLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/note/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/note/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/note/Node2.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/note/Node2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList/note/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/LinkList/note/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/AllTopicByCoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/AllTopicByCoding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/ArrayOFStringWithMaxAndMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/ArrayOFStringWithMaxAndMin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Best_Time_to_Buy_and_Sell_Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Best_Time_to_Buy_and_Sell_Stock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Divisible3_5_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Divisible3_5_15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Duplicated_Chars_and_integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Duplicated_Chars_and_integer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/First_Unique_Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/First_Unique_Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/FrequencyOfArrayElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/FrequencyOfArrayElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Goal_Parser_Interpretation.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Goal_Parser_Interpretation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Length_of_Last_Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Length_of_Last_Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/MaxOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/MaxOfArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Maximum_Number_of_Words.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Maximum_Number_of_Words.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Move_Zeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Move_Zeroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Plus_One.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Plus_One.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Plus_OneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Plus_OneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Question_1_Swap_Array_Generic_method.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Question_1_Swap_Array_Generic_method.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Remove_Duplicates_from_Sorted_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Remove_Duplicates_from_Sorted_array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Shuffle_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Shuffle_String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/String_oJadenCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/String_oJadenCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/SumAllNumbersAsString.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/SumAllNumbersAsString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/Two_by_Two.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Two_by_Two.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/java.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/java.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/practice_Code/singleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/singleNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Sorting/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Sorting/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Sorting/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/stacks/CollectionDequeAsStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Stacks/CollectionDequeAsStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/stacks/MyStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Stacks/MyStacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/stacks/StacksNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Stacks/StacksNote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/stacks/StockApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Stacks/StockApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/stacks/maxBodybuilding.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Stacks/maxBodybuilding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream-practice.newone/src/main/java/com/Bob_R/streampractice/practice/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream-practice.newone/src/main/java/com/Bob_R/streampractice/practice/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threads_report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/threads_report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/static/assets/vendor/charts/charts-bundle/Chart.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/static/assets/vendor/charts/charts-bundle/Chart.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/static/assets/vendor/datepicker/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/static/assets/vendor/datepicker/moment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/static/assets/vendor/fonts/material-design-iconic-font/fonts/materialdesignicons-webfontdc99.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/static/assets/vendor/fonts/material-design-iconic-font/fonts/materialdesignicons-webfontdc99.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/static/assets/vendor/full-calendar/js/fullcalendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/static/assets/vendor/full-calendar/js/fullcalendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee_Lab/src/main/java/com/bob_r/EmployeeLabApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee_Lab/src/main/java/com/bob_R/EmployeeLabApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee_Lab/src/main/java/com/bob_r/bootsrap/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee_Lab/src/main/java/com/bob_R/bootsrap/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee_Lab/src/main/java/com/bob_r/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee_Lab/src/main/java/com/bob_R/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee_Lab/src/main/java/com/bob_r/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee_Lab/src/main/java/com/bob_R/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee_Lab/src/main/java/com/bob_r/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee_Lab/src/main/java/com/bob_R/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee_Lab/src/test/java/com/bob_r/employee_lab/EmployeeLabApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee_Lab/src/test/java/com/bob_R/employee_lab/EmployeeLabApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Lambda/Banana.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Lambda/Data_Base_Enum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Lambda/InterfaceBanana.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Lambda/Note " beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Lambda/testBanana.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/AllTopicByCoding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/ArrayOFStringWithMaxAndMin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Best_Time_to_Buy_and_Sell_Stock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Divisible3_5_15.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Duplicated_Chars_and_integer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/First_Unique_Character.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/FrequencyOfArrayElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Goal_Parser_Interpretation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Length_of_Last_Word.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/MaxOfArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Maximum_Number_of_Words.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Move_Zeroes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Plus_One.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Plus_OneTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Question_1_Swap_Array_Generic_method.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Remove_Duplicates_from_Sorted_array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Shuffle_String.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/String_oJadenCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/SumAllNumbersAsString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/Two_by_Two.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/java.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Practice_Code/singleNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Sorting/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Sorting/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Sorting/SelectionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Stacks/CollectionDequeAsStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Stacks/MyStacks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Stacks/StacksNote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Stacks/StockApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Stacks/maxBodybuilding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/Uniq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/week15/Climbing_Stairs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/week15/Climbing_StairsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/week15/ListNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/week15/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/week15/SolutionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/Entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_R/Entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/Entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_R/Entity/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/Entity/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_R/Entity/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/Entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_R/Entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/Entity/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_R/Entity/Region.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/QueryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_R/QueryDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/Spring14DataQuariesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_R/Spring14DataQuariesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/enums/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_R/enums/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/repository/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_R/repository/CourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/repository/DepartmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_R/repository/DepartmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_R/repository/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/repository/RegionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_R/repository/RegionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-Data-Queries/src/test/java/com/bob_r/Spring14DataQuariesApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-Data-Queries/src/test/java/com/bob_R/Spring14DataQuariesApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/java/com/Bob_R/Bob_rApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/src/main/java/com/Bob_R/Bob_RApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_r/BobApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_R/BobApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_r/controller/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_R/controller/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_r/controller/mentorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_R/controller/mentorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_r/controller/studentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_R/controller/studentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_r/mentor/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_R/mentor/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_r/mentor/Mentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_R/mentor/Mentor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_r/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/main/java/com/bob_R/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-09-MVC-Model/src/test/java/com/bob_r/BobApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-09-MVC-Model/src/test/java/com/bob_R/BobApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_r/ThymeleafApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_R/ThymeleafApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_r/bootstrap/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_R/bootstrap/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_r/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_R/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_r/controller/employeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_R/controller/employeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_r/controller/mentorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_R/controller/mentorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_r/nodel/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_R/nodel/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_r/nodel/Mentor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_R/nodel/Mentor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_r/nodel/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/main/java/com/bob_R/nodel/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-10-Thymeleaf/src/test/java/com/bob_r/nodel/ThymeleafApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-10-Thymeleaf/src/test/java/com/bob_R/nodel/ThymeleafApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_r/Bob_R/DataApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_R/Bob_R/DataApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_r/Bob_R/bootstrap/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_R/Bob_R/bootstrap/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_r/Bob_R/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_R/Bob_R/entity/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_r/Bob_R/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_R/Bob_R/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_r/Bob_R/entity/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_R/Bob_R/entity/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_r/Bob_R/entity/CreditAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_R/Bob_R/entity/CreditAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_r/Bob_R/entity/DebitAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_R/Bob_R/entity/DebitAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_r/Bob_R/entity/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_R/Bob_R/entity/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_r/Bob_R/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_R/Bob_R/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_r/Bob_R/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_R/Bob_R/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_r/Bob_R/enums/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_R/Bob_R/enums/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_r/Bob_R/repository/CarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_R/Bob_R/repository/CarRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_r/Bob_R/repository/DepartmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_R/Bob_R/repository/DepartmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_r/Bob_R/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/java/com/bob_R/Bob_R/repository/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/test/java/com/bob_r/Bob_R/Spring11DataTableCreationApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-11-Data-TableCreation/src/test/java/com/bob_R/Bob_R/Spring11DataTableCreationApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/Spring12DataRelationshipApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_R/Spring12DataRelationshipApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/bootstrap/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_R/bootstrap/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/entity/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_R/entity/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_R/entity/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/entity/Merchant.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_R/entity/Merchant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/entity/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_R/entity/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/entity/PaymentDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_R/entity/PaymentDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/entity/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_R/entity/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/enums/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_R/enums/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/repository/CartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_R/repository/CartRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/repository/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_R/repository/ItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/repository/MerchantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_R/repository/MerchantRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_r/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/main/java/com/bob_R/repository/PaymentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-12-Data-Relationship/src/test/java/com/bob_r/spring12datarelationship/Spring12DataRelationshipApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/src/test/java/com/bob_R/spring12datarelationship/Spring12DataRelationshipApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/Spring13DataCinemaLLabApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_R/Spring13DataCinemaLLabApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_R/entity/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_R/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/entity/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_R/entity/Cinema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/entity/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_R/entity/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/entity/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_R/entity/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/entity/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_R/entity/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/entity/MovieCinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_R/entity/MovieCinema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/entity/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_R/entity/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_R/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/enums/MovieState.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_R/enums/MovieState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/enums/MovieType.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_R/enums/MovieType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/enums/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_R/enums/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_R/repository/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/repository/CinemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_R/repository/CinemaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/repository/GenreRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_R/repository/GenreRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/repository/MovieCinemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_R/repository/MovieCinemaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/repository/MovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_R/repository/MovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/repository/TicketRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_R/repository/TicketRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_R/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/test/java/com/bob_r/Spring13DataCinemaLLabApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/test/java/com/bob_R/Spring13DataCinemaLLabApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-00-coupling/src/main/java/com/cydeo/CustomerBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-00-coupling/src/main/java/com/Bob_R/CustomerBalance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-00-coupling/src/main/java/com/cydeo/GiftCardBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-00-coupling/src/main/java/com/Bob_R/GiftCardBalance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-00-coupling/src/main/java/com/cydeo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-00-coupling/src/main/java/com/Bob_R/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-00-coupling/src/main/java/com/cydeo/loosely/Balance.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-00-coupling/src/main/java/com/Bob_R/loosely/Balance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-00-coupling/src/main/java/com/cydeo/loosely/BalanceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-00-coupling/src/main/java/com/Bob_R/loosely/BalanceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-00-coupling/src/main/java/com/cydeo/tightly/BalanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-00-coupling/src/main/java/com/Bob_R/tightly/BalanceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-01-ioc/src/main/java/com/cydeo/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-01-ioc/src/main/java/com/Bob_R/Currency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-01-ioc/src/main/java/com/cydeo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-01-ioc/src/main/java/com/Bob_R/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-01-ioc/src/main/java/com/cydeo/account/Current.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-01-ioc/src/main/java/com/Bob_R/account/Current.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-01-ioc/src/main/java/com/cydeo/account/Saving.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-01-ioc/src/main/java/com/Bob_R/account/Saving.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-01-ioc/src/main/java/com/cydeo/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-01-ioc/src/main/java/com/Bob_R/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/cydeo/config/ConfigApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/Bob_R/config/ConfigApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/cydeo/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/Bob_R/model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/cydeo/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/Bob_R/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/cydeo/repository/CartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/Bob_R/repository/CartRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/cydeo/repository/CartRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/Bob_R/repository/CartRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/cydeo/service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/Bob_R/service/CartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/cydeo/service/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/Bob_R/service/CartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/cydeo/service/StockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/Bob_R/service/StockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/cydeo/service/StockServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/main/java/com/Bob_R/service/StockServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-02-di/src/test/java/com/cydeo/CartRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/test/java/com/Bob_R/CartRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-02-di/src/test/java/com/cydeo/CartServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/src/test/java/com/Bob_R/CartServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/cydeo/lab04springmvc/Lab04SpringmvcApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/Bob_R/lab04springmvc/Lab04SpringmvcApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/cydeo/lab04springmvc/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/Bob_R/lab04springmvc/model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/cydeo/lab04springmvc/model/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/Bob_R/lab04springmvc/model/CartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/cydeo/lab04springmvc/model/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/Bob_R/lab04springmvc/model/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/cydeo/lab04springmvc/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/Bob_R/lab04springmvc/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/cydeo/lab04springmvc/model/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/Bob_R/lab04springmvc/model/Profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/cydeo/lab04springmvc/service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/Bob_R/lab04springmvc/service/CartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/cydeo/lab04springmvc/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/Bob_R/lab04springmvc/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/cydeo/lab04springmvc/service/impl/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/Bob_R/lab04springmvc/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/cydeo/lab04springmvc/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/src/main/java/com/Bob_R/lab04springmvc/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/Lab05ThymeleafApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/Bob_R/spring05thymeleaf/Lab05ThymeleafApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/controller/ProductList.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/Bob_R/spring05thymeleaf/controller/ProductList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/Bob_R/spring05thymeleaf/model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/model/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/Bob_R/spring05thymeleaf/model/CartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/Bob_R/spring05thymeleaf/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/Bob_R/spring05thymeleaf/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/repository/impl/ProductRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/Bob_R/spring05thymeleaf/repository/impl/ProductRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/Bob_R/spring05thymeleaf/service/CartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/Bob_R/spring05thymeleaf/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/service/impl/CartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/Bob_R/spring05thymeleaf/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/cydeo/spring05thymeleaf/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/src/main/java/com/Bob_R/spring05thymeleaf/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/Lab06OrmApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/Lab06OrmApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Balance.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Balance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Cart_item.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Cart_item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Discount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/enums/CartState.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/enums/CartState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/enums/DiscountType.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/enums/DiscountType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/enums/PaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/src/main/java/com/bob_r/enums/PaymentMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +235,7 @@
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">
@@ -166,8 +297,8 @@
     "create.test.in.the.same.root": "true",
     "database.data.extractors.current.export.id": "Excel (xlsx)",
     "full.screen.before.presentation.mode": "true",
-    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "11",
+    "last_directory_selection": "/Users/rikhsiboevgmail.com/IdeaProjects/Bob_R/spring-06-Core-BeanScope/src/main/java/com/Bob_R/model",
     "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/ticketing-project-mvc/src/main/resources/templates/user",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -178,14 +309,13 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.42528737",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "project.propCompiler",
-    "spring.configuration.checksum": "6e006fb8414b60495d4beaf0f89a04e3",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
+    "spring.configuration.checksum": "0b9860ce9ef2fc1417e87c9291898e09",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
-      "directory",
-      "module"
+      "directory"
     ],
     "DatabaseDriversLRU": [
       "postgresql"
@@ -241,7 +371,98 @@
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.TicketingProjectMvcApplication">
+    <configuration name="BobApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="stream-practice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.streampractice.BobApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BobApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-09-MVC-Model" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.BobApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bob_RApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-08-MVC-Controller" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.Bob_RApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bob_R_Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-07-SpringBoot-Demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.Bob_R_Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-11-Data-TableCreation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_R.Bob_R.DataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeLabApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-10-Thymeleaf" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_R.EmployeeLabApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab04SpringmvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="lab-04-springmvc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.lab04springmvc.Lab04SpringmvcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab05ThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="lab-05-thymeleaf" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.spring05thymeleaf.Lab05ThymeleafApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab06OrmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="lab-06-orm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_R.Lab06OrmApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring12DataRelationshipApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-12-Data-Relationship" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_R.Spring12DataRelationshipApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring13DataCinemaLLabApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-13-Data-CinemaLLab" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_R.Spring13DataCinemaLLabApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring14DataQuariesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-14-Data-Queries" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_R.Spring14DataQuariesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-10-Thymeleaf (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.ThymeleafApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TicketingProjectMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ticketing-project-mvc" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.TicketingProjectMvcApplication" />
@@ -257,7 +478,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.TicketingProjectMvcApplication" />
         <item itemvalue="Spring Boot.TicketingProjectMvcApplication" />
       </list>
     </recent_temporary>
@@ -370,14 +590,14 @@
       <workItem from="1682653096214" duration="777000" />
       <workItem from="1682659918899" duration="286000" />
       <workItem from="1682698179214" duration="654000" />
-      <workItem from="1682700563459" duration="28337000" />
-      <workItem from="1682748198993" duration="1169000" />
-      <workItem from="1682777261351" duration="2831000" />
-      <workItem from="1682784014053" duration="596000" />
-      <workItem from="1682786656314" duration="4406000" />
-      <workItem from="1682904789202" duration="603000" />
-      <workItem from="1682959766565" duration="16418000" />
-      <workItem from="1684182740188" duration="545000" />
+      <workItem from="1682700563459" duration="27940000" />
+    </task>
+    <task id="LOCAL-00118" summary="   @ManyToOne&#10;    private Role role;">
+      <created>1681790301345</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1681790301346</updated>
     </task>
     <task id="LOCAL-00119" summary="create table">
       <created>1681791072521</created>
@@ -715,14 +935,7 @@
       <option name="project" value="LOCAL" />
       <updated>1682745024029</updated>
     </task>
-    <task id="LOCAL-00167" summary="@Valid">
-      <created>1682745500822</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1682745500823</updated>
-    </task>
-    <option name="localTasksCounter" value="168" />
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -741,6 +954,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="public class Task extends BaseEntity{" />
     <MESSAGE value="TaskService" />
     <MESSAGE value=" @Column(unique = true)" />
     <MESSAGE value="TaskRepository" />
@@ -765,8 +979,7 @@
     <MESSAGE value="th:if=&quot;${task.taskStatus.value != 'Completed'}&quot;" />
     <MESSAGE value="th:if=&quot;${task.taskStatus.value != 'Completed'}&quot;             th:if=&quot;${project.projectStatus.value != 'Completed'}&quot;" />
     <MESSAGE value="EMAIL DURING UPDATE DON`T NEED CHANGE &quot;READONLY&quot; IN HTML" />
-    <MESSAGE value="@Valid" />
-    <option name="LAST_COMMIT_MESSAGE" value="@Valid" />
+    <option name="LAST_COMMIT_MESSAGE" value="EMAIL DURING UPDATE DON`T NEED CHANGE &quot;READONLY&quot; IN HTML" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

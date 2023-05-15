@@ -1,6 +1,6 @@
-package com.bob_r.entity;
+package com.bob_R.entity;
 
-import com.bob_r.enums.PaymentMethod;
+import com.bob_R.enums.PaymentMethod;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
