@@ -7,55 +7,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-10-Thymeleaf" />
-        <module name="m3-lambda" />
-        <module name="stream-practice" />
-        <module name="spring-03-Wiring" />
-        <module name="spring-00-Coupling" />
-        <module name="spring-01-Core-IoC-Bean-Annotation" />
-        <module name="m9-HTML" />
-        <module name="Solid" />
-        <module name="spring-09-MVC-Model" />
-        <module name="lab-05-thymeleaf" />
-        <module name="spring-02-Core-IoC-Stereotype-Annotation" />
-        <module name="dsa-02-Arrays" />
-        <module name="spring-12-Data-Relationship" />
-        <module name="dsa-05-Stacks" />
-        <module name="m6-stream" />
-        <module name="m7-optional-bigdecimal" />
-        <module name="dsa-01-AlgortihmAnalysis" />
-        <module name="m5-comparator_interface" />
-        <module name="spring-06-Core-BeanScope" />
-        <module name="m4-double_colon_operators" />
-        <module name="m1-generics" />
-        <module name="dsa-08-Trees" />
-        <module name="FOR_ME" />
-        <module name="dsa-07-Queues" />
-        <module name="lab-04-springmvc" />
-        <module name="dsa-06-AlgorithmProblems" />
-        <module name="spring-11-Data-TableCreation" />
-        <module name="spring-10-Thymeleaf (1)" />
-        <module name="lab-02-di" />
-        <module name="lambda-sort-doublecolon-task" />
-        <module name="m2-enum" />
-        <module name="spring-05-Core-Abstraction" />
-        <module name="lab-06-orm" />
-        <module name="m8-new-version-updates" />
-        <module name="spring-08-MVC-Controller" />
-        <module name="Review1" />
-        <module name="spring-14-Data-Queries" />
-        <module name="lab-01-ioc" />
-        <module name="dsa-03-CollectionsReview" />
-        <module name="spring-04-Autowiring" />
-        <module name="spring-07-SpringBoot-Demo" />
-        <module name="spring-13-Data-CinemaLLab" />
-        <module name="lab-00-coupling" />
-        <module name="dsa-04-LinkedLists" />
         <module name="ticketing-project-mvc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Bob_R" target="11" />
+      <module name="dsa-01-AlgortihmAnalysis" target="11" />
+      <module name="dsa-02-Arrays" target="11" />
+      <module name="dsa-03-CollectionsReview" target="11" />
+      <module name="dsa-04-LinkedLists" target="11" />
+      <module name="dsa-05-Stacks" target="11" />
+      <module name="dsa-06-AlgorithmProblems" target="11" />
+      <module name="dsa-07-Queues" target="11" />
+      <module name="dsa-08-Trees" target="11" />
+      <module name="lab-00-coupling" target="11" />
+      <module name="lab-01-ioc" target="11" />
+      <module name="lab-02-di" target="11" />
+      <module name="lab-04-springmvc" target="11" />
+      <module name="lab-05-thymeleaf" target="11" />
+      <module name="lab-06-orm" target="11" />
+      <module name="Review1" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -66,16 +37,6 @@
       <module name="lab-04-springmvc" options="-parameters" />
       <module name="lab-05-thymeleaf" options="-parameters" />
       <module name="lab-06-orm" options="-parameters" />
-      <module name="spring-07-SpringBoot-Demo" options="-parameters" />
-      <module name="spring-08-MVC-Controller" options="-parameters" />
-      <module name="spring-09-MVC-Model" options="-parameters" />
-      <module name="spring-10-Thymeleaf" options="-parameters" />
-      <module name="spring-10-Thymeleaf (1)" options="-parameters" />
-      <module name="spring-11-Data-TableCreation" options="-parameters" />
-      <module name="spring-12-Data-Relationship" options="-parameters" />
-      <module name="spring-13-Data-CinemaLLab" options="-parameters" />
-      <module name="spring-14-Data-Queries" options="-parameters" />
-      <module name="stream-practice" options="-parameters" />
       <module name="ticketing-project-mvc" options="-parameters" />
     </option>
   </component>
