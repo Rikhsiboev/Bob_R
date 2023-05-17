@@ -27,6 +27,11 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         return http.authorizeRequests()// checking for role
+                .antMatchers("/user/**").hasRole("ADMIN") // from controller user  bring condition which role responsible to see that pages
+                .antMatchers("/project/**").hasRole("MANAGER") //from controller project => Manager can access to that pages
+                .antMatchers("/task/employee/**").hasRole("EMPLOYEE")//from controller employee =>  Employee can access to that pages
+                .antMatchers("/task/**").hasRole("MANAGER") //from controller task => Manager can access to that pages
+
                 .antMatchers( // any matches from http
                         "/",
                 "/login",
