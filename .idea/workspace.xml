@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="">
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="now we are create owb user for login for spring security Role #">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/SecurityConfig.java" afterDir="false" />
     </list>
@@ -438,14 +438,7 @@
       <workItem from="1684251735164" duration="6844000" />
       <workItem from="1684269098019" duration="52000" />
       <workItem from="1684269204778" duration="3317000" />
-      <workItem from="1684337446031" duration="8824000" />
-    </task>
-    <task id="LOCAL-00125" summary="TicketRepository QUERIES">
-      <created>1682094799285</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1682094799285</updated>
+      <workItem from="1684337446031" duration="10989000" />
     </task>
     <task id="LOCAL-00126" summary="UserRepository">
       <created>1682096147146</created>
@@ -783,7 +776,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684350074429</updated>
     </task>
-    <option name="localTasksCounter" value="174" />
+    <task id="LOCAL-00174" summary="now we are create owb user for login for spring security Role #">
+      <created>1684353438880</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1684353438880</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -802,7 +802,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Task" />
     <MESSAGE value="TaskServiceImp" />
     <MESSAGE value="done" />
     <MESSAGE value="." />
@@ -827,7 +826,8 @@
     <MESSAGE value="SECURITY FIRST STEP ADDING DEPENDENCY&#10;&#10;        &lt;dependency&gt;&#10;            &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;&#10;            &lt;artifactId&gt;spring-boot-starter-security&lt;/artifactId&gt;&#10;&#10;        &lt;/dependency&gt;  &#10;        &#10;        &#10;RULE &#10;1=&gt; ENDCODED &#10;    (spring using own code so i have to use bean to call that method to converting my code to my app&#10;    )&#10;2=&gt; AUTHENTICATION FORM FROM SPRING &#10;  (spring using own from so i have to use bean to call that method to converting my code to my app&#10;    )&#10;&#10;3=&gt; USER OBJECT FROM SPRING &#10;&#10;  (spring using own object so i have to use bean to call that method to converting my code to my app&#10;    )" />
     <MESSAGE value="  Rule 1 =&gt; PasswordEncoder  adding as bean and mean idea is what ever i wrote in my application in UserDto field my password it will convert to 16 digit as crypto  &#10;  &#10;  @Bean&#10;    public PasswordEncoder passwordEncoder(){&#10;        return new BCryptPasswordEncoder();&#10;    }" />
     <MESSAGE value="Condition if we use only one method from @bean we can add on application as @Bean annotation BUT === &gt; we will use many methods that time we have to create configuration class and use there as clean code principle to make sure as testing will be more easy for future" />
-    <option name="LAST_COMMIT_MESSAGE" value="Condition if we use only one method from @bean we can add on application as @Bean annotation BUT === &gt; we will use many methods that time we have to create configuration class and use there as clean code principle to make sure as testing will be more easy for future" />
+    <MESSAGE value="now we are create owb user for login for spring security Role #" />
+    <option name="LAST_COMMIT_MESSAGE" value="now we are create owb user for login for spring security Role #" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
