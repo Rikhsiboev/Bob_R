@@ -4,7 +4,8 @@ public class MyQueue<T> {
     QNode<T> front;
     QNode<T> back;
     int size;
-    boolean isEmpty(){return front==null;}
+    boolean isEmpty(){
+        return front==null;}
     T peek() {
         return (T) front.value;
     }

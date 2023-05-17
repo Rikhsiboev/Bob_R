@@ -12,31 +12,15 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Bob_R" target="11" />
-      <module name="dsa-01-AlgortihmAnalysis" target="11" />
-      <module name="dsa-02-Arrays" target="11" />
-      <module name="dsa-03-CollectionsReview" target="11" />
       <module name="dsa-04-LinkedLists" target="11" />
       <module name="dsa-05-Stacks" target="11" />
       <module name="dsa-06-AlgorithmProblems" target="11" />
       <module name="dsa-07-Queues" target="11" />
-      <module name="dsa-08-Trees" target="11" />
-      <module name="lab-00-coupling" target="11" />
-      <module name="lab-01-ioc" target="11" />
-      <module name="lab-02-di" target="11" />
-      <module name="lab-04-springmvc" target="11" />
-      <module name="lab-05-thymeleaf" target="11" />
-      <module name="lab-06-orm" target="11" />
-      <module name="Review1" target="11" />
+      <module name="FOR_ME" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="lab-00-coupling" options="-parameters" />
-      <module name="lab-01-ioc" options="-parameters" />
-      <module name="lab-02-di" options="-parameters" />
-      <module name="lab-04-springmvc" options="-parameters" />
-      <module name="lab-05-thymeleaf" options="-parameters" />
-      <module name="lab-06-orm" options="-parameters" />
       <module name="ticketing-project-mvc" options="-parameters" />
     </option>
   </component>

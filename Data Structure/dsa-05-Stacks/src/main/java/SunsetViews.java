@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class SunsetViews {
+public class  SunsetViews {
     public static void main(String[] args) {
         int[] buildings={3, 5, 4, 4, 3, 1, 3, 2};
         sunsetViews(buildings,"West").forEach(System.out::println);

@@ -1,4 +1,4 @@
-public class RecursiveFibonacci {
+public class  RecursiveFibonacci {
     public static void main(String[] args) {
         System.out.println(fib(2));
         System.out.println(fib(5));
