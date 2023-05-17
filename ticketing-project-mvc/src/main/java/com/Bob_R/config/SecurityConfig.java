@@ -32,6 +32,8 @@ public class SecurityConfig {
                 .antMatchers("/task/employee/**").hasRole("EMPLOYEE")//from controller employee =>  Employee can access to that pages
                 .antMatchers("/task/**").hasRole("MANAGER") //from controller task => Manager can access to that pages
         //        .antMatchers("/task/**").hasAnyRole("EMPLOYEE","ADMIN")  // more than one role
+                .antMatchers("/task/**").hasAuthority("ROLE_EMPLOYEE")
+
                 .antMatchers( // any matches from http
                         "/",
                 "/login",
