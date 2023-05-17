@@ -22,8 +22,10 @@ public class SecurityConfig {
         List<UserDetails> userList = new ArrayList<>();
 
         userList.add(new User("Mike", encoder.encode("password"), Arrays.asList(new SimpleGrantedAuthority("ROLE_ADMIN"))));
+        userList.add(new User("Bob", encoder.encode("password1"), Arrays.asList(new SimpleGrantedAuthority("ROLE_MANAGER®"))));
         return new InMemoryUserDetailsManager(userList);
     }
+
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         return http.authorizeRequests()// checking for role
@@ -31,22 +33,28 @@ public class SecurityConfig {
                 .antMatchers("/project/**").hasRole("MANAGER") //from controller project => Manager can access to that pages
                 .antMatchers("/task/employee/**").hasRole("EMPLOYEE")//from controller employee =>  Employee can access to that pages
                 .antMatchers("/task/**").hasRole("MANAGER") //from controller task => Manager can access to that pages
-        //        .antMatchers("/task/**").hasAnyRole("EMPLOYEE","ADMIN")  // more than one role
-                .antMatchers("/task/**").hasAuthority("ROLE_EMPLOYEE")
+                //        .antMatchers("/task/**").hasAnyRole("EMPLOYEE","ADMIN")  // more than one role
+//                .antMatchers("/task/**").hasAuthority("ROLE_EMPLOYEE")
 
                 .antMatchers( // any matches from http
                         "/",
-                "/login",
-                "/fragments/**",
-                "/assets/**",
-                "/images/**"
+                        "/login",
+                        "/fragments/**",
+                        "/assets/**",
+                        "/images/**"
                 ).permitAll()// bring permission for user
                 .anyRequest() // any other have request
                 .authenticated() // to be authorized to be use that page or app
                 .and() // and
-                .httpBasic() // popup page Box
-                .and()//and
-                .build(); // build
+//                .httpBasic() // popup page Box
+//                .and()//and
+////                .build(); // build
+                .formLogin()  // form login for controlling Thymeleaf pages in our app
+                .loginPage("/login")
+                .defaultSuccessUrl("/welcome")  // after login welcome page condition
+                .failureUrl("/login?error=true ")//error
+                .permitAll()//accuse to everyone
+                .and().build();
 
     }
 }

@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="">
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="we remove &#10;&#10;    .httpBasic() // popup page Box&#10;&#10;we added &#10;&#10; .formLogin()  // form login for controlling Thymeleaf pages in our app&#10;                .loginPage(&quot;/login&quot;)&#10;                .defaultSuccessUrl(&quot;/&quot;)  // after login welcome page condition&#10;                .failureForwardUrl(&quot;/login?error=true &quot;)//error&#10;&#10;&#10;&#10;we using html login and we add &#10;&#10;            &lt;form th:action=&quot;@{/login}&quot; method=&quot;post&quot;&gt;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,56 +90,56 @@
     <option name="showModules" value="false" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "database.data.extractors.current.export.id": "Excel (xlsx)",
-    "full.screen.before.presentation.mode": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_directory_selection": "/Users/rikhsiboevgmail.com/IdeaProjects/Bob_R/spring-06-Core-BeanScope/src/main/java/com/Bob_R/model",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/Bob_R",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.42528737",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "0b9860ce9ef2fc1417e87c9291898e09",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Excel (xlsx)&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/Bob_R/spring-06-Core-BeanScope/src/main/java/com/Bob_R/model&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/Bob_R&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.42528737&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;0b9860ce9ef2fc1417e87c9291898e09&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ],
-    "DatabaseDriversLRU": [
-      "postgresql"
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ],
-    "RunConfigurationTargetLRU": [
-      "8ae2c351-7586-4389-9573-d48e4456d440/database/\"ecommerce\"",
-      "8ae2c351-7586-4389-9573-d48e4456d440/database/\"ecommerce\"/schema/\"public\""
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;8ae2c351-7586-4389-9573-d48e4456d440/database/\&quot;ecommerce\&quot;&quot;,
+      &quot;8ae2c351-7586-4389-9573-d48e4456d440/database/\&quot;ecommerce\&quot;/schema/\&quot;public\&quot;&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
-      "PostgreSQL"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;PostgreSQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.bob_r.Bob_R.bootstrap" />
@@ -437,21 +440,9 @@
       <workItem from="1684251735164" duration="6844000" />
       <workItem from="1684269098019" duration="52000" />
       <workItem from="1684269204778" duration="3317000" />
-      <workItem from="1684337446031" duration="12607000" />
-    </task>
-    <task id="LOCAL-00128" summary="UserDTO update">
-      <created>1682129044690</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1682129044690</updated>
-    </task>
-    <task id="LOCAL-00129" summary="UserDTO">
-      <created>1682130756073</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1682130756075</updated>
+      <workItem from="1684337446031" duration="14456000" />
+      <workItem from="1684361392169" duration="15000" />
+      <workItem from="1684361419165" duration="2487000" />
     </task>
     <task id="LOCAL-00130" summary="fix">
       <created>1682264061380</created>
@@ -782,7 +773,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684357642093</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="adding as commit for future if we needed as Array we add  more than one role&#10;&#10;&#10;        //        .antMatchers(&quot;/task/**&quot;).hasAnyRole(&quot;EMPLOYEE&quot;,&quot;ADMIN&quot;)  // more than one role">
+      <created>1684358029138</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1684358029138</updated>
+    </task>
+    <task id="LOCAL-00178" summary="Spring understand &quot;ROLE_EMPLOYEE&quot; in DATA BASE&#10;&#10;      ==&gt;  hasAuthority  we need as &quot;ROLE_EMPLOYEE&quot;   &#10;      &#10;       .antMatchers(&quot;/task/**&quot;).hasAuthority(&quot;ROLE_EMPLOYEE&quot;)&#10;       // from controller TASK  bring condition which role responsible to see that pages&#10;       &#10;but   ==&gt;  hasRole       we not need &#10;&#10;                     .antMatchers(&quot;/user/**&quot;).hasRole(&quot;ADMIN&quot;) // from controller user  bring condition which role responsible to see that pages">
+      <created>1684358349496</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1684358349496</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -801,8 +806,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="." />
-    <MESSAGE value=".deleting project but this method for task deleting at same time WITH CONDITION" />
     <MESSAGE value="complete project but this method for task complete at same time" />
     <MESSAGE value="listAllTasksByStatusIsNot" />
     <MESSAGE value="project-status" />
@@ -826,7 +829,9 @@
     <MESSAGE value="now we are create owb user for login for spring security Role #" />
     <MESSAGE value="now we are creating Role 2 Authentication of form from spring we are overriding that method to use our from lognin&#10;&#10;    @Bean&#10;    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {&#10;        return http.authorizeRequests()// checking for role&#10;                .antMatchers( // any matches from http&#10;                        &quot;/&quot;,&#10;                &quot;/login&quot;,&#10;                &quot;/fragments/**&quot;,&#10;                &quot;/assets/**&quot;,&#10;                &quot;/images/**&quot;&#10;                ).permitAll()// bring permission for user&#10;                .anyRequest() // any other have request&#10;                .authenticated() // to be authorized to be use that page or app&#10;                .and() // and&#10;                .httpBasic() // popup page Box&#10;                .and()//and&#10;                .build(); // build&#10;&#10;    }" />
     <MESSAGE value="  Adding some restriction from which controller to which Role can have access and do all BS logic as add remove or save remove also complete project &#10;  &#10;    {&#10;     .antMatchers(&quot;/user/**&quot;).hasRole(&quot;ADMIN&quot;) // from controller user  bring condition which role responsible to see that pages&#10;                    .antMatchers(&quot;/project/**&quot;).hasRole(&quot;MANAGER&quot;) //from controller project =&gt; Manager can access to that pages&#10;                    .antMatchers(&quot;/task/employee/**&quot;).hasRole(&quot;EMPLOYEE&quot;)//from controller employee =&gt;  Employee can access to that pages&#10;                    .antMatchers(&quot;/task/**&quot;).hasRole(&quot;MANAGER&quot;) //from controller task =&gt; Manager can access to that pages&#10;&#10;    }&#10;  &#10;  &#10;    @Bean&#10;    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {&#10;        return http.authorizeRequests()// checking for role&#10;                .antMatchers(&quot;/user/**&quot;).hasRole(&quot;ADMIN&quot;) // from controller user  bring condition which role responsible to see that pages&#10;                .antMatchers(&quot;/project/**&quot;).hasRole(&quot;MANAGER&quot;) //from controller project =&gt; Manager can access to that pages&#10;                .antMatchers(&quot;/task/employee/**&quot;).hasRole(&quot;EMPLOYEE&quot;)//from controller employee =&gt;  Employee can access to that pages&#10;                .antMatchers(&quot;/task/**&quot;).hasRole(&quot;MANAGER&quot;) //from controller task =&gt; Manager can access to that pages&#10;&#10;                .antMatchers( // any matches from http&#10;                        &quot;/&quot;,&#10;                &quot;/login&quot;,&#10;                &quot;/fragments/**&quot;,&#10;                &quot;/assets/**&quot;,&#10;                &quot;/images/**&quot;&#10;                ).permitAll()// bring permission for user&#10;                .anyRequest() // any other have request&#10;                .authenticated() // to be authorized to be use that page or app&#10;                .and() // and&#10;                .httpBasic() // popup page Box&#10;                .and()//and&#10;                .build(); // build&#10;&#10;    }" />
-    <option name="LAST_COMMIT_MESSAGE" value="  Adding some restriction from which controller to which Role can have access and do all BS logic as add remove or save remove also complete project &#10;  &#10;    {&#10;     .antMatchers(&quot;/user/**&quot;).hasRole(&quot;ADMIN&quot;) // from controller user  bring condition which role responsible to see that pages&#10;                    .antMatchers(&quot;/project/**&quot;).hasRole(&quot;MANAGER&quot;) //from controller project =&gt; Manager can access to that pages&#10;                    .antMatchers(&quot;/task/employee/**&quot;).hasRole(&quot;EMPLOYEE&quot;)//from controller employee =&gt;  Employee can access to that pages&#10;                    .antMatchers(&quot;/task/**&quot;).hasRole(&quot;MANAGER&quot;) //from controller task =&gt; Manager can access to that pages&#10;&#10;    }&#10;  &#10;  &#10;    @Bean&#10;    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {&#10;        return http.authorizeRequests()// checking for role&#10;                .antMatchers(&quot;/user/**&quot;).hasRole(&quot;ADMIN&quot;) // from controller user  bring condition which role responsible to see that pages&#10;                .antMatchers(&quot;/project/**&quot;).hasRole(&quot;MANAGER&quot;) //from controller project =&gt; Manager can access to that pages&#10;                .antMatchers(&quot;/task/employee/**&quot;).hasRole(&quot;EMPLOYEE&quot;)//from controller employee =&gt;  Employee can access to that pages&#10;                .antMatchers(&quot;/task/**&quot;).hasRole(&quot;MANAGER&quot;) //from controller task =&gt; Manager can access to that pages&#10;&#10;                .antMatchers( // any matches from http&#10;                        &quot;/&quot;,&#10;                &quot;/login&quot;,&#10;                &quot;/fragments/**&quot;,&#10;                &quot;/assets/**&quot;,&#10;                &quot;/images/**&quot;&#10;                ).permitAll()// bring permission for user&#10;                .anyRequest() // any other have request&#10;                .authenticated() // to be authorized to be use that page or app&#10;                .and() // and&#10;                .httpBasic() // popup page Box&#10;                .and()//and&#10;                .build(); // build&#10;&#10;    }" />
+    <MESSAGE value="adding as commit for future if we needed as Array we add  more than one role&#10;&#10;&#10;        //        .antMatchers(&quot;/task/**&quot;).hasAnyRole(&quot;EMPLOYEE&quot;,&quot;ADMIN&quot;)  // more than one role" />
+    <MESSAGE value="Spring understand &quot;ROLE_EMPLOYEE&quot; in DATA BASE&#10;&#10;      ==&gt;  hasAuthority  we need as &quot;ROLE_EMPLOYEE&quot;   &#10;      &#10;       .antMatchers(&quot;/task/**&quot;).hasAuthority(&quot;ROLE_EMPLOYEE&quot;)&#10;       // from controller TASK  bring condition which role responsible to see that pages&#10;       &#10;but   ==&gt;  hasRole       we not need &#10;&#10;                     .antMatchers(&quot;/user/**&quot;).hasRole(&quot;ADMIN&quot;) // from controller user  bring condition which role responsible to see that pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring understand &quot;ROLE_EMPLOYEE&quot; in DATA BASE&#10;&#10;      ==&gt;  hasAuthority  we need as &quot;ROLE_EMPLOYEE&quot;   &#10;      &#10;       .antMatchers(&quot;/task/**&quot;).hasAuthority(&quot;ROLE_EMPLOYEE&quot;)&#10;       // from controller TASK  bring condition which role responsible to see that pages&#10;       &#10;but   ==&gt;  hasRole       we not need &#10;&#10;                     .antMatchers(&quot;/user/**&quot;).hasRole(&quot;ADMIN&quot;) // from controller user  bring condition which role responsible to see that pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
