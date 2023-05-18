@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="now we are creating Business Logic as Ui =&gt; Service =&gt; serviceIMp">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/SecurityServiceIMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/SecurityServiceIMP.java" afterDir="false" />
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -449,27 +448,6 @@
       <workItem from="1684361392169" duration="15000" />
       <workItem from="1684361419165" duration="2487000" />
     </task>
-    <task id="LOCAL-00133" summary="ProjectService">
-      <created>1682477016034</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1682477016034</updated>
-    </task>
-    <task id="LOCAL-00134" summary="ProjectService">
-      <created>1682487364480</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1682487364481</updated>
-    </task>
-    <task id="LOCAL-00135" summary="ProjectService">
-      <created>1682489071083</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1682489071085</updated>
-    </task>
     <task id="LOCAL-00136" summary="for me">
       <created>1682558994918</created>
       <option name="number" value="00136" />
@@ -792,7 +770,28 @@
       <option name="project" value="LOCAL" />
       <updated>1684376645481</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="we get from Database UserRepository&#10;and throw exp&#10;new UserPrincipal(user); /// logic here get user from DB and convert  to spring object how spring understand by using UserPrincipalClass">
+      <created>1684377765842</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1684377765842</updated>
+    </task>
+    <task id="LOCAL-00183" summary="we change db and add       in config security         &#10; .antMatchers(&quot;/user/**&quot;).hasAuthority(&quot;ROLE_ADMIN&quot;) // For DB">
+      <created>1684379062743</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1684379062743</updated>
+    </task>
+    <task id="LOCAL-00184" summary="we change db and add       in config security         &#10; .antMatchers(&quot;/user/**&quot;).hasAuthority(&quot;ROLE_ADMIN&quot;) // For DB">
+      <created>1684379156064</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1684379156064</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -811,8 +810,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="managerCompleteProject" />
-    <MESSAGE value="checkIfUserCanBeDeleted" />
     <MESSAGE value="checkIfUserCanBeDeleted logic if task bot completed can not be deleted" />
     <MESSAGE value="we create loop and broke in our APP by dependency injection as solution we add &quot;&quot;@Lazy ProjectService projectService, @Lazy TaskService taskService&quot; in UserServiceImpl to fix" />
     <MESSAGE value="fixed problem by deleting user after done task error was findAllByTaskStatusIsNotAndAssignedEmployee repository method wrong" />
@@ -836,7 +833,9 @@
     <MESSAGE value="    /// this is hard code we are changing that soft code from our data Base&#10;&#10;    we are creating in entity class UserPrincipal implements UserDetails&#10;    quasi-on why ? spring from security working with own object that mean we have to override that object method and saying that spring go to my Entity and get user password from my UserEntity and reassign&#10;&#10;    so my Mapper here class UserPrincipal class&#10;&#10;      @Override&#10;        public String getPassword() {&#10;            return this.user.getPassWord() ;&#10;        }" />
     <MESSAGE value="we now that security working with own object we need override all method and work with Entity fields convert as Mapper to use for business logic" />
     <MESSAGE value="now we are creating Business Logic as Ui =&gt; Service =&gt; serviceIMp" />
-    <option name="LAST_COMMIT_MESSAGE" value="now we are creating Business Logic as Ui =&gt; Service =&gt; serviceIMp" />
+    <MESSAGE value="we get from Database UserRepository&#10;and throw exp&#10;new UserPrincipal(user); /// logic here get user from DB and convert  to spring object how spring understand by using UserPrincipalClass" />
+    <MESSAGE value="we change db and add       in config security         &#10; .antMatchers(&quot;/user/**&quot;).hasAuthority(&quot;ROLE_ADMIN&quot;) // For DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="we change db and add       in config security         &#10; .antMatchers(&quot;/user/**&quot;).hasAuthority(&quot;ROLE_ADMIN&quot;) // For DB" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
