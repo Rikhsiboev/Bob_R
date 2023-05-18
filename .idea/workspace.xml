@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="we now that security working with own object we need override all method as Mapper to use for business logic">
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/common/UserPrincipal.java" afterDir="false" />
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="now we are creating Business Logic as Ui =&gt; Service =&gt; serviceIMp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/SecurityServiceIMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/SecurityServiceIMP.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +178,11 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
   <component name="RunManager" selected="Spring Boot.TicketingProjectMvcApplication">
@@ -443,20 +448,6 @@
       <workItem from="1684337446031" duration="14456000" />
       <workItem from="1684361392169" duration="15000" />
       <workItem from="1684361419165" duration="2487000" />
-    </task>
-    <task id="LOCAL-00131" summary="./">
-      <created>1682352397012</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1682352397013</updated>
-    </task>
-    <task id="LOCAL-00132" summary="fixed all finally">
-      <created>1682455634206</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1682455634207</updated>
     </task>
     <task id="LOCAL-00133" summary="ProjectService">
       <created>1682477016034</created>
@@ -787,7 +778,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684375905328</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <task id="LOCAL-00180" summary="we now that security working with own object we need override all method and work with Entity fields convert as Mapper to use for business logic">
+      <created>1684376533951</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1684376533951</updated>
+    </task>
+    <task id="LOCAL-00181" summary="now we are creating Business Logic as Ui =&gt; Service =&gt; serviceIMp">
+      <created>1684376645481</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1684376645481</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -806,8 +811,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="listAllTasksByStatusIsNot" />
-    <MESSAGE value="project-status" />
     <MESSAGE value="managerCompleteProject" />
     <MESSAGE value="checkIfUserCanBeDeleted" />
     <MESSAGE value="checkIfUserCanBeDeleted logic if task bot completed can not be deleted" />
@@ -831,7 +834,9 @@
     <MESSAGE value="adding as commit for future if we needed as Array we add  more than one role&#10;&#10;&#10;        //        .antMatchers(&quot;/task/**&quot;).hasAnyRole(&quot;EMPLOYEE&quot;,&quot;ADMIN&quot;)  // more than one role" />
     <MESSAGE value="Spring understand &quot;ROLE_EMPLOYEE&quot; in DATA BASE&#10;&#10;      ==&gt;  hasAuthority  we need as &quot;ROLE_EMPLOYEE&quot;   &#10;      &#10;       .antMatchers(&quot;/task/**&quot;).hasAuthority(&quot;ROLE_EMPLOYEE&quot;)&#10;       // from controller TASK  bring condition which role responsible to see that pages&#10;       &#10;but   ==&gt;  hasRole       we not need &#10;&#10;                     .antMatchers(&quot;/user/**&quot;).hasRole(&quot;ADMIN&quot;) // from controller user  bring condition which role responsible to see that pages" />
     <MESSAGE value="    /// this is hard code we are changing that soft code from our data Base&#10;&#10;    we are creating in entity class UserPrincipal implements UserDetails&#10;    quasi-on why ? spring from security working with own object that mean we have to override that object method and saying that spring go to my Entity and get user password from my UserEntity and reassign&#10;&#10;    so my Mapper here class UserPrincipal class&#10;&#10;      @Override&#10;        public String getPassword() {&#10;            return this.user.getPassWord() ;&#10;        }" />
-    <option name="LAST_COMMIT_MESSAGE" value="    /// this is hard code we are changing that soft code from our data Base&#10;&#10;    we are creating in entity class UserPrincipal implements UserDetails&#10;    quasi-on why ? spring from security working with own object that mean we have to override that object method and saying that spring go to my Entity and get user password from my UserEntity and reassign&#10;&#10;    so my Mapper here class UserPrincipal class&#10;&#10;      @Override&#10;        public String getPassword() {&#10;            return this.user.getPassWord() ;&#10;        }" />
+    <MESSAGE value="we now that security working with own object we need override all method and work with Entity fields convert as Mapper to use for business logic" />
+    <MESSAGE value="now we are creating Business Logic as Ui =&gt; Service =&gt; serviceIMp" />
+    <option name="LAST_COMMIT_MESSAGE" value="now we are creating Business Logic as Ui =&gt; Service =&gt; serviceIMp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
