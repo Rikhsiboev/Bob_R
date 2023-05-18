@@ -17,14 +17,17 @@ import java.util.List;
 
 @Configuration
 public class SecurityConfig {
-    @Bean
-    public UserDetailsService userDetailsService(PasswordEncoder encoder) {
-        List<UserDetails> userList = new ArrayList<>();
 
-        userList.add(new User("Mike", encoder.encode("password"), Arrays.asList(new SimpleGrantedAuthority("ROLE_ADMIN"))));
-        userList.add(new User("Bob", encoder.encode("password1"), Arrays.asList(new SimpleGrantedAuthority("ROLE_MANAGER®"))));
-        return new InMemoryUserDetailsManager(userList);
-    }
+
+    /// this is hard code we are changing that soft code from our data Base
+//    @Bean
+//    public UserDetailsService userDetailsService(PasswordEncoder encoder) {
+//        List<UserDetails> userList = new ArrayList<>();
+//
+//        userList.add(new User("Mike", encoder.encode("password"), Arrays.asList(new SimpleGrantedAuthority("ROLE_ADMIN"))));
+//        userList.add(new User("Bob", encoder.encode("password1"), Arrays.asList(new SimpleGrantedAuthority("ROLE_MANAGER®"))));
+//        return new InMemoryUserDetailsManager(userList);
+//    }
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
@@ -52,7 +55,7 @@ public class SecurityConfig {
                 .formLogin()  // form login for controlling Thymeleaf pages in our app
                 .loginPage("/login")
                 .defaultSuccessUrl("/welcome")  // after login welcome page condition
-                .failureUrl("/login?error=true ")//error
+                .failureUrl(         "/login?error=true ")//error
                 .permitAll()//accuse to everyone
                 .and().build();
 
