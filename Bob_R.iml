@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
-    <output url="file://$MODULE_DIR$/target/classes" />
-    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <output url="file://$MODULE_DIR$/spring-labs/target/classes" />
+    <output-test url="file://$MODULE_DIR$/spring-labs/target/test-classes" />
     <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/target" />
+      <sourceFolder url="file://$MODULE_DIR$/java-lab-ecommerce-project/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java_day_Data_Structures_and_Algorithms/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/spring-labs/target" />
     </content>
     <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: name.remal.gradle-plugins.lombok:lombok:2.0.1" level="project" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
 </module>
