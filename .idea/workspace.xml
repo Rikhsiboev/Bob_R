@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="  //Remember me&#10;    .userDetailsService(securityServiceInterface) // injection security Remember me who?">
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="modify which page after login system from role&#10;&#10;we are creating one config class =&gt;        AuthSuccessHandler&#10; requested from  =&gt;                       .successHandler() &#10; as bean  =&gt;                               AuthenticationSuccessHandler interface&#10; injection">
+      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/AuthSuccessHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/SecurityConfig.java" afterDir="false" />
     </list>
@@ -342,14 +343,7 @@
       <workItem from="1682959766565" duration="16418000" />
       <workItem from="1684182740188" duration="1184000" />
       <workItem from="1684462479924" duration="811000" />
-      <workItem from="1684507670128" duration="2711000" />
-    </task>
-    <task id="LOCAL-00125" summary="TicketRepository QUERIES">
-      <created>1682094799285</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1682094799285</updated>
+      <workItem from="1684507670128" duration="4090000" />
     </task>
     <task id="LOCAL-00126" summary="UserRepository">
       <created>1682096147146</created>
@@ -687,7 +681,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684509255895</updated>
     </task>
-    <option name="localTasksCounter" value="174" />
+    <task id="LOCAL-00174" summary="  //Remember me&#10;    .userDetailsService(securityServiceInterface) // injection security Remember me who?">
+      <created>1684510439315</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1684510439315</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -706,7 +707,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Task" />
     <MESSAGE value="TaskServiceImp" />
     <MESSAGE value="done" />
     <MESSAGE value="." />
@@ -731,7 +731,8 @@
     <MESSAGE value="Reverse String as Stack" />
     <MESSAGE value="restriction for each role which page can see as security" />
     <MESSAGE value="Logout configuration and link in header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logout configuration and link in header" />
+    <MESSAGE value="  //Remember me&#10;    .userDetailsService(securityServiceInterface) // injection security Remember me who?" />
+    <option name="LAST_COMMIT_MESSAGE" value="  //Remember me&#10;    .userDetailsService(securityServiceInterface) // injection security Remember me who?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

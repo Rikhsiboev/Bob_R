@@ -12,9 +12,11 @@ public class SecurityConfig {
 
 
     private final SecurityServiceInterface securityServiceInterface;
+    private final AuthSuccessHandler authSuccessHandler;
 
-    public SecurityConfig(SecurityServiceInterface securityServiceInterface) {
+    public SecurityConfig(SecurityServiceInterface securityServiceInterface, AuthSuccessHandler authSuccessHandler) {
         this.securityServiceInterface = securityServiceInterface;
+        this.authSuccessHandler = authSuccessHandler;
     }
 
 
@@ -58,7 +60,11 @@ public class SecurityConfig {
 ////                .build(); // build
                 .formLogin()  // form login for controlling Thymeleaf pages in our app
                 .loginPage("/login")
-                .defaultSuccessUrl("/welcome")  // after login welcome page condition
+//                .defaultSuccessUrl("/welcome")  // after login welcome page condition
+
+                //modify which page after login system from role
+                .successHandler(authSuccessHandler)
+
                 .failureUrl(         "/login?error=true ")//error
                 .permitAll()//accuse to everyone
                 .and()
