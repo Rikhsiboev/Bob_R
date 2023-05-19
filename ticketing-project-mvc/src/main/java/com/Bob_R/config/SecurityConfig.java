@@ -36,7 +36,10 @@ public class SecurityConfig {
 //                .antMatchers("/project/**").hasRole("MANAGER") //from controller project => Manager can access to that pages
 //                .antMatchers("/task/employee/**").hasRole("EMPLOYEE")//from controller employee =>  Employee can access to that pages
 //                .antMatchers("/task/**").hasRole("MANAGER") //from controller task => Manager can access to that pages
-                .antMatchers("/user/**").hasAuthority("ROLE_ADMIN") // For DB
+                .antMatchers("/user/**").hasAuthority("Admin") // For DB
+                .antMatchers("/project/**").hasAuthority("Manager")
+                .antMatchers("/task/employee/**").hasAuthority("Employee")
+                .antMatchers("/task/**").hasAuthority("Manager")
                 //        .antMatchers("/task/**").hasAnyRole("EMPLOYEE","ADMIN")  // more than one role
 //                .antMatchers("/task/**").hasAuthority("ROLE_EMPLOYEE")
 
