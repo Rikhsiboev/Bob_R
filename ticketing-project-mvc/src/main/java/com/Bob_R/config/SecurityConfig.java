@@ -1,23 +1,21 @@
 package com.Bob_R.config;
 
+import com.Bob_R.service.SecurityServiceInterface;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
-import org.springframework.security.core.userdetails.User;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 @Configuration
 public class SecurityConfig {
+
+
+    private final SecurityServiceInterface securityServiceInterface;
+
+    public SecurityConfig(SecurityServiceInterface securityServiceInterface) {
+        this.securityServiceInterface = securityServiceInterface;
+    }
 
 
     /// this is hard code we are changing that soft code from our data Base
@@ -50,7 +48,8 @@ public class SecurityConfig {
                         "/fragments/**",
                         "/assets/**",
                         "/images/**"
-                ).permitAll()// bring permission for user
+                )
+                .permitAll()// bring permission for user
                 .anyRequest() // any other have request
                 .authenticated() // to be authorized to be use that page or app
                 .and() // and
@@ -63,10 +62,18 @@ public class SecurityConfig {
                 .failureUrl(         "/login?error=true ")//error
                 .permitAll()//accuse to everyone
                 .and()
+                // Logout
                 .logout()
                 .logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
                 .logoutSuccessUrl("/login")
-                .and().build();
+                .and()
+                //Remember me
+                .rememberMe()
+                    .tokenValiditySeconds(120) // how many secound
+                    .key("Bob")                 // ad key behind
+                    .userDetailsService(securityServiceInterface) // injection security Remember me who?
+                .and()
+                .build();
 
     }
 }
