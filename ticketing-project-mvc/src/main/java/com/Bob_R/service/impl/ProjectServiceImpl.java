@@ -13,6 +13,7 @@ import com.Bob_R.service.TaskService;
 import com.Bob_R.service.UserService;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.data.domain.Sort;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -90,7 +91,12 @@ public class ProjectServiceImpl implements ProjectService {
 
     @Override
     public List<ProjectDTO> listAllProjectsDetails() {
-        UserDTO currentUserDto = userService.findByUserName("harold@manager.com");
+//we have to make sure which role in system from security and to show our projectionist
+//from hard code to soft code
+        String username = SecurityContextHolder.getContext().getAuthentication().getName();
+
+
+        UserDTO currentUserDto = userService.findByUserName(username);
         User user = userMapper.convertToEntity(currentUserDto);
 
 

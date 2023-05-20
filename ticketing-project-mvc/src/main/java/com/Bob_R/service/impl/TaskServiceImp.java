@@ -14,6 +14,7 @@ import com.Bob_R.repository.TaskRepository;
 import com.Bob_R.service.TaskService;
 import com.Bob_R.service.UserService;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -107,14 +108,24 @@ public class TaskServiceImp implements TaskService {
 
     @Override
     public List<TaskDTO> listAllTasksByStatusIsNot(Status status) {
-        UserDTO loggedInUser = userService.findByUserName("john@employee.com");
+        //we have to make sure which role in system from security and to show our projectionist
+        //
+        //from hard code to soft code
+        String username = SecurityContextHolder.getContext().getAuthentication().getName();
+
+        UserDTO loggedInUser = userService.findByUserName(username);
         List<Task> tasks = taskRepository.findAllByTaskStatusIsNotAndAssignedEmployee(status, userMapper.convertToEntity(loggedInUser));
         return tasks.stream().map(taskMapper::convertToDTO).collect(Collectors.toList());
     }
 
     @Override
     public List<TaskDTO> listAllTasksByStatus(Status status) {
-        UserDTO loggedInUser = userService.findByUserName("john@employee.com");
+         //we have to make sure which role in system from security and to show our projectionist
+        //
+        //from hard code to soft code
+        String username = SecurityContextHolder.getContext().getAuthentication().getName();
+
+        UserDTO loggedInUser = userService.findByUserName(username);
         List<Task> tasks = taskRepository.findAllByTaskStatusAndAssignedEmployee(status, userMapper.convertToEntity(loggedInUser));
         return tasks.stream().map(taskMapper::convertToDTO).collect(Collectors.toList());
     }
