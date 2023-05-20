@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="adding that security on top as thymeleaf and Left side">
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/Screenshot Security.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/templates/fragments/left-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/templates/fragments/left-sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/BaseEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +51,12 @@
   <component name="GitRewordedCommitMessages">
     <option name="commitMessagesMapping">
       <RewordedCommitMessageMapping>
-        <option name="originalMessage" value="Logout configuration and link in header" />
-        <option name="rewordedMessage" value="Logout configuration and link in header" />
+        <option name="originalMessage" value="we have to create listener class to get update onPrePersist and onPreUpdate&#10;&#10;so when i create user insert_user_id this field have to be keep some information how did and what time did as this class i am assigning this values   NO MORE HARD CODE" />
+        <option name="rewordedMessage" value="we have to create listener class to get update onPrePersist and onPreUpdate&#10;&#10;so when i create user insert_user_id this field have to be keep some information how did and what time did as this class i am assigning this values   NO MORE HARD CODE" />
       </RewordedCommitMessageMapping>
     </option>
     <option name="currentCommit" value="1" />
-    <option name="onto" value="02d7642adad852c3932abaee572fdb475ca70285" />
+    <option name="onto" value="37e6c38a326117368dc478e868f936a9c67ec255" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -162,11 +162,11 @@
       <recent name="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/Entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources" />
+      <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/common" />
       <recent name="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/resources" />
       <recent name="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/resources/db" />
       <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/static/images" />
-      <recent name="$PROJECT_DIR$/Pizza/src/main/resources/static" />
-      <recent name="$PROJECT_DIR$/Pizza/src/main/resources/templates" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -322,28 +322,10 @@
       <workItem from="1682959766565" duration="16418000" />
       <workItem from="1684182740188" duration="1184000" />
       <workItem from="1684462479924" duration="811000" />
-      <workItem from="1684507670128" duration="22972000" />
-    </task>
-    <task id="LOCAL-00132" summary="fixed all finally">
-      <created>1682455634206</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1682455634207</updated>
-    </task>
-    <task id="LOCAL-00133" summary="ProjectService">
-      <created>1682477016034</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1682477016034</updated>
-    </task>
-    <task id="LOCAL-00134" summary="ProjectService">
-      <created>1682487364480</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1682487364481</updated>
+      <workItem from="1684507670128" duration="27830000" />
+      <workItem from="1684612700113" duration="68000" />
+      <workItem from="1684612893423" duration="382000" />
+      <workItem from="1684616208014" duration="643000" />
     </task>
     <task id="LOCAL-00135" summary="ProjectService">
       <created>1682489071083</created>
@@ -667,7 +649,28 @@
       <option name="project" value="LOCAL" />
       <updated>1684602597970</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL-00181" summary="adding that security on top as thymeleaf and Left side HTML&#10;and soon check files">
+      <created>1684606186120</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1684606186120</updated>
+    </task>
+    <task id="LOCAL-00182" summary="we have to create listener class to get update onPrePersist and onPreUpdate&#10;&#10;&#10;&#10;so when i create user insert_user_id this field have to be keep some information how did and what time did as this class i am assigning this values   NO MORE HARD CODE">
+      <created>1684609558540</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1684609558541</updated>
+    </task>
+    <task id="LOCAL-00183" summary="we have to create listener class to get update onPrePersist and onPreUpdate&#10;&#10;&#10;&#10;so when i create user insert_user_id this field have to be keep some information how did and what time did as this class i am assigning this values   NO MORE HARD CODE">
+      <created>1684609610978</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1684609610978</updated>
+    </task>
+    <option name="localTasksCounter" value="184" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -686,8 +689,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="project-status" />
-    <MESSAGE value="managerCompleteProject" />
     <MESSAGE value="checkIfUserCanBeDeleted" />
     <MESSAGE value="checkIfUserCanBeDeleted logic if task bot completed can not be deleted" />
     <MESSAGE value="we create loop and broke in our APP by dependency injection as solution we add &quot;&quot;@Lazy ProjectService projectService, @Lazy TaskService taskService&quot; in UserServiceImpl to fix" />
@@ -711,7 +712,9 @@
     <MESSAGE value="we have to make sure which role in system from security and to show our projectionist&#10;&#10;from hard code to soft code&#10;&#10;String username = SecurityContextHolder.getContext().getAuthentication().getName();" />
     <MESSAGE value="." />
     <MESSAGE value="add dependency for security in our html security" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dependency for security in our html security" />
+    <MESSAGE value="adding that security on top as thymeleaf and Left side HTML&#10;and soon check files" />
+    <MESSAGE value="we have to create listener class to get update onPrePersist and onPreUpdate&#10;&#10;&#10;&#10;so when i create user insert_user_id this field have to be keep some information how did and what time did as this class i am assigning this values   NO MORE HARD CODE" />
+    <option name="LAST_COMMIT_MESSAGE" value="we have to create listener class to get update onPrePersist and onPreUpdate&#10;&#10;&#10;&#10;so when i create user insert_user_id this field have to be keep some information how did and what time did as this class i am assigning this values   NO MORE HARD CODE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -55,4 +55,10 @@ public class UserPrincipal implements UserDetails {
     public boolean isEnabled() {
         return this.user.isEnabled();
     }
+
+    public Long getId(){  /// getID from Spring Security and reassign to our entity
+        return this.user.getId();
+    }
+
+
 }
