@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="we have to make sure which role in system from security and to show our projectionist&#10;&#10;from hard code to soft code&#10;&#10;String username = SecurityContextHolder.getContext().getAuthentication().getName();">
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/templates/user/java/lang/annotations.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/ProjectServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/TaskServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/TaskServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,34 +191,7 @@
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.TicketingProjectMvcApplication">
-    <configuration name="StringB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stacks.StringB" />
-      <module name="FOR_ME" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stacks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="templates.user.java in ticketing-project-mvc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ticketing-project-mvc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="templates.user.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="templates.user.java" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="TicketingProjectMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ticketing-project-mvc" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.TicketingProjectMvcApplication" />
@@ -235,8 +208,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.TicketingProjectMvcApplication" />
-        <item itemvalue="JUnit.templates.user.java in ticketing-project-mvc" />
-        <item itemvalue="Application.StringB" />
         <item itemvalue="Spring Boot.TicketingProjectMvcApplication" />
       </list>
     </recent_temporary>
@@ -358,21 +329,7 @@
       <workItem from="1682959766565" duration="16418000" />
       <workItem from="1684182740188" duration="1184000" />
       <workItem from="1684462479924" duration="811000" />
-      <workItem from="1684507670128" duration="18660000" />
-    </task>
-    <task id="LOCAL-00129" summary="UserDTO">
-      <created>1682130756073</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1682130756075</updated>
-    </task>
-    <task id="LOCAL-00130" summary="fix">
-      <created>1682264061380</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1682264061382</updated>
+      <workItem from="1684507670128" duration="19599000" />
     </task>
     <task id="LOCAL-00131" summary="./">
       <created>1682352397012</created>
@@ -703,7 +660,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684600670173</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="we have to make sure which role in system from security and to show our projectionist&#10;&#10;from hard code to soft code&#10;&#10;String username = SecurityContextHolder.getContext().getAuthentication().getName();">
+      <created>1684601608273</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1684601608273</updated>
+    </task>
+    <task id="LOCAL-00179" summary=".">
+      <created>1684601647672</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1684601647672</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -722,8 +693,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value=".deleting project but this method for task deleting at same time WITH CONDITION" />
-    <MESSAGE value="complete project but this method for task complete at same time" />
     <MESSAGE value="listAllTasksByStatusIsNot" />
     <MESSAGE value="project-status" />
     <MESSAGE value="managerCompleteProject" />
@@ -747,7 +716,9 @@
     <MESSAGE value="modify which page after login system from role&#10;&#10;we are creating one config class =&gt;        AuthSuccessHandler&#10; requested from  =&gt;                       .successHandler() &#10; as bean  =&gt;                               AuthenticationSuccessHandler interface&#10; injection" />
     <MESSAGE value="i create user and save in DB&#10;&#10;Problem &#10;Lazy as creating user&#10;i fix problem before i can not creat user Html confirm was field wrong &#10;Enable in DB" />
     <MESSAGE value="change end point" />
-    <option name="LAST_COMMIT_MESSAGE" value="change end point" />
+    <MESSAGE value="we have to make sure which role in system from security and to show our projectionist&#10;&#10;from hard code to soft code&#10;&#10;String username = SecurityContextHolder.getContext().getAuthentication().getName();" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
