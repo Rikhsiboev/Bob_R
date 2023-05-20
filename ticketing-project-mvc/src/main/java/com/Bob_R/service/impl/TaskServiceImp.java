@@ -13,6 +13,7 @@ import com.Bob_R.mapper.UserMapper;
 import com.Bob_R.repository.TaskRepository;
 import com.Bob_R.service.TaskService;
 import com.Bob_R.service.UserService;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -28,7 +29,7 @@ public class TaskServiceImp implements TaskService {
     private final UserService userService;
     private final UserMapper userMapper;
 
-    public TaskServiceImp(TaskRepository taskRepository, TaskMapper taskMapper, ProjectMapper projectMapper, UserService userService, UserMapper userMapper) {
+    public TaskServiceImp(TaskRepository taskRepository, TaskMapper taskMapper, ProjectMapper projectMapper, @Lazy UserService userService, UserMapper userMapper) {
         this.taskRepository = taskRepository;
         this.taskMapper = taskMapper;
         this.projectMapper = projectMapper;

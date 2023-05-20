@@ -11,6 +11,7 @@ import com.Bob_R.repository.ProjectRepository;
 import com.Bob_R.service.ProjectService;
 import com.Bob_R.service.TaskService;
 import com.Bob_R.service.UserService;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
@@ -27,7 +28,7 @@ public class ProjectServiceImpl implements ProjectService {
     private final TaskService taskService;
 
 
-    public ProjectServiceImpl(ProjectRepository projectRepository, ProjectMapper projectMapper, UserService userService, UserMapper userMapper, TaskService taskService) {
+    public ProjectServiceImpl(ProjectRepository projectRepository, ProjectMapper projectMapper, @Lazy UserService userService, UserMapper userMapper, TaskService taskService) {
         this.projectRepository = projectRepository;
         this.projectMapper = projectMapper;
         this.userService = userService;

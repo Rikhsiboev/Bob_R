@@ -38,13 +38,13 @@ public class UserDTO {
     @Pattern(regexp = "(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{4,}")
     private String passWord;
 
-    @NotNull
+    @NotNull (message = "passWord must be match")
     private String confirmPassWord;
 
     private boolean enabled;
 
     @NotBlank
-    @Pattern(regexp = "^(\\d{10})|(([\\(]?([0-9]{3})[\\)]?)?[ \\.\\-]?([0-9]{3})[ \\.\\-]([0-9]{4}))$")
+   @Pattern(regexp = "^(\\d{10})|(([\\(]?([0-9]{3})[\\)]?)?[ \\.\\-]?([0-9]{3})[ \\.\\-]([0-9]{4}))$")
     private String phone;
 
     @NotNull

@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="modify which page after login system from role&#10;&#10;we are creating one config class =&gt;        AuthSuccessHandler&#10; requested from  =&gt;                       .successHandler() &#10; as bean  =&gt;                               AuthenticationSuccessHandler interface&#10; injection">
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/AuthSuccessHandler.java" afterDir="false" />
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="know when we create user we have to save password of user but spring security understand encoded than we have to go our save method in ServiceImp and make logic save as encoded&#10;&#10;we have PasswordEncoder Bean already we will inject to our logic&#10;        User obj = userMapper.convertToEntity(user);&#10;        obj.setUserName(passwordEncoder.encode(obj.getPassWord())); logic here set but before get DTO password&#10;        userRepository.save(obj);">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f091880a-fc51-4003-ba25-9e207513c728.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f091880a-fc51-4003-ba25-9e207513c728.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f091880a-fc51-4003-ba25-9e207513c728/storage_v2/_src_/database/ticketing-app1.R5A2-g/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f091880a-fc51-4003-ba25-9e207513c728/storage_v2/_src_/database/ticketing-app1.R5A2-g/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/TicketingProjectMvcApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/TicketingProjectMvcApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/common/UserPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/common/UserPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/TaskServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/TaskServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/templates/user/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/templates/user/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/templates/user/java/lang/annotations.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,6 +213,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="templates.user.java in ticketing-project-mvc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ticketing-project-mvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="templates.user.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="templates.user.java" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TicketingProjectMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ticketing-project-mvc" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.TicketingProjectMvcApplication" />
@@ -221,6 +243,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.TicketingProjectMvcApplication" />
+        <item itemvalue="JUnit.templates.user.java in ticketing-project-mvc" />
         <item itemvalue="Application.StringB" />
         <item itemvalue="Spring Boot.TicketingProjectMvcApplication" />
       </list>
@@ -343,14 +366,7 @@
       <workItem from="1682959766565" duration="16418000" />
       <workItem from="1684182740188" duration="1184000" />
       <workItem from="1684462479924" duration="811000" />
-      <workItem from="1684507670128" duration="4090000" />
-    </task>
-    <task id="LOCAL-00126" summary="UserRepository">
-      <created>1682096147146</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1682096147146</updated>
+      <workItem from="1684507670128" duration="16859000" />
     </task>
     <task id="LOCAL-00127" summary="public class userServiceImpl implements UserService">
       <created>1682125169683</created>
@@ -688,7 +704,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684510439315</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="modify which page after login system from role&#10;&#10;we are creating one config class =&gt;        AuthSuccessHandler&#10; requested from  =&gt;                       .successHandler() &#10; as bean  =&gt;                               AuthenticationSuccessHandler interface&#10; injection">
+      <created>1684511835681</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1684511835681</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -707,7 +730,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="TaskServiceImp" />
     <MESSAGE value="done" />
     <MESSAGE value="." />
     <MESSAGE value=".deleting project but this method for task deleting at same time WITH CONDITION" />
@@ -732,7 +754,8 @@
     <MESSAGE value="restriction for each role which page can see as security" />
     <MESSAGE value="Logout configuration and link in header" />
     <MESSAGE value="  //Remember me&#10;    .userDetailsService(securityServiceInterface) // injection security Remember me who?" />
-    <option name="LAST_COMMIT_MESSAGE" value="  //Remember me&#10;    .userDetailsService(securityServiceInterface) // injection security Remember me who?" />
+    <MESSAGE value="modify which page after login system from role&#10;&#10;we are creating one config class =&gt;        AuthSuccessHandler&#10; requested from  =&gt;                       .successHandler() &#10; as bean  =&gt;                               AuthenticationSuccessHandler interface&#10; injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify which page after login system from role&#10;&#10;we are creating one config class =&gt;        AuthSuccessHandler&#10; requested from  =&gt;                       .successHandler() &#10; as bean  =&gt;                               AuthenticationSuccessHandler interface&#10; injection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -745,6 +768,11 @@
           <properties class="org.springframework.data.mapping.PropertyReferenceException" package="org.springframework.data.mapping" />
           <option name="timeStamp" value="7" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/UserController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint enabled="true" type="javascript-exception" />
