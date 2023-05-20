@@ -25,7 +25,7 @@ public class AuthSuccessHandler implements org.springframework.security.web.auth
             response.sendRedirect("/task/create");
         }
         if (roles.contains("Employee")){
-            response.sendRedirect("/task/create");
+            response.sendRedirect("/task/employee/pending-tasks");
         }
 
     }
