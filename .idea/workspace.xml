@@ -4,10 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/Screenshot Security.png" afterDir="false" />
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="we have to create listener class to get update onPrePersist and onPreUpdate&#10;&#10;&#10;&#10;so when i create user insert_user_id this field have to be keep some information how did and what time did as this class i am assigning this values   NO MORE HARD CODE">
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Heap/HeapApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Heap/MyHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/QueueProblem/MyQueueAllMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/QueueProblem/QueueNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/QueueProblem/ReverseFirstKElementsQueueProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Tree/MyTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Tree/TNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Tree/TreeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Tree/Trunk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Tree/VisualizeTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/BOBPractice/KthItemsLinkList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/BOBPractice/MyNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/BOBPractice/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Hw/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Hw/MyNote.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Hw/Note.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/LeetCode/MyNote.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/LeetCode/Note.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/LeetCode/main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Note.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/PalindromeList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/REVERSE_RECRUTION/NoteReverseAndRecreation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/REVERSE_RECRUTION/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/myLinklist/Node1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/myLinklist/NoteCreating.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/myLinklist/main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/CircularLinkedList$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/CircularLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/Node2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structure/dsa-08-Trees/src/main/java/TreeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structure/dsa-08-Trees/src/main/java/TreeApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/FOR_ME-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/FOR_ME-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +87,7 @@
     <option name="commitMessagesMapping">
       <RewordedCommitMessageMapping>
         <option name="originalMessage" value="we have to create listener class to get update onPrePersist and onPreUpdate&#10;&#10;so when i create user insert_user_id this field have to be keep some information how did and what time did as this class i am assigning this values   NO MORE HARD CODE" />
-        <option name="rewordedMessage" value="we have to create listener class to get update onPrePersist and onPreUpdate&#10;&#10;so when i create user insert_user_id this field have to be keep some information how did and what time did as this class i am assigning this values   NO MORE HARD CODE" />
+        <option name="rewordedMessage" value="&#10;we have to create listener class to get update onPrePersist and onPreUpdate&#10;&#10;so when i create user insert_user_id this field have to be keep some information how did and what time did as this class i am assigning this values   NO MORE HARD CODE" />
       </RewordedCommitMessageMapping>
     </option>
     <option name="currentCommit" value="1" />
@@ -182,6 +217,7 @@
       <recent name="Practice_Code" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Tree" />
       <recent name="llnkList.REVERSE_RECRUTION" />
       <recent name="com.bob_r.bootstrap" />
       <recent name="" />
@@ -191,17 +227,67 @@
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration name="TicketingProjectMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="ticketing-project-mvc" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.TicketingProjectMvcApplication" />
+  <component name="RunManager" selected="Application.HeapApp">
+    <configuration name="CollectionsQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionsQueue" />
+      <module name="dsa-07-Queues" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heap.HeapApp" />
+      <module name="FOR_ME" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseFirstKElementsQueueProblem (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseFirstKElementsQueueProblem" />
+      <module name="dsa-07-Queues" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseFirstKElementsQueueProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QueueProblem.ReverseFirstKElementsQueueProblem" />
+      <module name="FOR_ME" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QueueProblem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.TreeApp" />
+      <module name="FOR_ME" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.TicketingProjectMvcApplication" />
+        <item itemvalue="Application.HeapApp" />
+        <item itemvalue="Application.TreeApp" />
+        <item itemvalue="Application.ReverseFirstKElementsQueueProblem" />
+        <item itemvalue="Application.ReverseFirstKElementsQueueProblem (1)" />
+        <item itemvalue="Application.CollectionsQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -325,14 +411,13 @@
       <workItem from="1684507670128" duration="27830000" />
       <workItem from="1684612700113" duration="68000" />
       <workItem from="1684612893423" duration="382000" />
-      <workItem from="1684616208014" duration="643000" />
-    </task>
-    <task id="LOCAL-00135" summary="ProjectService">
-      <created>1682489071083</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1682489071085</updated>
+      <workItem from="1684616208014" duration="1044000" />
+      <workItem from="1684650819889" duration="6910000" />
+      <workItem from="1684684596889" duration="4262000" />
+      <workItem from="1684697229413" duration="190000" />
+      <workItem from="1684702226093" duration="5943000" />
+      <workItem from="1684857390285" duration="134000" />
+      <workItem from="1684857527337" duration="20476000" />
     </task>
     <task id="LOCAL-00136" summary="for me">
       <created>1682558994918</created>
@@ -670,7 +755,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684609610978</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="we have to create listener class to get update onPrePersist and onPreUpdate&#10;&#10;&#10;&#10;so when i create user insert_user_id this field have to be keep some information how did and what time did as this class i am assigning this values   NO MORE HARD CODE">
+      <created>1684616881210</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1684616881210</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,18 +811,14 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="5" />
-        </breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="org.springframework.data.mapping.PropertyReferenceException" package="org.springframework.data.mapping" />
-          <option name="timeStamp" value="7" />
-        </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/UserController.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="8" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/QueueProblem/ReverseFirstKElementsQueueProblem.java</url>
+          <line>18</line>
+          <properties class="QueueProblem.ReverseFirstKElementsQueueProblem" method="reverseFirstK">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

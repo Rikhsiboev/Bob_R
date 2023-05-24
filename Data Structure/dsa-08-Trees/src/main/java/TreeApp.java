@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+
 public class TreeApp {
     public static void main(String[] args) {
         MyTree tree=new MyTree();
@@ -22,5 +24,10 @@ public class TreeApp {
         System.out.println("Sum of Leaves of the tree is: " + tree.findSumOfLeaves(tree.root));
         // Task 7 Sum of all nodes of a tree
         System.out.println("Sum of all Nodes of the tree is: " + tree.calculateNodeSums(tree.root));
+
+        LinkedList<Object> objects = new LinkedList<>();
+
+
+
     }
 }

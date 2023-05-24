@@ -7,7 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ticketing-project-mvc" />
+        <module name="FOR_ME" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,7 +16,8 @@
       <module name="dsa-05-Stacks" target="11" />
       <module name="dsa-06-AlgorithmProblems" target="11" />
       <module name="dsa-07-Queues" target="11" />
-      <module name="FOR_ME" target="11" />
+      <module name="dsa-08-Trees" target="11" />
+      <module name="ticketing-project-mvc" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
