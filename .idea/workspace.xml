@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="Crud Operators">
-      <change afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/Bob_R/controller/CourseController_ResponseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/Bob_R/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/Bob_R/controller/CourseController.java" afterDir="false" />
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/Bob_R/controller/CourseController_ResponseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/Bob_R/controller/CourseController_ResponseEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
   <component name="GitRewordedCommitMessages">
     <option name="commitMessagesMapping">
       <RewordedCommitMessageMapping>
-        <option name="originalMessage" value="@RestController&#10;//@Controller +@RequestBody&#10;&#10;API methods" />
+        <option name="originalMessage" value="Crud Operators&#10;@RestController&#10;//@Controller +@RequestBody&#10;&#10;API methods" />
         <option name="rewordedMessage" value="Crud Operators&#10;@RestController&#10;//@Controller +@RequestBody&#10;&#10;API methods" />
       </RewordedCommitMessageMapping>
     </option>
@@ -397,20 +396,6 @@
       <workItem from="1684857527337" duration="21398000" />
       <workItem from="1684953619727" duration="2544000" />
     </task>
-    <task id="LOCAL-00142" summary=" @Column(unique = true)">
-      <created>1682563779731</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1682563779731</updated>
-    </task>
-    <task id="LOCAL-00143" summary="TaskServiceImp">
-      <created>1682563884596</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1682563884596</updated>
-    </task>
     <task id="LOCAL-00144" summary="TaskRepository">
       <created>1682563907076</created>
       <option name="number" value="00144" />
@@ -740,7 +725,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684962160366</updated>
     </task>
-    <option name="localTasksCounter" value="191" />
+    <task id="LOCAL-00191" summary="Crud Operators">
+      <created>1684966038955</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1684966038955</updated>
+    </task>
+    <task id="LOCAL-00192" summary="end points&#10;&#10;@RestController&#10;@RequestMapping(&quot;/courses/api/v2&quot;)">
+      <created>1684966194519</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1684966194519</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -759,7 +758,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="changing List&lt;User&gt; findAllByIsDeletedOrderByFirstNameDesc(Boolean deleted); don`t using @where" />
     <MESSAGE value="    @Column(unique = true)" />
     <MESSAGE value="MapperUtil" />
     <MESSAGE value="th:if=&quot;${task.taskStatus.value != 'Completed'}&quot;" />
@@ -784,7 +782,8 @@
     <MESSAGE value="CourseController&#10;&#10;@RestController&#10;//@Controller +@RequestBody&#10;&#10;    @GetMapping&#10;    public List&lt;CourseDTO&gt; getAllCourses(){&#10;        return courseService.getCourses();&#10;    }&#10;    &#10;    &#10;As Jeson you can check From Postman" />
     <MESSAGE value="@RestController&#10;//@Controller +@RequestBody&#10;&#10;API methods" />
     <MESSAGE value="Crud Operators" />
-    <option name="LAST_COMMIT_MESSAGE" value="Crud Operators" />
+    <MESSAGE value="end points&#10;&#10;@RestController&#10;@RequestMapping(&quot;/courses/api/v2&quot;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="end points&#10;&#10;@RestController&#10;@RequestMapping(&quot;/courses/api/v2&quot;)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
