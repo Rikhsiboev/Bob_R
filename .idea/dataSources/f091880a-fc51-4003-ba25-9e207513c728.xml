@@ -3,7 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.45">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <IntrospectionStateNumber>88851</IntrospectionStateNumber>
+      <IntrospectionStateNumber>88914</IntrospectionStateNumber>
       <ServerVersion>15.2</ServerVersion>
       <StartupTime>1684637061</StartupTime>
       <TimeZones>true ACDT
@@ -860,7 +860,7 @@ false Zulu
 13471||10|C|G
 13471||-9223372036854775808|U|G
 13471||10|U|G</Grants>
-      <IntrospectionStateNumber>88851</IntrospectionStateNumber>
+      <IntrospectionStateNumber>88914</IntrospectionStateNumber>
       <ObjectId>85774</ObjectId>
       <OwnerName>rikhsiboevgmail.com</OwnerName>
     </database>
@@ -956,20 +956,20 @@ false Zulu
     <schema id="34" parent="14" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>88851</IntrospectionStateNumber>
+      <IntrospectionStateNumber>88914</IntrospectionStateNumber>
       <ObjectId>2200</ObjectId>
       <StateNumber>517</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
     <sequence id="35" parent="34" name="courses_id_seq">
       <DasType>bigint|0s</DasType>
-      <ObjectId>85802</ObjectId>
-      <StateNumber>88845</StateNumber>
+      <ObjectId>85875</ObjectId>
+      <StateNumber>88908</StateNumber>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <table id="36" parent="34" name="courses">
-      <ObjectId>85803</ObjectId>
-      <StateNumber>88845</StateNumber>
+      <ObjectId>85876</ObjectId>
+      <StateNumber>88908</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
@@ -978,49 +978,49 @@ false Zulu
       <DefaultExpression>nextval(&apos;courses_id_seq&apos;::regclass)</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>88845</StateNumber>
-      <SequenceId>85802</SequenceId>
+      <StateNumber>88908</StateNumber>
+      <SequenceId>85875</SequenceId>
       <TypeId>20</TypeId>
     </column>
     <column id="38" parent="36" name="category">
       <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
-      <StateNumber>88845</StateNumber>
+      <StateNumber>88908</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="39" parent="36" name="description">
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
-      <StateNumber>88845</StateNumber>
+      <StateNumber>88908</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="40" parent="36" name="name">
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
-      <StateNumber>88845</StateNumber>
+      <StateNumber>88908</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="41" parent="36" name="rating">
       <DasType>integer|0s</DasType>
       <Position>5</Position>
-      <StateNumber>88845</StateNumber>
+      <StateNumber>88908</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <index id="42" parent="36" name="courses_pkey">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>85809</ObjectId>
+      <ObjectId>85882</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>88845</StateNumber>
+      <StateNumber>88908</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
     </index>
     <key id="43" parent="36" name="courses_pkey">
       <NameSurrogate>1</NameSurrogate>
-      <ObjectId>85810</ObjectId>
+      <ObjectId>85883</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>88845</StateNumber>
-      <UnderlyingIndexId>85809</UnderlyingIndexId>
+      <StateNumber>88908</StateNumber>
+      <UnderlyingIndexId>85882</UnderlyingIndexId>
     </key>
   </database-model>
 </dataSource>
