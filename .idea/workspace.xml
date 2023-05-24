@@ -4,45 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="we have to create listener class to get update onPrePersist and onPreUpdate&#10;&#10;&#10;&#10;so when i create user insert_user_id this field have to be keep some information how did and what time did as this class i am assigning this values   NO MORE HARD CODE">
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Heap/HeapApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Heap/MyHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/QueueProblem/MyQueueAllMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/QueueProblem/QueueNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/QueueProblem/ReverseFirstKElementsQueueProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Tree/MyTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Tree/TNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Tree/TreeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Tree/Trunk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Tree/VisualizeTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/BOBPractice/KthItemsLinkList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/BOBPractice/MyNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/BOBPractice/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Hw/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Hw/MyNote.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Hw/Note.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/LeetCode/MyNote.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/LeetCode/Note.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/LeetCode/main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Note.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/PalindromeList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/REVERSE_RECRUTION/NoteReverseAndRecreation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/REVERSE_RECRUTION/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/myLinklist/Node1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/myLinklist/NoteCreating.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/myLinklist/main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/CircularLinkedList$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/CircularLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/Node2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/main.class" afterDir="false" />
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="@RestController  //@Controller +  @RequestBody">
+      <change afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/Bob_R/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/Bob_R/controller/CourseController_ResponseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/Bob_R/controller/CourseController_ResponseWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/Bob_R/service/impl/CourseServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f091880a-fc51-4003-ba25-9e207513c728.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f091880a-fc51-4003-ba25-9e207513c728.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Structure/dsa-08-Trees/src/main/java/TreeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Data Structure/dsa-08-Trees/src/main/java/TreeApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/FOR_ME-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/FOR_ME-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/BOBPractice/KthItemsLinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/BOBPractice/MyNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/BOBPractice/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Hw/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Hw/MyNote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Hw/Note.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/LeetCode/MyNote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/LeetCode/Note.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/LeetCode/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Note.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/PalindromeList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/REVERSE_RECRUTION/NoteReverseAndRecreation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/REVERSE_RECRUTION/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/myLinklist/Node1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/myLinklist/NoteCreating.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/myLinklist/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/CircularLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/CircularLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/Node2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +147,7 @@
     &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/ticketing-project-mvc/src/main/resources/templates/user&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -190,11 +184,11 @@
       <recent name="com.bob_r.mentor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/templates/user" />
       <recent name="$PROJECT_DIR$/FOR_ME/src/main/java/llnkList" />
       <recent name="$PROJECT_DIR$/FOR_ME/src/main/java" />
       <recent name="$PROJECT_DIR$/spring-13-Data-CinemaLLab/src/main/java/com/bob_r" />
-      <recent name="$PROJECT_DIR$/Spring-14-Data-Queries/src/main/java/com/bob_r/Entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources" />
@@ -227,14 +221,7 @@
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Application.HeapApp">
-    <configuration name="CollectionsQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionsQueue" />
-      <module name="dsa-07-Queues" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.Spring15RestApplication (1)">
     <configuration name="HeapApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Heap.HeapApp" />
       <module name="FOR_ME" />
@@ -281,13 +268,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring15RestApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Spring-15-REST" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.Spring15RestApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Bob_R.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring15RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-15-REST" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring15RestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Spring15RestApplication (1)" />
         <item itemvalue="Application.HeapApp" />
         <item itemvalue="Application.TreeApp" />
         <item itemvalue="Application.ReverseFirstKElementsQueueProblem" />
         <item itemvalue="Application.ReverseFirstKElementsQueueProblem (1)" />
-        <item itemvalue="Application.CollectionsQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -417,21 +424,8 @@
       <workItem from="1684697229413" duration="190000" />
       <workItem from="1684702226093" duration="5943000" />
       <workItem from="1684857390285" duration="134000" />
-      <workItem from="1684857527337" duration="20476000" />
-    </task>
-    <task id="LOCAL-00136" summary="for me">
-      <created>1682558994918</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1682558994919</updated>
-    </task>
-    <task id="LOCAL-00137" summary="for me">
-      <created>1682559710771</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1682559710771</updated>
+      <workItem from="1684857527337" duration="21398000" />
+      <workItem from="1684953619727" duration="2544000" />
     </task>
     <task id="LOCAL-00138" summary="DATA">
       <created>1682560279570</created>
@@ -762,7 +756,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684616881210</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="Heap Tree Qeue">
+      <created>1684951895327</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1684951895327</updated>
+    </task>
+    <task id="LOCAL-00186" summary="spring-15-Rest">
+      <created>1684955312628</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1684955312628</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -781,8 +789,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="checkIfUserCanBeDeleted" />
-    <MESSAGE value="checkIfUserCanBeDeleted logic if task bot completed can not be deleted" />
     <MESSAGE value="we create loop and broke in our APP by dependency injection as solution we add &quot;&quot;@Lazy ProjectService projectService, @Lazy TaskService taskService&quot; in UserServiceImpl to fix" />
     <MESSAGE value="fixed problem by deleting user after done task error was findAllByTaskStatusIsNotAndAssignedEmployee repository method wrong" />
     <MESSAGE value="commend out hard code for deleting From USer LIst" />
@@ -806,7 +812,9 @@
     <MESSAGE value="add dependency for security in our html security" />
     <MESSAGE value="adding that security on top as thymeleaf and Left side HTML&#10;and soon check files" />
     <MESSAGE value="we have to create listener class to get update onPrePersist and onPreUpdate&#10;&#10;&#10;&#10;so when i create user insert_user_id this field have to be keep some information how did and what time did as this class i am assigning this values   NO MORE HARD CODE" />
-    <option name="LAST_COMMIT_MESSAGE" value="we have to create listener class to get update onPrePersist and onPreUpdate&#10;&#10;&#10;&#10;so when i create user insert_user_id this field have to be keep some information how did and what time did as this class i am assigning this values   NO MORE HARD CODE" />
+    <MESSAGE value="Heap Tree Qeue" />
+    <MESSAGE value="spring-15-Rest" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring-15-Rest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
