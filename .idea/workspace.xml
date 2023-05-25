@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-15-REST/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/Bob_R/Spring15RestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/Bob_R/controller/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/Bob_R/controller/CourseController_ResponseEntity.java" afterDir="false" />
+    <list default="true" id="6d8575c3-c28c-46a5-9c5c-331507aa00a5" name="Changes" comment="custom endpoint with new class or object&#10;CourseController_ResponseWrapper&#10;ResponseWrapper">
       <change afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/Bob_R/controller/CourseController_ResponseWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/Bob_R/dto/CourseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/Bob_R/dto/ResponseWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/Bob_R/entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/Bob_R/repository/CourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/Bob_R/service/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/Bob_R/service/impl/CourseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-15-REST/src/main/java/com/Bob_R/util/MapperUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-15-REST/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-15-REST/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-15-REST/src/test/java/com/Bob_R/Spring15RestApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f091880a-fc51-4003-ba25-9e207513c728.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f091880a-fc51-4003-ba25-9e207513c728.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +50,12 @@
   <component name="GitRewordedCommitMessages">
     <option name="commitMessagesMapping">
       <RewordedCommitMessageMapping>
-        <option name="originalMessage" value="Controller&#10;&#10;@RestController  //  @Controller + @RequestBody&#10;&#10;   @GetMapping&#10;    public List&lt;CourseDTO&gt; getAllCourses() {&#10;        return courseService.getCourses();&#10;    }" />
-        <option name="rewordedMessage" value="&#10;Controller&#10;&#10;@RestController  //  @Controller + @RequestBody&#10;&#10;   @GetMapping&#10;    public List&lt;CourseDTO&gt; getAllCourses() {&#10;        return courseService.getCourses();&#10;    }" />
+        <option name="originalMessage" value="ResponseWrapper" />
+        <option name="rewordedMessage" value="ResponseWrapper" />
       </RewordedCommitMessageMapping>
     </option>
     <option name="currentCommit" value="1" />
-    <option name="onto" value="08559bdd6bcdd67046a8fdb746cdf0d6594607a5" />
+    <option name="onto" value="5b4c08d48d6dfb1ca6d05c8718691f97e04bde03" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -411,20 +397,6 @@
       <workItem from="1684857527337" duration="21398000" />
       <workItem from="1684953619727" duration="2544000" />
     </task>
-    <task id="LOCAL-00138" summary="DATA">
-      <created>1682560279570</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1682560279570</updated>
-    </task>
-    <task id="LOCAL-00139" summary="comments">
-      <created>1682561965394</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1682561965394</updated>
-    </task>
     <task id="LOCAL-00140" summary="public class Task extends BaseEntity{">
       <created>1682563125982</created>
       <option name="number" value="00140" />
@@ -754,7 +726,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684955312628</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="ResponseWrapper">
+      <created>1684974474175</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1684974474175</updated>
+    </task>
+    <task id="LOCAL-00188" summary="ResponseWrapper">
+      <created>1684974504341</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1684974504341</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -773,7 +759,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="we create loop and broke in our APP by dependency injection as solution we add &quot;&quot;@Lazy ProjectService projectService, @Lazy TaskService taskService&quot; in UserServiceImpl to fix" />
     <MESSAGE value="fixed problem by deleting user after done task error was findAllByTaskStatusIsNotAndAssignedEmployee repository method wrong" />
     <MESSAGE value="commend out hard code for deleting From USer LIst" />
     <MESSAGE value="changing List&lt;User&gt; findAllByIsDeletedOrderByFirstNameDesc(Boolean deleted); don`t using @where" />
@@ -798,7 +783,8 @@
     <MESSAGE value="we have to create listener class to get update onPrePersist and onPreUpdate&#10;&#10;&#10;&#10;so when i create user insert_user_id this field have to be keep some information how did and what time did as this class i am assigning this values   NO MORE HARD CODE" />
     <MESSAGE value="Heap Tree Qeue" />
     <MESSAGE value="spring-15-Rest" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring-15-Rest" />
+    <MESSAGE value="ResponseWrapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="ResponseWrapper" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -806,7 +792,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/QueueProblem/ReverseFirstKElementsQueueProblem.java</url>
           <line>18</line>
-          <properties class="QueueProblem.ReverseFirstKElementsQueueProblem" method="reverseFirstK">
+          <properties class="QueueProblem.ReverseFirstKElementsQueueProblem">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
