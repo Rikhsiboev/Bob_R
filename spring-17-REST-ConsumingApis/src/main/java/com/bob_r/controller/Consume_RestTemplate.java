@@ -1,6 +1,6 @@
-package com.bob_r.spring17restconsumingapis.controller;
+package com.bob_r.controller;
 
-import com.bob_r.spring17restconsumingapis.dto.User;
+import com.bob_r.dto.User;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

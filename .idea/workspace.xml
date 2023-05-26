@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/spring17restconsumingapis/dto/ResponseWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/spring17restconsumingapis/controller/Consume_FeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/spring17restconsumingapis/controller/Consume_FeignClient.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,32 +62,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/spring-17-REST-ConsumingApis/src/main/java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ce65660ab76a8c43fbfcda19f755d5b2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/spring17restconsumingapis/dto",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "ce65660ab76a8c43fbfcda19f755d5b2",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;PLAIN_TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/spring17restconsumingapis/dto" />
       <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -118,7 +123,7 @@
       <updated>1685141011236</updated>
       <workItem from="1685141012634" duration="5000" />
       <workItem from="1685141040074" duration="23000" />
-      <workItem from="1685142128902" duration="1890000" />
+      <workItem from="1685142128902" duration="2528000" />
     </task>
     <task id="LOCAL-00001" summary="spring-17-REST-ConsumingApis">
       <created>1685142457656</created>
@@ -197,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685143850262</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Consume_FeignClient">
+      <created>1685144190863</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685144190863</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,8 +246,9 @@
     <MESSAGE value="2-step annotation @EnableFeignClients create Bean" />
     <MESSAGE value="Proxy package as interface" />
     <MESSAGE value="@FeignClient(url = &quot;https://jsonplaceholder.typicode.com/users&quot;,name = &quot;User-CLIENT&quot;)" />
-    <MESSAGE value="    @GetMapping(&quot;/user&quot;)&#10;    List&lt;User&gt; getUser();" />
-    <option name="LAST_COMMIT_MESSAGE" value="    @GetMapping(&quot;/user&quot;)&#10;    List&lt;User&gt; getUser();" />
+    <MESSAGE value="by this method we can do auto from jason to our pojo but dunt forget about annotation &#10;&#10;&#10;&#10;    @GetMapping(&quot;/user&quot;)&#10;    List&lt;User&gt; getUser();" />
+    <MESSAGE value="Consume_FeignClient" />
+    <option name="LAST_COMMIT_MESSAGE" value="Consume_FeignClient" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Bob_R$Uniq.ic" NAME="Uniq Coverage Results" MODIFIED="1682262422432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

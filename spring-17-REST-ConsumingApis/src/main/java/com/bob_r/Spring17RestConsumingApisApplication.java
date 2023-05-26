@@ -1,4 +1,4 @@
-package com.bob_r.spring17restconsumingapis;
+package com.bob_r;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

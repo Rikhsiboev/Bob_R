@@ -1,5 +1,5 @@
 
-package com.bob_r.spring17restconsumingapis.dto;
+package com.bob_r.dto;
 
 import com.fasterxml.jackson.annotation.*;
 
