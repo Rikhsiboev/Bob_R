@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="FeignClient">
+      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/spring17restconsumingapis/client/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/spring17restconsumingapis/client/UserClient.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -132,7 +135,7 @@
       <updated>1685141011236</updated>
       <workItem from="1685141012634" duration="5000" />
       <workItem from="1685141040074" duration="23000" />
-      <workItem from="1685142128902" duration="1243000" />
+      <workItem from="1685142128902" duration="1548000" />
     </task>
     <task id="LOCAL-00001" summary="spring-17-REST-ConsumingApis">
       <created>1685142457656</created>
@@ -183,7 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685143339071</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="@EnableFeignClients create Bean">
+      <created>1685143422857</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685143422857</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Proxy package as interface">
+      <created>1685143624994</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685143624994</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,8 +225,10 @@
     <MESSAGE value="controller with pom readAllUser Entity" />
     <MESSAGE value="readUser For object" />
     <MESSAGE value="consumePostFromDummyApi header have" />
-    <MESSAGE value="org.springframework.cloud" />
-    <option name="LAST_COMMIT_MESSAGE" value="org.springframework.cloud" />
+    <MESSAGE value="step 1 dependency org.springframework.cloud" />
+    <MESSAGE value="2-step annotation @EnableFeignClients create Bean" />
+    <MESSAGE value="Proxy package as interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proxy package as interface" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Bob_R$Uniq.ic" NAME="Uniq Coverage Results" MODIFIED="1682262422432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
