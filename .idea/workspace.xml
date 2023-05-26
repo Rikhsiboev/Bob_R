@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/spring17restconsumingapis/Spring17RestConsumingApisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/spring17restconsumingapis/Spring17RestConsumingApisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/test/java/com/bob_r/spring17restconsumingapis/Spring17RestConsumingApisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/test/java/com/bob_r/spring17restconsumingapis/Spring17RestConsumingApisApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +52,29 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R",
+    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R",
     "node.js.selected.package.tslint": "(autodetect)",
     "spring.configuration.checksum": "ce65660ab76a8c43fbfcda19f755d5b2",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
   }
 }]]></component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spring17RestConsumingApisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-17-REST-ConsumingApis" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob.spring17restconsumingapis.Spring17RestConsumingApisApplication" />
@@ -72,6 +93,7 @@
       <updated>1685141011236</updated>
       <workItem from="1685141012634" duration="5000" />
       <workItem from="1685141040074" duration="23000" />
+      <workItem from="1685142128902" duration="304000" />
     </task>
     <servers />
   </component>
