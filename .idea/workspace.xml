@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="Consume_FeignClient">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/client/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/client/UserClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/controller/Consume_FeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/controller/Consume_FeignClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +165,7 @@
       <workItem from="1685141012634" duration="5000" />
       <workItem from="1685141040074" duration="23000" />
       <workItem from="1685142128902" duration="3456000" />
-      <workItem from="1685145602867" duration="1093000" />
+      <workItem from="1685145602867" duration="2035000" />
     </task>
     <task id="LOCAL-00001" summary="spring-17-REST-ConsumingApis">
       <created>1685142457656</created>
@@ -261,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685144770600</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="we are getting as json and return back as json">
+      <created>1685146743756</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685146743756</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +304,8 @@
     <MESSAGE value="@FeignClient(url = &quot;https://jsonplaceholder.typicode.com/users&quot;,name = &quot;User-CLIENT&quot;)" />
     <MESSAGE value="by this method we can do auto from jason to our pojo but dunt forget about annotation &#10;&#10;&#10;&#10;    @GetMapping(&quot;/user&quot;)&#10;    List&lt;User&gt; getUser();" />
     <MESSAGE value="Consume_FeignClient" />
-    <option name="LAST_COMMIT_MESSAGE" value="Consume_FeignClient" />
+    <MESSAGE value="we are getting as json and return back as json" />
+    <option name="LAST_COMMIT_MESSAGE" value="we are getting as json and return back as json" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Bob_R$Uniq.ic" NAME="Uniq Coverage Results" MODIFIED="1682262422432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
