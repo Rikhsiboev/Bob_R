@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/spring17restconsumingapis/dto/ResponseWrapper.java" afterDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="Consume_FeignClient">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/spring17restconsumingapis/controller/Consume_FeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/spring17restconsumingapis/controller/Consume_FeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/client/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/client/UserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/controller/Consume_FeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/controller/Consume_FeignClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +52,20 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/spring-11-Data-TableCreation/pom.xml" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/requests-with-tests.http" environment="test" />
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http" environment="test" />
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/requests-with-authorization.http" environment="test" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2QLm0MDy8MdZvbZccPE5v49t9A8" />
   <component name="ProjectLevelVcsManager">
@@ -93,7 +106,29 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Spring17RestConsumingApisApplication">
+    <configuration name="All in get-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="All in requests-with-authorization" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/requests-with-authorization.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="All in requests-with-tests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/requests-with-tests.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,13 +140,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spring17RestConsumingApisApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="Spring17RestConsumingApisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-17-REST-ConsumingApis" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.spring17restconsumingapis.Spring17RestConsumingApisApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.Spring17RestConsumingApisApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+        <item itemvalue="HTTP Request.generated-requests | #2" />
+        <item itemvalue="HTTP Request.All in requests-with-authorization" />
+        <item itemvalue="HTTP Request.All in get-requests" />
+        <item itemvalue="HTTP Request.All in requests-with-tests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -123,7 +167,8 @@
       <updated>1685141011236</updated>
       <workItem from="1685141012634" duration="5000" />
       <workItem from="1685141040074" duration="23000" />
-      <workItem from="1685142128902" duration="2528000" />
+      <workItem from="1685142128902" duration="3456000" />
+      <workItem from="1685145602867" duration="1093000" />
     </task>
     <task id="LOCAL-00001" summary="spring-17-REST-ConsumingApis">
       <created>1685142457656</created>
@@ -209,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685144190863</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Consume_FeignClient">
+      <created>1685144770600</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685144770600</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
