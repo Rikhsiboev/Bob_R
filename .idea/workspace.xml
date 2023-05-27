@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="&#10;Json web page to Pojo&#10;&#10;create EmployeeClient interface with As input&#10;&#10;@FeignClient(url = &quot;https://dummyapi.io/data&quot;, name = &quot;EMPLOYEE-CLIENT&quot;)">
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/client/EmployeeClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/controller/Consume_FeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/controller/Consume_FeignClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -83,7 +85,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/spring17restconsumingapis/dto",
+    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/dto",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -98,6 +100,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/dto" />
       <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/spring17restconsumingapis/dto" />
       <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java" />
       <recent name="$PROJECT_DIR$" />
@@ -146,8 +149,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="HTTP Request.generated-requests | #2" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="HTTP Request.All in requests-with-authorization" />
         <item itemvalue="HTTP Request.All in get-requests" />
         <item itemvalue="HTTP Request.All in requests-with-tests" />
@@ -165,7 +168,7 @@
       <workItem from="1685141012634" duration="5000" />
       <workItem from="1685141040074" duration="23000" />
       <workItem from="1685142128902" duration="3456000" />
-      <workItem from="1685145602867" duration="2035000" />
+      <workItem from="1685145602867" duration="4426000" />
     </task>
     <task id="LOCAL-00001" summary="spring-17-REST-ConsumingApis">
       <created>1685142457656</created>
@@ -265,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685146743756</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="new Dto From &#10;postman write end point get json file and fo to web page &#10;Json web page to Pojo">
+      <created>1685147903023</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1685147903023</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +315,8 @@
     <MESSAGE value="by this method we can do auto from jason to our pojo but dunt forget about annotation &#10;&#10;&#10;&#10;    @GetMapping(&quot;/user&quot;)&#10;    List&lt;User&gt; getUser();" />
     <MESSAGE value="Consume_FeignClient" />
     <MESSAGE value="we are getting as json and return back as json" />
-    <option name="LAST_COMMIT_MESSAGE" value="we are getting as json and return back as json" />
+    <MESSAGE value="new Dto From &#10;postman write end point get json file and fo to web page &#10;Json web page to Pojo" />
+    <option name="LAST_COMMIT_MESSAGE" value="new Dto From &#10;postman write end point get json file and fo to web page &#10;Json web page to Pojo" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Bob_R$Uniq.ic" NAME="Uniq Coverage Results" MODIFIED="1682262422432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
