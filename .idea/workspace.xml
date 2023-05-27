@@ -4,7 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="&#10;Json web page to Pojo&#10;&#10;create EmployeeClient interface with As input&#10;&#10;@FeignClient(url = &quot;https://dummyapi.io/data&quot;, name = &quot;EMPLOYEE-CLIENT&quot;)">
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="web client &#10;Reactive Programming &#10;         Tread =&gt; execution  part of process&#10;    Synchronize 200 Tread&#10;    ASynchronize  =&gt;&gt;  Event Loop as Container as Loop&#10;                   Malty execution when ever ready Tread &#10;Mono ==&gt;  1 time&#10;Flex ==&gt;  N time&#10;&#10;Repository have to be as Flex and APi endpoint two other ways not works">
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/dto/AccountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/dto/CinemaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/dto/GenreDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/dto/LocationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/dto/MovieCinemaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/dto/MovieDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/dto/TicketDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/entity/Cinema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/entity/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/entity/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/entity/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/entity/MovieCinema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/entity/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/enums/MovieState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/enums/MovieType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/enums/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/repository/CinemaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/repository/GenreRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/repository/MovieCinemaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/repository/MovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/repository/TicketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/service/GenreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/service/MovieCinemaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/service/impl/GenreServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/service/impl/MovieCinemaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/util/MapperUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +115,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/dto",
+    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/spring-17-REST-ConsumingApis/src/main/java/com/bob_r",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -99,6 +131,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r" />
       <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/dto" />
       <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/spring17restconsumingapis/dto" />
       <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java" />
@@ -168,7 +201,7 @@
       <workItem from="1685141040074" duration="23000" />
       <workItem from="1685142128902" duration="3456000" />
       <workItem from="1685145602867" duration="4426000" />
-      <workItem from="1685153426393" duration="676000" />
+      <workItem from="1685153426393" duration="2484000" />
     </task>
     <task id="LOCAL-00001" summary="spring-17-REST-ConsumingApis">
       <created>1685142457656</created>
@@ -275,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685147903023</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="web client">
+      <created>1685154212501</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1685154212501</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +356,8 @@
     <MESSAGE value="Consume_FeignClient" />
     <MESSAGE value="we are getting as json and return back as json" />
     <MESSAGE value="new Dto From &#10;postman write end point get json file and fo to web page &#10;Json web page to Pojo" />
-    <option name="LAST_COMMIT_MESSAGE" value="new Dto From &#10;postman write end point get json file and fo to web page &#10;Json web page to Pojo" />
+    <MESSAGE value="web client Reactive Programming" />
+    <option name="LAST_COMMIT_MESSAGE" value="web client Reactive Programming" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Bob_R$Uniq.ic" NAME="Uniq Coverage Results" MODIFIED="1682262422432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
