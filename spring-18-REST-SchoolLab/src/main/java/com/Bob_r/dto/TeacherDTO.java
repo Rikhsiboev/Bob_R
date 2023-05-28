@@ -17,7 +17,7 @@ import java.time.LocalDate;
 @JsonIgnoreProperties(ignoreUnknown = true)  // skips unknown filds
 @JsonInclude(JsonInclude.Include.NON_NULL)  //
 public class TeacherDTO {
-
+    @JsonIgnore
     private Long id;
 
     private String firstName;
@@ -34,7 +34,7 @@ public class TeacherDTO {
     private Status status;
 
     private EducationLevel educationLevel;
-   @JsonBackReference(value = "teacher-address-reference")
+    @JsonBackReference(value = "teacher-address-reference")
     private AddressDTO address;
 
 }

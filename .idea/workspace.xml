@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/TeacherDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/TeacherDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -258,7 +255,7 @@
       <workItem from="1685145602867" duration="4426000" />
       <workItem from="1685153426393" duration="9509000" />
       <workItem from="1685239248822" duration="1143000" />
-      <workItem from="1685246355163" duration="6666000" />
+      <workItem from="1685246355163" duration="6984000" />
     </task>
     <task id="LOCAL-00001" summary="spring-17-REST-ConsumingApis">
       <created>1685142457656</created>
@@ -442,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685288214464</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="@JsonIgnoreProperties(ignoreUnknown = true)  // skips unknown filds">
+      <created>1685288829915</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1685288829915</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,7 +496,8 @@
     <MESSAGE value="    @GetMapping(&quot;/list&quot;)&#10;    @Operation(summary = &quot;Read all users&quot;)&#10;    @ApiResponses(value = {&#10;            @ApiResponse(responseCode = &quot;200&quot;, description = &quot;Successfully retrieved users (OK)&quot;,&#10;            content = @Content(mediaType = &quot;application/json&quot;)),&#10;            @ApiResponse(responseCode = &quot;400&quot;, description = &quot;Bad Request&quot;, content = @Content),&#10;            @ApiResponse(responseCode = &quot;404&quot;, description = &quot;Not Found&quot;, content = @Content)&#10;    })" />
     <MESSAGE value="json Annotation in DTO" />
     <MESSAGE value="  @GetMapping(&quot;/teachers&quot;)&#10;    public List&lt;TeacherDTO&gt; readAllTeacher() {&#10;        List&lt;TeacherDTO&gt; teachers = teacherService.findAll();&#10;        return teachers;&#10;    }" />
-    <option name="LAST_COMMIT_MESSAGE" value="  @GetMapping(&quot;/teachers&quot;)&#10;    public List&lt;TeacherDTO&gt; readAllTeacher() {&#10;        List&lt;TeacherDTO&gt; teachers = teacherService.findAll();&#10;        return teachers;&#10;    }" />
+    <MESSAGE value="@JsonIgnoreProperties(ignoreUnknown = true)  // skips unknown filds" />
+    <option name="LAST_COMMIT_MESSAGE" value="@JsonIgnoreProperties(ignoreUnknown = true)  // skips unknown filds" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Bob_R$Uniq.ic" NAME="Uniq Coverage Results" MODIFIED="1682262422432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
