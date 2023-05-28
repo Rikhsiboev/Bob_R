@@ -2,7 +2,10 @@ package com.Bob_r.dto;
 
 import com.Bob_r.enums.EducationLevel;
 import com.Bob_r.enums.Status;
+import com.fasterxml.jackson.annotation.JacksonInject;
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,6 +17,7 @@ import java.time.LocalDate;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@JsonIgnoreProperties(ignoreUnknown = true)  // skips unknown filds
 public class TeacherDTO {
 
     private Long id;
@@ -24,6 +28,7 @@ public class TeacherDTO {
 
     private String email;
     private String username;
+    @J
     private String password;
 
     private LocalDate birthday;

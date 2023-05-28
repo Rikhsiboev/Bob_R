@@ -7,9 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lab-07-orm-queries" />
         <module name="spring-18-REST-SchoolLab" />
         <module name="lab-08-rest" />
+        <module name="lab-07-orm-queries" />
+        <module name="spring-17-REST-ConsumingApis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,7 +23,6 @@
       <module name="FOR_ME" target="11" />
       <module name="Spring-15-REST" target="11" />
       <module name="Spring-16-REST-Jackson" target="11" />
-      <module name="spring-17-REST-ConsumingApis" target="11" />
       <module name="Spring-19-REST-OpenAPI3" target="11" />
       <module name="ticketing-project-mvc" target="11" />
     </bytecodeTargetLevel>
