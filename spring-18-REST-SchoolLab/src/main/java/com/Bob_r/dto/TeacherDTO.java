@@ -15,7 +15,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)  // skips unknown filds
-@JsonInclude(JsonInclude.Include.NON_NULL)  //
+@JsonInclude(JsonInclude.Include.NON_NULL)  // i dont wont to see in jsan but dynamic
 public class TeacherDTO {
     @JsonIgnore
     private Long id;

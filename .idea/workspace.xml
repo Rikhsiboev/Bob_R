@@ -255,7 +255,7 @@
       <workItem from="1685145602867" duration="4426000" />
       <workItem from="1685153426393" duration="9509000" />
       <workItem from="1685239248822" duration="1143000" />
-      <workItem from="1685246355163" duration="6984000" />
+      <workItem from="1685246355163" duration="7314000" />
     </task>
     <task id="LOCAL-00001" summary="spring-17-REST-ConsumingApis">
       <created>1685142457656</created>
@@ -446,7 +446,35 @@
       <option name="project" value="LOCAL" />
       <updated>1685288829915</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="@JsonInclude(JsonInclude.Include.NON_NULL)  //">
+      <created>1685288951297</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1685288951297</updated>
+    </task>
+    <task id="LOCAL-00029" summary=" @JsonIgnore">
+      <created>1685288967722</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1685288967722</updated>
+    </task>
+    <task id="LOCAL-00030" summary="    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)">
+      <created>1685289033890</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1685289033890</updated>
+    </task>
+    <task id="LOCAL-00031" summary="update 4 things&#10;&#10;@JsonIgnoreProperties(ignoreUnknown = true)  // skips unknown filds&#10;@JsonInclude(JsonInclude.Include.NON_NULL)  //&#10;&#10;&#10;   @JsonIgnore&#10;   &#10;       @JsonProperty(access = JsonProperty.Access.WRITE_ONLY) //we are not returning password">
+      <created>1685289154150</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1685289154150</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,10 +500,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="spring-17-REST-ConsumingApis" />
-    <MESSAGE value="DTO" />
-    <MESSAGE value="RestTemplate" />
-    <MESSAGE value="Dto with javax" />
     <MESSAGE value="controller with pom readAllUser Entity" />
     <MESSAGE value="readUser For object" />
     <MESSAGE value="consumePostFromDummyApi header have" />
@@ -497,7 +521,11 @@
     <MESSAGE value="json Annotation in DTO" />
     <MESSAGE value="  @GetMapping(&quot;/teachers&quot;)&#10;    public List&lt;TeacherDTO&gt; readAllTeacher() {&#10;        List&lt;TeacherDTO&gt; teachers = teacherService.findAll();&#10;        return teachers;&#10;    }" />
     <MESSAGE value="@JsonIgnoreProperties(ignoreUnknown = true)  // skips unknown filds" />
-    <option name="LAST_COMMIT_MESSAGE" value="@JsonIgnoreProperties(ignoreUnknown = true)  // skips unknown filds" />
+    <MESSAGE value="@JsonInclude(JsonInclude.Include.NON_NULL)  //" />
+    <MESSAGE value=" @JsonIgnore" />
+    <MESSAGE value="    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)" />
+    <MESSAGE value="update 4 things&#10;&#10;@JsonIgnoreProperties(ignoreUnknown = true)  // skips unknown filds&#10;@JsonInclude(JsonInclude.Include.NON_NULL)  //&#10;&#10;&#10;   @JsonIgnore&#10;   &#10;       @JsonProperty(access = JsonProperty.Access.WRITE_ONLY) //we are not returning password" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 4 things&#10;&#10;@JsonIgnoreProperties(ignoreUnknown = true)  // skips unknown filds&#10;@JsonInclude(JsonInclude.Include.NON_NULL)  //&#10;&#10;&#10;   @JsonIgnore&#10;   &#10;       @JsonProperty(access = JsonProperty.Access.WRITE_ONLY) //we are not returning password" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Bob_R$Uniq.ic" NAME="Uniq Coverage Results" MODIFIED="1682262422432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
