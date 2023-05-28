@@ -1,8 +1,8 @@
 package com.Bob_r.controller;
 
 import com.Bob_r.dto.ResponseWrapper;
-import com.Bob_r.dto.StudentDTO;
 import com.Bob_r.dto.TeacherDTO;
+import com.Bob_r.service.ParentService;
 import com.Bob_r.service.StudentService;
 import com.Bob_r.service.TeacherService;
 import org.springframework.http.HttpStatus;
@@ -16,10 +16,12 @@ import java.util.List;
 public class SchoolController {
     private final TeacherService teacherService;
     private final StudentService studentService;
+    private final ParentService parentService;
 
-    public SchoolController(TeacherService teacherService, StudentService studentService) {
+    public SchoolController(TeacherService teacherService, StudentService studentService, ParentService parentService) {
         this.teacherService = teacherService;
         this.studentService = studentService;
+        this.parentService = parentService;
     }
     @GetMapping("/teachers")
     public List<TeacherDTO> readAllTeacher() {
@@ -32,7 +34,16 @@ public class SchoolController {
         return ResponseEntity.ok(new ResponseWrapper("Students are successfully retrieved", studentService.findAll()));
     }
 
+    @GetMapping("/parents")
+    public ResponseEntity<ResponseWrapper> readAllParents() {
+        ResponseWrapper responseWrapper = new ResponseWrapper(true,"Students are successfully retrieved"
+                ,HttpStatus.ACCEPTED.value(),parentService.findAll());
+        return ResponseEntity
+                .status(HttpStatus.ACCEPTED)
+                .header("Parent","Returned")
+                .body(responseWrapper);
 
+    }
 
 
 }

@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/ResponseWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f091880a-fc51-4003-ba25-9e207513c728.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f091880a-fc51-4003-ba25-9e207513c728.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/controller/SchoolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/controller/SchoolController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +256,7 @@
       <workItem from="1685145602867" duration="4426000" />
       <workItem from="1685153426393" duration="9509000" />
       <workItem from="1685239248822" duration="1143000" />
-      <workItem from="1685246355163" duration="9420000" />
+      <workItem from="1685246355163" duration="10033000" />
     </task>
     <task id="LOCAL-00001" summary="spring-17-REST-ConsumingApis">
       <created>1685142457656</created>
@@ -496,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685289488167</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="    @GetMapping(&quot;/students&quot;)&#10;    public ResponseEntity&lt;ResponseWrapper&gt; readAllStudents() {&#10;        return ResponseEntity.ok(new ResponseWrapper(&quot;Students are successfully retrieved&quot;, studentService.findAll()));&#10;    }">
+      <created>1685291683022</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1685291683022</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,7 +522,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="consumePostFromDummyApi header have" />
     <MESSAGE value="step 1 dependency org.springframework.cloud" />
     <MESSAGE value="2-step annotation @EnableFeignClients create Bean" />
     <MESSAGE value="Proxy package as interface" />
@@ -547,7 +546,8 @@
     <MESSAGE value="update 4 things&#10;&#10;@JsonIgnoreProperties(ignoreUnknown = true)  // skips unknown filds&#10;@JsonInclude(JsonInclude.Include.NON_NULL)  //&#10;&#10;&#10;   @JsonIgnore&#10;   &#10;       @JsonProperty(access = JsonProperty.Access.WRITE_ONLY) //we are not returning password" />
     <MESSAGE value="&#10;@JsonInclude(JsonInclude.Include.NON_NULL)  //   // i dont wont to see in jsan but dynamic" />
     <MESSAGE value="spring.jackson.default-property-inclusion=non_null we can do hiding null from here too aplication prop" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring.jackson.default-property-inclusion=non_null we can do hiding null from here too aplication prop" />
+    <MESSAGE value="    @GetMapping(&quot;/students&quot;)&#10;    public ResponseEntity&lt;ResponseWrapper&gt; readAllStudents() {&#10;        return ResponseEntity.ok(new ResponseWrapper(&quot;Students are successfully retrieved&quot;, studentService.findAll()));&#10;    }" />
+    <option name="LAST_COMMIT_MESSAGE" value="    @GetMapping(&quot;/students&quot;)&#10;    public ResponseEntity&lt;ResponseWrapper&gt; readAllStudents() {&#10;        return ResponseEntity.ok(new ResponseWrapper(&quot;Students are successfully retrieved&quot;, studentService.findAll()));&#10;    }" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Bob_R$Uniq.ic" NAME="Uniq Coverage Results" MODIFIED="1682262422432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
