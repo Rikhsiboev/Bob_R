@@ -26,24 +26,24 @@ public class UserController {
         this.userService = userService;
     }
 
-//    @GetMapping("/list")
-//    @Operation(summary = "Read all users")
-//    @ApiResponses(value = {
-//            @ApiResponse(responseCode = "200", description = "Successfully retrieved users (OK)",
-//            content = @Content(mediaType = "application/json")),
-//            @ApiResponse(responseCode = "400", description = "Bad Request", content = @Content),
-//            @ApiResponse(responseCode = "404", description = "Not Found", content = @Content)
-//    })
+    @GetMapping("/list")
+    @Operation(summary = "Read all users")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "200", description = "Successfully retrieved users (OK)",
+            content = @Content(mediaType = "application/json")),
+            @ApiResponse(responseCode = "400", description = "Bad Request", content = @Content),
+            @ApiResponse(responseCode = "404", description = "Not Found", content = @Content)
+    })
     public ResponseEntity<List<UserDTO>> getAllUsers() {
         return ResponseEntity.ok(userService.getUsers());
     }
 
-//    @PostMapping(consumes = {MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE},
-//                produces = {MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE})
-//    @Operation(summary = "Create a user")
-//    @ApiResponse(responseCode = "201", description = "User created successfully (CREATED)",
-//                    content = {@Content(mediaType = "application/xml"), @Content(mediaType = "application/json")},
-//                    headers = {@Header(name = "Connection", description = "keep-alive")})
+    @PostMapping(consumes = {MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE},
+                produces = {MediaType.APPLICATION_XML_VALUE, MediaType.APPLICATION_JSON_VALUE})
+    @Operation(summary = "Create a user")
+    @ApiResponse(responseCode = "201", description = "User created successfully (CREATED)",
+                    content = {@Content(mediaType = "application/xml"), @Content(mediaType = "application/json")},
+                    headers = {@Header(name = "Connection", description = "keep-alive")})
     public ResponseEntity<UserDTO> createUser(@RequestBody UserDTO userDTO) {
         return ResponseEntity.status(HttpStatus.CREATED).body(userService.create(userDTO));
     }
