@@ -9,10 +9,15 @@
       <schema-mapping>
         <introspection-scope>
           <node negative="1">
-            <node kind="database" qname="spring-15-REST">
+            <node kind="database">
+              <name qname="spring-15-REST" />
+              <name qname="spring-18-REST-SchoolLab" />
               <node kind="schema" qname="public" />
             </node>
-            <node kind="database" qname="Spring17RestConsumingApisApplication" />
+            <node kind="database">
+              <name qname="spring-16-REST-Jackson" />
+              <name qname="Spring17RestConsumingApisApplication" />
+            </node>
           </node>
         </introspection-scope>
       </schema-mapping>
