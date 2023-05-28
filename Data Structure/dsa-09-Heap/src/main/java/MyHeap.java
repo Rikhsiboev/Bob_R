@@ -8,6 +8,13 @@ public class MyHeap {
         this.items = new int[capacity];
         this.size=0;
     }
+    // constructor for Heapify new array
+    public MyHeap(int[] arr) {  // heap as capacity
+        this.items = new int [arr.length];
+        this.size=arr.length;
+        this.items=arr;
+        buildHeap();
+    }
     public int peek() {
         if (size==0) throw new NoSuchElementException();
         return items[0];
@@ -84,4 +91,30 @@ public class MyHeap {
         }
         System.out.println();
     }
+
+
+    //Heapify new array
+
+    public void buildHeap(){
+        // start index n/2-1 to zero exlude leaves
+        int startIndex = ( size / 2) - 1;
+        // go up level by level
+        for (int i = startIndex;i>=0;i--){
+            heapify(i);//helper method
+        }
+    }
+
+    //helper method
+    public void heapify(int index){
+        // check if index element is a valid parent
+        if (!isValidParent(index)){
+            int largestChildIndex = largerChildIndex(index);
+            swap(index,largestChildIndex);
+            // recursively go own on the affected sub tree
+            // continue until ith element
+            heapify(largestChildIndex);
+        }
+
+    }
+
 }

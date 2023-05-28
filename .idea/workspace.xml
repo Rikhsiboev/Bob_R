@@ -4,9 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="i want re change">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/controller/SchoolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/controller/SchoolController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/Lab07OrmQueriesApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/QueryDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/AddressRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/BalanceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/CartItemRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/CartRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/CategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/DiscountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/resources/data.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,13 +110,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R",
+    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/Data Structure",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
-    "spring.configuration.checksum": "c1e92776969078e8cd13c357d7b8942f",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "e4f0dd832a4c5b6c49dbb79ec0abd918",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -111,11 +127,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Data Structure" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/spring-labs" />
       <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/resources" />
       <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r" />
-      <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/dto" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.bob_r.client" />
@@ -123,6 +139,11 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="excludedTypes">
       <set>
         <option value="HttpClient.HttpRequestRunConfigurationType" />
@@ -256,7 +277,8 @@
       <workItem from="1685145602867" duration="4426000" />
       <workItem from="1685153426393" duration="9509000" />
       <workItem from="1685239248822" duration="1143000" />
-      <workItem from="1685246355163" duration="12002000" />
+      <workItem from="1685246355163" duration="13869000" />
+      <workItem from="1685296547742" duration="4182000" />
     </task>
     <task id="LOCAL-00001" summary="spring-17-REST-ConsumingApis">
       <created>1685142457656</created>
@@ -503,7 +525,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685292062407</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="    @GetMapping(&quot;address/{id}&quot;)&#10;    public ResponseEntity&lt;ResponseWrapper&gt; findById(@PathVariable(&quot;id&quot;) Long addressFindById) throws Exception {&#10;        // find the addrtess to return&#10;//        AddressDTO addressDTO = addressService.findById(addressFindById);&#10;&#10;&#10;        return ResponseEntity&#10;                .ok(new ResponseWrapper&#10;                        (&quot;Students are successfully retrieved&quot;,&#10;                                addressService.findById(addressFindById)));&#10;&#10;    }">
+      <created>1685294236156</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1685294236156</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Heap">
+      <created>1685305464120</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1685305464120</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,8 +565,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2-step annotation @EnableFeignClients create Bean" />
-    <MESSAGE value="Proxy package as interface" />
     <MESSAGE value="@FeignClient(url = &quot;https://jsonplaceholder.typicode.com/users&quot;,name = &quot;User-CLIENT&quot;)" />
     <MESSAGE value="by this method we can do auto from jason to our pojo but dunt forget about annotation &#10;&#10;&#10;&#10;    @GetMapping(&quot;/user&quot;)&#10;    List&lt;User&gt; getUser();" />
     <MESSAGE value="Consume_FeignClient" />
@@ -554,7 +588,10 @@
     <MESSAGE value="spring.jackson.default-property-inclusion=non_null we can do hiding null from here too aplication prop" />
     <MESSAGE value="    @GetMapping(&quot;/students&quot;)&#10;    public ResponseEntity&lt;ResponseWrapper&gt; readAllStudents() {&#10;        return ResponseEntity.ok(new ResponseWrapper(&quot;Students are successfully retrieved&quot;, studentService.findAll()));&#10;    }" />
     <MESSAGE value="    @GetMapping(&quot;/parents&quot;)&#10;    public ResponseEntity&lt;ResponseWrapper&gt; readAllParents() {&#10;        ResponseWrapper responseWrapper = new ResponseWrapper(true,&quot;Students are successfully retrieved&quot;&#10;                ,HttpStatus.ACCEPTED.value(),parentService.findAll());&#10;        return ResponseEntity&#10;                .status(HttpStatus.ACCEPTED)&#10;                .header(&quot;Parent&quot;,&quot;Returned&quot;)&#10;                .body(responseWrapper);" />
-    <option name="LAST_COMMIT_MESSAGE" value="    @GetMapping(&quot;/parents&quot;)&#10;    public ResponseEntity&lt;ResponseWrapper&gt; readAllParents() {&#10;        ResponseWrapper responseWrapper = new ResponseWrapper(true,&quot;Students are successfully retrieved&quot;&#10;                ,HttpStatus.ACCEPTED.value(),parentService.findAll());&#10;        return ResponseEntity&#10;                .status(HttpStatus.ACCEPTED)&#10;                .header(&quot;Parent&quot;,&quot;Returned&quot;)&#10;                .body(responseWrapper);" />
+    <MESSAGE value="    @GetMapping(&quot;address/{id}&quot;)&#10;    public ResponseEntity&lt;ResponseWrapper&gt; findById(@PathVariable(&quot;id&quot;) Long addressFindById) throws Exception {&#10;        // find the addrtess to return&#10;//        AddressDTO addressDTO = addressService.findById(addressFindById);&#10;&#10;&#10;        return ResponseEntity&#10;                .ok(new ResponseWrapper&#10;                        (&quot;Students are successfully retrieved&quot;,&#10;                                addressService.findById(addressFindById)));&#10;&#10;    }" />
+    <MESSAGE value="Heap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Heap" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Bob_R$Uniq.ic" NAME="Uniq Coverage Results" MODIFIED="1682262422432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

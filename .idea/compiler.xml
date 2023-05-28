@@ -11,6 +11,7 @@
         <module name="Spring-16-REST-Jackson" />
         <module name="lab-07-orm-queries" />
         <module name="spring-17-REST-ConsumingApis" />
+        <module name="dsa-09-Heap" />
         <module name="lab-08-rest" />
         <module name="Spring-15-REST" />
         <module name="Spring-19-REST-OpenAPI3" />
