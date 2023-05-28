@@ -1,6 +1,7 @@
 package com.Bob_r.dto;
 
 import com.Bob_r.enums.Status;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -28,7 +29,7 @@ public class ParentDTO {
     private LocalDate birthday;
 
     private Status status;
-//    @JsonBackReference(value = "parent-address-reference")
+   @JsonBackReference(value = "parent-address-reference")
     private AddressDTO address;
 
 }
