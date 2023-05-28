@@ -4,11 +4,73 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/client/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/controller/Consume_WebClient.java" afterDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)">
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/Spring16RestJacksonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/dto/AccountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/enums/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/util/MapperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/test/java/com/Bob_r/Spring16RestJacksonApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/Spring19RestOpenApi3Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/dto/AccountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/enums/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/util/MapperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/test/java/com/Bob_r/Spring19RestOpenApi3ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/Spring19RestOpenApi3Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/controller/AccountController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/dto/AccountDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/dto/UserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/entity/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/entity/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/enums/UserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/repository/AccountRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/service/AccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/service/impl/AccountServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/util/MapperUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f091880a-fc51-4003-ba25-9e207513c728.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f091880a-fc51-4003-ba25-9e207513c728.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/client/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/client/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,12 +158,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/spring-17-REST-ConsumingApis/src/main/java/com/bob_r",
+    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
-    "spring.configuration.checksum": "ce65660ab76a8c43fbfcda19f755d5b2",
+    "spring.configuration.checksum": "c1e92776969078e8cd13c357d7b8942f",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -112,11 +175,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/resources" />
       <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r" />
       <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/dto" />
       <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/spring17restconsumingapis/dto" />
-      <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.bob_r.client" />
@@ -130,20 +193,27 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring17RestConsumingApisApplication">
-    <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
-      <method v="2" />
-    </configuration>
-    <configuration name="All in requests-with-authorization" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/requests-with-authorization.http">
-      <method v="2" />
+  <component name="RunManager" selected="Spring Boot.Spring16RestJacksonApplication">
+    <configuration name="Spring19RestOpenApi3Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Boib_r.Spring19RestOpenApi3Application" />
+      <module name="Spring-19-REST-OpenAPI3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Boib_r.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" requestIdentifier="#5" runType="Run single request">
+    <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="#4" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
@@ -157,6 +227,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring15RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-15-REST" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.Spring15RestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring16RestJacksonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-16-REST-Jackson" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.Spring16RestJacksonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spring17RestConsumingApisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-17-REST-ConsumingApis" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.Spring17RestConsumingApisApplication" />
@@ -164,13 +248,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring19RestOpenApi3Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Spring-19-REST-OpenAPI3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.Spring19RestOpenApi3Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Bob_r.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring19RestOpenApi3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-19-REST-OpenAPI3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Boib_r.Spring19RestOpenApi3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketingProjectMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ticketing-project-mvc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.TicketingProjectMvcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.All in generated-requests" />
-        <item itemvalue="HTTP Request.generated-requests | #5" />
-        <item itemvalue="HTTP Request.generated-requests | #2" />
+        <item itemvalue="Spring Boot.Spring19RestOpenApi3Application (1)" />
+        <item itemvalue="Application.Spring19RestOpenApi3Application" />
+        <item itemvalue="HTTP Request.generated-requests | #3" />
         <item itemvalue="HTTP Request.generated-requests | #1" />
-        <item itemvalue="HTTP Request.All in requests-with-authorization" />
+        <item itemvalue="HTTP Request.generated-requests | #4" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +297,9 @@
       <workItem from="1685141040074" duration="23000" />
       <workItem from="1685142128902" duration="3456000" />
       <workItem from="1685145602867" duration="4426000" />
-      <workItem from="1685153426393" duration="3983000" />
+      <workItem from="1685153426393" duration="9509000" />
+      <workItem from="1685239248822" duration="1143000" />
+      <workItem from="1685246355163" duration="4514000" />
     </task>
     <task id="LOCAL-00001" summary="spring-17-REST-ConsumingApis">
       <created>1685142457656</created>
@@ -314,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685156598376</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="All Api methods with reactive way">
+      <created>1685157907440</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1685157907440</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +477,8 @@
     <MESSAGE value="new Dto From &#10;postman write end point get json file and fo to web page &#10;Json web page to Pojo" />
     <MESSAGE value="web client Reactive Programming" />
     <MESSAGE value="web client &#10;Reactive Programming &#10;         Tread =&gt; execution  part of process&#10;    Synchronize 200 Tread&#10;    ASynchronize  =&gt;&gt;  Event Loop as Container as Loop&#10;                   Malty execution when ever ready Tread &#10;Mono ==&gt;  1 time&#10;Flex ==&gt;  N time&#10;&#10;Repository have to be as Flex and APi endpoint two other ways not works" />
-    <option name="LAST_COMMIT_MESSAGE" value="web client &#10;Reactive Programming &#10;         Tread =&gt; execution  part of process&#10;    Synchronize 200 Tread&#10;    ASynchronize  =&gt;&gt;  Event Loop as Container as Loop&#10;                   Malty execution when ever ready Tread &#10;Mono ==&gt;  1 time&#10;Flex ==&gt;  N time&#10;&#10;Repository have to be as Flex and APi endpoint two other ways not works" />
+    <MESSAGE value="All Api methods with reactive way" />
+    <option name="LAST_COMMIT_MESSAGE" value="All Api methods with reactive way" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Bob_R$Uniq.ic" NAME="Uniq Coverage Results" MODIFIED="1682262422432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
