@@ -2,10 +2,7 @@ package com.Bob_r.dto;
 
 import com.Bob_r.enums.EducationLevel;
 import com.Bob_r.enums.Status;
-import com.fasterxml.jackson.annotation.JacksonInject;
-import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -18,6 +15,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)  // skips unknown filds
+@JsonInclude(JsonInclude.Include.NON_NULL)  //
 public class TeacherDTO {
 
     private Long id;
