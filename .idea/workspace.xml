@@ -4,73 +4,109 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)">
-      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/Spring16RestJacksonApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/dto/AccountDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/entity/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/enums/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/repository/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/java/com/Bob_r/util/MapperUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/src/test/java/com/Bob_r/Spring16RestJacksonApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/Spring19RestOpenApi3Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/controller/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/dto/AccountDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/entity/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/enums/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/repository/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/java/com/Bob_r/util/MapperUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/src/test/java/com/Bob_r/Spring19RestOpenApi3ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/Spring19RestOpenApi3Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/controller/AccountController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/dto/AccountDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/dto/UserDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/entity/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/entity/BaseEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/enums/UserRole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/repository/AccountRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/service/AccountService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/service/impl/AccountServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/com/cydeo/util/MapperUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/target/classes/data.sql" afterDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/Spring18RestSchoolLabApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/controller/SchoolController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/dto/AddressDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/dto/ClassDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/dto/CourseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/dto/ParentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/dto/StudentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/dto/TeacherDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/entity/Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/entity/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/entity/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/enums/AddressType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/enums/EducationLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/enums/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/repository/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/repository/ClassRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/repository/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/repository/ParentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/repository/TeacherRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/AddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/ClassService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/ParentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/TeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/impl/AddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/impl/ClassServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/impl/ParentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/service/impl/TeacherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/cydeo/util/MapperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/test/java/com/cydeo/Spring18RestSchoolLabApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/cydeo/lab07ormqueries/Lab07OrmQueriesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/cydeo/lab07ormqueries/QueryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/cydeo/lab07ormqueries/repository/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/cydeo/lab07ormqueries/repository/BalanceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/cydeo/lab07ormqueries/repository/CartItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/cydeo/lab07ormqueries/repository/CartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/cydeo/lab07ormqueries/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/cydeo/lab07ormqueries/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/cydeo/lab07ormqueries/repository/DiscountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/cydeo/lab07ormqueries/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/cydeo/lab07ormqueries/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/Lab08RestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/dto/AddressDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/dto/CustomerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/dto/DiscountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/dto/PaymentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/dto/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/dto/ProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/entity/Balance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/entity/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/entity/CartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/entity/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/entity/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/enums/CartState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/enums/DiscountType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/enums/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/mapper/MapperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/model/ResponseWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/repository/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/repository/BalanceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/repository/CartItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/repository/CartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/repository/DiscountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/repository/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/cydeo/lab08rest/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/test/java/com/cydeo/lab08rest/Lab08RestApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/test/java/com/cydeo/lab08rest/controller/AddressControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/test/java/com/cydeo/lab08rest/controller/CustomerControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/test/java/com/cydeo/lab08rest/controller/DiscountControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/test/java/com/cydeo/lab08rest/controller/OrderControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/test/java/com/cydeo/lab08rest/controller/ProductControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f091880a-fc51-4003-ba25-9e207513c728.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f091880a-fc51-4003-ba25-9e207513c728.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/client/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/client/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,8 +121,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -176,10 +212,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/spring-labs" />
       <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/resources" />
       <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r" />
       <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/dto" />
-      <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r/spring17restconsumingapis/dto" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.bob_r.client" />
@@ -193,7 +229,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring16RestJacksonApplication">
+  <component name="RunManager" selected="Spring Boot.Lab08RestApplication">
     <configuration name="Spring19RestOpenApi3Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Boib_r.Spring19RestOpenApi3Application" />
       <module name="Spring-19-REST-OpenAPI3" />
@@ -227,6 +263,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lab07OrmQueriesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="lab-07-orm-queries" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.lab07ormqueries.Lab07OrmQueriesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab08RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="lab-08-rest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.lab08rest.Lab08RestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spring15RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Spring-15-REST" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.Spring15RestApplication" />
@@ -244,6 +294,13 @@
     <configuration name="Spring17RestConsumingApisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-17-REST-ConsumingApis" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.Spring17RestConsumingApisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring18RestSchoolLabApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-18-REST-SchoolLab" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.Spring18RestSchoolLabApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -299,7 +356,7 @@
       <workItem from="1685145602867" duration="4426000" />
       <workItem from="1685153426393" duration="9509000" />
       <workItem from="1685239248822" duration="1143000" />
-      <workItem from="1685246355163" duration="4514000" />
+      <workItem from="1685246355163" duration="6046000" />
     </task>
     <task id="LOCAL-00001" summary="spring-17-REST-ConsumingApis">
       <created>1685142457656</created>
@@ -434,7 +491,42 @@
       <option name="project" value="LOCAL" />
       <updated>1685157907440</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Spring doc">
+      <created>1685286616217</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1685286616217</updated>
+    </task>
+    <task id="LOCAL-00021" summary="bean">
+      <created>1685286647999</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1685286647999</updated>
+    </task>
+    <task id="LOCAL-00022" summary="//@RequestMapping(&quot;/api/v1/accounts&quot;)&#10;//@Tag(name = &quot;Account&quot;, description = &quot;Account CRUD Operations&quot;)&#10;//@Tags(value = {@Tag(name = &quot;Account&quot;, description = &quot;Account CRUD Operations&quot;),&#10;//        @Tag(name = &quot;Account2&quot;, description = &quot;Account2 CRUD Operations&quot;)})">
+      <created>1685286680274</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1685286680274</updated>
+    </task>
+    <task id="LOCAL-00023" summary="    @GetMapping(&quot;/list&quot;)&#10;    @Operation(summary = &quot;Read all users&quot;)&#10;    @ApiResponses(value = {&#10;            @ApiResponse(responseCode = &quot;200&quot;, description = &quot;Successfully retrieved users (OK)&quot;,&#10;            content = @Content(mediaType = &quot;application/json&quot;)),&#10;            @ApiResponse(responseCode = &quot;400&quot;, description = &quot;Bad Request&quot;, content = @Content),&#10;            @ApiResponse(responseCode = &quot;404&quot;, description = &quot;Not Found&quot;, content = @Content)&#10;    })">
+      <created>1685286744143</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1685286744143</updated>
+    </task>
+    <task id="LOCAL-00024" summary="json Annotation in DTO">
+      <created>1685286804626</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1685286804626</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +570,12 @@
     <MESSAGE value="web client Reactive Programming" />
     <MESSAGE value="web client &#10;Reactive Programming &#10;         Tread =&gt; execution  part of process&#10;    Synchronize 200 Tread&#10;    ASynchronize  =&gt;&gt;  Event Loop as Container as Loop&#10;                   Malty execution when ever ready Tread &#10;Mono ==&gt;  1 time&#10;Flex ==&gt;  N time&#10;&#10;Repository have to be as Flex and APi endpoint two other ways not works" />
     <MESSAGE value="All Api methods with reactive way" />
-    <option name="LAST_COMMIT_MESSAGE" value="All Api methods with reactive way" />
+    <MESSAGE value="Spring doc" />
+    <MESSAGE value="bean" />
+    <MESSAGE value="//@RequestMapping(&quot;/api/v1/accounts&quot;)&#10;//@Tag(name = &quot;Account&quot;, description = &quot;Account CRUD Operations&quot;)&#10;//@Tags(value = {@Tag(name = &quot;Account&quot;, description = &quot;Account CRUD Operations&quot;),&#10;//        @Tag(name = &quot;Account2&quot;, description = &quot;Account2 CRUD Operations&quot;)})" />
+    <MESSAGE value="    @GetMapping(&quot;/list&quot;)&#10;    @Operation(summary = &quot;Read all users&quot;)&#10;    @ApiResponses(value = {&#10;            @ApiResponse(responseCode = &quot;200&quot;, description = &quot;Successfully retrieved users (OK)&quot;,&#10;            content = @Content(mediaType = &quot;application/json&quot;)),&#10;            @ApiResponse(responseCode = &quot;400&quot;, description = &quot;Bad Request&quot;, content = @Content),&#10;            @ApiResponse(responseCode = &quot;404&quot;, description = &quot;Not Found&quot;, content = @Content)&#10;    })" />
+    <MESSAGE value="json Annotation in DTO" />
+    <option name="LAST_COMMIT_MESSAGE" value="json Annotation in DTO" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Bob_R$Uniq.ic" NAME="Uniq Coverage Results" MODIFIED="1682262422432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
