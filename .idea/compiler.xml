@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-16-REST-Jackson" />
-        <module name="Spring-19-REST-OpenAPI3" />
         <module name="ticketing-project-mvc" />
       </profile>
     </annotationProcessing>
@@ -22,6 +21,7 @@
       <module name="FOR_ME" target="11" />
       <module name="Spring-15-REST" target="11" />
       <module name="spring-17-REST-ConsumingApis" target="11" />
+      <module name="Spring-19-REST-OpenAPI3" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
