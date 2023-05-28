@@ -1,7 +1,7 @@
 package com.Bob_r.dto;
 
 import com.Bob_r.enums.Status;
-import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,8 +13,10 @@ import java.time.LocalDate;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@JsonIgnoreProperties(ignoreUnknown = true)  // skips unknown filds
+@JsonInclude(JsonInclude.Include.NON_NULL)  //
 public class StudentDTO {
-
+    @JsonIgnore
     private Long id;
 
     private String firstName;
@@ -23,6 +25,8 @@ public class StudentDTO {
 
     private String email;
     private String username;
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY) //we are not returning password
+
     private String password;
 
     private LocalDate birthday;
