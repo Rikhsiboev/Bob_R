@@ -12,14 +12,9 @@
         <option value="$PROJECT_DIR$/spring/pom.xml" />
         <option value="$PROJECT_DIR$/Pizzza/pom.xml" />
         <option value="$PROJECT_DIR$/Pizza/pizza-cloud-project/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-labs/lab-08-rest/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-18-REST-SchoolLab/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-17-REST-ConsumingApis/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-16-REST-Jackson/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-15-REST/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-19-REST-OpenAPI3/pom.xml" />
         <option value="$PROJECT_DIR$/Data Structure/dsa-09-Heap/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

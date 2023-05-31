@@ -10,8 +10,12 @@
         <introspection-scope>
           <node negative="1">
             <node kind="database">
+              <name qname="keycloak" />
+              <name qname="lab-07-orm-queries" />
               <name qname="spring-15-REST" />
               <name qname="spring-18-REST-SchoolLab" />
+              <name qname="spring-20-REST-Security-Keycloak-LicenseApp" />
+              <name qname="spring-20-REST-Security-Keycloak-OrganizationsApp" />
               <node kind="schema" qname="public" />
             </node>
             <node kind="database">

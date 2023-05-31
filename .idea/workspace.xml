@@ -5,24 +5,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="i want re change">
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/Spring20RestSecurityKeycloakLicenseAppApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/client/OrganizationFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/client/OrganizationRestTemplateClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/config/FeignClientInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/controller/LicenseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/model/License.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/model/Organization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/repository/LicenseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/service/LicenseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/service/impl/LicenseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/test/java/com/cydeo/Spring20RestSecurityKeycloakLicenseAppApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/bob_r/Spring20RestSecurityKeycloakOrganizationsAppApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/bob_r/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/bob_r/controller/OrganizationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/bob_r/model/Organization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/bob_r/repository/OrganizationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/bob_r/service/OrganizationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/bob_r/service/impl/OrganizationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/test/java/com/example/spring20restsecuritykeycloakorganizationsapp/Spring20RestSecurityKeycloakOrganizationsAppApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Balance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Cart_item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/enums/CartState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/enums/DiscountType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/enums/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/CustomerRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f091880a-fc51-4003-ba25-9e207513c728.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f091880a-fc51-4003-ba25-9e207513c728.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/Lab07OrmQueriesApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/QueryDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/AddressRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/BalanceRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/CartItemRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/CartRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/Lab07OrmQueriesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/Lab07OrmQueriesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/QueryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/QueryDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/AddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/AddressRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/BalanceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/BalanceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/CartItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/CartItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/CartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/CartRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/CategoryRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/CustomerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/DiscountRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/OrderRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/ProductRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/DiscountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/DiscountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +132,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2QLm0MDy8MdZvbZccPE5v49t9A8" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -110,13 +154,16 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/Data Structure",
+    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "e4f0dd832a4c5b6c49dbb79ec0abd918",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
+    "spring.configuration.checksum": "125128c6f2f6b16a3263d4f6a599eba7",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -127,11 +174,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Data Structure" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r" />
+      <recent name="$PROJECT_DIR$/Data Structure" />
       <recent name="$PROJECT_DIR$/spring-labs" />
       <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/resources" />
-      <recent name="$PROJECT_DIR$/spring-17-REST-ConsumingApis/src/main/java/com/bob_r" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.bob_r.client" />
@@ -150,27 +197,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring18RestSchoolLabApplication">
-    <configuration name="Spring19RestOpenApi3Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Boib_r.Spring19RestOpenApi3Application" />
-      <module name="Spring-19-REST-OpenAPI3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Boib_r.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.Spring20RestSecurityKeycloakOrganizationsAppApplication (1)">
     <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="#4" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
@@ -184,54 +212,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab07OrmQueriesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="lab-07-orm-queries" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.lab07ormqueries.Lab07OrmQueriesApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lab08RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="lab-08-rest" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.lab08rest.Lab08RestApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Spring15RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="Spring-15-REST" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.Spring15RestApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Spring16RestJacksonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="Spring-16-REST-Jackson" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.Spring16RestJacksonApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Spring17RestConsumingApisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="spring-17-REST-ConsumingApis" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.Spring17RestConsumingApisApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Spring18RestSchoolLabApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="spring-18-REST-SchoolLab" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.Spring18RestSchoolLabApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Spring19RestOpenApi3Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="Spring-19-REST-OpenAPI3" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.Spring19RestOpenApi3Application" />
+    <configuration name="Spring20RestSecurityKeycloakLicenseAppApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-20-REST-Security-Keycloak-LicenseApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.Spring20RestSecurityKeycloakLicenseAppApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Bob_r.*" />
+          <option name="PATTERN" value="com.bob_r.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,27 +225,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spring19RestOpenApi3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="Spring-19-REST-OpenAPI3" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Boib_r.Spring19RestOpenApi3Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TicketingProjectMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="ticketing-project-mvc" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.TicketingProjectMvcApplication" />
+    <configuration name="Spring20RestSecurityKeycloakOrganizationsAppApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-20-REST-Security-Keycloak-OrganizationsApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.Spring20RestSecurityKeycloakOrganizationsAppApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bob_r.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Spring19RestOpenApi3Application (1)" />
-        <item itemvalue="Application.Spring19RestOpenApi3Application" />
-        <item itemvalue="HTTP Request.generated-requests | #3" />
+        <item itemvalue="Spring Boot.Spring20RestSecurityKeycloakLicenseAppApplication (1)" />
+        <item itemvalue="Spring Boot.Spring20RestSecurityKeycloakOrganizationsAppApplication (1)" />
         <item itemvalue="HTTP Request.generated-requests | #1" />
-        <item itemvalue="HTTP Request.generated-requests | #4" />
       </list>
     </recent_temporary>
   </component>
@@ -279,6 +262,9 @@
       <workItem from="1685239248822" duration="1143000" />
       <workItem from="1685246355163" duration="13869000" />
       <workItem from="1685296547742" duration="4182000" />
+      <workItem from="1685416732213" duration="4223000" />
+      <workItem from="1685444360853" duration="1156000" />
+      <workItem from="1685484517847" duration="6624000" />
     </task>
     <task id="LOCAL-00001" summary="spring-17-REST-ConsumingApis">
       <created>1685142457656</created>
@@ -592,6 +578,10 @@
     <MESSAGE value="Heap" />
     <option name="LAST_COMMIT_MESSAGE" value="Heap" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Bob_R$Uniq.ic" NAME="Uniq Coverage Results" MODIFIED="1682262422432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
