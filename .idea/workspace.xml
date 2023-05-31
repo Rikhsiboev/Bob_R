@@ -5,30 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="i want re change">
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/Spring20RestSecurityKeycloakLicenseAppApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/client/OrganizationFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/client/OrganizationRestTemplateClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/config/FeignClientInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/controller/LicenseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/model/License.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/model/Organization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/repository/LicenseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/service/LicenseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/service/impl/LicenseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/test/java/com/cydeo/Spring20RestSecurityKeycloakLicenseAppApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/bob_r/Spring20RestSecurityKeycloakOrganizationsAppApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/bob_r/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/bob_r/controller/OrganizationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/bob_r/model/Organization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/bob_r/repository/OrganizationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/bob_r/service/OrganizationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/bob_r/service/impl/OrganizationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/test/java/com/example/spring20restsecuritykeycloakorganizationsapp/Spring20RestSecurityKeycloakOrganizationsAppApplicationTests.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Address.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Balance.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/BaseEntity.java" afterDir="false" />
@@ -43,20 +19,20 @@
       <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/enums/CartState.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/enums/DiscountType.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/enums/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/BalanceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/CartItemRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/CategoryRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f091880a-fc51-4003-ba25-9e207513c728.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f091880a-fc51-4003-ba25-9e207513c728.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/config/FeignClientInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/config/SecurityConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/Lab07OrmQueriesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/Lab07OrmQueriesApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/QueryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/QueryDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/AddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/AddressRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/BalanceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/BalanceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/CartItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/CartItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/AddressRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/BalanceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/CartItemRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/CartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/CartRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/CategoryRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/CustomerRepository.java" beforeDir="false" />
@@ -264,7 +240,7 @@
       <workItem from="1685296547742" duration="4182000" />
       <workItem from="1685416732213" duration="4223000" />
       <workItem from="1685444360853" duration="1156000" />
-      <workItem from="1685484517847" duration="6624000" />
+      <workItem from="1685484517847" duration="7404000" />
     </task>
     <task id="LOCAL-00001" summary="spring-17-REST-ConsumingApis">
       <created>1685142457656</created>
@@ -525,7 +501,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685305464120</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Auth2">
+      <created>1685505058037</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1685505058037</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Dependency and application properties">
+      <created>1685505130299</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1685505130299</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,8 +541,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="@FeignClient(url = &quot;https://jsonplaceholder.typicode.com/users&quot;,name = &quot;User-CLIENT&quot;)" />
-    <MESSAGE value="by this method we can do auto from jason to our pojo but dunt forget about annotation &#10;&#10;&#10;&#10;    @GetMapping(&quot;/user&quot;)&#10;    List&lt;User&gt; getUser();" />
     <MESSAGE value="Consume_FeignClient" />
     <MESSAGE value="we are getting as json and return back as json" />
     <MESSAGE value="new Dto From &#10;postman write end point get json file and fo to web page &#10;Json web page to Pojo" />
@@ -576,7 +564,9 @@
     <MESSAGE value="    @GetMapping(&quot;/parents&quot;)&#10;    public ResponseEntity&lt;ResponseWrapper&gt; readAllParents() {&#10;        ResponseWrapper responseWrapper = new ResponseWrapper(true,&quot;Students are successfully retrieved&quot;&#10;                ,HttpStatus.ACCEPTED.value(),parentService.findAll());&#10;        return ResponseEntity&#10;                .status(HttpStatus.ACCEPTED)&#10;                .header(&quot;Parent&quot;,&quot;Returned&quot;)&#10;                .body(responseWrapper);" />
     <MESSAGE value="    @GetMapping(&quot;address/{id}&quot;)&#10;    public ResponseEntity&lt;ResponseWrapper&gt; findById(@PathVariable(&quot;id&quot;) Long addressFindById) throws Exception {&#10;        // find the addrtess to return&#10;//        AddressDTO addressDTO = addressService.findById(addressFindById);&#10;&#10;&#10;        return ResponseEntity&#10;                .ok(new ResponseWrapper&#10;                        (&quot;Students are successfully retrieved&quot;,&#10;                                addressService.findById(addressFindById)));&#10;&#10;    }" />
     <MESSAGE value="Heap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Heap" />
+    <MESSAGE value="Auth2" />
+    <MESSAGE value="Dependency and application properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dependency and application properties" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
