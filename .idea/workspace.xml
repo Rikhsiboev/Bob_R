@@ -4,48 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="i want re change">
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/config/FeignClientInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/java/com/bob_r/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Balance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Cart_item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Discount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/enums/CartState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/enums/DiscountType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/enums/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/AddressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/BalanceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/CartItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f091880a-fc51-4003-ba25-9e207513c728.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f091880a-fc51-4003-ba25-9e207513c728.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/Lab07OrmQueriesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/Lab07OrmQueriesApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/QueryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/QueryDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/AddressRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/BalanceRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/CartItemRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/CartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/CartRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/CategoryRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/CustomerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/DiscountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/DiscountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/lab07ormqueries/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/java/com/Bob_r/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -190,9 +149,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab07OrmQueriesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="lab-07-orm-queries" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.Lab07OrmQueriesApplication" />
+    <configuration name="Lab08RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="lab-08-rest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.lab08rest.Lab08RestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -217,7 +176,7 @@
       <workItem from="1685416732213" duration="4223000" />
       <workItem from="1685444360853" duration="1156000" />
       <workItem from="1685484517847" duration="20967000" />
-      <workItem from="1685574940560" duration="2555000" />
+      <workItem from="1685574940560" duration="3133000" />
     </task>
     <task id="LOCAL-00001" summary="spring-17-REST-ConsumingApis">
       <created>1685142457656</created>
@@ -506,7 +465,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685505806357</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="lab 07 Repo Queries">
+      <created>1685577700145</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1685577700145</updated>
+    </task>
+    <task id="LOCAL-00043" summary="KeyCloak with token overriding licences">
+      <created>1685577764847</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1685577764847</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,8 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new Dto From &#10;postman write end point get json file and fo to web page &#10;Json web page to Pojo" />
-    <MESSAGE value="web client Reactive Programming" />
     <MESSAGE value="web client &#10;Reactive Programming &#10;         Tread =&gt; execution  part of process&#10;    Synchronize 200 Tread&#10;    ASynchronize  =&gt;&gt;  Event Loop as Container as Loop&#10;                   Malty execution when ever ready Tread &#10;Mono ==&gt;  1 time&#10;Flex ==&gt;  N time&#10;&#10;Repository have to be as Flex and APi endpoint two other ways not works" />
     <MESSAGE value="All Api methods with reactive way" />
     <MESSAGE value="Spring doc" />
@@ -557,7 +528,9 @@
     <MESSAGE value="Dependency and application properties" />
     <MESSAGE value="restriction of roles" />
     <MESSAGE value="adding config and     @RolesAllowed({&quot;ADMIN&quot;,&quot;USER&quot;})" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding config and     @RolesAllowed({&quot;ADMIN&quot;,&quot;USER&quot;})" />
+    <MESSAGE value="lab 07 Repo Queries" />
+    <MESSAGE value="KeyCloak with token overriding licences" />
+    <option name="LAST_COMMIT_MESSAGE" value="KeyCloak with token overriding licences" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
