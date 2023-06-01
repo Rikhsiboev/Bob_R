@@ -1,4 +1,4 @@
-package com.Bob_r.lab07ormqueries;
+package com.Bob_r;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

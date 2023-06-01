@@ -8,7 +8,7 @@
         <version>2.7.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.cydeo</groupId>
+    <groupId>com.Bob_r</groupId>
     <artifactId>lab-07-orm-queries</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>lab-07-orm-queries</name>

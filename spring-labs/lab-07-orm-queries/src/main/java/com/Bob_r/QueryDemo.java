@@ -1,7 +1,12 @@
-package com.Bob_r.lab07ormqueries;
-import com.Bob_r.lab07ormqueries.repository.*;
+package com.Bob_r;
+
+import com.Bob_r.entity.Customer;
+import com.Bob_r.repository.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+
+import java.util.Collections;
+
 
 @Component
 public class QueryDemo implements CommandLineRunner {
@@ -29,5 +34,11 @@ public class QueryDemo implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+        System.out.println(orderRepository.findAllByCustomer_Email("lorwell7d@ebay.com").get(0).toString());
+        // System.out.println(addressRepository.findByStreet("Everett"));
+       // System.out.print(customerRepository.retrieveByCustomerEmail("asturton0@list-manage.com"));
+       // System.out.println(customerRepository.findById(1L).toString());
+
+
     }
 }

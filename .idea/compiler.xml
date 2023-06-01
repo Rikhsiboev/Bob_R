@@ -7,8 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-20-REST-Security-Keycloak-OrganizationsApp" />
-        <module name="spring-20-REST-Security-Keycloak-LicenseApp" />
+        <module name="lab-07-orm-queries" />
         <module name="dsa-09-Heap" />
       </profile>
     </annotationProcessing>
@@ -21,7 +20,6 @@
       <module name="dsa-08-Trees" target="11" />
       <module name="FOR_ME" target="11" />
       <module name="lab-06-orm" target="11" />
-      <module name="lab-07-orm-queries" target="11" />
       <module name="lab-08-rest" target="11" />
       <module name="spring-14-Data-Queries" target="11" />
       <module name="Spring-15-REST" target="11" />
@@ -29,6 +27,8 @@
       <module name="spring-17-REST-ConsumingApis" target="11" />
       <module name="spring-18-REST-SchoolLab" target="11" />
       <module name="Spring-19-REST-OpenAPI3" target="11" />
+      <module name="spring-20-REST-Security-Keycloak-LicenseApp" target="11" />
+      <module name="spring-20-REST-Security-Keycloak-OrganizationsApp" target="11" />
       <module name="ticketing-project-mvc" target="11" />
     </bytecodeTargetLevel>
   </component>
