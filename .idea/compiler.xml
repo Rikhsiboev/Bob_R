@@ -7,8 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-18-REST-SchoolLab" />
+        <module name="spring-20-REST-Security-Keycloak-OrganizationsApp" />
+        <module name="spring-20-REST-Security-Keycloak-LicenseApp" />
         <module name="lab-08-rest" />
         <module name="dsa-09-Heap" />
+        <module name="ticketing-project-mvc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,11 +29,7 @@
       <module name="Spring-15-REST" target="11" />
       <module name="Spring-16-REST-Jackson" target="11" />
       <module name="spring-17-REST-ConsumingApis" target="11" />
-      <module name="spring-18-REST-SchoolLab" target="11" />
       <module name="Spring-19-REST-OpenAPI3" target="11" />
-      <module name="spring-20-REST-Security-Keycloak-LicenseApp" target="11" />
-      <module name="spring-20-REST-Security-Keycloak-OrganizationsApp" target="11" />
-      <module name="ticketing-project-mvc" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

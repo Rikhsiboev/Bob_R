@@ -19,8 +19,8 @@ public class UserPrincipal implements UserDetails {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        List<GrantedAuthority> grantedAuthorityList=new ArrayList<>();
-        GrantedAuthority  authority = new SimpleGrantedAuthority(this.user.getRole().getDescription());
+        List<GrantedAuthority> grantedAuthorityList = new ArrayList<>();
+        GrantedAuthority authority = new SimpleGrantedAuthority(this.user.getRole().getDescription());
         grantedAuthorityList.add(authority);
 
         return grantedAuthorityList;
@@ -56,9 +56,12 @@ public class UserPrincipal implements UserDetails {
         return this.user.isEnabled();
     }
 
-    public Long getId(){  /// getID from Spring Security and reassign to our entity
+    public Long getId() {  /// getID from Spring Security and reassign to our entity
         return this.user.getId();
     }
 
+    public String getFullName() {
+        return this.user.getFirstName() + " " + this.user.getLastName();
+    }
 
 }
