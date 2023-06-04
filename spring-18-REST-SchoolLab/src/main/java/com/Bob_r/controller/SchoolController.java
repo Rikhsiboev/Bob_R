@@ -1,7 +1,7 @@
 package com.Bob_r.controller;
 
 import com.Bob_r.dto.AddressDTO;
-import com.Bob_r.dto.ResponseWrapper;
+import com.Bob_r.dto.ResponseCodeWrapper;
 import com.Bob_r.dto.TeacherDTO;
 import com.Bob_r.service.AddressService;
 import com.Bob_r.service.ParentService;
@@ -9,9 +9,7 @@ import com.Bob_r.service.StudentService;
 import com.Bob_r.service.TeacherService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -35,13 +33,13 @@ public class SchoolController {
     }
 
     @GetMapping("/students")
-    public ResponseEntity<ResponseWrapper> readAllStudents() {
-        return ResponseEntity.ok(new ResponseWrapper("Students are successfully retrieved", studentService.findAll()));
+    public ResponseEntity<ResponseCodeWrapper> readAllStudents() {
+        return ResponseEntity.ok(new ResponseCodeWrapper("Students are successfully retrieved", studentService.findAll()));
     }
 
     @GetMapping("/parents")
-    public ResponseEntity<ResponseWrapper> readAllParents() {
-        ResponseWrapper responseWrapper = new ResponseWrapper(true,"Students are successfully retrieved"
+    public ResponseEntity<ResponseCodeWrapper> readAllParents() {
+        ResponseCodeWrapper responseWrapper = new ResponseCodeWrapper(true,"Students are successfully retrieved"
                 ,HttpStatus.ACCEPTED.value(),parentService.findAll());
         return ResponseEntity
                 .status(HttpStatus.ACCEPTED)
@@ -52,17 +50,25 @@ public class SchoolController {
 
 
     @GetMapping("address/{id}")
-    public ResponseEntity<ResponseWrapper> findById(@PathVariable("id") Long addressFindById) throws Exception {
+    public ResponseEntity<ResponseCodeWrapper> findById(@PathVariable("id") Long addressFindById) throws Exception {
         // find the addrtess to return
 //        AddressDTO addressDTO = addressService.findById(addressFindById);
 
+        AddressDTO addressToReturn = addressService.findById(addressFindById);
+//        return ResponseEntity
+//                .ok(new ResponseCodeWrapper
+//                        ("Students are successfully retrieved",
+//                                addressService.findById(addressFindById)));
 
-        return ResponseEntity
-                .ok(new ResponseWrapper
-                        ("Students are successfully retrieved",
-                                addressService.findById(addressFindById)));
-
+        return ResponseEntity.ok(
+                new ResponseCodeWrapper("Address "+addressFindById+" is successfully retrieved",addressToReturn));
     }
 
+    @PutMapping("/address/{id}")
+    public AddressDTO updateAddress(@PathVariable("id") Long id, @RequestBody AddressDTO addressDTO) throws Exception {
+       addressDTO.setId(id);
+        AddressDTO update = addressService.update(addressDTO);
+        return update;
+    }
 
 }

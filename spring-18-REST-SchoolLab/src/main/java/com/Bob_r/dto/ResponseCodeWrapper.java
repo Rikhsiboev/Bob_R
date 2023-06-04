@@ -10,20 +10,20 @@ import org.springframework.http.HttpStatus;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class ResponseWrapper {
+public class ResponseCodeWrapper {
     private boolean success;
     private String message ;
     private Integer code;
     private Object date;
 
-    public ResponseWrapper(String message, Object date) {
+    public ResponseCodeWrapper(String message, Object date) {
         this.success = true;
         this.code = HttpStatus.OK.value();
         this.message = message;
         this.date = date;
     }
 
-        public ResponseWrapper(String message) {
+        public ResponseCodeWrapper(String message) {
         this.success = true;
         this.message = message;
         this.code = HttpStatus.OK.value();
