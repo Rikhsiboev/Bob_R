@@ -1,0 +1,1255 @@
+[
+  {
+    "id": 1,
+    "dateTime": "2020-12-05T20:00:00",
+    "movie": {
+      "id": 1,
+      "name": "The Gentleman",
+      "releaseDate": "2020-01-24",
+      "duration": 113,
+      "summary": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
+      "type": "REGULAR",
+      "state": "ACTIVE",
+      "price": 20.00,
+      "genreList": [
+        {
+          "id": 1,
+          "name": "Comedy",
+          "deleted": false
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "deleted": false
+        },
+        {
+          "id": 8,
+          "name": "Crime",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 1,
+      "name": "Hall 1 - EMPIRE",
+      "sponsoredName": "McDonald",
+      "location": {
+        "id": 1,
+        "name": "AMC Empire 25",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10036",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "234 W 42nd St",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 2,
+    "dateTime": "2020-12-05T19:00:00",
+    "movie": {
+      "id": 1,
+      "name": "The Gentleman",
+      "releaseDate": "2020-01-24",
+      "duration": 113,
+      "summary": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
+      "type": "REGULAR",
+      "state": "ACTIVE",
+      "price": 20.00,
+      "genreList": [
+        {
+          "id": 1,
+          "name": "Comedy",
+          "deleted": false
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "deleted": false
+        },
+        {
+          "id": 8,
+          "name": "Crime",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 7,
+      "name": "Hall 3 - STREET 14",
+      "sponsoredName": "MySpace",
+      "location": {
+        "id": 2,
+        "name": "AMC 34th Street 14",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10001",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "312 W 34th St",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 3,
+    "dateTime": "2020-12-05T18:00:00",
+    "movie": {
+      "id": 1,
+      "name": "The Gentleman",
+      "releaseDate": "2020-01-24",
+      "duration": 113,
+      "summary": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
+      "type": "REGULAR",
+      "state": "ACTIVE",
+      "price": 20.00,
+      "genreList": [
+        {
+          "id": 1,
+          "name": "Comedy",
+          "deleted": false
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "deleted": false
+        },
+        {
+          "id": 8,
+          "name": "Crime",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 12,
+      "name": "Hall 4 - SQUARE 13",
+      "sponsoredName": "PlayStation",
+      "location": {
+        "id": 3,
+        "name": "AMC Lincoln Square 13",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10023",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "1998 Broadway",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 4,
+    "dateTime": "2020-12-05T18:45:00",
+    "movie": {
+      "id": 1,
+      "name": "The Gentleman",
+      "releaseDate": "2020-01-24",
+      "duration": 113,
+      "summary": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
+      "type": "REGULAR",
+      "state": "ACTIVE",
+      "price": 20.00,
+      "genreList": [
+        {
+          "id": 1,
+          "name": "Comedy",
+          "deleted": false
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "deleted": false
+        },
+        {
+          "id": 8,
+          "name": "Crime",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 10,
+      "name": "Hall 2 - SQUARE 13",
+      "sponsoredName": "Sony Corporation",
+      "location": {
+        "id": 3,
+        "name": "AMC Lincoln Square 13",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10023",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "1998 Broadway",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 5,
+    "dateTime": "2020-12-05T21:30:00",
+    "movie": {
+      "id": 1,
+      "name": "The Gentleman",
+      "releaseDate": "2020-01-24",
+      "duration": 113,
+      "summary": "An American expat tries to sell off his highly profitable marijuana empire in London, triggering plots, schemes, bribery and blackmail in an attempt to steal his domain out from under him.",
+      "type": "REGULAR",
+      "state": "ACTIVE",
+      "price": 20.00,
+      "genreList": [
+        {
+          "id": 1,
+          "name": "Comedy",
+          "deleted": false
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "deleted": false
+        },
+        {
+          "id": 8,
+          "name": "Crime",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 14,
+      "name": "Hall 2 - VILLAGE 7",
+      "sponsoredName": "Kodak",
+      "location": {
+        "id": 4,
+        "name": "AMC Village 7",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10003",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "66 3rd Ave",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 6,
+    "dateTime": "2020-12-06T20:00:00",
+    "movie": {
+      "id": 5,
+      "name": "Tenet",
+      "releaseDate": "2020-09-03",
+      "duration": 150,
+      "summary": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time",
+      "type": "PREMIER",
+      "state": "ACTIVE",
+      "price": 35.00,
+      "genreList": [
+        {
+          "id": 2,
+          "name": "Sci-Fi",
+          "deleted": false
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 1,
+      "name": "Hall 1 - EMPIRE",
+      "sponsoredName": "McDonald",
+      "location": {
+        "id": 1,
+        "name": "AMC Empire 25",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10036",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "234 W 42nd St",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 7,
+    "dateTime": "2020-12-06T19:00:00",
+    "movie": {
+      "id": 5,
+      "name": "Tenet",
+      "releaseDate": "2020-09-03",
+      "duration": 150,
+      "summary": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time",
+      "type": "PREMIER",
+      "state": "ACTIVE",
+      "price": 35.00,
+      "genreList": [
+        {
+          "id": 2,
+          "name": "Sci-Fi",
+          "deleted": false
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 7,
+      "name": "Hall 3 - STREET 14",
+      "sponsoredName": "MySpace",
+      "location": {
+        "id": 2,
+        "name": "AMC 34th Street 14",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10001",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "312 W 34th St",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 8,
+    "dateTime": "2020-12-06T18:00:00",
+    "movie": {
+      "id": 5,
+      "name": "Tenet",
+      "releaseDate": "2020-09-03",
+      "duration": 150,
+      "summary": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time",
+      "type": "PREMIER",
+      "state": "ACTIVE",
+      "price": 35.00,
+      "genreList": [
+        {
+          "id": 2,
+          "name": "Sci-Fi",
+          "deleted": false
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 12,
+      "name": "Hall 4 - SQUARE 13",
+      "sponsoredName": "PlayStation",
+      "location": {
+        "id": 3,
+        "name": "AMC Lincoln Square 13",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10023",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "1998 Broadway",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 9,
+    "dateTime": "2020-12-06T20:45:00",
+    "movie": {
+      "id": 5,
+      "name": "Tenet",
+      "releaseDate": "2020-09-03",
+      "duration": 150,
+      "summary": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time",
+      "type": "PREMIER",
+      "state": "ACTIVE",
+      "price": 35.00,
+      "genreList": [
+        {
+          "id": 2,
+          "name": "Sci-Fi",
+          "deleted": false
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 12,
+      "name": "Hall 4 - SQUARE 13",
+      "sponsoredName": "PlayStation",
+      "location": {
+        "id": 3,
+        "name": "AMC Lincoln Square 13",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10023",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "1998 Broadway",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 10,
+    "dateTime": "2020-12-06T21:30:00",
+    "movie": {
+      "id": 5,
+      "name": "Tenet",
+      "releaseDate": "2020-09-03",
+      "duration": 150,
+      "summary": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time",
+      "type": "PREMIER",
+      "state": "ACTIVE",
+      "price": 35.00,
+      "genreList": [
+        {
+          "id": 2,
+          "name": "Sci-Fi",
+          "deleted": false
+        },
+        {
+          "id": 4,
+          "name": "Action",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 14,
+      "name": "Hall 2 - VILLAGE 7",
+      "sponsoredName": "Kodak",
+      "location": {
+        "id": 4,
+        "name": "AMC Village 7",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10003",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "66 3rd Ave",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 11,
+    "dateTime": "2020-12-07T20:00:00",
+    "movie": {
+      "id": 7,
+      "name": "The Nights Before Christmas",
+      "releaseDate": "2020-11-19",
+      "duration": 100,
+      "summary": "A murderous Santa and Mrs Claus play a cat and mouse game with the FBI.",
+      "type": "REGULAR",
+      "state": "ACTIVE",
+      "price": 28.00,
+      "genreList": [
+        {
+          "id": 3,
+          "name": "Horror",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 1,
+      "name": "Hall 1 - EMPIRE",
+      "sponsoredName": "McDonald",
+      "location": {
+        "id": 1,
+        "name": "AMC Empire 25",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10036",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "234 W 42nd St",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 12,
+    "dateTime": "2020-12-07T19:00:00",
+    "movie": {
+      "id": 7,
+      "name": "The Nights Before Christmas",
+      "releaseDate": "2020-11-19",
+      "duration": 100,
+      "summary": "A murderous Santa and Mrs Claus play a cat and mouse game with the FBI.",
+      "type": "REGULAR",
+      "state": "ACTIVE",
+      "price": 28.00,
+      "genreList": [
+        {
+          "id": 3,
+          "name": "Horror",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 7,
+      "name": "Hall 3 - STREET 14",
+      "sponsoredName": "MySpace",
+      "location": {
+        "id": 2,
+        "name": "AMC 34th Street 14",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10001",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "312 W 34th St",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 13,
+    "dateTime": "2020-12-07T18:00:00",
+    "movie": {
+      "id": 7,
+      "name": "The Nights Before Christmas",
+      "releaseDate": "2020-11-19",
+      "duration": 100,
+      "summary": "A murderous Santa and Mrs Claus play a cat and mouse game with the FBI.",
+      "type": "REGULAR",
+      "state": "ACTIVE",
+      "price": 28.00,
+      "genreList": [
+        {
+          "id": 3,
+          "name": "Horror",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 12,
+      "name": "Hall 4 - SQUARE 13",
+      "sponsoredName": "PlayStation",
+      "location": {
+        "id": 3,
+        "name": "AMC Lincoln Square 13",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10023",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "1998 Broadway",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 14,
+    "dateTime": "2020-12-07T20:45:00",
+    "movie": {
+      "id": 7,
+      "name": "The Nights Before Christmas",
+      "releaseDate": "2020-11-19",
+      "duration": 100,
+      "summary": "A murderous Santa and Mrs Claus play a cat and mouse game with the FBI.",
+      "type": "REGULAR",
+      "state": "ACTIVE",
+      "price": 28.00,
+      "genreList": [
+        {
+          "id": 3,
+          "name": "Horror",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 12,
+      "name": "Hall 4 - SQUARE 13",
+      "sponsoredName": "PlayStation",
+      "location": {
+        "id": 3,
+        "name": "AMC Lincoln Square 13",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10023",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "1998 Broadway",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 15,
+    "dateTime": "2020-12-07T21:30:00",
+    "movie": {
+      "id": 7,
+      "name": "The Nights Before Christmas",
+      "releaseDate": "2020-11-19",
+      "duration": 100,
+      "summary": "A murderous Santa and Mrs Claus play a cat and mouse game with the FBI.",
+      "type": "REGULAR",
+      "state": "ACTIVE",
+      "price": 28.00,
+      "genreList": [
+        {
+          "id": 3,
+          "name": "Horror",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 14,
+      "name": "Hall 2 - VILLAGE 7",
+      "sponsoredName": "Kodak",
+      "location": {
+        "id": 4,
+        "name": "AMC Village 7",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10003",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "66 3rd Ave",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 16,
+    "dateTime": "2020-12-08T20:00:00",
+    "movie": {
+      "id": 2,
+      "name": "A Beautiful Mind",
+      "releaseDate": "2002-01-04",
+      "duration": 135,
+      "summary": "After John Nash, a brilliant but asocial mathematician, accepts secret work in cryptography, his life takes a turn for the nightmarish.",
+      "type": "REGULAR",
+      "state": "DRAFT",
+      "price": 15.00,
+      "genreList": [
+        {
+          "id": 6,
+          "name": "Drama",
+          "deleted": false
+        },
+        {
+          "id": 12,
+          "name": "Biography",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 1,
+      "name": "Hall 1 - EMPIRE",
+      "sponsoredName": "McDonald",
+      "location": {
+        "id": 1,
+        "name": "AMC Empire 25",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10036",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "234 W 42nd St",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 17,
+    "dateTime": "2020-12-08T19:00:00",
+    "movie": {
+      "id": 3,
+      "name": "The Shawshank Redemption",
+      "releaseDate": "1994-10-14",
+      "duration": 142,
+      "summary": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency",
+      "type": "REGULAR",
+      "state": "DRAFT",
+      "price": 35.00,
+      "genreList": [
+        {
+          "id": 6,
+          "name": "Drama",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 7,
+      "name": "Hall 3 - STREET 14",
+      "sponsoredName": "MySpace",
+      "location": {
+        "id": 2,
+        "name": "AMC 34th Street 14",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10001",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "312 W 34th St",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 18,
+    "dateTime": "2020-12-08T18:00:00",
+    "movie": {
+      "id": 4,
+      "name": "The Godfather",
+      "releaseDate": "1972-03-24",
+      "duration": 175,
+      "summary": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son",
+      "type": "REGULAR",
+      "state": "DRAFT",
+      "price": 35.00,
+      "genreList": [
+        {
+          "id": 6,
+          "name": "Drama",
+          "deleted": false
+        },
+        {
+          "id": 8,
+          "name": "Crime",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 12,
+      "name": "Hall 4 - SQUARE 13",
+      "sponsoredName": "PlayStation",
+      "location": {
+        "id": 3,
+        "name": "AMC Lincoln Square 13",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10023",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "1998 Broadway",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 19,
+    "dateTime": "2020-12-08T20:45:00",
+    "movie": {
+      "id": 8,
+      "name": "Spider-Man: Miles Morales",
+      "releaseDate": "2020-12-12",
+      "duration": 130,
+      "summary": "In this sequel of Marvel's Spider-Man (2018), you can play as Miles Morales as a new and different Spider-Man while he learns some stories about his will of fighting crime and serving justice by his mentor and former hero, Peter Parker.",
+      "type": "PREMIER",
+      "state": "DRAFT",
+      "price": 28.00,
+      "genreList": [
+        {
+          "id": 4,
+          "name": "Action",
+          "deleted": false
+        },
+        {
+          "id": 8,
+          "name": "Crime",
+          "deleted": false
+        },
+        {
+          "id": 10,
+          "name": "Adventure",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 12,
+      "name": "Hall 4 - SQUARE 13",
+      "sponsoredName": "PlayStation",
+      "location": {
+        "id": 3,
+        "name": "AMC Lincoln Square 13",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10023",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "1998 Broadway",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 20,
+    "dateTime": "2020-12-08T21:30:00",
+    "movie": {
+      "id": 9,
+      "name": "Avengers: Endgame",
+      "releaseDate": "2019-04-26",
+      "duration": 181,
+      "summary": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+      "type": "REGULAR",
+      "state": "DRAFT",
+      "price": 48.00,
+      "genreList": [
+        {
+          "id": 4,
+          "name": "Action",
+          "deleted": false
+        },
+        {
+          "id": 6,
+          "name": "Drama",
+          "deleted": false
+        },
+        {
+          "id": 10,
+          "name": "Adventure",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 14,
+      "name": "Hall 2 - VILLAGE 7",
+      "sponsoredName": "Kodak",
+      "location": {
+        "id": 4,
+        "name": "AMC Village 7",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10003",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "66 3rd Ave",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 21,
+    "dateTime": "2020-12-08T18:00:00",
+    "movie": {
+      "id": 6,
+      "name": "The Loss Adjuster",
+      "releaseDate": "2020-12-01",
+      "duration": 100,
+      "summary": "Hapless Insurance Loss Adjuster - Martin Dyer - feels his life is spiralling out of control but discovers that even when you reach rock bottom, that some clouds really do have a silver lining",
+      "type": "PREMIER",
+      "state": "DRAFT",
+      "price": 35.00,
+      "genreList": [
+        {
+          "id": 1,
+          "name": "Comedy",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 1,
+      "name": "Hall 1 - EMPIRE",
+      "sponsoredName": "McDonald",
+      "location": {
+        "id": 1,
+        "name": "AMC Empire 25",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10036",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "234 W 42nd St",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 22,
+    "dateTime": "2020-12-08T20:00:00",
+    "movie": {
+      "id": 6,
+      "name": "The Loss Adjuster",
+      "releaseDate": "2020-12-01",
+      "duration": 100,
+      "summary": "Hapless Insurance Loss Adjuster - Martin Dyer - feels his life is spiralling out of control but discovers that even when you reach rock bottom, that some clouds really do have a silver lining",
+      "type": "PREMIER",
+      "state": "DRAFT",
+      "price": 35.00,
+      "genreList": [
+        {
+          "id": 1,
+          "name": "Comedy",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 1,
+      "name": "Hall 1 - EMPIRE",
+      "sponsoredName": "McDonald",
+      "location": {
+        "id": 1,
+        "name": "AMC Empire 25",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10036",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "234 W 42nd St",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 23,
+    "dateTime": "2020-12-08T18:30:00",
+    "movie": {
+      "id": 6,
+      "name": "The Loss Adjuster",
+      "releaseDate": "2020-12-01",
+      "duration": 100,
+      "summary": "Hapless Insurance Loss Adjuster - Martin Dyer - feels his life is spiralling out of control but discovers that even when you reach rock bottom, that some clouds really do have a silver lining",
+      "type": "PREMIER",
+      "state": "DRAFT",
+      "price": 35.00,
+      "genreList": [
+        {
+          "id": 1,
+          "name": "Comedy",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 2,
+      "name": "Hall 2 - EMPIRE",
+      "sponsoredName": "Kodak",
+      "location": {
+        "id": 1,
+        "name": "AMC Empire 25",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10036",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "234 W 42nd St",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 24,
+    "dateTime": "2020-12-08T20:30:00",
+    "movie": {
+      "id": 6,
+      "name": "The Loss Adjuster",
+      "releaseDate": "2020-12-01",
+      "duration": 100,
+      "summary": "Hapless Insurance Loss Adjuster - Martin Dyer - feels his life is spiralling out of control but discovers that even when you reach rock bottom, that some clouds really do have a silver lining",
+      "type": "PREMIER",
+      "state": "DRAFT",
+      "price": 35.00,
+      "genreList": [
+        {
+          "id": 1,
+          "name": "Comedy",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 2,
+      "name": "Hall 2 - EMPIRE",
+      "sponsoredName": "Kodak",
+      "location": {
+        "id": 1,
+        "name": "AMC Empire 25",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10036",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "234 W 42nd St",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 25,
+    "dateTime": "2020-12-08T19:00:00",
+    "movie": {
+      "id": 6,
+      "name": "The Loss Adjuster",
+      "releaseDate": "2020-12-01",
+      "duration": 100,
+      "summary": "Hapless Insurance Loss Adjuster - Martin Dyer - feels his life is spiralling out of control but discovers that even when you reach rock bottom, that some clouds really do have a silver lining",
+      "type": "PREMIER",
+      "state": "DRAFT",
+      "price": 35.00,
+      "genreList": [
+        {
+          "id": 1,
+          "name": "Comedy",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 3,
+      "name": "Hall 3 - EMPIRE",
+      "sponsoredName": "Act Vision",
+      "location": {
+        "id": 1,
+        "name": "AMC Empire 25",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10036",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "234 W 42nd St",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 26,
+    "dateTime": "2020-12-08T21:30:00",
+    "movie": {
+      "id": 6,
+      "name": "The Loss Adjuster",
+      "releaseDate": "2020-12-01",
+      "duration": 100,
+      "summary": "Hapless Insurance Loss Adjuster - Martin Dyer - feels his life is spiralling out of control but discovers that even when you reach rock bottom, that some clouds really do have a silver lining",
+      "type": "PREMIER",
+      "state": "DRAFT",
+      "price": 35.00,
+      "genreList": [
+        {
+          "id": 1,
+          "name": "Comedy",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 3,
+      "name": "Hall 3 - EMPIRE",
+      "sponsoredName": "Act Vision",
+      "location": {
+        "id": 1,
+        "name": "AMC Empire 25",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10036",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "234 W 42nd St",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 27,
+    "dateTime": "2020-12-08T20:00:00",
+    "movie": {
+      "id": 6,
+      "name": "The Loss Adjuster",
+      "releaseDate": "2020-12-01",
+      "duration": 100,
+      "summary": "Hapless Insurance Loss Adjuster - Martin Dyer - feels his life is spiralling out of control but discovers that even when you reach rock bottom, that some clouds really do have a silver lining",
+      "type": "PREMIER",
+      "state": "DRAFT",
+      "price": 35.00,
+      "genreList": [
+        {
+          "id": 1,
+          "name": "Comedy",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 4,
+      "name": "Hall 4 - EMPIRE",
+      "sponsoredName": "Quick Silver",
+      "location": {
+        "id": 1,
+        "name": "AMC Empire 25",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10036",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "234 W 42nd St",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  },
+  {
+    "id": 28,
+    "dateTime": "2020-12-08T22:00:00",
+    "movie": {
+      "id": 6,
+      "name": "The Loss Adjuster",
+      "releaseDate": "2020-12-01",
+      "duration": 100,
+      "summary": "Hapless Insurance Loss Adjuster - Martin Dyer - feels his life is spiralling out of control but discovers that even when you reach rock bottom, that some clouds really do have a silver lining",
+      "type": "PREMIER",
+      "state": "DRAFT",
+      "price": 35.00,
+      "genreList": [
+        {
+          "id": 1,
+          "name": "Comedy",
+          "deleted": false
+        }
+      ],
+      "deleted": false
+    },
+    "cinema": {
+      "id": 4,
+      "name": "Hall 4 - EMPIRE",
+      "sponsoredName": "Quick Silver",
+      "location": {
+        "id": 1,
+        "name": "AMC Empire 25",
+        "latitude": null,
+        "longitude": null,
+        "postalCode": "10036",
+        "country": "United States",
+        "state": "New York",
+        "city": "New York",
+        "address": "234 W 42nd St",
+        "deleted": false
+      },
+      "deleted": false
+    },
+    "deleted": false
+  }
+]
