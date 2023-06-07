@@ -3,6 +3,7 @@ package com.Bob_R.controller;
 import com.Bob_R.dto.ResponseWrapper;
 import com.Bob_R.dto.UserDTO;
 import com.Bob_R.service.UserService;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -11,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/user")
+@JsonInclude(JsonInclude.Include.NON_DEFAULT)
 public class UserController {
 
     private final UserService userService;
