@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/ProjectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/TaskController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/UserController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +108,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.customizations",
-    "spring.configuration.checksum": "0be78650cd67f908985f1c334953c68a",
+    "spring.configuration.checksum": "0b9860ce9ef2fc1417e87c9291898e09",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -127,6 +132,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Bob_R.dto" />
       <recent name="com.Bob_r.client" />
       <recent name="com.Bob_r.mapper" />
       <recent name="com.bob_r.client" />
@@ -211,14 +217,8 @@
       <workItem from="1686113769645" duration="74000" />
       <workItem from="1686140022625" duration="10310000" />
       <workItem from="1686150820558" duration="6616000" />
-      <workItem from="1686165737614" duration="601000" />
-    </task>
-    <task id="LOCAL-00002" summary="RestTemplate">
-      <created>1685142658271</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1685142658271</updated>
+      <workItem from="1686165737614" duration="1157000" />
+      <workItem from="1686166919840" duration="1819000" />
     </task>
     <task id="LOCAL-00003" summary="Dto with javax">
       <created>1685142689877</created>
@@ -556,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686166244518</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="ResponseWrapper">
+      <created>1686166557237</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1686166557237</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,7 +589,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="json Annotation in DTO" />
     <MESSAGE value="  @GetMapping(&quot;/teachers&quot;)&#10;    public List&lt;TeacherDTO&gt; readAllTeacher() {&#10;        List&lt;TeacherDTO&gt; teachers = teacherService.findAll();&#10;        return teachers;&#10;    }" />
     <MESSAGE value="@JsonIgnoreProperties(ignoreUnknown = true)  // skips unknown filds" />
     <MESSAGE value="@JsonInclude(JsonInclude.Include.NON_NULL)  //" />
@@ -607,7 +613,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="school lab" />
     <MESSAGE value="new updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="new updates" />
+    <MESSAGE value="ResponseWrapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="ResponseWrapper" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
