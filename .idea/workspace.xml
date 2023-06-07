@@ -4,159 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/qs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/client/CountryApiClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Ara.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Bre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/CapitalInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Ces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/CoatOfArms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/CountryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Currencies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Cym.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Demonyms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Deu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Eng.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Est.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Eur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Fin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Fin__1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Flags.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Fra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Fra__1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Gini.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Hrv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Hun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Idd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Ita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Jpn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Kor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Languages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Maps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Name.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/NativeName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Nld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Per.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Pol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Por.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/PostalCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Rus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Slk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Spa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Srp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Swe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Swe__1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Translations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Tur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Urd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/country/Zho.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/service/serviceIMP/ProductServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/client/FlagApiClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/AddressDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/AddressDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/service/impl/AddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/service/impl/AddressServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/AddressDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/AddressDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/service/impl/AddressServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/service/impl/AddressServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/Lab08RestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/Lab08RestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/controller/AddressController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/dto/AddressDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/dto/AddressDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/dto/CustomerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/dto/CustomerDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/dto/DiscountDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/dto/DiscountDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/dto/OrderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/dto/OrderDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/dto/PaymentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/dto/PaymentDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/dto/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/dto/ProductDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/dto/ProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/dto/ProductRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/entity/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/entity/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/entity/Balance.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/entity/Balance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/entity/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/entity/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/entity/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/entity/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/entity/CartItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/entity/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/entity/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/entity/Discount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/entity/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/entity/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/entity/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/enums/CartState.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/enums/CartState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/enums/DiscountType.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/enums/DiscountType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/enums/PaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/enums/PaymentMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/mapper/MapperUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/mapper/MapperUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/model/ResponseWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/model/ResponseWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/repository/AddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/repository/AddressRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/repository/BalanceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/repository/BalanceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/repository/CartItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/repository/CartItemRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/repository/CartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/repository/CartRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/repository/CategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/repository/DiscountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/repository/DiscountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/repository/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/repository/PaymentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/service/AddressService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_rr/service/serviceIMP/AddressServiceImp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/test/java/com/Bob_rr/Lab08RestApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/test/java/com/Bob_r/Lab08RestApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/test/java/com/Bob_rr/controller/AddressControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/test/java/com/Bob_r/controller/AddressControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/test/java/com/Bob_rr/controller/CustomerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/test/java/com/Bob_r/controller/CustomerControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/test/java/com/Bob_rr/controller/DiscountControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/test/java/com/Bob_r/controller/DiscountControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/test/java/com/Bob_rr/controller/OrderControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/test/java/com/Bob_r/controller/OrderControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/test/java/com/Bob_rr/controller/ProductControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/test/java/com/Bob_r/controller/ProductControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/Lab08RestApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/controller/AddressController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/dto/AddressDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/dto/CustomerDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/dto/DiscountDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/dto/OrderDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/dto/PaymentDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/dto/ProductDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/dto/ProductRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/entity/Address.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/entity/Balance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/entity/BaseEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/entity/Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/entity/CartItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/entity/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/entity/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/entity/Discount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/entity/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/entity/Payment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/entity/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/enums/CartState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/enums/DiscountType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/enums/PaymentMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/mapper/MapperUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/model/ResponseWrapper$ResponseWrapperBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/model/ResponseWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/repository/AddressRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/repository/BalanceRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/repository/CartItemRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/repository/CartRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/repository/CategoryRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/repository/CustomerRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/repository/DiscountRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/repository/OrderRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/repository/PaymentRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/repository/ProductRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/service/AddressService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_rr/service/serviceIMP/AddressServiceImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/test-classes/com/Bob_rr/Lab08RestApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/test-classes/com/Bob_rr/controller/AddressControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/test-classes/com/Bob_rr/controller/CustomerControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/test-classes/com/Bob_rr/controller/DiscountControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/test-classes/com/Bob_rr/controller/OrderControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/test-classes/com/Bob_rr/controller/ProductControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -363,14 +211,7 @@
       <workItem from="1686113769645" duration="74000" />
       <workItem from="1686140022625" duration="10310000" />
       <workItem from="1686150820558" duration="6616000" />
-      <workItem from="1686165737614" duration="301000" />
-    </task>
-    <task id="LOCAL-00001" summary="spring-17-REST-ConsumingApis">
-      <created>1685142457656</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1685142457656</updated>
+      <workItem from="1686165737614" duration="601000" />
     </task>
     <task id="LOCAL-00002" summary="RestTemplate">
       <created>1685142658271</created>
@@ -701,7 +542,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685901203307</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="new updates">
+      <created>1686166134746</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1686166134746</updated>
+    </task>
+    <task id="LOCAL-00050" summary="new updates">
+      <created>1686166244518</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1686166244518</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -727,7 +582,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="    @GetMapping(&quot;/list&quot;)&#10;    @Operation(summary = &quot;Read all users&quot;)&#10;    @ApiResponses(value = {&#10;            @ApiResponse(responseCode = &quot;200&quot;, description = &quot;Successfully retrieved users (OK)&quot;,&#10;            content = @Content(mediaType = &quot;application/json&quot;)),&#10;            @ApiResponse(responseCode = &quot;400&quot;, description = &quot;Bad Request&quot;, content = @Content),&#10;            @ApiResponse(responseCode = &quot;404&quot;, description = &quot;Not Found&quot;, content = @Content)&#10;    })" />
     <MESSAGE value="json Annotation in DTO" />
     <MESSAGE value="  @GetMapping(&quot;/teachers&quot;)&#10;    public List&lt;TeacherDTO&gt; readAllTeacher() {&#10;        List&lt;TeacherDTO&gt; teachers = teacherService.findAll();&#10;        return teachers;&#10;    }" />
     <MESSAGE value="@JsonIgnoreProperties(ignoreUnknown = true)  // skips unknown filds" />
@@ -752,7 +606,8 @@
     <MESSAGE value="debug" />
     <MESSAGE value="update" />
     <MESSAGE value="school lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="school lab" />
+    <MESSAGE value="new updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="new updates" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
