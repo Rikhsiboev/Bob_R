@@ -6,6 +6,7 @@ import com.Bob_R.dto.UserDTO;
 import com.Bob_R.entity.User;
 import com.Bob_R.mapper.UserMapper;
 import com.Bob_R.repository.UserRepository;
+import com.Bob_R.service.KeycloakService;
 import com.Bob_R.service.ProjectService;
 import com.Bob_R.service.TaskService;
 import com.Bob_R.service.UserService;
@@ -24,13 +25,20 @@ public class UserServiceImpl implements UserService {
     private final ProjectService projectService;
     private final TaskService taskService;
     private final PasswordEncoder passwordEncoder;
+    private final KeycloakService keycloakService;
 
-    public UserServiceImpl(UserRepository userRepository, UserMapper userMapper, @Lazy ProjectService projectService, @Lazy TaskService taskService, PasswordEncoder passwordEncoder) {
+    public UserServiceImpl(UserRepository userRepository,
+                           UserMapper userMapper,
+                           @Lazy ProjectService projectService,
+                           @Lazy TaskService taskService,
+                           PasswordEncoder passwordEncoder,
+                           KeycloakService keycloakService) {
         this.userRepository = userRepository;
         this.userMapper = userMapper;
         this.projectService = projectService;
         this.taskService = taskService;
         this.passwordEncoder = passwordEncoder;
+        this.keycloakService = keycloakService;
     }
 
     @Override
@@ -54,6 +62,7 @@ public class UserServiceImpl implements UserService {
         User obj = userMapper.convertToEntity(user);
         obj.setPassWord(passwordEncoder.encode(obj.getPassWord()));
         userRepository.save(obj);
+        keycloakService.userCreate(user);
 
 
 
@@ -89,7 +98,9 @@ public class UserServiceImpl implements UserService {
             user.setIsDeleted(true);
             user.setUserName(user.getUserName()+" - " + user.getId()); //=> if i deleted +> harol@manager.com - 2
             userRepository.save(user);
+            keycloakService.delete(String.valueOf(user));
         }
+
 
     }
 
