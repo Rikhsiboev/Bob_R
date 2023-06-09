@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="KeycloakProperties with service">
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/KeycloakService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/KeycloakServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/Screenshot 2023-06-08 at 10.42.21 PM.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,14 +210,7 @@
       <workItem from="1686165737614" duration="301000" />
       <workItem from="1686251044393" duration="3032000" />
       <workItem from="1686255018155" duration="690000" />
-      <workItem from="1686255757352" duration="8990000" />
-    </task>
-    <task id="LOCAL-00010" summary="@FeignClient(url = &quot;https://jsonplaceholder.typicode.com/users&quot;,name = &quot;User-CLIENT&quot;)">
-      <created>1685143698501</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1685143698501</updated>
+      <workItem from="1686255757352" duration="11082000" />
     </task>
     <task id="LOCAL-00011" summary="    @GetMapping(&quot;/user&quot;)&#10;    List&lt;User&gt; getUser();">
       <created>1685143850262</created>
@@ -559,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686285492969</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="KeycloakProperties with service">
+      <created>1686286185899</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1686286185899</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,7 +581,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="spring.jackson.default-property-inclusion=non_null we can do hiding null from here too aplication prop" />
     <MESSAGE value="    @GetMapping(&quot;/students&quot;)&#10;    public ResponseEntity&lt;ResponseWrapper&gt; readAllStudents() {&#10;        return ResponseEntity.ok(new ResponseWrapper(&quot;Students are successfully retrieved&quot;, studentService.findAll()));&#10;    }" />
     <MESSAGE value="    @GetMapping(&quot;/parents&quot;)&#10;    public ResponseEntity&lt;ResponseWrapper&gt; readAllParents() {&#10;        ResponseWrapper responseWrapper = new ResponseWrapper(true,&quot;Students are successfully retrieved&quot;&#10;                ,HttpStatus.ACCEPTED.value(),parentService.findAll());&#10;        return ResponseEntity&#10;                .status(HttpStatus.ACCEPTED)&#10;                .header(&quot;Parent&quot;,&quot;Returned&quot;)&#10;                .body(responseWrapper);" />
     <MESSAGE value="    @GetMapping(&quot;address/{id}&quot;)&#10;    public ResponseEntity&lt;ResponseWrapper&gt; findById(@PathVariable(&quot;id&quot;) Long addressFindById) throws Exception {&#10;        // find the addrtess to return&#10;//        AddressDTO addressDTO = addressService.findById(addressFindById);&#10;&#10;&#10;        return ResponseEntity&#10;                .ok(new ResponseWrapper&#10;                        (&quot;Students are successfully retrieved&quot;,&#10;                                addressService.findById(addressFindById)));&#10;&#10;    }" />
@@ -610,7 +605,8 @@
     <MESSAGE value="doc" />
     <MESSAGE value="master.user=admin&#10;master.user.password=admin&#10;master.realm=master&#10;master.client=master-client" />
     <MESSAGE value="KeycloakProperties" />
-    <option name="LAST_COMMIT_MESSAGE" value="KeycloakProperties" />
+    <MESSAGE value="KeycloakProperties with service" />
+    <option name="LAST_COMMIT_MESSAGE" value="KeycloakProperties with service" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
