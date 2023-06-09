@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/Screen_Shot_2023-04-03_at_1.04.16_AM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/Screenshot 2023-04-21 at 6.01.00 PM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/Screenshot 2023-04-29 at 11.37.22 AM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/Screenshot 2023-05-11 at 8.19.52 AM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/Screenshot 2023-05-21 at 3.05.17 PM.png" afterDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="KeycloakProperties">
+      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/KeycloakProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,28 +240,7 @@
       <workItem from="1686165737614" duration="301000" />
       <workItem from="1686251044393" duration="3032000" />
       <workItem from="1686255018155" duration="690000" />
-      <workItem from="1686255757352" duration="7001000" />
-    </task>
-    <task id="LOCAL-00006" summary="consumePostFromDummyApi header have">
-      <created>1685143098050</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1685143098050</updated>
-    </task>
-    <task id="LOCAL-00007" summary="org.springframework.cloud">
-      <created>1685143339071</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1685143339071</updated>
-    </task>
-    <task id="LOCAL-00008" summary="@EnableFeignClients create Bean">
-      <created>1685143422857</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1685143422857</updated>
+      <workItem from="1686255757352" duration="8291000" />
     </task>
     <task id="LOCAL-00009" summary="Proxy package as interface">
       <created>1685143624994</created>
@@ -589,7 +564,28 @@
       <option name="project" value="LOCAL" />
       <updated>1686282861608</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="dependency">
+      <created>1686284206016</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1686284206016</updated>
+    </task>
+    <task id="LOCAL-00056" summary="doc">
+      <created>1686284215694</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1686284215694</updated>
+    </task>
+    <task id="LOCAL-00057" summary="master.user=admin&#10;master.user.password=admin&#10;master.realm=master&#10;master.client=master-client">
+      <created>1686284355843</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1686284355843</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,9 +611,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" @JsonIgnore" />
-    <MESSAGE value="    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)" />
-    <MESSAGE value="update 4 things&#10;&#10;@JsonIgnoreProperties(ignoreUnknown = true)  // skips unknown filds&#10;@JsonInclude(JsonInclude.Include.NON_NULL)  //&#10;&#10;&#10;   @JsonIgnore&#10;   &#10;       @JsonProperty(access = JsonProperty.Access.WRITE_ONLY) //we are not returning password" />
     <MESSAGE value="&#10;@JsonInclude(JsonInclude.Include.NON_NULL)  //   // i dont wont to see in jsan but dynamic" />
     <MESSAGE value="spring.jackson.default-property-inclusion=non_null we can do hiding null from here too aplication prop" />
     <MESSAGE value="    @GetMapping(&quot;/students&quot;)&#10;    public ResponseEntity&lt;ResponseWrapper&gt; readAllStudents() {&#10;        return ResponseEntity.ok(new ResponseWrapper(&quot;Students are successfully retrieved&quot;, studentService.findAll()));&#10;    }" />
@@ -640,7 +633,10 @@
     <MESSAGE value="keycloak adding here" />
     <MESSAGE value="keycloak config" />
     <MESSAGE value="adding security Role with keycloak" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding security Role with keycloak" />
+    <MESSAGE value="dependency" />
+    <MESSAGE value="doc" />
+    <MESSAGE value="master.user=admin&#10;master.user.password=admin&#10;master.realm=master&#10;master.client=master-client" />
+    <option name="LAST_COMMIT_MESSAGE" value="master.user=admin&#10;master.user.password=admin&#10;master.realm=master&#10;master.client=master-client" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
