@@ -3,6 +3,8 @@ package com.Bob_R.controller.controllerRest;
 import com.Bob_R.dto.ResponseWrapper;
 import com.Bob_R.dto.UserDTO;
 import com.Bob_R.service.UserService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -12,6 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/user")
+@Tag(name= "UserController", description = "User Api")
 public class UserControllerRest {
 
     private final UserService userService;
@@ -22,6 +25,7 @@ public class UserControllerRest {
 
     @GetMapping
     @RolesAllowed({"Manager","Admin"})
+    @Operation(summary = "Get users")
     public ResponseEntity<ResponseWrapper> getUsers(){
         List<UserDTO> userDTOList = userService.listAllUsers();
         return ResponseEntity.ok(
@@ -31,6 +35,7 @@ public class UserControllerRest {
 
     @GetMapping("/{username}")
     @RolesAllowed({"Admin"})
+    @Operation(summary = "Get usersBy User Name")
     public ResponseEntity<ResponseWrapper> getUserByUserName(@PathVariable("username") String userName){
         UserDTO user = userService.findByUserName(userName);
         return ResponseEntity.ok(
@@ -41,6 +46,7 @@ public class UserControllerRest {
 
     @PostMapping
     @RolesAllowed({"Admin"})
+    @Operation(summary = "Create users")
     public ResponseEntity<ResponseWrapper> createUser(@RequestBody UserDTO user){
         userService.save(user);
         return ResponseEntity.status(HttpStatus.CREATED).body(
@@ -50,6 +56,7 @@ public class UserControllerRest {
 
     @PutMapping
     @RolesAllowed({"Admin"})
+    @Operation(summary = "Update users")
     public ResponseEntity<ResponseWrapper> updateUser(@RequestBody UserDTO user){
         userService.update(user);
         return ResponseEntity.ok(
@@ -60,6 +67,7 @@ public class UserControllerRest {
 
     @DeleteMapping("/{username}")
     @RolesAllowed({"Admin"})
+    @Operation(summary = "Delete users")
     public ResponseEntity<ResponseWrapper> deleteUser(@PathVariable("username") String userName){
         userService.delete(userName);
         return ResponseEntity.ok(
