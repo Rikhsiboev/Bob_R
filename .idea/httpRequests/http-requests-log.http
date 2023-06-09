@@ -1,3 +1,13 @@
+GET http://localhost:8081/api/v1/user
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Cookie: JSESSIONID=30959ED743E0CF02349576DDA24C0329
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-08T154734.404.json
+
+###
+
 GET http://localhost:8080/api/v1/address
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
@@ -443,13 +453,6 @@ Accept-Encoding: br,deflate,gzip,x-gzip
 ###
 
 GET https://httpbin.org/status/404
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-###
-
-GET https://httpbin.org/status/200
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
 Accept-Encoding: br,deflate,gzip,x-gzip

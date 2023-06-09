@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/controllerRest/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/controllerRest/ProjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/controllerRest/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/controllerRest/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/controllerRest/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/controllerRest/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/TaskServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/TaskServiceImp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +153,9 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Spring20RestSecurityKeycloakLicenseAppApplication">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,6 +195,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -230,14 +239,7 @@
       <workItem from="1686165737614" duration="301000" />
       <workItem from="1686251044393" duration="3032000" />
       <workItem from="1686255018155" duration="690000" />
-      <workItem from="1686255757352" duration="2131000" />
-    </task>
-    <task id="LOCAL-00004" summary="controller with pom">
-      <created>1685143014769</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1685143014769</updated>
+      <workItem from="1686255757352" duration="5639000" />
     </task>
     <task id="LOCAL-00005" summary="readUser">
       <created>1685143061450</created>
@@ -575,7 +577,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686258666845</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="adding security Role with keycloak">
+      <created>1686259328502</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1686259328502</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,7 +610,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="@JsonInclude(JsonInclude.Include.NON_NULL)  //" />
     <MESSAGE value=" @JsonIgnore" />
     <MESSAGE value="    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)" />
     <MESSAGE value="update 4 things&#10;&#10;@JsonIgnoreProperties(ignoreUnknown = true)  // skips unknown filds&#10;@JsonInclude(JsonInclude.Include.NON_NULL)  //&#10;&#10;&#10;   @JsonIgnore&#10;   &#10;       @JsonProperty(access = JsonProperty.Access.WRITE_ONLY) //we are not returning password" />
@@ -626,7 +634,8 @@
     <MESSAGE value="Task ticketing ProjectController" />
     <MESSAGE value="keycloak adding here" />
     <MESSAGE value="keycloak config" />
-    <option name="LAST_COMMIT_MESSAGE" value="keycloak config" />
+    <MESSAGE value="adding security Role with keycloak" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding security Role with keycloak" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">

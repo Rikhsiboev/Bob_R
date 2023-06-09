@@ -11,8 +11,10 @@ import com.Bob_R.repository.ProjectRepository;
 import com.Bob_R.service.ProjectService;
 import com.Bob_R.service.TaskService;
 import com.Bob_R.service.UserService;
+import org.keycloak.adapters.springsecurity.account.SimpleKeycloakAccount;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.data.domain.Sort;
+import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
@@ -93,7 +95,10 @@ public class ProjectServiceImpl implements ProjectService {
     public List<ProjectDTO> listAllProjectsDetails() {
 //we have to make sure which role in system from security and to show our projectionist
 //from hard code to soft code
-        String username = SecurityContextHolder.getContext().getAuthentication().getName();
+//        String username = SecurityContextHolder.getContext().getAuthentication().getName();
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        SimpleKeycloakAccount details = (SimpleKeycloakAccount) authentication.getDetails();
+        String username = details.getKeycloakSecurityContext().getToken().getPreferredUsername();
 
 
         UserDTO currentUserDto = userService.findByUserName(username);
