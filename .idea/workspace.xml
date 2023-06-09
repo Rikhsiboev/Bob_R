@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="KeycloakProperties">
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/KeycloakProperties.java" afterDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="KeycloakProperties with service">
+      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/KeycloakService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/KeycloakServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/Screenshot 2023-06-08 at 10.42.21 PM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -134,11 +137,11 @@
       <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Bob_R.service.impl" />
       <recent name="com.Bob_R.config" />
       <recent name="com.Bob_r.client" />
       <recent name="com.Bob_r.mapper" />
       <recent name="com.bob_r.client" />
-      <recent name="com.bob_r.controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -153,10 +156,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring20RestSecurityKeycloakLicenseAppApplication">
-    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,27 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab08RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="lab-08-rest" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.Lab08RestApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Spring20RestSecurityKeycloakLicenseAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="spring-20-REST-Security-Keycloak-LicenseApp" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.Spring20RestSecurityKeycloakLicenseAppApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Spring20RestSecurityKeycloakOrganizationsAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="spring-20-REST-Security-Keycloak-OrganizationsApp" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.Spring20RestSecurityKeycloakOrganizationsAppApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TicketingProjectMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ticketing-project-mvc" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.TicketingProjectMvcApplication" />
@@ -196,11 +175,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="HTTP Request.generated-requests | #1" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -240,14 +214,7 @@
       <workItem from="1686165737614" duration="301000" />
       <workItem from="1686251044393" duration="3032000" />
       <workItem from="1686255018155" duration="690000" />
-      <workItem from="1686255757352" duration="8291000" />
-    </task>
-    <task id="LOCAL-00009" summary="Proxy package as interface">
-      <created>1685143624994</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1685143624994</updated>
+      <workItem from="1686255757352" duration="8990000" />
     </task>
     <task id="LOCAL-00010" summary="@FeignClient(url = &quot;https://jsonplaceholder.typicode.com/users&quot;,name = &quot;User-CLIENT&quot;)">
       <created>1685143698501</created>
@@ -585,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686284355843</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="KeycloakProperties">
+      <created>1686285492969</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1686285492969</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,7 +585,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&#10;@JsonInclude(JsonInclude.Include.NON_NULL)  //   // i dont wont to see in jsan but dynamic" />
     <MESSAGE value="spring.jackson.default-property-inclusion=non_null we can do hiding null from here too aplication prop" />
     <MESSAGE value="    @GetMapping(&quot;/students&quot;)&#10;    public ResponseEntity&lt;ResponseWrapper&gt; readAllStudents() {&#10;        return ResponseEntity.ok(new ResponseWrapper(&quot;Students are successfully retrieved&quot;, studentService.findAll()));&#10;    }" />
     <MESSAGE value="    @GetMapping(&quot;/parents&quot;)&#10;    public ResponseEntity&lt;ResponseWrapper&gt; readAllParents() {&#10;        ResponseWrapper responseWrapper = new ResponseWrapper(true,&quot;Students are successfully retrieved&quot;&#10;                ,HttpStatus.ACCEPTED.value(),parentService.findAll());&#10;        return ResponseEntity&#10;                .status(HttpStatus.ACCEPTED)&#10;                .header(&quot;Parent&quot;,&quot;Returned&quot;)&#10;                .body(responseWrapper);" />
@@ -636,7 +609,8 @@
     <MESSAGE value="dependency" />
     <MESSAGE value="doc" />
     <MESSAGE value="master.user=admin&#10;master.user.password=admin&#10;master.realm=master&#10;master.client=master-client" />
-    <option name="LAST_COMMIT_MESSAGE" value="master.user=admin&#10;master.user.password=admin&#10;master.realm=master&#10;master.client=master-client" />
+    <MESSAGE value="KeycloakProperties" />
+    <option name="LAST_COMMIT_MESSAGE" value="KeycloakProperties" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
