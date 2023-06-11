@@ -9,7 +9,7 @@ public interface OrderService {
 
     List<OrderDTO> getOrderList();
 
-    void updateOrder(OrderDTO orderDTO);
+    OrderDTO updateOrder(OrderDTO orderDTO);
 
     OrderDTO createOrder(OrderDTO orderDTO);
 

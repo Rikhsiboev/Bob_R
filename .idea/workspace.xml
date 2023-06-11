@@ -5,14 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/dto/CartDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/service/serviceIMP/CartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/service/serviceIMP/PaymentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/service/serviceIMP/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/service/serviceIMP/CustomerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/service/serviceIMP/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/service/serviceIMP/OrderServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -242,14 +234,7 @@
       <workItem from="1686255018155" duration="690000" />
       <workItem from="1686255757352" duration="13128000" />
       <workItem from="1686341496176" duration="13881000" />
-      <workItem from="1686458433347" duration="5783000" />
-    </task>
-    <task id="LOCAL-00015" summary="new Dto From &#10;postman write end point get json file and fo to web page &#10;Json web page to Pojo">
-      <created>1685147903023</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1685147903023</updated>
+      <workItem from="1686458433347" duration="6292000" />
     </task>
     <task id="LOCAL-00016" summary="web client">
       <created>1685154212501</created>
@@ -587,7 +572,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686492904831</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="adding logic for update method for orders&#10;// Look for the orderId inside the database and throw the exception&#10;      //then we need to check if the order fields are exist or not">
+      <created>1686496180587</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1686496180587</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -613,7 +605,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Heap" />
     <MESSAGE value="Auth2" />
     <MESSAGE value="Dependency and application properties" />
     <MESSAGE value="restriction of roles" />
@@ -638,7 +629,8 @@
     <MESSAGE value="fix class" />
     <MESSAGE value="Keycload" />
     <MESSAGE value="SwaggerConfig" />
-    <option name="LAST_COMMIT_MESSAGE" value="SwaggerConfig" />
+    <MESSAGE value="adding logic for update method for orders&#10;// Look for the orderId inside the database and throw the exception&#10;      //then we need to check if the order fields are exist or not" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding logic for update method for orders&#10;// Look for the orderId inside the database and throw the exception&#10;      //then we need to check if the order fields are exist or not" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">

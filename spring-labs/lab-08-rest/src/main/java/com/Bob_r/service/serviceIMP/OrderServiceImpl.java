@@ -44,7 +44,7 @@ public class OrderServiceImpl implements OrderService {
     }
 
     @Override
-    public void updateOrder(OrderDTO orderDTO) {
+    public OrderDTO updateOrder(OrderDTO orderDTO) {
         // Look for the orderId inside the database and throw the exception
         orderRepository.findById(
                 orderDTO.getId()).orElseThrow(
@@ -54,6 +54,9 @@ public class OrderServiceImpl implements OrderService {
 
         validateRelatedFieldsAreExist(orderDTO);
 
+        Order willBeUpdatedOrder = mapperUtil.convert(orderDTO, new Order());
+        Order updatedOrder = orderRepository.save(willBeUpdatedOrder);
+        return mapperUtil.convert(updatedOrder,new OrderDTO());
    /*     Long orderId = orderDTO.getId();
 
         Order order= mapperUtil.convert(orderDTO, new Order());
@@ -67,6 +70,8 @@ public class OrderServiceImpl implements OrderService {
 
             orderRepository.save(dbOrder);
         });*/
+
+
     }
 
 
