@@ -4,6 +4,7 @@ import com.Bob_r.dto.OrderDTO;
 import com.Bob_r.dto.UpdateOrderDTO;
 import com.Bob_r.entity.Order;
 import com.Bob_r.enums.PaymentMethod;
+import com.Bob_r.exception.NotFoundException;
 import com.Bob_r.mapper.MapperUtil;
 import com.Bob_r.repository.OrderRepository;
 import com.Bob_r.service.CartService;
@@ -78,7 +79,7 @@ public class OrderServiceImpl implements OrderService {
     @Override
     public OrderDTO updateOrderById(Long id, UpdateOrderDTO updateOrderDTO) {
         Order order = orderRepository.findById(id).orElseThrow(
-                () -> new RuntimeException("Order could not be found."));
+                () -> new NotFoundException("Order could not be found."));
         //if we are getting the same value, it is not necessary to update the actual value
 
         boolean changeDetected = false;
@@ -98,7 +99,7 @@ public class OrderServiceImpl implements OrderService {
             Order updateOrder = orderRepository.save(order);
             return mapperUtil.convert(updateOrder,new OrderDTO());
         }else{
-            throw new RuntimeException("No changes detected");
+            throw new NotFoundException("No changes detected");
         }
 
     }
@@ -108,14 +109,14 @@ public class OrderServiceImpl implements OrderService {
         // in this method we have 3 different service and make sure they have these fields
         // we  will create service and existById method and verify
         if(!customerService.existById(orderDTO.getCustomerId())){
-            throw new RuntimeException("Customer could not be found");
+            throw new NotFoundException("Customer could not be found");
         }
 
         if(!paymentService.existById(orderDTO.getPaymentId())){
-            throw new RuntimeException("Payment could not be found");
+            throw new NotFoundException("Payment could not be found");
         }
         if(!cartService.existById(orderDTO.getCartId())){
-            throw new RuntimeException("Cart could not be found");
+            throw new NotFoundException("Cart could not be found");
         }
 
     }

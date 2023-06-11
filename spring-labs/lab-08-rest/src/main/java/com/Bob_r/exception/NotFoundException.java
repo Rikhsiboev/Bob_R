@@ -1,0 +1,9 @@
+package com.Bob_r.exception;
+
+public class NotFoundException extends RuntimeException {
+
+    public NotFoundException(String message) {
+        super(message);
+    }
+
+}
