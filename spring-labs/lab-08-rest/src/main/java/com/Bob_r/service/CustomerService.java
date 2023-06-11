@@ -16,4 +16,6 @@ public interface CustomerService {
     CustomerDTO createCustomer(CustomerDTO customerDTO);
 
     CustomerDTO getByCustomerEmail(String email);
+
+    boolean existById(Long customerId);
 }

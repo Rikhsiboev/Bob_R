@@ -62,4 +62,9 @@ public class CustomerServiceImpl implements CustomerService {
         Customer customer = customerRepository.retrieveByCustomerEmail(email);
         return mapperUtil.convert(customer,new CustomerDTO());
     }
+
+    @Override
+    public boolean existById(Long customerId) {
+        return customerRepository.existsById(customerId);
+    }
 }
