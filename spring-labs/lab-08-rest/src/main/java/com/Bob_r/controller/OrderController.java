@@ -2,12 +2,15 @@ package com.Bob_r.controller;
 
 
 import com.Bob_r.dto.OrderDTO;
+import com.Bob_r.dto.UpdateOrderDTO;
 import com.Bob_r.enums.PaymentMethod;
 import com.Bob_r.model.ResponseWrapper;
 import com.Bob_r.service.OrderService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import javax.validation.Valid;
 
 @RestController
 @RequestMapping("/api/v1/order")
@@ -58,4 +61,11 @@ public class OrderController {
                 .status(HttpStatus.OK)
                 .body(new ResponseWrapper("Orders are successfully retrieved",orderService.getOrderListByEmail(email),HttpStatus.OK));
     }
+    @PutMapping("/{id}")
+    public ResponseEntity<ResponseWrapper> updateOrderById(@PathVariable("id") Long id,@Valid @RequestBody UpdateOrderDTO updateOrderDTO){
+
+        return ResponseEntity.ok(new ResponseWrapper("Order is successfully updated.",
+                orderService.updateOrderById(id,updateOrderDTO), HttpStatus.OK));
+    }
+
 }
