@@ -80,7 +80,7 @@ public class OrderServiceImpl implements OrderService {
         if(!paymentService.existById(orderDTO.getPaymentId())){
             throw new RuntimeException("Payment could not found");
         }
-        if(!cartService.existById(orderDTO.getPaymentId())){
+        if(!cartService.existById(orderDTO.getCartId())){
             throw new RuntimeException("Cart could not found");
         }
 
