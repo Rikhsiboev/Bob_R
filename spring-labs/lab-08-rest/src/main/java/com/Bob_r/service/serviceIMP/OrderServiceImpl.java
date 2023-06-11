@@ -79,14 +79,14 @@ public class OrderServiceImpl implements OrderService {
         // in this method we have 3 different service and make sure they have these fields
         // we  will create service and existById method and verify
         if(!customerService.existById(orderDTO.getCustomerId())){
-            throw new RuntimeException("Customer could not found");
+            throw new RuntimeException("Customer could not be found");
         }
 
         if(!paymentService.existById(orderDTO.getPaymentId())){
-            throw new RuntimeException("Payment could not found");
+            throw new RuntimeException("Payment could not be found");
         }
         if(!cartService.existById(orderDTO.getCartId())){
-            throw new RuntimeException("Cart could not found");
+            throw new RuntimeException("Cart could not be found");
         }
 
     }

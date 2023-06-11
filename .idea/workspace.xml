@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/dto/UpdateOrderDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/service/serviceIMP/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/service/serviceIMP/OrderServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -234,21 +236,7 @@
       <workItem from="1686255018155" duration="690000" />
       <workItem from="1686255757352" duration="13128000" />
       <workItem from="1686341496176" duration="13881000" />
-      <workItem from="1686458433347" duration="6292000" />
-    </task>
-    <task id="LOCAL-00016" summary="web client">
-      <created>1685154212501</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1685154212501</updated>
-    </task>
-    <task id="LOCAL-00017" summary="web client &#10;Reactive Programming &#10;         Tread =&gt; execution  part of process&#10;    Synchronize 200 Tread&#10;    ASynchronize  =&gt;&gt;  Event Loop as Container as Loop&#10;                   Malty execution when ever ready Tread &#10;Mono ==&gt;  1 time&#10;Flex ==&gt;  N time&#10;&#10;Repository have to be as Flex and APi endpoint two other ways not works">
-      <created>1685156390723</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1685156390723</updated>
+      <workItem from="1686458433347" duration="7874000" />
     </task>
     <task id="LOCAL-00018" summary="web client &#10;Reactive Programming &#10;         Tread =&gt; execution  part of process&#10;    Synchronize 200 Tread&#10;    ASynchronize  =&gt;&gt;  Event Loop as Container as Loop&#10;                   Malty execution when ever ready Tread &#10;Mono ==&gt;  1 time&#10;Flex ==&gt;  N time&#10;&#10;Repository have to be as Flex and APi endpoint two other ways not works">
       <created>1685156598376</created>
@@ -579,7 +567,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686496180587</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="adding logic for update method for orders&#10;// Look for the orderId inside the database and throw the exception&#10;      //then we need to check if the order fields are exist or not">
+      <created>1686496483267</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1686496483267</updated>
+    </task>
+    <task id="LOCAL-00066" summary="   Order willBeUpdatedOrder = mapperUtil.convert(orderDTO, new Order());&#10;        Order updatedOrder = orderRepository.save(willBeUpdatedOrder);&#10;        return mapperUtil.convert(updatedOrder,new OrderDTO());">
+      <created>1686496690135</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1686496690135</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,7 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Auth2" />
     <MESSAGE value="Dependency and application properties" />
     <MESSAGE value="restriction of roles" />
     <MESSAGE value="adding config and     @RolesAllowed({&quot;ADMIN&quot;,&quot;USER&quot;})" />
@@ -630,7 +631,8 @@
     <MESSAGE value="Keycload" />
     <MESSAGE value="SwaggerConfig" />
     <MESSAGE value="adding logic for update method for orders&#10;// Look for the orderId inside the database and throw the exception&#10;      //then we need to check if the order fields are exist or not" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding logic for update method for orders&#10;// Look for the orderId inside the database and throw the exception&#10;      //then we need to check if the order fields are exist or not" />
+    <MESSAGE value="   Order willBeUpdatedOrder = mapperUtil.convert(orderDTO, new Order());&#10;        Order updatedOrder = orderRepository.save(willBeUpdatedOrder);&#10;        return mapperUtil.convert(updatedOrder,new OrderDTO());" />
+    <option name="LAST_COMMIT_MESSAGE" value="   Order willBeUpdatedOrder = mapperUtil.convert(orderDTO, new Order());&#10;        Order updatedOrder = orderRepository.save(willBeUpdatedOrder);&#10;        return mapperUtil.convert(updatedOrder,new OrderDTO());" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
