@@ -1,13 +1,18 @@
 package com.Bob_R.config;
 
 import com.Bob_R.service.SecurityServiceInterface;
+import org.springframework.boot.autoconfigure.AutoConfigureOrder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Lazy;
+import org.springframework.core.Ordered;
+import org.springframework.data.repository.cdi.Eager;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 @Configuration
+
 public class SecurityConfig {
 
 

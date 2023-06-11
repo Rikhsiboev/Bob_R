@@ -2,6 +2,7 @@ package com.Bob_R.controller.controllerRest;
 
 import com.Bob_R.dto.ResponseWrapper;
 import com.Bob_R.dto.UserDTO;
+import com.Bob_R.exception.TicketingProjectException;
 import com.Bob_R.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -68,7 +69,7 @@ public class UserControllerRest {
     @DeleteMapping("/{username}")
     @RolesAllowed({"Admin"})
     @Operation(summary = "Delete users")
-    public ResponseEntity<ResponseWrapper> deleteUser(@PathVariable("username") String userName){
+    public ResponseEntity<ResponseWrapper> deleteUser(@PathVariable("username") String userName) throws TicketingProjectException {
         userService.delete(userName);
         return ResponseEntity.ok(
                 new ResponseWrapper("User is successfully deleted",

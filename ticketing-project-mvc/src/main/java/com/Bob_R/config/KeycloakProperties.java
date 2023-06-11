@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Getter
 @Setter
+
 public class KeycloakProperties {
 
     @Value("${keycloak.realm}")

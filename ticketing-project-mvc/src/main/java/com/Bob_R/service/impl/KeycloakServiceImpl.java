@@ -10,6 +10,7 @@ import org.keycloak.representations.idm.ClientRepresentation;
 import org.keycloak.representations.idm.CredentialRepresentation;
 import org.keycloak.representations.idm.RoleRepresentation;
 import org.keycloak.representations.idm.UserRepresentation;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
 import javax.ws.rs.core.Response;
@@ -19,6 +20,7 @@ import static java.util.Arrays.asList;
 import static org.keycloak.admin.client.CreatedResponseUtil.getCreatedId;
 
 @Service
+
 public class KeycloakServiceImpl implements KeycloakService {
 
 

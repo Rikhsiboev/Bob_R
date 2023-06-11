@@ -1,6 +1,7 @@
 package com.Bob_R.controller.controller;
 
 import com.Bob_R.dto.UserDTO;
+import com.Bob_R.exception.TicketingProjectException;
 import com.Bob_R.service.RoleService;
 import com.Bob_R.service.UserService;
 import org.springframework.stereotype.Controller;
@@ -81,7 +82,7 @@ public class UserController {
     }
 
     @GetMapping("/delete/{username}")
-    public String deleteUser(@PathVariable("username") String username) {
+    public String deleteUser(@PathVariable("username") String username) throws TicketingProjectException {
 //        userService.deleteByUserName(username);
         userService.delete(username);
         return "redirect:/user/create";

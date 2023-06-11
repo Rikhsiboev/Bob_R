@@ -7,7 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ticketing-project-mvc" />
+        <module name="lab-08-rest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,7 +21,6 @@
       <module name="FOR_ME" target="11" />
       <module name="lab-06-orm" target="11" />
       <module name="lab-07-orm-queries" target="11" />
-      <module name="lab-08-rest" target="11" />
       <module name="spring-14-Data-Queries" target="11" />
       <module name="Spring-15-REST" target="11" />
       <module name="Spring-16-REST-Jackson" target="11" />
@@ -30,6 +29,8 @@
       <module name="Spring-19-REST-OpenAPI3" target="11" />
       <module name="spring-20-REST-Security-Keycloak-LicenseApp" target="11" />
       <module name="spring-20-REST-Security-Keycloak-OrganizationsApp" target="11" />
+      <module name="stream-practice" target="11" />
+      <module name="ticketing-project-mvc" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -45,6 +46,7 @@
       <module name="spring-18-REST-SchoolLab" options="-parameters" />
       <module name="spring-20-REST-Security-Keycloak-LicenseApp" options="-parameters" />
       <module name="spring-20-REST-Security-Keycloak-OrganizationsApp" options="-parameters" />
+      <module name="stream-practice" options="-parameters" />
       <module name="ticketing-project-mvc" options="-parameters" />
     </option>
   </component>

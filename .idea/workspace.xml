@@ -4,12 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="fix class">
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/SwaggerConfig.java" afterDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="SwaggerConfig">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/annotation/DefaultExceptionMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/dto/DefaultExceptionMessageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/exception/TicketingProjectException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2023-05-26T175813.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/KeycloakProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/KeycloakProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/SecurityConfigKeycloak.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/SecurityConfigKeycloak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/controllerRest/UserControllerRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/controllerRest/UserControllerRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/dto/ResponseWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/dto/ResponseWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/KeycloakServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/KeycloakServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -91,58 +106,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-mvc/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.customizations",
-    "spring.configuration.checksum": "0b9860ce9ef2fc1417e87c9291898e09",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-mvc/src/main/java/com/Bob_R&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;0b9860ce9ef2fc1417e87c9291898e09&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ],
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.Bob_r.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R" />
       <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources" />
       <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller" />
       <recent name="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto" />
       <recent name="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/flag" />
-      <recent name="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/client" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Bob_R.dto" />
       <recent name="com.Bob_R.config" />
       <recent name="com.Bob_R.service.impl" />
       <recent name="com.Bob_r.client" />
       <recent name="com.Bob_r.mapper" />
-      <recent name="com.bob_r.client" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -169,24 +184,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicketingProjectMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ticketing-project-mvc" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.TicketingProjectMvcApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Bob_R.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Lab08RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="lab-08-rest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.Lab08RestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.TicketingProjectMvcApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringBeansView">
@@ -230,21 +234,8 @@
       <workItem from="1686251044393" duration="3032000" />
       <workItem from="1686255018155" duration="690000" />
       <workItem from="1686255757352" duration="13128000" />
-      <workItem from="1686341496176" duration="1601000" />
-    </task>
-    <task id="LOCAL-00012" summary="Consume_FeignClient">
-      <created>1685144190863</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1685144190863</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Consume_FeignClient">
-      <created>1685144770600</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1685144770600</updated>
+      <workItem from="1686341496176" duration="13881000" />
+      <workItem from="1686458433347" duration="2713000" />
     </task>
     <task id="LOCAL-00014" summary="we are getting as json and return back as json">
       <created>1685146743756</created>
@@ -575,7 +566,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686288610546</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Keycload">
+      <created>1686343652201</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1686343652202</updated>
+    </task>
+    <task id="LOCAL-00062" summary="SwaggerConfig">
+      <created>1686343674634</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1686343674634</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,8 +606,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="    @GetMapping(&quot;/parents&quot;)&#10;    public ResponseEntity&lt;ResponseWrapper&gt; readAllParents() {&#10;        ResponseWrapper responseWrapper = new ResponseWrapper(true,&quot;Students are successfully retrieved&quot;&#10;                ,HttpStatus.ACCEPTED.value(),parentService.findAll());&#10;        return ResponseEntity&#10;                .status(HttpStatus.ACCEPTED)&#10;                .header(&quot;Parent&quot;,&quot;Returned&quot;)&#10;                .body(responseWrapper);" />
-    <MESSAGE value="    @GetMapping(&quot;address/{id}&quot;)&#10;    public ResponseEntity&lt;ResponseWrapper&gt; findById(@PathVariable(&quot;id&quot;) Long addressFindById) throws Exception {&#10;        // find the addrtess to return&#10;//        AddressDTO addressDTO = addressService.findById(addressFindById);&#10;&#10;&#10;        return ResponseEntity&#10;                .ok(new ResponseWrapper&#10;                        (&quot;Students are successfully retrieved&quot;,&#10;                                addressService.findById(addressFindById)));&#10;&#10;    }" />
     <MESSAGE value="Heap" />
     <MESSAGE value="Auth2" />
     <MESSAGE value="Dependency and application properties" />
@@ -626,7 +629,9 @@
     <MESSAGE value="KeycloakProperties" />
     <MESSAGE value="KeycloakProperties with service" />
     <MESSAGE value="fix class" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix class" />
+    <MESSAGE value="Keycload" />
+    <MESSAGE value="SwaggerConfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="SwaggerConfig" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -634,7 +639,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/SecurityConfig.java</url>
-          <line>34</line>
+          <line>39</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
