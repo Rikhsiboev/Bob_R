@@ -4,10 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/dto/UpdateOrderDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/service/serviceIMP/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/service/serviceIMP/OrderServiceImpl.java" afterDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="  //create a json body and return it">
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/client/Screenshot 2023-06-11 at 8.10.46 PM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/exception/ValidationError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/client/WeatherApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/client/WeatherApiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/AddressDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/AddressDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/service/impl/AddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/service/impl/AddressServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/AddressDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/AddressDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/service/impl/AddressServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/service/impl/AddressServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/exception/ExceptionWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/exception/ExceptionWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/Lab08RestApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/controller/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/AddressDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/CustomerDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/DiscountDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/OrderDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/PaymentDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/ProductDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/ProductRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Balance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Cart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/CartItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Discount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/enums/CartState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/enums/DiscountType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/enums/PaymentMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/mapper/MapperUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/model/ResponseWrapper$ResponseWrapperBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/model/ResponseWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/AddressRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/BalanceRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/CartItemRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/CartRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/CategoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/DiscountRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/OrderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/PaymentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/ProductRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/service/serviceIMP/ProductServiceImp.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +71,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -87,50 +136,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-mvc/src/main/java/com/Bob_R&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;0b9860ce9ef2fc1417e87c9291898e09&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/spring-labs/lab-08-rest/src/main/java/com/Bob_r",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.customizations",
+    "spring.configuration.checksum": "0b9860ce9ef2fc1417e87c9291898e09",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;PLAIN_TEXT&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.Bob_r.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r" />
       <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R" />
       <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources" />
       <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller" />
       <recent name="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto" />
-      <recent name="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/dto/flag" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/client" />
       <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -153,7 +203,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Lab08RestApplication">
+  <component name="RunManager" selected="Spring Boot.Spring18RestSchoolLabApplication">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="OrderControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab-08-rest" />
       <extension name="coverage">
@@ -187,8 +243,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring16RestJacksonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-16-REST-Jackson" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.Spring16RestJacksonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring18RestSchoolLabApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring-18-REST-SchoolLab" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.Spring18RestSchoolLabApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketingProjectMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ticketing-project-mvc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.TicketingProjectMvcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+        <item itemvalue="HTTP Request.generated-requests | #2" />
         <item itemvalue="JUnit.OrderControllerTest" />
       </list>
     </recent_temporary>
@@ -236,28 +315,7 @@
       <workItem from="1686255018155" duration="690000" />
       <workItem from="1686255757352" duration="13128000" />
       <workItem from="1686341496176" duration="13881000" />
-      <workItem from="1686458433347" duration="7874000" />
-    </task>
-    <task id="LOCAL-00018" summary="web client &#10;Reactive Programming &#10;         Tread =&gt; execution  part of process&#10;    Synchronize 200 Tread&#10;    ASynchronize  =&gt;&gt;  Event Loop as Container as Loop&#10;                   Malty execution when ever ready Tread &#10;Mono ==&gt;  1 time&#10;Flex ==&gt;  N time&#10;&#10;Repository have to be as Flex and APi endpoint two other ways not works">
-      <created>1685156598376</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1685156598376</updated>
-    </task>
-    <task id="LOCAL-00019" summary="All Api methods with reactive way">
-      <created>1685157907440</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1685157907440</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Spring doc">
-      <created>1685286616217</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1685286616217</updated>
+      <workItem from="1686458433347" duration="22810000" />
     </task>
     <task id="LOCAL-00021" summary="bean">
       <created>1685286647999</created>
@@ -581,7 +639,28 @@
       <option name="project" value="LOCAL" />
       <updated>1686496690135</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Custom jason &#10; // only updatable fields should be exist in DTO">
+      <created>1686500100279</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1686500100279</updated>
+    </task>
+    <task id="LOCAL-00068" summary="//if we are getting the same value, it is not necessary to update the actual value&#10;&#10;OrderDTO updateOrderById(Long id, UpdateOrderDTO updateOrderDTO)">
+      <created>1686500279488</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1686500279488</updated>
+    </task>
+    <task id="LOCAL-00069" summary="  //create a json body and return it">
+      <created>1686500484388</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1686500484388</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,9 +686,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dependency and application properties" />
-    <MESSAGE value="restriction of roles" />
-    <MESSAGE value="adding config and     @RolesAllowed({&quot;ADMIN&quot;,&quot;USER&quot;})" />
     <MESSAGE value="lab 07 Repo Queries" />
     <MESSAGE value="KeyCloak with token overriding licences" />
     <MESSAGE value="lab-08-rest" />
@@ -632,7 +708,10 @@
     <MESSAGE value="SwaggerConfig" />
     <MESSAGE value="adding logic for update method for orders&#10;// Look for the orderId inside the database and throw the exception&#10;      //then we need to check if the order fields are exist or not" />
     <MESSAGE value="   Order willBeUpdatedOrder = mapperUtil.convert(orderDTO, new Order());&#10;        Order updatedOrder = orderRepository.save(willBeUpdatedOrder);&#10;        return mapperUtil.convert(updatedOrder,new OrderDTO());" />
-    <option name="LAST_COMMIT_MESSAGE" value="   Order willBeUpdatedOrder = mapperUtil.convert(orderDTO, new Order());&#10;        Order updatedOrder = orderRepository.save(willBeUpdatedOrder);&#10;        return mapperUtil.convert(updatedOrder,new OrderDTO());" />
+    <MESSAGE value="Custom jason &#10; // only updatable fields should be exist in DTO" />
+    <MESSAGE value="//if we are getting the same value, it is not necessary to update the actual value&#10;&#10;OrderDTO updateOrderById(Long id, UpdateOrderDTO updateOrderDTO)" />
+    <MESSAGE value="  //create a json body and return it" />
+    <option name="LAST_COMMIT_MESSAGE" value="  //create a json body and return it" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
