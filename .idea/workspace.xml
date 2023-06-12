@@ -5,49 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="  //create a json body and return it">
-      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/exception/ValidationError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/exception/ExceptionWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/exception/ExceptionWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/dto/PaymentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/dto/PaymentDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/Lab08RestApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/controller/ProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/AddressDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/CustomerDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/DiscountDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/OrderDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/PaymentDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/ProductDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/ProductRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Address.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Balance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/BaseEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/CartItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Discount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Payment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/enums/CartState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/enums/DiscountType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/enums/PaymentMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/mapper/MapperUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/model/ResponseWrapper$ResponseWrapperBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/model/ResponseWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/AddressRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/BalanceRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/CartItemRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/CartRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/CategoryRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/CustomerRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/DiscountRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/OrderRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/PaymentRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/ProductRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/service/ProductService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/service/serviceIMP/ProductServiceImp.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -117,7 +80,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2QLm0MDy8MdZvbZccPE5v49t9A8" />
   <component name="ProjectLevelVcsManager">
@@ -127,38 +90,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/spring-labs/lab-08-rest/src/main/java/com/Bob_r",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.customizations",
-    "spring.configuration.checksum": "0b9860ce9ef2fc1417e87c9291898e09",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/spring-labs/lab-08-rest/src/main/java/com/Bob_r&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;0b9860ce9ef2fc1417e87c9291898e09&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ],
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.Bob_r.controller" />
@@ -194,28 +157,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring18RestSchoolLabApplication">
-    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="OrderControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab-08-rest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Bob_r.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.Bob_r.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.Bob_r.controller.OrderControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -227,41 +169,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab08RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="lab-08-rest" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.Lab08RestApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Spring16RestJacksonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="Spring-16-REST-Jackson" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.Spring16RestJacksonApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Spring18RestSchoolLabApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="spring-18-REST-SchoolLab" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.Spring18RestSchoolLabApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TicketingProjectMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="ticketing-project-mvc" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.TicketingProjectMvcApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="HTTP Request.generated-requests | #1" />
-        <item itemvalue="HTTP Request.generated-requests | #2" />
-        <item itemvalue="JUnit.OrderControllerTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringBeansView">
