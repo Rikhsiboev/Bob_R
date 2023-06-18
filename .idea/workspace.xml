@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="  //create a json body and return it">
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="..">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/dto/PaymentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/dto/PaymentDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="69b6a62ed2b6368614ab9626e15bf769f2322d1d" />
+        <entry key="$PROJECT_DIR$" value="81fd6f3891808f9cb89d5eef07cf70c25cd480ba" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,6 +59,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.7.7/spring-security-config-5.7.7.jar!/org/springframework/security/config/annotation/web/builders/WebSecurity.class" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/spring-11-Data-TableCreation/pom.xml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="HttpClientSelectedEnvironments">
@@ -80,7 +78,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2QLm0MDy8MdZvbZccPE5v49t9A8" />
   <component name="ProjectLevelVcsManager">
@@ -110,7 +108,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;0b9860ce9ef2fc1417e87c9291898e09&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;a83c7673c32b1568261bb8430ca601bd&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -146,11 +144,6 @@
     </key>
   </component>
   <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
     <option name="excludedTypes">
       <set>
         <option value="HttpClient.HttpRequestRunConfigurationType" />
@@ -165,6 +158,13 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab08RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="lab-08-rest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.Lab08RestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,6 +214,9 @@
       <workItem from="1686255757352" duration="13128000" />
       <workItem from="1686341496176" duration="13881000" />
       <workItem from="1686458433347" duration="23127000" />
+      <workItem from="1686882428642" duration="1262000" />
+      <workItem from="1686949575813" duration="2268000" />
+      <workItem from="1687057428649" duration="314000" />
     </task>
     <task id="LOCAL-00022" summary="//@RequestMapping(&quot;/api/v1/accounts&quot;)&#10;//@Tag(name = &quot;Account&quot;, description = &quot;Account CRUD Operations&quot;)&#10;//@Tags(value = {@Tag(name = &quot;Account&quot;, description = &quot;Account CRUD Operations&quot;),&#10;//        @Tag(name = &quot;Account2&quot;, description = &quot;Account2 CRUD Operations&quot;)})">
       <created>1685286680274</created>
@@ -584,7 +587,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="KeyCloak with token overriding licences" />
     <MESSAGE value="lab-08-rest" />
     <MESSAGE value="add new disc on log in" />
     <MESSAGE value="debug" />
@@ -609,17 +611,13 @@
     <MESSAGE value="//if we are getting the same value, it is not necessary to update the actual value&#10;&#10;OrderDTO updateOrderById(Long id, UpdateOrderDTO updateOrderDTO)" />
     <MESSAGE value="  //create a json body and return it" />
     <MESSAGE value="practice of web flient" />
-    <option name="LAST_COMMIT_MESSAGE" value="practice of web flient" />
+    <MESSAGE value=".." />
+    <option name="LAST_COMMIT_MESSAGE" value=".." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/SecurityConfig.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/AuthSuccessHandler.java</url>
           <line>19</line>

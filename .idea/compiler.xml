@@ -30,7 +30,9 @@
       <module name="spring-20-REST-Security-Keycloak-LicenseApp" target="11" />
       <module name="spring-20-REST-Security-Keycloak-OrganizationsApp" target="11" />
       <module name="stream-practice" target="11" />
+      <module name="ticketing-project-bob" target="11" />
       <module name="ticketing-project-mvc" target="11" />
+      <module name="ticketing-project-rest" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
