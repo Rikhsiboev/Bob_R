@@ -6,6 +6,7 @@ import com.bob_R.dto.UserDTO;
 import com.bob_R.entity.User;
 import com.bob_R.mapper.UserMapper;
 import com.bob_R.repository.UserRepository;
+import com.bob_R.service.KeycloakService;
 import com.bob_R.service.ProjectService;
 import com.bob_R.service.TaskService;
 import com.bob_R.service.UserService;
@@ -22,12 +23,14 @@ public class UserServiceImpl implements UserService {
     private final UserMapper userMapper;
     private final ProjectService projectService;
     private final TaskService taskService;
+    private final KeycloakService keycloakService;
 
-    public UserServiceImpl(UserRepository userRepository, UserMapper userMapper, @Lazy ProjectService projectService, @Lazy TaskService taskService) {
+    public UserServiceImpl(UserRepository userRepository, UserMapper userMapper, @Lazy ProjectService projectService, @Lazy TaskService taskService, KeycloakService keycloakService) {
         this.userRepository = userRepository;
         this.userMapper = userMapper;
         this.projectService = projectService;
         this.taskService = taskService;
+        this.keycloakService = keycloakService;
     }
 
     @Override
@@ -50,6 +53,10 @@ public class UserServiceImpl implements UserService {
         User obj = userMapper.convertToEntity(user);
 
         userRepository.save(obj);
+
+        keycloakService.userCreate(user);
+
+
 
     }
 

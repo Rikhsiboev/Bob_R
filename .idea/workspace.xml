@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="Keycloak">
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/config/SecurityConfig.java" afterDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="Keycloak auto">
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/config/KeycloakProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/KeycloakService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/KeycloakServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticketing-project-rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/controller/ProjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/controller/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/dto/ProjectDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/dto/ProjectDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/ProjectServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/TaskServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="81fd6f3891808f9cb89d5eef07cf70c25cd480ba" />
+        <entry key="$PROJECT_DIR$" value="keycloak_manual" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,7 +103,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-rest/src/main/java/com/bob_R/controller",
+    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-rest/src/main/java/com/bob_R/config",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -135,22 +130,22 @@
       <recent name="com.Bob_r.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/config" />
       <recent name="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/controller" />
       <recent name="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Data Structure" />
-      <recent name="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/dto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/client" />
       <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bob_R.config" />
       <recent name="com.bob_R.controller" />
       <recent name="com.Bob_R.dto" />
       <recent name="com.Bob_R.config" />
       <recent name="com.Bob_R.service.impl" />
-      <recent name="com.Bob_r.client" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -191,6 +186,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="HTTP Request.generated-requests | #1" />
       </list>
     </recent_temporary>
@@ -244,14 +242,7 @@
       <workItem from="1687057428649" duration="6037000" />
       <workItem from="1687101159689" duration="1373000" />
       <workItem from="1687112132145" duration="5170000" />
-      <workItem from="1687276270400" duration="16488000" />
-    </task>
-    <task id="LOCAL-00032" summary="&#10;@JsonInclude(JsonInclude.Include.NON_NULL)  //   // i dont wont to see in jsan but dynamic">
-      <created>1685289313477</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1685289313477</updated>
+      <workItem from="1687276270400" duration="17388000" />
     </task>
     <task id="LOCAL-00033" summary="spring.jackson.default-property-inclusion=non_null we can do hiding null from here too aplication prop">
       <created>1685289488167</created>
@@ -589,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687296894727</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Keycloak manual">
+      <created>1687298125409</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1687298125409</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,6 +599,17 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="keycloak_manual" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
               <option name="COLUMN_ID_WIDTH">
                 <map>
                   <entry key="Table.Default.Author.ColumnIdWidth" value="45" />
@@ -615,8 +624,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="keycloak adding here" />
-    <MESSAGE value="keycloak config" />
     <MESSAGE value="adding security Role with keycloak" />
     <MESSAGE value="dependency" />
     <MESSAGE value="doc" />
@@ -640,7 +647,9 @@
     <MESSAGE value="UserController" />
     <MESSAGE value="ProjectController" />
     <MESSAGE value="TaskController" />
-    <option name="LAST_COMMIT_MESSAGE" value="TaskController" />
+    <MESSAGE value="Keycloak" />
+    <MESSAGE value="Keycloak manual" />
+    <option name="LAST_COMMIT_MESSAGE" value="Keycloak manual" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
