@@ -4,100 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/TicketingProjectRestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/dto/ProjectDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/dto/ResponseWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/dto/RoleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/dto/TaskDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/entity/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/entity/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/enums/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/enums/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/mapper/MapperUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/mapper/ProjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/mapper/TaskMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/repository/ProjectRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/repository/TaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/ProjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/TaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/ProjectServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/TaskServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/resources/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/test/java/com/bob_R/TicketingProjectRestApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/TicketingProjectRestApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/annotation/DefaultExceptionMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/annotation/ExecutionTime.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/aspect/LoggingAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/aspect/PerformanceAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/config/KeycloakProperties.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/config/SecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/config/SwaggerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/controller/ProjectController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/controller/TaskController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/dto/DefaultExceptionMessageDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/dto/ProjectDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/dto/ResponseWrapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/dto/RoleDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/dto/TaskDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/dto/UserDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/entity/BaseEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/entity/Project.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/entity/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/entity/Task.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/enums/Gender.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/enums/Status.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/exception/GlobalExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/exception/TicketingProjectException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/mapper/MapperUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/mapper/ProjectMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/mapper/RoleMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/mapper/TaskMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/repository/ProjectRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/repository/RoleRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/repository/TaskRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/service/KeycloakService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/service/ProjectService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/service/RoleService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/service/TaskService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/service/impl/KeycloakServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/service/impl/ProjectServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/service/impl/RoleServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/service/impl/TaskServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/test/java/com/cydeo/Spring20RestSecurityKeycloakLicenseAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/test/java/com/cydeo/Spring20RestSecurityKeycloakLicenseAppApplicationTests.java" afterDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="Keycloak">
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/controller/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/dto/ProjectDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/dto/ProjectDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/TaskServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/resources/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,12 +51,12 @@
   <component name="GitRewordedCommitMessages">
     <option name="commitMessagesMapping">
       <RewordedCommitMessageMapping>
-        <option name="originalMessage" value="web client&#10;Reactive Programming&#10;         Tread =&gt; execution  part of process&#10;    Synchronize 200 Tread&#10;    ASynchronize  =&gt;&gt;  Event Loop as Container as Loop&#10;                   Malty execution when ever ready Tread&#10;Mono ==&gt;  1 time&#10;Flex ==&gt;  N time&#10;&#10;Repository have to be as Flex and APi endpoint two other ways not works" />
-        <option name="rewordedMessage" value="web client&#10;Reactive Programming&#10;         Tread =&gt; execution  part of process&#10;    Synchronize 200 Tread&#10;    ASynchronize  =&gt;&gt;  Event Loop as Container as Loop&#10;                   Malty execution when ever ready Tread&#10;Mono ==&gt;  1 time&#10;Flex ==&gt;  N time&#10;&#10;Repository have to be as Flex and APi endpoint two other ways not works" />
+        <option name="originalMessage" value="Ticketing project Api" />
+        <option name="rewordedMessage" value="Ticketing project Api" />
       </RewordedCommitMessageMapping>
     </option>
     <option name="currentCommit" value="1" />
-    <option name="onto" value="6731de6a329be80b14f8880fcc9938aa28f8cc22" />
+    <option name="onto" value="e3c8eee6e196396c6950fe2f68375c314097b7cd" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -149,6 +67,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/keycloak/keycloak-spring-security-adapter/18.0.0/keycloak-spring-security-adapter-18.0.0.jar!/org/keycloak/adapters/springsecurity/config/KeycloakWebSecurityConfigurerAdapter.class" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.7.7/spring-security-config-5.7.7.jar!/org/springframework/security/config/annotation/web/builders/WebSecurity.class" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/spring-11-Data-TableCreation/pom.xml" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -178,60 +97,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;fc6a489cccd635be34186d308a6c0a06&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-rest/src/main/java/com/bob_R/controller",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.customizations",
+    "spring.configuration.checksum": "fc6a489cccd635be34186d308a6c0a06",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;PLAIN_TEXT&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.Bob_r.exception" />
       <recent name="com.Bob_r.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/controller" />
+      <recent name="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Data Structure" />
       <recent name="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/dto" />
-      <recent name="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r" />
-      <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/client" />
       <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bob_R.controller" />
       <recent name="com.Bob_R.dto" />
       <recent name="com.Bob_R.config" />
       <recent name="com.Bob_R.service.impl" />
       <recent name="com.Bob_r.client" />
-      <recent name="com.Bob_r.mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -241,7 +160,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Lab08RestApplication">
+  <component name="RunManager" selected="Spring Boot.TicketingProjectRestApplication">
     <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -325,35 +244,7 @@
       <workItem from="1687057428649" duration="6037000" />
       <workItem from="1687101159689" duration="1373000" />
       <workItem from="1687112132145" duration="5170000" />
-      <workItem from="1687276270400" duration="15195000" />
-    </task>
-    <task id="LOCAL-00028" summary="@JsonInclude(JsonInclude.Include.NON_NULL)  //">
-      <created>1685288951297</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1685288951297</updated>
-    </task>
-    <task id="LOCAL-00029" summary=" @JsonIgnore">
-      <created>1685288967722</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1685288967722</updated>
-    </task>
-    <task id="LOCAL-00030" summary="    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)">
-      <created>1685289033890</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1685289033890</updated>
-    </task>
-    <task id="LOCAL-00031" summary="update 4 things&#10;&#10;@JsonIgnoreProperties(ignoreUnknown = true)  // skips unknown filds&#10;@JsonInclude(JsonInclude.Include.NON_NULL)  //&#10;&#10;&#10;   @JsonIgnore&#10;   &#10;       @JsonProperty(access = JsonProperty.Access.WRITE_ONLY) //we are not returning password">
-      <created>1685289154150</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1685289154150</updated>
+      <workItem from="1687276270400" duration="16488000" />
     </task>
     <task id="LOCAL-00032" summary="&#10;@JsonInclude(JsonInclude.Include.NON_NULL)  //   // i dont wont to see in jsan but dynamic">
       <created>1685289313477</created>
@@ -670,7 +561,35 @@
       <option name="project" value="LOCAL" />
       <updated>1687296627588</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Ticketing project Api">
+      <created>1687296690547</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1687296690547</updated>
+    </task>
+    <task id="LOCAL-00078" summary="UserController">
+      <created>1687296805684</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1687296805684</updated>
+    </task>
+    <task id="LOCAL-00079" summary="ProjectController">
+      <created>1687296829819</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1687296829819</updated>
+    </task>
+    <task id="LOCAL-00080" summary="TaskController">
+      <created>1687296894727</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1687296894727</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -696,9 +615,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="school lab" />
-    <MESSAGE value="fixed all with ticketing ProjectController" />
-    <MESSAGE value="Task ticketing ProjectController" />
     <MESSAGE value="keycloak adding here" />
     <MESSAGE value="keycloak config" />
     <MESSAGE value="adding security Role with keycloak" />
@@ -721,7 +637,10 @@
     <MESSAGE value="GetbyId" />
     <MESSAGE value="lab 09" />
     <MESSAGE value="Ticketing project Api" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ticketing project Api" />
+    <MESSAGE value="UserController" />
+    <MESSAGE value="ProjectController" />
+    <MESSAGE value="TaskController" />
+    <option name="LAST_COMMIT_MESSAGE" value="TaskController" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
