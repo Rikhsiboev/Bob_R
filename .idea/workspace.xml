@@ -5,9 +5,99 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/TicketingProjectRestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/dto/ProjectDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/dto/ResponseWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/dto/RoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/dto/TaskDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/entity/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/entity/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/enums/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/enums/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/mapper/MapperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/mapper/ProjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/mapper/TaskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/repository/ProjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/repository/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/TaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/test/java/com/bob_R/TicketingProjectRestApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/TicketingProjectRestApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/annotation/DefaultExceptionMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/annotation/ExecutionTime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/aspect/LoggingAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/aspect/PerformanceAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/config/KeycloakProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/config/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/controller/ProjectController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/controller/TaskController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/dto/DefaultExceptionMessageDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/dto/ProjectDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/dto/ResponseWrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/dto/RoleDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/dto/TaskDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/dto/UserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/entity/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/entity/Project.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/entity/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/enums/Gender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/enums/Status.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/exception/TicketingProjectException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/mapper/MapperUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/mapper/ProjectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/mapper/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/mapper/TaskMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/repository/ProjectRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/repository/RoleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/repository/TaskRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/service/KeycloakService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/service/ProjectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/service/RoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/service/TaskService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/service/impl/KeycloakServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/service/impl/ProjectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/service/impl/TaskServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/com/cydeo/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/log4j2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/test/java/com/cydeo/Spring20RestSecurityKeycloakLicenseAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/test/java/com/cydeo/Spring20RestSecurityKeycloakLicenseAppApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +189,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/Data Structure&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
@@ -126,11 +216,11 @@
       <recent name="com.Bob_r.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Data Structure" />
       <recent name="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r/dto" />
       <recent name="$PROJECT_DIR$/spring-labs/lab-08-rest/src/main/java/com/Bob_r" />
       <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R" />
-      <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/client" />
@@ -175,7 +265,7 @@
     </configuration>
     <configuration name="TicketingProjectRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ticketing-project-rest" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.TicketingProjectRestApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_R.TicketingProjectRestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -235,14 +325,7 @@
       <workItem from="1687057428649" duration="6037000" />
       <workItem from="1687101159689" duration="1373000" />
       <workItem from="1687112132145" duration="5170000" />
-      <workItem from="1687276270400" duration="14897000" />
-    </task>
-    <task id="LOCAL-00027" summary="@JsonIgnoreProperties(ignoreUnknown = true)  // skips unknown filds">
-      <created>1685288829915</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1685288829915</updated>
+      <workItem from="1687276270400" duration="15195000" />
     </task>
     <task id="LOCAL-00028" summary="@JsonInclude(JsonInclude.Include.NON_NULL)  //">
       <created>1685288951297</created>
@@ -580,7 +663,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687294138290</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Ticketing project Api">
+      <created>1687296627588</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1687296627588</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,7 +696,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update" />
     <MESSAGE value="school lab" />
     <MESSAGE value="fixed all with ticketing ProjectController" />
     <MESSAGE value="Task ticketing ProjectController" />
@@ -631,7 +720,8 @@
     <MESSAGE value="Search DS" />
     <MESSAGE value="GetbyId" />
     <MESSAGE value="lab 09" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab 09" />
+    <MESSAGE value="Ticketing project Api" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ticketing project Api" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
