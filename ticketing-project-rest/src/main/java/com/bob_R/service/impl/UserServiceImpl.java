@@ -1,9 +1,11 @@
 package com.bob_R.service.impl;
 
+import com.bob_R.annotation.DefaultExceptionMessage;
 import com.bob_R.dto.ProjectDTO;
 import com.bob_R.dto.TaskDTO;
 import com.bob_R.dto.UserDTO;
 import com.bob_R.entity.User;
+import com.bob_R.exception.TicketingProjectException;
 import com.bob_R.mapper.UserMapper;
 import com.bob_R.repository.UserRepository;
 import com.bob_R.service.KeycloakService;
@@ -56,8 +58,6 @@ public class UserServiceImpl implements UserService {
 
         keycloakService.userCreate(user);
 
-
-
     }
 
 //    @Override
@@ -83,7 +83,8 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void delete(String username) {
+    @DefaultExceptionMessage(defaultMessage = "Failed to delete user")
+    public void delete(String username) throws TicketingProjectException {
 
         User user = userRepository.findByUserNameAndIsDeleted(username, false);
 
@@ -91,6 +92,8 @@ public class UserServiceImpl implements UserService {
             user.setIsDeleted(true);
             user.setUserName(user.getUserName() + "-" + user.getId());  // harold@manager.com-2
             userRepository.save(user);
+        }else{
+            throw new TicketingProjectException("User can not be deleted");
         }
 
     }
