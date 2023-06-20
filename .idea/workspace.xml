@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="Keycloak auto">
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/config/KeycloakProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/KeycloakService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/KeycloakServiceImpl.java" afterDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/annotation/DefaultExceptionMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/dto/DefaultExceptionMessageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/ticketing-project-rest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticketing-project-rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/dto/ResponseWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/dto/ResponseWrapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +106,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-rest/src/main/java/com/bob_R/config",
+    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-rest/src/main/java/com/bob_R",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -130,9 +133,9 @@
       <recent name="com.Bob_r.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R" />
       <recent name="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/config" />
       <recent name="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/controller" />
-      <recent name="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Data Structure" />
     </key>
@@ -141,11 +144,11 @@
       <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bob_R.dto" />
       <recent name="com.bob_R.config" />
       <recent name="com.bob_R.controller" />
       <recent name="com.Bob_R.dto" />
       <recent name="com.Bob_R.config" />
-      <recent name="com.Bob_R.service.impl" />
     </key>
   </component>
   <component name="RunDashboard">
