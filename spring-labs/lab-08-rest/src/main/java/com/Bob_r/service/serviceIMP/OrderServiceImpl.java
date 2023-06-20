@@ -1,9 +1,14 @@
 package com.Bob_r.service.serviceIMP;
 
+
+
+import com.Bob_r.client.CurrencyApiClient;
 import com.Bob_r.dto.OrderDTO;
 import com.Bob_r.dto.UpdateOrderDTO;
 import com.Bob_r.entity.Order;
+import com.Bob_r.enums.Currency;
 import com.Bob_r.enums.PaymentMethod;
+import com.Bob_r.exception.CurrencyTypeNotFoundException;
 import com.Bob_r.exception.NotFoundException;
 import com.Bob_r.mapper.MapperUtil;
 import com.Bob_r.repository.OrderRepository;
@@ -15,9 +20,12 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 @Service
 public class OrderServiceImpl implements OrderService {
@@ -30,18 +38,22 @@ public class OrderServiceImpl implements OrderService {
     private final CartService cartService;
 
     private final MapperUtil mapperUtil;
+    private final CurrencyApiClient currencyApiClient;
 
     public OrderServiceImpl(OrderRepository orderRepository,
+                            MapperUtil mapperUtil,
                             CustomerService customerService,
                             PaymentService paymentService,
                             CartService cartService,
-                            MapperUtil mapperUtil) {
+                            CurrencyApiClient currencyApiClient) {
         this.orderRepository = orderRepository;
+        this.mapperUtil = mapperUtil;
         this.customerService = customerService;
         this.paymentService = paymentService;
         this.cartService = cartService;
-        this.mapperUtil = mapperUtil;
+        this.currencyApiClient = currencyApiClient;
     }
+
 
     public List<OrderDTO> getOrderList(){
 
@@ -106,36 +118,77 @@ public class OrderServiceImpl implements OrderService {
         }else{
             throw new NotFoundException("No changes detected");
         }
-
     }
 
     @Override
-    public OrderDTO getOrderByIdAndCurrency(Long id, String currency) {
-        if (accessKey.equals("your_access_key_value")) {
-            Optional<Order> byId = orderRepository.findById(id);
-            if (byId.isPresent()) {
-                Order order = byId.get();
-                order.setPaidPrice(BigDecimal.valueOf(Integer.parseInt(currency))); // Update paidPrice with the provided currency
-                order.setTotalPrice(BigDecimal.valueOf(Integer.parseInt(currency))); // Update totalPrice with the provided currency
-                orderRepository.save(order); // Save the updated order to the database
-            }
-        }
-
-        Optional<Order> byId = orderRepository.findById(id);
-        OrderDTO convert = mapperUtil.convert(byId, new OrderDTO());
-        return convert;
-    }
-
-    @Override
-    public OrderDTO retrievedOrderById(Long id) {
+    public OrderDTO retrievedOrderById(Long id, Optional<String> currency) {
         // find the order based id
 //        Optional<Order> byId = orderRepository.findById(id);
         Order order = orderRepository.findById(id).orElseThrow(
                 () -> new NotFoundException("Order could not be found."));
+        // if we are getting currency7  value from the user
+        currency.ifPresent(curr -> {
+            //check that if user currency input is valid (inside the currencies list
+            validateCurrency(curr);
+            //get the currency data based on currency type
+            BigDecimal currencyRate = getCurrencyRate(curr);
+            // do calculations and set new paiPrice and totalPrice
+            // these prices for just to give value to customer, we will not update their db based on other currencies
+            BigDecimal newPaidPrice = order.getPaidPrice()
+                    .multiply(currencyRate)
+                    .setScale(2, RoundingMode.HALF_UP);
+            BigDecimal newTotalPrice = order.getTotalPrice()
+                    .multiply(currencyRate)
+                    .setScale(2,RoundingMode.HALF_UP);
+                //Set the value to order that we retrieved
+                //order.setTotalPrice(100);
+                //order.setPaidPrice(100);
+            order.setPaidPrice(newPaidPrice);
+            order.setTotalPrice(newTotalPrice);
+
+                });
         //convert and return it
         OrderDTO convert = mapperUtil.convert(order, new OrderDTO());
+        // consume Api
+
         return convert;
     }
+
+    private void validateCurrency(String curr) {
+        //check if the currency is valid currency
+        List<String> currencies = Stream.of(Currency.values())
+                .map(currency -> currency.value)
+                .collect(Collectors.toList());
+        boolean isCurrencyValid = currencies.contains(curr);
+        if (!isCurrencyValid){
+            throw new CurrencyTypeNotFoundException("Currency type for "+ curr + " could not be found");
+        }
+    }
+
+
+    private BigDecimal getCurrencyRate(String currency) {
+        // consume the api
+        // we save response inside the quotes map
+        Map<String, Double> quotes = currencyApiClient
+                .getCurrencyRates(accessKey, currency, "USD", 1)
+                .getQuotes();
+        boolean isSuccess = currencyApiClient
+                .getCurrencyRates(accessKey, currency, "USD", 1)
+                .isSuccess();
+
+        // check if success if true then retrieve
+
+        if (!isSuccess){
+            throw new RuntimeException("Api is Down");
+        }
+
+        String expectedCurrency="USD"+currency.toString().toUpperCase();
+        //Double currencyRate = quotes.get(expectedCurrency);
+        BigDecimal currencyRate = BigDecimal.valueOf(quotes.get(expectedCurrency));
+        return currencyRate;
+    }
+
+
 
 
     private void validateRelatedFieldsAreExist(OrderDTO orderDTO){

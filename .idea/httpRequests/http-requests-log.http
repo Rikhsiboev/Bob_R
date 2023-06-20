@@ -1,3 +1,12 @@
+GET http://localhost:8086/api/v1/order/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-06-20T105843.200.json
+
+###
+
 POST http://localhost:8082/api/v1/user
 Content-Length: 0
 Connection: Keep-Alive
@@ -451,15 +460,6 @@ User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 <> 2023-05-26T175850.200.json
-
-###
-
-GET https://httpbin.org/get
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-05-26T175813-1.200.json
 
 ###
 

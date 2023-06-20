@@ -1,3 +1,4 @@
+/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/spring-labs/lab-08-rest/src/main/java/com/Bob_r/dto/CurrencyApiResponse.java
 /Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/spring-labs/lab-08-rest/src/main/java/com/Bob_r/repository/DiscountRepository.java
 /Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/spring-labs/lab-08-rest/src/main/java/com/Bob_r/entity/Discount.java
 /Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/spring-labs/lab-08-rest/src/main/java/com/Bob_r/dto/CustomerDTO.java
@@ -46,6 +47,7 @@
 /Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/spring-labs/lab-08-rest/src/main/java/com/Bob_r/exception/GlobalExceptionHandler.java
 /Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/spring-labs/lab-08-rest/src/main/java/com/Bob_r/controller/CustomerController.java
 /Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/spring-labs/lab-08-rest/src/main/java/com/Bob_r/service/serviceIMP/OrderServiceImpl.java
+/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/spring-labs/lab-08-rest/src/main/java/com/Bob_r/client/CurrencyApiClient.java
 /Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/spring-labs/lab-08-rest/src/main/java/com/Bob_r/entity/BaseEntity.java
 /Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/spring-labs/lab-08-rest/src/main/java/com/Bob_r/repository/CategoryRepository.java
 /Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/spring-labs/lab-08-rest/src/main/java/com/Bob_r/repository/BalanceRepository.java

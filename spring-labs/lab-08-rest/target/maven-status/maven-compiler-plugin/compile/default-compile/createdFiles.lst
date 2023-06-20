@@ -8,9 +8,11 @@ com/Bob_r/dto/AddressDTO.class
 com/Bob_r/model/ResponseWrapper.class
 com/Bob_r/exception/ExceptionWrapper.class
 com/Bob_r/service/serviceIMP/CartServiceImpl.class
+com/Bob_r/dto/CurrencyApiResponse.class
 com/Bob_r/mapper/MapperUtil.class
 com/Bob_r/service/serviceIMP/CustomerServiceImpl.class
 com/Bob_r/repository/CustomerRepository.class
+com/Bob_r/client/CurrencyApiClient.class
 com/Bob_r/model/ResponseWrapper$ResponseWrapperBuilder.class
 com/Bob_r/service/serviceIMP/AddressServiceImpl.class
 com/Bob_r/entity/Category.class
