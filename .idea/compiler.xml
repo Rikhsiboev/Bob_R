@@ -18,6 +18,7 @@
       <module name="dsa-07-Queues" target="11" />
       <module name="dsa-08-Trees" target="11" />
       <module name="dsa-09-Heap" target="11" />
+      <module name="dsa-11-Sorting" target="17" />
       <module name="FOR_ME" target="11" />
       <module name="lab-06-orm" target="11" />
       <module name="lab-07-orm-queries" target="11" />
