@@ -1,5 +1,6 @@
 package com.bob_R.controller;
 
+import com.bob_R.annotation.ExecutionTime;
 import com.bob_R.dto.ResponseWrapper;
 import com.bob_R.dto.UserDTO;
 import com.bob_R.exception.TicketingProjectException;
@@ -23,7 +24,7 @@ public class UserController {
     public UserController(UserService userService) {
         this.userService = userService;
     }
-
+    @ExecutionTime
     @GetMapping
     @RolesAllowed({"Manager","Admin"})
     @Operation(summary = "Get users")
