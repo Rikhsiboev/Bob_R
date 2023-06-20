@@ -67,5 +67,11 @@ public class OrderController {
         return ResponseEntity.ok(new ResponseWrapper("Order is successfully updated.",
                 orderService.updateOrderById(id,updateOrderDTO), HttpStatus.OK));
     }
+    @GetMapping("/{id}")
+    public ResponseEntity<ResponseWrapper> getOrderById(@PathVariable("id") Long id){
+
+        return ResponseEntity.ok(new ResponseWrapper("Order is successfully retrieved.",
+                orderService.retrievedOrderById(id), HttpStatus.OK));
+    }
 
 }

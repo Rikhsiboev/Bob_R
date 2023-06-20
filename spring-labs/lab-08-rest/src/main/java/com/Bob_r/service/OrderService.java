@@ -4,6 +4,7 @@ import com.Bob_r.dto.OrderDTO;
 import com.Bob_r.dto.UpdateOrderDTO;
 import com.Bob_r.enums.PaymentMethod;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 public interface OrderService {
@@ -18,4 +19,11 @@ public interface OrderService {
 
     List<OrderDTO> getOrderListByEmail(String email);
     OrderDTO updateOrderById(Long id, UpdateOrderDTO updateOrderDTO);
+
+
+
+    OrderDTO getOrderByIdAndCurrency(Long id, String currency);
+
+
+    OrderDTO retrievedOrderById(Long id);
 }

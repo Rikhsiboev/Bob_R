@@ -11,13 +11,18 @@ import com.Bob_r.service.CartService;
 import com.Bob_r.service.CustomerService;
 import com.Bob_r.service.OrderService;
 import com.Bob_r.service.PaymentService;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
+import java.math.BigDecimal;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
 public class OrderServiceImpl implements OrderService {
+    @Value("${access_key}")
+    private String accessKey;
 
     private final OrderRepository orderRepository;
     private final CustomerService customerService;
@@ -104,6 +109,34 @@ public class OrderServiceImpl implements OrderService {
 
     }
 
+    @Override
+    public OrderDTO getOrderByIdAndCurrency(Long id, String currency) {
+        if (accessKey.equals("your_access_key_value")) {
+            Optional<Order> byId = orderRepository.findById(id);
+            if (byId.isPresent()) {
+                Order order = byId.get();
+                order.setPaidPrice(BigDecimal.valueOf(Integer.parseInt(currency))); // Update paidPrice with the provided currency
+                order.setTotalPrice(BigDecimal.valueOf(Integer.parseInt(currency))); // Update totalPrice with the provided currency
+                orderRepository.save(order); // Save the updated order to the database
+            }
+        }
+
+        Optional<Order> byId = orderRepository.findById(id);
+        OrderDTO convert = mapperUtil.convert(byId, new OrderDTO());
+        return convert;
+    }
+
+    @Override
+    public OrderDTO retrievedOrderById(Long id) {
+        // find the order based id
+//        Optional<Order> byId = orderRepository.findById(id);
+        Order order = orderRepository.findById(id).orElseThrow(
+                () -> new NotFoundException("Order could not be found."));
+        //convert and return it
+        OrderDTO convert = mapperUtil.convert(order, new OrderDTO());
+        return convert;
+    }
+
 
     private void validateRelatedFieldsAreExist(OrderDTO orderDTO){
         // in this method we have 3 different service and make sure they have these fields
@@ -140,4 +173,8 @@ public class OrderServiceImpl implements OrderService {
                 .stream().map(obj -> mapperUtil.convert(obj, new OrderDTO()))
                 .collect(Collectors.toList());
     }
+
+
+
+
 }
