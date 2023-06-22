@@ -7,7 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ticketing-project-rest" />
+        <module name="spring-22-UnitTesting-JUnit5" />
         <module name="spring-21-AOP" />
       </profile>
     </annotationProcessing>
@@ -35,6 +35,7 @@
       <module name="stream-practice" target="11" />
       <module name="ticketing-project-bob" target="11" />
       <module name="ticketing-project-mvc" target="11" />
+      <module name="ticketing-project-rest" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
