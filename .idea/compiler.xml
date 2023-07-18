@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-23-UnitTesting-Mockito" />
         <module name="ticketing-project-rest" />
-        <module name="spring-18-REST-SchoolLab" />
-        <module name="spring-21-AOP" />
+        <module name="lab-08-rest" />
+        <module name="spring-25-Docker" />
         <module name="spring-22-UnitTesting-JUnit5" />
-        <module name="ticketing-project-mvc" />
+        <module name="spring-24-UnitTesting-MockMVC" />
+        <module name="FOR_ME" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,20 +25,20 @@
       <module name="dsa-08-Trees" target="11" />
       <module name="dsa-09-Heap" target="11" />
       <module name="dsa-11-Sorting" target="17" />
-      <module name="FOR_ME" target="11" />
       <module name="lab-06-orm" target="11" />
       <module name="lab-07-orm-queries" target="11" />
-      <module name="lab-08-rest" target="11" />
       <module name="spring-14-Data-Queries" target="11" />
       <module name="Spring-15-REST" target="11" />
       <module name="Spring-16-REST-Jackson" target="11" />
       <module name="spring-17-REST-ConsumingApis" target="11" />
+      <module name="spring-18-REST-SchoolLab" target="11" />
       <module name="Spring-19-REST-OpenAPI3" target="11" />
       <module name="spring-20-REST-Security-Keycloak-LicenseApp" target="11" />
       <module name="spring-20-REST-Security-Keycloak-OrganizationsApp" target="11" />
-      <module name="spring-23-UnitTesting-Mockito" target="11" />
+      <module name="spring-21-AOP" target="11" />
       <module name="stream-practice" target="11" />
       <module name="ticketing-project-bob" target="11" />
+      <module name="ticketing-project-mvc" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -53,6 +55,9 @@
       <module name="spring-20-REST-Security-Keycloak-LicenseApp" options="-parameters" />
       <module name="spring-20-REST-Security-Keycloak-OrganizationsApp" options="-parameters" />
       <module name="spring-21-AOP" options="-parameters" />
+      <module name="spring-23-UnitTesting-Mockito" options="-parameters" />
+      <module name="spring-24-UnitTesting-MockMVC" options="-parameters" />
+      <module name="spring-25-Docker" options="-parameters" />
       <module name="stream-practice" options="-parameters" />
       <module name="ticketing-project-mvc" options="-parameters" />
       <module name="ticketing-project-rest" options="-parameters" />
