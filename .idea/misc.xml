@@ -13,12 +13,8 @@
         <option value="$PROJECT_DIR$/Pizzza/pom.xml" />
         <option value="$PROJECT_DIR$/Pizza/pizza-cloud-project/pom.xml" />
         <option value="$PROJECT_DIR$/spring-labs/lab-08-rest/pom.xml" />
-        <option value="$PROJECT_DIR$/FOR_ME/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-22-UnitTesting-JUnit5/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/pom.xml" />
         <option value="$PROJECT_DIR$/ticketing-project-rest/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-25-Docker/pom.xml" />
+        <option value="$PROJECT_DIR$/ticketing-project-mvc/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

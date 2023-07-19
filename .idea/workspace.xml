@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-25-Docker/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-25-Docker/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-25-Docker/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-25-Docker/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-25-Docker/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-25-Docker/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-25-Docker/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-25-Docker/src/main/java/com/cydeo/Spring24DockerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-25-Docker/src/main/java/com/cydeo/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-25-Docker/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-25-Docker/src/main/resources/static/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-25-Docker/src/test/java/com/cydeo/Spring24DockerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dc81c3db-91d1-4511-a4fc-3837f07b8871.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dc81c3db-91d1-4511-a4fc-3837f07b8871.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/SecurityConfigKeycloak.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/SecurityConfigKeycloak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,46 +97,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "spring.configuration.checksum": "d5a969eb57c914bd771a58d28b830569",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;bbe21de9c58d17b1330300903eec9eb5&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ],
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.Bob_r.exception" />
       <recent name="com.Bob_r.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/controllerRest" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/controllerRest" />
       <recent name="$PROJECT_DIR$/ticketing-project-rest/src/main/resources" />
       <recent name="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R" />
       <recent name="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/config" />
@@ -164,7 +161,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LotteryCoupon">
+  <component name="RunManager" selected="Docker.ticketing-project-mvc/docker-compose.yaml: Compose Deployment">
     <configuration name="HiglyProfitableMonth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HiglyProfitableMonth" />
       <module name="FOR_ME" />
@@ -174,13 +171,6 @@
     </configuration>
     <configuration name="LotteryCoupon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LotteryCoupon" />
-      <module name="FOR_ME" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="stock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stock" />
       <module name="FOR_ME" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -197,15 +187,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spring18RestSchoolLabApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-18-REST-SchoolLab" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.Spring18RestSchoolLabApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Bob_r.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Lab08RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="lab-08-rest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_r.Lab08RestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -238,6 +222,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TicketingProjectMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ticketing-project-mvc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.TicketingProjectMvcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TicketingProjectRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ticketing-project-rest" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_R.TicketingProjectRestApplication" />
@@ -245,12 +236,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="spring-25-Docker/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="spring-25-Docker/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="ticketing-project-mvc/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="ticketing-project-mvc/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="ticketing-project-mvc/docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="ticketing-project-mvc/docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.ticketing-project-mvc/docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="Docker.ticketing-project-mvc/Dockerfile" />
+        <item itemvalue="Docker.spring-25-Docker/Dockerfile" />
         <item itemvalue="Application.LotteryCoupon" />
         <item itemvalue="Application.HiglyProfitableMonth" />
-        <item itemvalue="Application.stock" />
-        <item itemvalue="Spring Boot.Spring18RestSchoolLabApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -329,14 +355,9 @@
       <workItem from="1689212494388" duration="1219000" />
       <workItem from="1689262089296" duration="4000" />
       <workItem from="1689613087344" duration="2683000" />
-      <workItem from="1689696487265" duration="310000" />
-    </task>
-    <task id="LOCAL-00049" summary="fixed all with ticketing ProjectController">
-      <created>1686244261195</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1686244261195</updated>
+      <workItem from="1689696487265" duration="8816000" />
+      <workItem from="1689727944369" duration="1325000" />
+      <workItem from="1689787756195" duration="12721000" />
     </task>
     <task id="LOCAL-00050" summary="Task ticketing ProjectController">
       <created>1686244348919</created>
@@ -674,7 +695,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689696797126</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Spring 25 Docker">
+      <created>1689696831990</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1689696831990</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -700,7 +728,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="  //create a json body and return it" />
     <MESSAGE value="practice of web flient" />
     <MESSAGE value=".." />
     <MESSAGE value="Search DS" />
@@ -725,7 +752,8 @@
     <MESSAGE value="UnitTest JUnit5" />
     <MESSAGE value="UnitTest Mockito" />
     <MESSAGE value="UnitTest MockMVC" />
-    <option name="LAST_COMMIT_MESSAGE" value="UnitTest MockMVC" />
+    <MESSAGE value="Spring 25 Docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring 25 Docker" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
