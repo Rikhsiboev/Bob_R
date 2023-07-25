@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ticketing-project-rest" />
         <module name="lab-08-rest" />
+        <module name="ticketing-project-security" />
         <module name="ticketing-project-mvc" />
       </profile>
     </annotationProcessing>
@@ -61,6 +62,7 @@
       <module name="stream-practice" options="-parameters" />
       <module name="ticketing-project-mvc" options="-parameters" />
       <module name="ticketing-project-rest" options="-parameters" />
+      <module name="ticketing-project-security" options="-parameters" />
     </option>
   </component>
 </project>

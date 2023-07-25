@@ -4,16 +4,512 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-mvc/docker-compose.yaml" afterDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="Spring 25 Docker">
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/.circleci/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/TicketingProjectSecurityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/config/AuthSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/controller/ProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/controller/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/converter/ProjectDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/converter/RoleDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/converter/UserDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/dto/ProjectDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/dto/RoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/dto/TaskDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity/common/UserPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/enums/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/enums/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/mapper/MapperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/mapper/ProjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/mapper/TaskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/repository/ProjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/repository/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/SecurityServiceInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/impl/SecurityServiceIMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/impl/TaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/libs/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/libs/js/dashboard-ecommerce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/libs/js/dashboard-finance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/libs/js/dashboard-influencer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/libs/js/dashboard-sales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/libs/js/gmaps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/libs/js/google_map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/libs/js/jvectormap.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/libs/js/main-js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/libs/js/validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/bootstrap-colorpicker/@claviska/jquery-minicolors/jquery.minicolors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/bootstrap-colorpicker/@claviska/jquery-minicolors/jquery.minicolors.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/bootstrap-colorpicker/@claviska/jquery-minicolors/jquery.minicolors.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/bootstrap-colorpicker/jquery-asColor/dist/jquery-asColor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/bootstrap-colorpicker/jquery-asColorPicker/dist/jquery-asColorPicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/bootstrap-colorpicker/jquery-asGradient/dist/jquery-asGradient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/bootstrap-select/css/bootstrap-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/bootstrap-select/js/bootstrap-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/charts/c3charts/C3chartjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/charts/c3charts/c3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/charts/c3charts/c3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/charts/c3charts/d3-5.4.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/charts/chartist-bundle/Chartistjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/charts/chartist-bundle/chartist-plugin-threshold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/charts/chartist-bundle/chartist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/charts/chartist-bundle/chartist.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/charts/charts-bundle/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/charts/charts-bundle/chartjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/charts/morris-bundle/Morrisjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/charts/morris-bundle/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/charts/morris-bundle/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/charts/morris-bundle/morrisjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/charts/morris-bundle/raphael.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/charts/sparkline/jquery.sparkline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/charts/sparkline/spark-js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/cropper/dist/cropper-int.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/cropper/dist/cropper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/cropper/dist/cropper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/custom-js/jquery.multi-select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/datatables/css/buttons.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/datatables/css/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/datatables/css/fixedHeader.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/datatables/css/select.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/datatables/js/buttons.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/datatables/js/data-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/datatables/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/datepicker/datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/datepicker/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/datepicker/tempusdominus-bootstrap-4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/datepicker/tempusdominus-bootstrap-4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/daterangepicker/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/dropzone/dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/circular-std/CircularStd-Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/circular-std/CircularStd-BlackItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/circular-std/CircularStd-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/circular-std/CircularStd-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/circular-std/CircularStd-Book.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/circular-std/CircularStd-BookItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/circular-std/CircularStd-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/circular-std/CircularStd-MediumItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/circular-std/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flag-icon.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ae.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/af.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ai.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/al.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/am.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ao.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/aq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/as.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/at.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/au.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/aw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ax.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/az.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ba.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/bb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/bd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/be.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/bf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/bh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/bi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/bj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/bl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/bm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/bn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/bo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/bq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/br.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/bs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/bt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/bv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/bw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/by.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/bz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ca.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/cc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/cd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/cf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/cg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ci.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ck.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/cl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/cm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/cn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/co.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/cr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/cu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/cv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/cw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/cx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/cy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/cz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/de.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/dj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/dk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/dm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/do.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/dz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ec.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ee.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/eg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/eh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/er.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/es.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/et.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/fi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/fj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/fk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/fm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/fo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/fr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ga.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/gb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/gd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/gf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/gg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/gh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/gi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/gl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/gm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/gn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/gp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/gq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/gr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/gs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/gt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/gu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/gw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/gy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/hk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/hm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/hn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/hr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ht.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/hu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/id.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/il.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/im.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/io.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/iq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/is.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/it.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/je.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/jm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/jo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/jp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ke.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/kg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/kh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ki.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/km.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/kn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/kp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/kr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/kw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ky.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/kz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/la.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/lb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/lc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/li.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/lk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/lr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ls.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/lt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/lu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/lv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ly.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ma.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/mc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/md.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/me.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/mf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/mg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/mh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/mk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ml.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/mm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/mn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/mo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/mp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/mq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/mr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/mt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/mu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/mv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/mw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/mx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/my.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/mz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/na.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/nc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ne.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/nf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ng.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ni.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/nl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/np.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/nr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/nu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/nz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/om.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/pa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/pe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/pf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/pg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/pk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/pl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/pm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/pn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/pr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/pt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/pw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/py.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/qa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/re.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/rs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ru.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/rw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/sa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/sb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/sc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/sd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/se.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/sg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/sh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/si.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/sj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/sk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/sl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/sm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/sn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/so.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/sr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/st.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/sv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/sx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/sy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/sz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/tc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/td.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/tf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/tg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/th.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/tj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/tk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/tl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/tm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/tn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/to.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/tr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/tt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/tw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/tz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ua.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/um.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/us.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/uy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/uz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/va.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/vc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ve.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/vg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/vi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/vn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/vu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/wf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ws.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/ye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/yt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/za.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/zm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/flag-icon-css/flags/zw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/fontawesome/css/fontawesome-all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/fontawesome/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/fontawesome/webfonts/fa-brands-400.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/fontawesome/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/fontawesome/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/fontawesome/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/fontawesome/webfonts/fa-brands-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/fontawesome/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/fontawesome/webfonts/fa-regular-400.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/fontawesome/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/fontawesome/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/fontawesome/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/fontawesome/webfonts/fa-regular-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/fontawesome/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/fontawesome/webfonts/fa-solid-900.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/fontawesome/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/fontawesome/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/fontawesome/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/fontawesome/webfonts/fa-solid-900d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/material-design-iconic-font/fonts/materialdesignicons-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/material-design-iconic-font/fonts/materialdesignicons-webfontdc99.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/material-design-iconic-font/fonts/materialdesignicons-webfontdc99.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/material-design-iconic-font/fonts/materialdesignicons-webfontdc99.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/material-design-iconic-font/fonts/materialdesignicons-webfontdc99.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/material-design-iconic-font/fonts/materialdesignicons-webfontdc99.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/simple-line-icons/css/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/simple-line-icons/fonts/Simple-Line-Icons4c82.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/simple-line-icons/fonts/Simple-Line-Icons4c82.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/simple-line-icons/fonts/Simple-Line-Icons4c82.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/simple-line-icons/fonts/Simple-Line-Icons4c82.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/simple-line-icons/fonts/Simple-Line-Icons4c82.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/simple-line-icons/fonts/Simple-Line-Iconsd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/themify-icons/fonts/themify.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/themify-icons/fonts/themify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/themify-icons/fonts/themify9f24.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/themify-icons/fonts/themify9f24.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/themify-icons/fonts/themifyd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/themify-icons/themify-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/weather-icons/css/weather-icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/fonts/weather-icons/fonts/weathericons-regular-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/full-calendar/css/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/full-calendar/css/fullcalendar.print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/full-calendar/js/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/full-calendar/js/fullcalendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/full-calendar/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/full-calendar/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/gauge/gauge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/gauge/gauge.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/inputmask/css/inputmask.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/inputmask/js/jquery.inputmask.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/jquery/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/jvectormap/jquery-jvectormap-2.0.2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/jvectormap/jquery-jvectormap-2.0.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/jvectormap/jquery-jvectormap-au-mill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/jvectormap/jquery-jvectormap-in-mill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/jvectormap/jquery-jvectormap-uk-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/jvectormap/jquery-jvectormap-us-aea-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/jvectormap/jquery-jvectormap-world-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/multi-select/css/multi-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/multi-select/js/jquery.multi-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/parsley/parsley.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/select2/css/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/select2/js/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/shortable-nestable/Sortable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/shortable-nestable/jquery.nestable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/shortable-nestable/sort-nest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/slimscroll/jquery.slimscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/summernote/css/summernote-bs4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/summernote/editor-fonts/summernote4c4d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/summernote/editor-fonts/summernote4c4d.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/summernote/editor-fonts/summernote4c4d.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/summernote/editor-fonts/summernoted41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/summernote/js/summernote-bs4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/timeline/img/cd-icon-location.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/timeline/img/cd-icon-movie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/timeline/img/cd-icon-picture.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/timeline/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/assets/vendor/vector-map/jqvmap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/Bob_RLogo_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/avatar-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/avatar-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/avatar-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/avatar-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/avatar-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/bitbucket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/card-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/card-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/card-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/card-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/down-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/drag-indicator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/dribbble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/dropbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/eco-product-img-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/eco-product-img-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/eco-product-img-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/eco-product-img-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/eco-slider-img-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/eco-slider-img-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/eco-slider-img-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/error-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/loader.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/mail_chimp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/product-pic-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/product-pic-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/product-pic-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/product-pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/slack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/switch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/static/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/templates/fragments/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/templates/fragments/javascript.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/templates/fragments/left-sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/templates/manager/project-status.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/templates/project/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/templates/project/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/templates/task/archive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/templates/task/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/templates/task/pending-tasks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/templates/task/status-update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/templates/task/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/templates/user/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/templates/user/java/lang/annotations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/templates/user/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/templates/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/src/test/java/com/cydeo/TicketingProjectSecurityApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/dc81c3db-91d1-4511-a4fc-3837f07b8871.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dc81c3db-91d1-4511-a4fc-3837f07b8871.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/SecurityConfigKeycloak.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/SecurityConfigKeycloak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +562,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar!/javax/validation/constraints/NotBlank.class" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar!/org/junit/jupiter/api/Assertions.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/keycloak/keycloak-adapter-core/18.0.0/keycloak-adapter-core-18.0.0.jar!/org/keycloak/adapters/KeycloakDeploymentBuilder.class" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/keycloak/keycloak-spring-security-adapter/18.0.0/keycloak-spring-security-adapter-18.0.0.jar!/org/keycloak/adapters/springsecurity/config/KeycloakWebSecurityConfigurerAdapter.class" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.7.7/spring-security-config-5.7.7.jar!/org/springframework/security/config/annotation/web/builders/WebSecurity.class" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.25/spring-core-5.3.25.jar!/org/springframework/core/convert/converter/Converter.class" root0="SKIP_INSPECTION" />
@@ -97,49 +594,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;bbe21de9c58d17b1330300903eec9eb5&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-security/src/main/java/com/cydeo/config",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "spring.configuration.checksum": "3616a243a60bb5517deef3f16a91ddbf",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;PLAIN_TEXT&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.Bob_r.exception" />
       <recent name="com.Bob_r.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/controller/controllerRest" />
-      <recent name="$PROJECT_DIR$/ticketing-project-rest/src/main/resources" />
-      <recent name="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R" />
-      <recent name="$PROJECT_DIR$/ticketing-project-rest/src/main/java/com/bob_R/config" />
+      <recent name="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/config" />
+      <recent name="$PROJECT_DIR$/ticketing-project-security" />
+      <recent name="$PROJECT_DIR$/ticketing-project-security/src/main/resources" />
+      <recent name="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service" />
+      <recent name="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/FOR_ME/src/main/java" />
@@ -147,11 +644,11 @@
       <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cydeo.config" />
       <recent name="com.bob_R.annotation" />
       <recent name="com.bob_R.dto" />
       <recent name="com.bob_R.config" />
       <recent name="com.bob_R.controller" />
-      <recent name="com.Bob_R.dto" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -161,21 +658,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.ticketing-project-mvc/docker-compose.yaml: Compose Deployment">
-    <configuration name="HiglyProfitableMonth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HiglyProfitableMonth" />
-      <module name="FOR_ME" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LotteryCoupon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LotteryCoupon" />
-      <module name="FOR_ME" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.TicketingProjectSecurityApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -194,34 +677,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spring21AopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="spring-21-AOP" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.Spring21AopApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Spring24DockerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="spring-25-Docker" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring24DockerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Spring24UnitTestingMockMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="spring-24-UnitTesting-MockMVC" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring24UnitTestingMockMvcApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TicketingProjectDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="spring-23-UnitTesting-Mockito" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.TicketingProjectDataApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TicketingProjectMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ticketing-project-mvc" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob_R.TicketingProjectMvcApplication" />
@@ -236,8 +691,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TicketingProjectSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ticketing-project-security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.TicketingProjectSecurityApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cydeo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
@@ -246,37 +716,9 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="spring-25-Docker/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="sourceFilePath" value="spring-25-Docker/Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="ticketing-project-mvc/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="sourceFilePath" value="ticketing-project-mvc/Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="ticketing-project-mvc/docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="ticketing-project-mvc/docker-compose.yaml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.ticketing-project-mvc/docker-compose.yaml: Compose Deployment" />
-        <item itemvalue="Docker.ticketing-project-mvc/Dockerfile" />
-        <item itemvalue="Docker.spring-25-Docker/Dockerfile" />
-        <item itemvalue="Application.LotteryCoupon" />
-        <item itemvalue="Application.HiglyProfitableMonth" />
+        <item itemvalue="Spring Boot.TicketingProjectSecurityApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -358,13 +800,14 @@
       <workItem from="1689696487265" duration="8816000" />
       <workItem from="1689727944369" duration="1325000" />
       <workItem from="1689787756195" duration="12721000" />
-    </task>
-    <task id="LOCAL-00050" summary="Task ticketing ProjectController">
-      <created>1686244348919</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1686244348919</updated>
+      <workItem from="1690179377109" duration="844000" />
+      <workItem from="1690180309942" duration="4180000" />
+      <workItem from="1690206622639" duration="4598000" />
+      <workItem from="1690211285290" duration="10854000" />
+      <workItem from="1690223185768" duration="6970000" />
+      <workItem from="1690233625866" duration="4980000" />
+      <workItem from="1690243037575" duration="6903000" />
+      <workItem from="1690304086771" duration="10937000" />
     </task>
     <task id="LOCAL-00051" summary="keycloak adding here">
       <created>1686258161141</created>
@@ -702,7 +1145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689696831990</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="Docker container">
+      <created>1690249633773</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1690249633773</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -728,7 +1178,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="practice of web flient" />
     <MESSAGE value=".." />
     <MESSAGE value="Search DS" />
     <MESSAGE value="GetbyId" />
@@ -753,17 +1202,13 @@
     <MESSAGE value="UnitTest Mockito" />
     <MESSAGE value="UnitTest MockMVC" />
     <MESSAGE value="Spring 25 Docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring 25 Docker" />
+    <MESSAGE value="Docker container" />
+    <option name="LAST_COMMIT_MESSAGE" value="Docker container" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/config/AuthSuccessHandler.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/SecurityServiceIMP.java</url>
           <line>20</line>
