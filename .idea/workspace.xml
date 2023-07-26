@@ -287,21 +287,7 @@
       <workItem from="1690243037575" duration="6903000" />
       <workItem from="1690304086771" duration="10937000" />
       <workItem from="1690324751117" duration="2711000" />
-      <workItem from="1690327549158" duration="11516000" />
-    </task>
-    <task id="LOCAL-00065" summary="adding logic for update method for orders&#10;// Look for the orderId inside the database and throw the exception&#10;      //then we need to check if the order fields are exist or not">
-      <created>1686496483267</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1686496483267</updated>
-    </task>
-    <task id="LOCAL-00066" summary="   Order willBeUpdatedOrder = mapperUtil.convert(orderDTO, new Order());&#10;        Order updatedOrder = orderRepository.save(willBeUpdatedOrder);&#10;        return mapperUtil.convert(updatedOrder,new OrderDTO());">
-      <created>1686496690135</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1686496690135</updated>
+      <workItem from="1690327549158" duration="11896000" />
     </task>
     <task id="LOCAL-00067" summary="Custom jason &#10; // only updatable fields should be exist in DTO">
       <created>1686500100279</created>
@@ -632,7 +618,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690341382001</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="add config yaml for CI line">
+      <created>1690341565982</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1690341565982</updated>
+    </task>
+    <task id="LOCAL-00115" summary="add config yaml for CI line">
+      <created>1690341701653</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1690341701653</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
