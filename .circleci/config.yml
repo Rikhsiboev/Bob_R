@@ -2,18 +2,11 @@ version: 2
 jobs:
   build:
     docker:
-      # Specify the version you desire here
       - image: circleci/openjdk:11-jdk
     working_directory: /tmp/workspace
     steps:
-      - checkout  # By default, checkout the entire repository
-
-      - run: mkdir -p /tmp/workspace/ticketing-project-security  # Create the project directory if it doesn't exist
-      - run: cp -r ticketing-project-security/. /tmp/workspace/ticketing-project-security/  # Copy the project contents to /tmp/workspace
-
-      - run: cd /tmp/workspace/ticketing-project-security  # Change to the project directory
-      - run: ls -a  # Debugging: List files in the project directory
-
+      - checkout
+      - run: mkdir -p /tmp/workspace
       # Download and cache dependencies
       - restore_cache:
           keys:
@@ -24,49 +17,14 @@ jobs:
       - run: mvn clean install -DskipTests
       - save_cache:
           paths:
-            - /tmp/workspace/ticketing-project-security/target
+            - ~/.m2
           key: v1-dependencies-{{ checksum "pom.xml" }}
-
       - persist_to_workspace:
           root: /tmp/workspace
-          paths: .
-
-  docker-image-and-publish:
-    machine: true
-    steps:
-      - attach_workspace:
-          at: /tmp/workspace
-      - run: cd ticketing-project-security  # Change directory to the project with Docker config
-      - run: ls -a  # Debugging: List files in the project directory
-      - run:
-          name: Create Docker image and push to ECR
-          command: |
-            aws ecr get-login-password --region us-west-2 | docker login --username AWS --password-stdin 576670305286.dkr.ecr.us-west-2.amazonaws.com
-            docker build -t ticketingapp .
-            docker tag ticketingapp:latest 576670305286.dkr.ecr.us-west-2.amazonaws.com/ticketingapp:latest
-            docker push 576670305286.dkr.ecr.us-west-2.amazonaws.com/ticketingapp:latest
-
-  deploy-job:
-    docker:
-      # Specify the version you desire here
-      - image: circleci/node:10.0.0
-    steps:
-      - run:
-          name: Execute Deployment Script
-          command: |
-            cd /tmp/workspace/ticketing-project-security  # Change directory to the project with Docker config
-            ssh -o "StrictHostKeyChecking=no" ec2-user@ec2-18-236-96-242.us-west-2.compute.amazonaws.com <<'ENDSSH'
-            /bin/bash bin/deploy_image.sh
-            docker ps
-
+          paths:
+            - .  # Include all files and directories in the workspace
 workflows:
   version: 2
   build_and_test:
     jobs:
       - build
-      - docker-image-and-publish:
-          requires:
-            - build
-      - deploy-job:
-          requires:
-            - docker-image-and-publish
