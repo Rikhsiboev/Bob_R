@@ -13,7 +13,7 @@ jobs:
       # Download and cache dependencies
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "/tmp/workspace/pom.xml" }}
+            - v1-dependencies-{{ checksum "/tmp/workspace/ticketing-project-security/pom.xml" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
@@ -21,7 +21,7 @@ jobs:
       - save_cache:
           paths:
             - /home/circleci/.m2
-          key: v1-dependencies-{{ checksum "/tmp/workspace/pom.xml" }}
+          key: v1-dependencies-{{ checksum "/tmp/workspace/ticketing-project-security/pom.xml" }}
       # Persist the workspace back to the project root
       - persist_to_workspace:
           root: /tmp/workspace
