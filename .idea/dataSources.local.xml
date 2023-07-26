@@ -16,5 +16,20 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
+    <data-source name="ticketingdb@ticketingdb.cevozceebzsg.us-west-2.rds.amazonaws.com" uuid="23ab129f-5c65-40c9-bacf-34ec99621894">
+      <database-info product="PostgreSQL" version="14.7" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.6.0" dbms="POSTGRES" exact-version="14.7" exact-driver-version="42.6">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
   </component>
 </project>
