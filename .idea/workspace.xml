@@ -287,28 +287,7 @@
       <workItem from="1690243037575" duration="6903000" />
       <workItem from="1690304086771" duration="10937000" />
       <workItem from="1690324751117" duration="2711000" />
-      <workItem from="1690327549158" duration="11212000" />
-    </task>
-    <task id="LOCAL-00062" summary="SwaggerConfig">
-      <created>1686343674634</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1686343674634</updated>
-    </task>
-    <task id="LOCAL-00063" summary="SwaggerConfig">
-      <created>1686492904830</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1686492904831</updated>
-    </task>
-    <task id="LOCAL-00064" summary="adding logic for update method for orders&#10;// Look for the orderId inside the database and throw the exception&#10;      //then we need to check if the order fields are exist or not">
-      <created>1686496180587</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1686496180587</updated>
+      <workItem from="1690327549158" duration="11516000" />
     </task>
     <task id="LOCAL-00065" summary="adding logic for update method for orders&#10;// Look for the orderId inside the database and throw the exception&#10;      //then we need to check if the order fields are exist or not">
       <created>1686496483267</created>
@@ -632,7 +611,28 @@
       <option name="project" value="LOCAL" />
       <updated>1690341195798</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="add config yaml for CI line">
+      <created>1690341223197</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1690341223197</updated>
+    </task>
+    <task id="LOCAL-00112" summary="add config yaml for CI line">
+      <created>1690341286911</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1690341286911</updated>
+    </task>
+    <task id="LOCAL-00113" summary="add config yaml for CI line">
+      <created>1690341382001</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1690341382001</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

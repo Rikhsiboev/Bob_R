@@ -8,7 +8,6 @@ jobs:
     steps:
       - checkout  # By default, checkout the entire repository
 
-      - run: mv ticketing-project-security /tmp/workspace  # Move the project to /tmp/workspace
       - run: cd /tmp/workspace/ticketing-project-security  # Change to the project directory
       - run: ls -a  # Debugging: List files in the project directory
 
@@ -22,7 +21,7 @@ jobs:
       - run: mvn clean install -DskipTests
       - save_cache:
           paths:
-            - target
+            - /tmp/workspace/ticketing-project-security/target
           key: v1-dependencies-{{ checksum "pom.xml" }}
 
       - persist_to_workspace:
@@ -52,7 +51,7 @@ jobs:
       - run:
           name: Execute Deployment Script
           command: |
-            cd ticketing-project-security  # Change directory to the project with Docker config
+            cd /tmp/workspace/ticketing-project-security  # Change directory to the project with Docker config
             ssh -o "StrictHostKeyChecking=no" ec2-user@ec2-18-236-96-242.us-west-2.compute.amazonaws.com <<'ENDSSH'
             /bin/bash bin/deploy_image.sh
             docker ps
