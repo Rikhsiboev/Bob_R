@@ -7,12 +7,12 @@ jobs:
     working_directory: /tmp/workspace
     steps:
       - checkout:
-          path: /tmp/workspace/ticketing-project-security  # Specify the path to the project with pom.xml
+          path: ticketing-project-security  # Specify the path to the project with pom.xml
       - run: mvn clean install -DskipTests
       - save_cache:
           paths:
-            - /tmp/workspace/ticketing-project-security/target
-          key: v1-dependencies-{{ checksum "/tmp/workspace/ticketing-project-security/pom.xml" }}
+            - ticketing-project-security/target
+          key: v1-dependencies-{{ checksum "ticketing-project-security/pom.xml" }}
       - persist_to_workspace:
           root: /tmp/workspace
           paths: .
@@ -21,11 +21,11 @@ jobs:
     steps:
       - attach_workspace:
           at: /tmp/workspace
-      - run: ls -a /tmp/workspace/ticketing-project-security  # Debugging: List files in the project directory
+      - run: ls -a ticketing-project-security  # Debugging: List files in the project directory
       - run:
           name: Create Docker image and push to ECR
           command: |
-            cd /tmp/workspace/ticketing-project-security  # Change directory to the project with Docker config
+            cd ticketing-project-security  # Change directory to the project with Docker config
             aws ecr get-login-password --region us-west-2 | docker login --username AWS --password-stdin 576670305286.dkr.ecr.us-west-2.amazonaws.com
             docker build -t ticketingapp .
             docker tag ticketingapp:latest 576670305286.dkr.ecr.us-west-2.amazonaws.com/ticketingapp:latest
@@ -38,7 +38,7 @@ jobs:
       - run:
           name: Execute Deployment Script
           command: |
-            cd /tmp/workspace/ticketing-project-security  # Change directory to the project with Docker config
+            cd ticketing-project-security  # Change directory to the project with Docker config
             ssh -o "StrictHostKeyChecking=no" ec2-user@ec2-18-236-96-242.us-west-2.compute.amazonaws.com <<'ENDSSH'
             /bin/bash bin/deploy_image.sh
             docker ps
