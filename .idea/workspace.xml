@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/.circleci/config.yml" afterDir="false" />
-    </list>
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -291,13 +288,6 @@
       <workItem from="1690304086771" duration="10937000" />
       <workItem from="1690324751117" duration="2711000" />
       <workItem from="1690327549158" duration="11896000" />
-    </task>
-    <task id="LOCAL-00071" summary="..">
-      <created>1687058023901</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1687058023902</updated>
     </task>
     <task id="LOCAL-00072" summary="Search DS">
       <created>1687280159536</created>
@@ -635,7 +625,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690344585374</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="add config yaml for CI line">
+      <created>1690344858378</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1690344858378</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
