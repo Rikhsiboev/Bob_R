@@ -3,26 +3,20 @@ jobs:
   build:
     docker:
       - image: circleci/openjdk:11-jdk
-    working_directory: /tmp/workspace
     steps:
       - checkout
-      - run: mkdir -p /tmp/workspace
       # Download and cache dependencies
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "/tmp/workspace/pom.xml" }}
+            - v1-dependencies-{{ checksum "/home/circleci/project/pom.xml" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
       - run: mvn clean install -DskipTests
       - save_cache:
           paths:
-            - /tmp/workspace/.m2
-          key: v1-dependencies-{{ checksum "/tmp/workspace/pom.xml" }}
-      - persist_to_workspace:
-          root: /tmp/workspace
-          paths:
-            - .
+            - /home/circleci/.m2
+          key: v1-dependencies-{{ checksum "/home/circleci/project/pom.xml" }}
 workflows:
   version: 2
   build_and_test:
