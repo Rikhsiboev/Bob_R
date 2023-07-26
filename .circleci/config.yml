@@ -6,59 +6,13 @@ jobs:
       - image: circleci/openjdk:11-jdk
     working_directory: /tmp/workspace
     steps:
-      - checkout
-      - run: mkdir -p /tmp/workspace
-      - run: ls -a  # Debugging: List files in the root directory
-      - run: ls -a /tmp/workspace  # Debugging: List files in the /tmp/workspace directory
-      # Download and cache dependencies
-      - restore_cache:
-          keys:
-            - v1-dependencies-{{ checksum "ticketing-project-security/pom.xml" }}
-            # fallback to using the latest cache if no exact match is found
-            - v1-dependencies-
-
+      - checkout:
+          path: /tmp/workspace/ticketing-project-security  # Specify the path to the project with pom.xml
       - run: mvn clean install -DskipTests
       - save_cache:
           paths:
-            - ticketing-project-security/target
-          key: v1-dependencies-{{ checksum "ticketing-project-security/pom.xml" }}
+            - /tmp/workspace/ticketing-project-security/target
+          key: v1-dependencies-{{ checksum "/tmp/workspace/ticketing-project-security/pom.xml" }}
       - persist_to_workspace:
           root: /tmp/workspace
           paths: .
-  docker-image-and-publish:
-    machine: true
-    steps:
-      - attach_workspace:
-          at: /tmp/workspace
-      - run: ls -a /tmp/workspace  # Debugging: List files in the /tmp/workspace directory
-      - run:
-          name: Create Docker image and push to ECR
-          command: |
-            cd /tmp/workspace/ticketing-project-security  # Change directory to the project where Docker config is located
-            aws ecr get-login-password --region us-west-2 | docker login --username AWS --password-stdin 576670305286.dkr.ecr.us-west-2.amazonaws.com
-            docker build -t ticketingapp .
-            docker tag ticketingapp:latest 576670305286.dkr.ecr.us-west-2.amazonaws.com/ticketingapp:latest
-            docker push 576670305286.dkr.ecr.us-west-2.amazonaws.com/ticketingapp:latest
-  deploy-job:
-    docker:
-      # Specify the version you desire here
-      - image: circleci/node:10.0.0
-    steps:
-      - run:
-          name: Execute Deployment Script
-          command: |
-            cd /tmp/workspace/ticketing-project-security  # Change directory to the project where Docker config is located
-            ssh -o "StrictHostKeyChecking=no" ec2-user@ec2-18-236-96-242.us-west-2.compute.amazonaws.com <<'ENDSSH'
-            /bin/bash bin/deploy_image.sh
-            docker ps
-workflows:
-  version: 2
-  build_and_test:
-    jobs:
-      - build
-      - docker-image-and-publish:
-          requires:
-            - build
-      - deploy-job:
-          requires:
-            - docker-image-and-publish
