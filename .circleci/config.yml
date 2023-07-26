@@ -8,6 +8,8 @@ jobs:
     steps:
       - checkout
       - run: mkdir -p /tmp/workspace
+      - run: ls -a  # Debugging: List files in the root directory
+      - run: ls -a /tmp/workspace  # Debugging: List files in the /tmp/workspace directory
       # Download and cache dependencies
       - restore_cache:
           keys:
@@ -28,7 +30,7 @@ jobs:
     steps:
       - attach_workspace:
           at: /tmp/workspace
-      - run: ls -a /tmp/workspace
+      - run: ls -a /tmp/workspace  # Debugging: List files in the /tmp/workspace directory
       - run:
           name: Create Docker image and push to ECR
           command: |
