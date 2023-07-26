@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="add config yaml for CI line">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8f23cb4-5a74-4aa5-98b3-65a6287f3654.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8f23cb4-5a74-4aa5-98b3-65a6287f3654/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8f23cb4-5a74-4aa5-98b3-65a6287f3654/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8f23cb4-5a74-4aa5-98b3-65a6287f3654/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8f23cb4-5a74-4aa5-98b3-65a6287f3654/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8f23cb4-5a74-4aa5-98b3-65a6287f3654/storage_v2/_src_/database/ticketing-app123.yKDTRg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8f23cb4-5a74-4aa5-98b3-65a6287f3654/storage_v2/_src_/database/ticketing-app123.yKDTRg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8f23cb4-5a74-4aa5-98b3-65a6287f3654/storage_v2/_src_/database/ticketing-app123.yKDTRg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8f23cb4-5a74-4aa5-98b3-65a6287f3654/storage_v2/_src_/database/ticketing-app123.yKDTRg/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/cydeo/dto/ProjectDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/cydeo/dto/ProjectDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/cydeo/dto/TaskDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/cydeo/dto/TaskDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/cydeo/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/cydeo/dto/UserDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/surefire-reports/TEST-com.cydeo.TicketingProjectSecurityApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/surefire-reports/com.cydeo.TicketingProjectSecurityApplicationTests.txt" beforeDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,20 +292,6 @@
       <workItem from="1690327549158" duration="11896000" />
       <workItem from="1690349801028" duration="665000" />
       <workItem from="1690352360376" duration="2269000" />
-    </task>
-    <task id="LOCAL-00075" summary="lab 09">
-      <created>1687294138290</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1687294138290</updated>
-    </task>
-    <task id="LOCAL-00076" summary="Ticketing project Api">
-      <created>1687296627588</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1687296627588</updated>
     </task>
     <task id="LOCAL-00077" summary="Ticketing project Api">
       <created>1687296690547</created>
@@ -652,7 +622,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690345502147</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="add config yaml for CI line">
+      <created>1690356405809</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1690356405809</updated>
+    </task>
+    <task id="LOCAL-00125" summary="add config yaml for CI line">
+      <created>1690356506163</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1690356506163</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
