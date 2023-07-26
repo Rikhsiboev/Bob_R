@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,14 +291,7 @@
       <workItem from="1690243037575" duration="6903000" />
       <workItem from="1690304086771" duration="10937000" />
       <workItem from="1690324751117" duration="2711000" />
-      <workItem from="1690327549158" duration="5573000" />
-    </task>
-    <task id="LOCAL-00055" summary="dependency">
-      <created>1686284206016</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1686284206016</updated>
+      <workItem from="1690327549158" duration="9659000" />
     </task>
     <task id="LOCAL-00056" summary="doc">
       <created>1686284215694</created>
@@ -637,7 +629,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690332649587</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Aws done">
+      <created>1690333342706</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1690333342706</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -663,7 +662,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="GetbyId" />
     <MESSAGE value="lab 09" />
     <MESSAGE value="Ticketing project Api" />
     <MESSAGE value="UserController Api" />
@@ -688,7 +686,8 @@
     <MESSAGE value="Docker container" />
     <MESSAGE value="Security app done" />
     <MESSAGE value="Docker container done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Docker container done" />
+    <MESSAGE value="Aws done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aws done" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
