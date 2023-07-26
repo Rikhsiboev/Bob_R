@@ -10,19 +10,19 @@ jobs:
       # Download and cache dependencies
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "pom.xml" }}
+            - v1-dependencies-{{ checksum "/tmp/workspace/pom.xml" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
       - run: mvn clean install -DskipTests
       - save_cache:
           paths:
-            - ~/.m2
-          key: v1-dependencies-{{ checksum "pom.xml" }}
+            - /tmp/workspace/.m2
+          key: v1-dependencies-{{ checksum "/tmp/workspace/pom.xml" }}
       - persist_to_workspace:
           root: /tmp/workspace
           paths:
-            - .  # Include all files and directories in the workspace
+            - .
 workflows:
   version: 2
   build_and_test:
