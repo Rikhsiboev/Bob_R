@@ -8,6 +8,8 @@ jobs:
     steps:
       - checkout  # By default, checkout the entire repository
 
+      - run: mkdir -p /tmp/workspace/ticketing-project-security  # Create the project directory
+      - run: cp -r ticketing-project-security/. /tmp/workspace/ticketing-project-security/  # Copy the project to /tmp/workspace
       - run: cd /tmp/workspace/ticketing-project-security  # Change to the project directory
       - run: ls -a  # Debugging: List files in the project directory
 
