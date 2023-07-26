@@ -1,0 +1,358 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"c1753430-7163-40ae-b62f-cae0e8501630\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/ticketing-project-security/.circleci/config.yml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ticketing-project-security/.circleci/config.yml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/ticketing-project-security/Dockerfile\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/ticketing-project-security/Dockerfile\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ChangesViewManager\">\n    <option name=\"groupingKeys\">\n      <option value=\"module\" />\n    </option>\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Interface\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"keycloak_manual\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n  }\n}</component>\n  <component name=\"GitRewordedCommitMessages\">\n    <option name=\"commitMessagesMapping\">\n      <RewordedCommitMessageMapping>\n        <option name=\"originalMessage\" value=\"Security app done\" />\n        <option name=\"rewordedMessage\" value=\"Security app done\" />\n      </RewordedCommitMessageMapping>\n    </option>\n    <option name=\"currentCommit\" value=\"1\" />\n    <option name=\"onto\" value=\"c73b738c252bf3a036e9e8d0265ffa26dc284f9f\" />\n  </component>\n  <component name=\"GithubPullRequestsUISettings\">\n    <option name=\"selectedUrlAndAccountId\">\n      <UrlAndAccount>\n        <option name=\"accountId\" value=\"80cd394c-e150-4269-8108-65660a6d773a\" />\n        <option name=\"url\" value=\"https://github.com/Rikhsiboev/Bob_R.git\" />\n      </UrlAndAccount>\n    </option>\n  </component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"jar://$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar!/javax/validation/constraints/NotBlank.class\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar!/org/junit/jupiter/api/Assertions.class\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"jar://$MAVEN_REPOSITORY$/org/keycloak/keycloak-adapter-core/18.0.0/keycloak-adapter-core-18.0.0.jar!/org/keycloak/adapters/KeycloakDeploymentBuilder.class\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"jar://$MAVEN_REPOSITORY$/org/keycloak/keycloak-spring-security-adapter/18.0.0/keycloak-spring-security-adapter-18.0.0.jar!/org/keycloak/adapters/springsecurity/config/KeycloakWebSecurityConfigurerAdapter.class\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.7.7/spring-security-config-5.7.7.jar!/org/springframework/security/config/annotation/web/builders/WebSecurity.class\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.25/spring-core-5.3.25.jar!/org/springframework/core/convert/converter/Converter.class\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"file://$PROJECT_DIR$/spring-11-Data-TableCreation/pom.xml\" root0=\"SKIP_HIGHLIGHTING\" />\n  </component>\n  <component name=\"HttpClientSelectedEnvironments\">\n    <file url=\"jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/requests-with-tests.http\" environment=\"test\" />\n    <file url=\"jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/get-requests.http\" environment=\"test\" />\n    <file url=\"jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/requests-with-authorization.http\" environment=\"test\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"MavenImportPreferences\">\n    <option name=\"generalSettings\">\n      <MavenGeneralSettings>\n        <option name=\"useMavenConfig\" value=\"true\" />\n      </MavenGeneralSettings>\n    </option>\n  </component>\n  <component name=\"ProblemsViewState\">\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2QLm0MDy8MdZvbZccPE5v49t9A8\" />\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,\n    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,\n    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,\n    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,\n    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-security/src/main/java/com/cydeo/config&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,\n    &quot;spring.configuration.checksum&quot;: &quot;0130b86c8ede67e77f7e446873c8b751&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  },\n  &quot;keyToStringList&quot;: {\n    &quot;DatabaseDriversLRU&quot;: [\n      &quot;postgresql&quot;\n    ],\n    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [\n      &quot;PLAIN_TEXT&quot;\n    ]\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CreateClassDialog.RecentsKey\">\n      <recent name=\"com.Bob_r.exception\" />\n      <recent name=\"com.Bob_r.controller\" />\n    </key>\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/config\" />\n      <recent name=\"$PROJECT_DIR$/ticketing-project-security\" />\n      <recent name=\"$PROJECT_DIR$/ticketing-project-security/src/main/resources\" />\n      <recent name=\"$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service\" />\n      <recent name=\"$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/FOR_ME/src/main/java\" />\n      <recent name=\"$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/client\" />\n      <recent name=\"$PROJECT_DIR$/ticketing-project-mvc/src/main/resources\" />\n    </key>\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"com.cydeo.config\" />\n      <recent name=\"com.bob_R.annotation\" />\n      <recent name=\"com.bob_R.dto\" />\n      <recent name=\"com.bob_R.config\" />\n      <recent name=\"com.bob_R.controller\" />\n    </key>\n  </component>\n  <component name=\"RunDashboard\">\n    <option name=\"configurationTypes\">\n      <set>\n        <option value=\"SpringBootApplicationConfigurationType\" />\n      </set>\n    </option>\n    <option name=\"excludedTypes\">\n      <set>\n        <option value=\"HttpClient.HttpRequestRunConfigurationType\" />\n      </set>\n    </option>\n  </component>\n  <component name=\"RunManager\">\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\n      <option name=\"filePath\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"TicketingProjectSecurityApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"ticketing-project-security\" />\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.cydeo.TicketingProjectSecurityApplication\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.cydeo.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"docker-deploy\" factoryName=\"docker-compose.yml\" temporary=\"true\">\n      <deployment type=\"docker-compose.yml\">\n        <settings />\n      </deployment>\n      <method v=\"2\" />\n    </configuration>\n    <configuration default=\"true\" type=\"docker-deploy\" factoryName=\"dockerfile\" temporary=\"true\">\n      <deployment type=\"dockerfile\">\n        <settings />\n      </deployment>\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Spring Boot.TicketingProjectSecurityApplication\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"SpringBeansView\">\n    <option name=\"beanDetailsProportion\" value=\"0.3\" />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"c1753430-7163-40ae-b62f-cae0e8501630\" name=\"Changes\" comment=\"\" />\n      <created>1685141011236</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1685141011236</updated>\n      <workItem from=\"1685141012634\" duration=\"5000\" />\n      <workItem from=\"1685141040074\" duration=\"23000\" />\n      <workItem from=\"1685142128902\" duration=\"3456000\" />\n      <workItem from=\"1685145602867\" duration=\"4426000\" />\n      <workItem from=\"1685153426393\" duration=\"9509000\" />\n      <workItem from=\"1685239248822\" duration=\"1143000\" />\n      <workItem from=\"1685246355163\" duration=\"13869000\" />\n      <workItem from=\"1685296547742\" duration=\"4182000\" />\n      <workItem from=\"1685416732213\" duration=\"4223000\" />\n      <workItem from=\"1685444360853\" duration=\"1156000\" />\n      <workItem from=\"1685484517847\" duration=\"20967000\" />\n      <workItem from=\"1685574940560\" duration=\"4306000\" />\n      <workItem from=\"1685645886315\" duration=\"1701000\" />\n      <workItem from=\"1685651530327\" duration=\"5907000\" />\n      <workItem from=\"1685668674839\" duration=\"27275000\" />\n      <workItem from=\"1685815750055\" duration=\"16359000\" />\n      <workItem from=\"1685860406846\" duration=\"19076000\" />\n      <workItem from=\"1686093215145\" duration=\"331000\" />\n      <workItem from=\"1686093557824\" duration=\"26000\" />\n      <workItem from=\"1686103152992\" duration=\"50000\" />\n      <workItem from=\"1686103313787\" duration=\"58000\" />\n      <workItem from=\"1686103387654\" duration=\"91000\" />\n      <workItem from=\"1686103495905\" duration=\"49000\" />\n      <workItem from=\"1686103604248\" duration=\"114000\" />\n      <workItem from=\"1686113769645\" duration=\"74000\" />\n      <workItem from=\"1686140022625\" duration=\"10310000\" />\n      <workItem from=\"1686150820558\" duration=\"6616000\" />\n      <workItem from=\"1686165737614\" duration=\"301000\" />\n      <workItem from=\"1686251044393\" duration=\"3032000\" />\n      <workItem from=\"1686255018155\" duration=\"690000\" />\n      <workItem from=\"1686255757352\" duration=\"13128000\" />\n      <workItem from=\"1686341496176\" duration=\"13881000\" />\n      <workItem from=\"1686458433347\" duration=\"23127000\" />\n      <workItem from=\"1686882428642\" duration=\"1262000\" />\n      <workItem from=\"1686949575813\" duration=\"2268000\" />\n      <workItem from=\"1687057428649\" duration=\"6037000\" />\n      <workItem from=\"1687101159689\" duration=\"1373000\" />\n      <workItem from=\"1687112132145\" duration=\"5170000\" />\n      <workItem from=\"1687276270400\" duration=\"17388000\" />\n      <workItem from=\"1687401204936\" duration=\"7044000\" />\n      <workItem from=\"1687878631354\" duration=\"14673000\" />\n      <workItem from=\"1687923194916\" duration=\"10673000\" />\n      <workItem from=\"1688046461670\" duration=\"4552000\" />\n      <workItem from=\"1688085544287\" duration=\"404000\" />\n      <workItem from=\"1688086090317\" duration=\"3997000\" />\n      <workItem from=\"1688091958395\" duration=\"2401000\" />\n      <workItem from=\"1688098351345\" duration=\"42375000\" />\n      <workItem from=\"1688164351571\" duration=\"1640000\" />\n      <workItem from=\"1688243474654\" duration=\"601000\" />\n      <workItem from=\"1688316680853\" duration=\"411000\" />\n      <workItem from=\"1688680626509\" duration=\"6972000\" />\n      <workItem from=\"1688769668795\" duration=\"4989000\" />\n      <workItem from=\"1688780772395\" duration=\"3165000\" />\n      <workItem from=\"1688783986273\" duration=\"2928000\" />\n      <workItem from=\"1688791928116\" duration=\"3527000\" />\n      <workItem from=\"1688826216561\" duration=\"12136000\" />\n      <workItem from=\"1688852906838\" duration=\"608000\" />\n      <workItem from=\"1688916722728\" duration=\"607000\" />\n      <workItem from=\"1688924214263\" duration=\"598000\" />\n      <workItem from=\"1688942772450\" duration=\"4206000\" />\n      <workItem from=\"1689202086470\" duration=\"763000\" />\n      <workItem from=\"1689212494388\" duration=\"1219000\" />\n      <workItem from=\"1689262089296\" duration=\"4000\" />\n      <workItem from=\"1689613087344\" duration=\"2683000\" />\n      <workItem from=\"1689696487265\" duration=\"8816000\" />\n      <workItem from=\"1689727944369\" duration=\"1325000\" />\n      <workItem from=\"1689787756195\" duration=\"12721000\" />\n      <workItem from=\"1690179377109\" duration=\"844000\" />\n      <workItem from=\"1690180309942\" duration=\"4180000\" />\n      <workItem from=\"1690206622639\" duration=\"4598000\" />\n      <workItem from=\"1690211285290\" duration=\"10854000\" />\n      <workItem from=\"1690223185768\" duration=\"6970000\" />\n      <workItem from=\"1690233625866\" duration=\"4980000\" />\n      <workItem from=\"1690243037575\" duration=\"6903000\" />\n      <workItem from=\"1690304086771\" duration=\"10937000\" />\n      <workItem from=\"1690324751117\" duration=\"2711000\" />\n      <workItem from=\"1690327549158\" duration=\"9659000\" />\n    </task>\n    <task id=\"LOCAL-00056\" summary=\"doc\">\n      <created>1686284215694</created>\n      <option name=\"number\" value=\"00056\" />\n      <option name=\"presentableId\" value=\"LOCAL-00056\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686284215694</updated>\n    </task>\n    <task id=\"LOCAL-00057\" summary=\"master.user=admin&#10;master.user.password=admin&#10;master.realm=master&#10;master.client=master-client\">\n      <created>1686284355843</created>\n      <option name=\"number\" value=\"00057\" />\n      <option name=\"presentableId\" value=\"LOCAL-00057\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686284355843</updated>\n    </task>\n    <task id=\"LOCAL-00058\" summary=\"KeycloakProperties\">\n      <created>1686285492969</created>\n      <option name=\"number\" value=\"00058\" />\n      <option name=\"presentableId\" value=\"LOCAL-00058\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686285492969</updated>\n    </task>\n    <task id=\"LOCAL-00059\" summary=\"KeycloakProperties with service\">\n      <created>1686286185899</created>\n      <option name=\"number\" value=\"00059\" />\n      <option name=\"presentableId\" value=\"LOCAL-00059\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686286185899</updated>\n    </task>\n    <task id=\"LOCAL-00060\" summary=\"fix class\">\n      <created>1686288610546</created>\n      <option name=\"number\" value=\"00060\" />\n      <option name=\"presentableId\" value=\"LOCAL-00060\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686288610546</updated>\n    </task>\n    <task id=\"LOCAL-00061\" summary=\"Keycload\">\n      <created>1686343652201</created>\n      <option name=\"number\" value=\"00061\" />\n      <option name=\"presentableId\" value=\"LOCAL-00061\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686343652202</updated>\n    </task>\n    <task id=\"LOCAL-00062\" summary=\"SwaggerConfig\">\n      <created>1686343674634</created>\n      <option name=\"number\" value=\"00062\" />\n      <option name=\"presentableId\" value=\"LOCAL-00062\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686343674634</updated>\n    </task>\n    <task id=\"LOCAL-00063\" summary=\"SwaggerConfig\">\n      <created>1686492904830</created>\n      <option name=\"number\" value=\"00063\" />\n      <option name=\"presentableId\" value=\"LOCAL-00063\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686492904831</updated>\n    </task>\n    <task id=\"LOCAL-00064\" summary=\"adding logic for update method for orders&#10;// Look for the orderId inside the database and throw the exception&#10;      //then we need to check if the order fields are exist or not\">\n      <created>1686496180587</created>\n      <option name=\"number\" value=\"00064\" />\n      <option name=\"presentableId\" value=\"LOCAL-00064\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686496180587</updated>\n    </task>\n    <task id=\"LOCAL-00065\" summary=\"adding logic for update method for orders&#10;// Look for the orderId inside the database and throw the exception&#10;      //then we need to check if the order fields are exist or not\">\n      <created>1686496483267</created>\n      <option name=\"number\" value=\"00065\" />\n      <option name=\"presentableId\" value=\"LOCAL-00065\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686496483267</updated>\n    </task>\n    <task id=\"LOCAL-00066\" summary=\"   Order willBeUpdatedOrder = mapperUtil.convert(orderDTO, new Order());&#10;        Order updatedOrder = orderRepository.save(willBeUpdatedOrder);&#10;        return mapperUtil.convert(updatedOrder,new OrderDTO());\">\n      <created>1686496690135</created>\n      <option name=\"number\" value=\"00066\" />\n      <option name=\"presentableId\" value=\"LOCAL-00066\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686496690135</updated>\n    </task>\n    <task id=\"LOCAL-00067\" summary=\"Custom jason &#10; // only updatable fields should be exist in DTO\">\n      <created>1686500100279</created>\n      <option name=\"number\" value=\"00067\" />\n      <option name=\"presentableId\" value=\"LOCAL-00067\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686500100279</updated>\n    </task>\n    <task id=\"LOCAL-00068\" summary=\"//if we are getting the same value, it is not necessary to update the actual value&#10;&#10;OrderDTO updateOrderById(Long id, UpdateOrderDTO updateOrderDTO)\">\n      <created>1686500279488</created>\n      <option name=\"number\" value=\"00068\" />\n      <option name=\"presentableId\" value=\"LOCAL-00068\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686500279488</updated>\n    </task>\n    <task id=\"LOCAL-00069\" summary=\"  //create a json body and return it\">\n      <created>1686500484388</created>\n      <option name=\"number\" value=\"00069\" />\n      <option name=\"presentableId\" value=\"LOCAL-00069\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686500484388</updated>\n    </task>\n    <task id=\"LOCAL-00070\" summary=\"practice of web flient\">\n      <created>1686542253959</created>\n      <option name=\"number\" value=\"00070\" />\n      <option name=\"presentableId\" value=\"LOCAL-00070\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1686542253959</updated>\n    </task>\n    <task id=\"LOCAL-00071\" summary=\"..\">\n      <created>1687058023901</created>\n      <option name=\"number\" value=\"00071\" />\n      <option name=\"presentableId\" value=\"LOCAL-00071\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687058023902</updated>\n    </task>\n    <task id=\"LOCAL-00072\" summary=\"Search DS\">\n      <created>1687280159536</created>\n      <option name=\"number\" value=\"00072\" />\n      <option name=\"presentableId\" value=\"LOCAL-00072\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687280159536</updated>\n    </task>\n    <task id=\"LOCAL-00073\" summary=\"Search DS\">\n      <created>1687280184752</created>\n      <option name=\"number\" value=\"00073\" />\n      <option name=\"presentableId\" value=\"LOCAL-00073\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687280184752</updated>\n    </task>\n    <task id=\"LOCAL-00074\" summary=\"GetbyId\">\n      <created>1687280260885</created>\n      <option name=\"number\" value=\"00074\" />\n      <option name=\"presentableId\" value=\"LOCAL-00074\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687280260885</updated>\n    </task>\n    <task id=\"LOCAL-00075\" summary=\"lab 09\">\n      <created>1687294138290</created>\n      <option name=\"number\" value=\"00075\" />\n      <option name=\"presentableId\" value=\"LOCAL-00075\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687294138290</updated>\n    </task>\n    <task id=\"LOCAL-00076\" summary=\"Ticketing project Api\">\n      <created>1687296627588</created>\n      <option name=\"number\" value=\"00076\" />\n      <option name=\"presentableId\" value=\"LOCAL-00076\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687296627588</updated>\n    </task>\n    <task id=\"LOCAL-00077\" summary=\"Ticketing project Api\">\n      <created>1687296690547</created>\n      <option name=\"number\" value=\"00077\" />\n      <option name=\"presentableId\" value=\"LOCAL-00077\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687296690547</updated>\n    </task>\n    <task id=\"LOCAL-00078\" summary=\"UserController\">\n      <created>1687296805684</created>\n      <option name=\"number\" value=\"00078\" />\n      <option name=\"presentableId\" value=\"LOCAL-00078\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687296805684</updated>\n    </task>\n    <task id=\"LOCAL-00079\" summary=\"ProjectController\">\n      <created>1687296829819</created>\n      <option name=\"number\" value=\"00079\" />\n      <option name=\"presentableId\" value=\"LOCAL-00079\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687296829819</updated>\n    </task>\n    <task id=\"LOCAL-00080\" summary=\"TaskController\">\n      <created>1687296894727</created>\n      <option name=\"number\" value=\"00080\" />\n      <option name=\"presentableId\" value=\"LOCAL-00080\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687296894727</updated>\n    </task>\n    <task id=\"LOCAL-00081\" summary=\"Keycloak manual\">\n      <created>1687298125409</created>\n      <option name=\"number\" value=\"00081\" />\n      <option name=\"presentableId\" value=\"LOCAL-00081\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687298125409</updated>\n    </task>\n    <task id=\"LOCAL-00082\" summary=\"SwaggerConfig\">\n      <created>1687299879784</created>\n      <option name=\"number\" value=\"00082\" />\n      <option name=\"presentableId\" value=\"LOCAL-00082\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687299879784</updated>\n    </task>\n    <task id=\"LOCAL-00083\" summary=\"GlobalExceptionHandler\">\n      <created>1687300163221</created>\n      <option name=\"number\" value=\"00083\" />\n      <option name=\"presentableId\" value=\"LOCAL-00083\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687300163221</updated>\n    </task>\n    <task id=\"LOCAL-00084\" summary=\"Aop added\">\n      <created>1687300580143</created>\n      <option name=\"number\" value=\"00084\" />\n      <option name=\"presentableId\" value=\"LOCAL-00084\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687300580143</updated>\n    </task>\n    <task id=\"LOCAL-00085\" summary=\"Aop added Log4j2\">\n      <created>1687300651996</created>\n      <option name=\"number\" value=\"00085\" />\n      <option name=\"presentableId\" value=\"LOCAL-00085\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687300651996</updated>\n    </task>\n    <task id=\"LOCAL-00086\" summary=\"Aop added Log4j2,properties added\">\n      <created>1687300706563</created>\n      <option name=\"number\" value=\"00086\" />\n      <option name=\"presentableId\" value=\"LOCAL-00086\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687300706563</updated>\n    </task>\n    <task id=\"LOCAL-00087\" summary=\"Aop added Log4j2,properties added\">\n      <created>1687300726777</created>\n      <option name=\"number\" value=\"00087\" />\n      <option name=\"presentableId\" value=\"LOCAL-00087\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687300726777</updated>\n    </task>\n    <task id=\"LOCAL-00088\" summary=\"Aop added Log4j2,properties added\">\n      <created>1687300755116</created>\n      <option name=\"number\" value=\"00088\" />\n      <option name=\"presentableId\" value=\"LOCAL-00088\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687300755116</updated>\n    </task>\n    <task id=\"LOCAL-00089\" summary=\"Aop added Log4j2,properties rolling file appender added\">\n      <created>1687300811629</created>\n      <option name=\"number\" value=\"00089\" />\n      <option name=\"presentableId\" value=\"LOCAL-00089\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687300811629</updated>\n    </task>\n    <task id=\"LOCAL-00090\" summary=\"AOP\">\n      <created>1687401845808</created>\n      <option name=\"number\" value=\"00090\" />\n      <option name=\"presentableId\" value=\"LOCAL-00090\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687401845808</updated>\n    </task>\n    <task id=\"LOCAL-00091\" summary=\"Aop added Log4j2,properties rolling file appender added\">\n      <created>1687401866103</created>\n      <option name=\"number\" value=\"00091\" />\n      <option name=\"presentableId\" value=\"LOCAL-00091\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687401866103</updated>\n    </task>\n    <task id=\"LOCAL-00092\" summary=\"Unit Test\">\n      <created>1687904152493</created>\n      <option name=\"number\" value=\"00092\" />\n      <option name=\"presentableId\" value=\"LOCAL-00092\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1687904152495</updated>\n    </task>\n    <task id=\"LOCAL-00093\" summary=\"Etsy\">\n      <created>1689696652722</created>\n      <option name=\"number\" value=\"00093\" />\n      <option name=\"presentableId\" value=\"LOCAL-00093\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1689696652723</updated>\n    </task>\n    <task id=\"LOCAL-00094\" summary=\"lab rest 08\">\n      <created>1689696706328</created>\n      <option name=\"number\" value=\"00094\" />\n      <option name=\"presentableId\" value=\"LOCAL-00094\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1689696706328</updated>\n    </task>\n    <task id=\"LOCAL-00095\" summary=\"UnitTest JUnit5\">\n      <created>1689696747734</created>\n      <option name=\"number\" value=\"00095\" />\n      <option name=\"presentableId\" value=\"LOCAL-00095\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1689696747735</updated>\n    </task>\n    <task id=\"LOCAL-00096\" summary=\"UnitTest Mockito\">\n      <created>1689696771836</created>\n      <option name=\"number\" value=\"00096\" />\n      <option name=\"presentableId\" value=\"LOCAL-00096\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1689696771836</updated>\n    </task>\n    <task id=\"LOCAL-00097\" summary=\"UnitTest MockMVC\">\n      <created>1689696797126</created>\n      <option name=\"number\" value=\"00097\" />\n      <option name=\"presentableId\" value=\"LOCAL-00097\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1689696797126</updated>\n    </task>\n    <task id=\"LOCAL-00098\" summary=\"Spring 25 Docker\">\n      <created>1689696831990</created>\n      <option name=\"number\" value=\"00098\" />\n      <option name=\"presentableId\" value=\"LOCAL-00098\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1689696831990</updated>\n    </task>\n    <task id=\"LOCAL-00099\" summary=\"Docker container\">\n      <created>1690249633773</created>\n      <option name=\"number\" value=\"00099\" />\n      <option name=\"presentableId\" value=\"LOCAL-00099\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1690249633773</updated>\n    </task>\n    <task id=\"LOCAL-00100\" summary=\"Security app done\">\n      <created>1690323229714</created>\n      <option name=\"number\" value=\"00100\" />\n      <option name=\"presentableId\" value=\"LOCAL-00100\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1690323229714</updated>\n    </task>\n    <task id=\"LOCAL-00101\" summary=\"Security app done\">\n      <created>1690323322968</created>\n      <option name=\"number\" value=\"00101\" />\n      <option name=\"presentableId\" value=\"LOCAL-00101\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1690323322968</updated>\n    </task>\n    <task id=\"LOCAL-00102\" summary=\"Security app done\">\n      <created>1690323811617</created>\n      <option name=\"number\" value=\"00102\" />\n      <option name=\"presentableId\" value=\"LOCAL-00102\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1690323811617</updated>\n    </task>\n    <task id=\"LOCAL-00103\" summary=\"Docker container done\">\n      <created>1690332649586</created>\n      <option name=\"number\" value=\"00103\" />\n      <option name=\"presentableId\" value=\"LOCAL-00103\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1690332649587</updated>\n    </task>\n    <task id=\"LOCAL-00104\" summary=\"Aws done\">\n      <created>1690333342706</created>\n      <option name=\"number\" value=\"00104\" />\n      <option name=\"presentableId\" value=\"LOCAL-00104\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1690333342706</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"105\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State>\n              <option name=\"COLUMN_ID_WIDTH\">\n                <map>\n                  <entry key=\"Table.Default.Author.ColumnIdWidth\" value=\"45\" />\n                  <entry key=\"Table.Default.Date.ColumnIdWidth\" value=\"47\" />\n                  <entry key=\"Table.Space.CommitStatus.ColumnIdWidth\" value=\"46\" />\n                </map>\n              </option>\n            </State>\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"lab 09\" />\n    <MESSAGE value=\"Ticketing project Api\" />\n    <MESSAGE value=\"UserController Api\" />\n    <MESSAGE value=\"ProjectController Api\" />\n    <MESSAGE value=\"TaskController Api\" />\n    <MESSAGE value=\"Keycloak\" />\n    <MESSAGE value=\"Keycloak manual\" />\n    <MESSAGE value=\"SwaggerConfig\" />\n    <MESSAGE value=\"GlobalExceptionHandler\" />\n    <MESSAGE value=\"Aop added\" />\n    <MESSAGE value=\"Aop added Log4j2\" />\n    <MESSAGE value=\"Aop added Log4j2,properties added\" />\n    <MESSAGE value=\"AOP\" />\n    <MESSAGE value=\"Aop added Log4j2,properties rolling file appender added\" />\n    <MESSAGE value=\"Unit Test\" />\n    <MESSAGE value=\"Etsy\" />\n    <MESSAGE value=\"lab rest 08\" />\n    <MESSAGE value=\"UnitTest JUnit5\" />\n    <MESSAGE value=\"UnitTest Mockito\" />\n    <MESSAGE value=\"UnitTest MockMVC\" />\n    <MESSAGE value=\"Spring 25 Docker\" />\n    <MESSAGE value=\"Docker container\" />\n    <MESSAGE value=\"Security app done\" />\n    <MESSAGE value=\"Docker container done\" />\n    <MESSAGE value=\"Aws done\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Aws done\" />\n    <option name=\"MAKE_NEW_CHANGELIST_ACTIVE\" value=\"true\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/SecurityServiceIMP.java</url>\n          <line>20</line>\n          <option name=\"timeStamp\" value=\"4\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/common/UserPrincipal.java</url>\n          <line>21</line>\n          <option name=\"timeStamp\" value=\"6\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/BaseEntityListener.java</url>\n          <line>23</line>\n          <option name=\"timeStamp\" value=\"7\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/BaseEntityListener.java</url>\n          <line>40</line>\n          <option name=\"timeStamp\" value=\"8\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/qs.java</url>\n          <line>26</line>\n          <option name=\"timeStamp\" value=\"10\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/LotteryCoupon.java</url>\n          <line>5</line>\n          <option name=\"timeStamp\" value=\"16\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"java-method\">\n          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/HiglyProfitableMonth.java</url>\n          <line>9</line>\n          <properties class=\"HiglyProfitableMonth\" method=\"highlyProfitableIntervals\">\n            <option name=\"EMULATED\" value=\"true\" />\n            <option name=\"WATCH_EXIT\" value=\"false\" />\n          </properties>\n          <option name=\"timeStamp\" value=\"15\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\n    <expand />\n    <select />\n  </component>\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\n    <SUITE FILE_PATH=\"coverage/Bob_R$Uniq.ic\" NAME=\"Uniq Coverage Results\" MODIFIED=\"1682262422432\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 5c29a93c2c387c16279d0051aa4ddc20b67e2213)
++++ b/.idea/workspace.xml	(date 1690356112569)
+@@ -4,11 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/.circleci/config.yml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/Dockerfile" afterDir="false" />
+-    </list>
++    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -103,7 +99,7 @@
+     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-security/src/main/java/com/cydeo/config&quot;,
++    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R&quot;,
+     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+@@ -112,7 +108,7 @@
+     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+-    &quot;spring.configuration.checksum&quot;: &quot;0130b86c8ede67e77f7e446873c8b751&quot;,
++    &quot;spring.configuration.checksum&quot;: &quot;9dd381ef4392f2c6b045e8393c21f291&quot;,
+     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   },
+   &quot;keyToStringList&quot;: {
+@@ -130,11 +126,11 @@
+       <recent name="com.Bob_r.controller" />
+     </key>
+     <key name="CopyFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$" />
+       <recent name="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/config" />
+       <recent name="$PROJECT_DIR$/ticketing-project-security" />
+       <recent name="$PROJECT_DIR$/ticketing-project-security/src/main/resources" />
+       <recent name="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service" />
+-      <recent name="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity" />
+     </key>
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$/FOR_ME/src/main/java" />
+@@ -291,140 +287,9 @@
+       <workItem from="1690243037575" duration="6903000" />
+       <workItem from="1690304086771" duration="10937000" />
+       <workItem from="1690324751117" duration="2711000" />
+-      <workItem from="1690327549158" duration="9659000" />
+-    </task>
+-    <task id="LOCAL-00056" summary="doc">
+-      <created>1686284215694</created>
+-      <option name="number" value="00056" />
+-      <option name="presentableId" value="LOCAL-00056" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1686284215694</updated>
+-    </task>
+-    <task id="LOCAL-00057" summary="master.user=admin&#10;master.user.password=admin&#10;master.realm=master&#10;master.client=master-client">
+-      <created>1686284355843</created>
+-      <option name="number" value="00057" />
+-      <option name="presentableId" value="LOCAL-00057" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1686284355843</updated>
+-    </task>
+-    <task id="LOCAL-00058" summary="KeycloakProperties">
+-      <created>1686285492969</created>
+-      <option name="number" value="00058" />
+-      <option name="presentableId" value="LOCAL-00058" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1686285492969</updated>
+-    </task>
+-    <task id="LOCAL-00059" summary="KeycloakProperties with service">
+-      <created>1686286185899</created>
+-      <option name="number" value="00059" />
+-      <option name="presentableId" value="LOCAL-00059" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1686286185899</updated>
+-    </task>
+-    <task id="LOCAL-00060" summary="fix class">
+-      <created>1686288610546</created>
+-      <option name="number" value="00060" />
+-      <option name="presentableId" value="LOCAL-00060" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1686288610546</updated>
+-    </task>
+-    <task id="LOCAL-00061" summary="Keycload">
+-      <created>1686343652201</created>
+-      <option name="number" value="00061" />
+-      <option name="presentableId" value="LOCAL-00061" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1686343652202</updated>
+-    </task>
+-    <task id="LOCAL-00062" summary="SwaggerConfig">
+-      <created>1686343674634</created>
+-      <option name="number" value="00062" />
+-      <option name="presentableId" value="LOCAL-00062" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1686343674634</updated>
+-    </task>
+-    <task id="LOCAL-00063" summary="SwaggerConfig">
+-      <created>1686492904830</created>
+-      <option name="number" value="00063" />
+-      <option name="presentableId" value="LOCAL-00063" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1686492904831</updated>
+-    </task>
+-    <task id="LOCAL-00064" summary="adding logic for update method for orders&#10;// Look for the orderId inside the database and throw the exception&#10;      //then we need to check if the order fields are exist or not">
+-      <created>1686496180587</created>
+-      <option name="number" value="00064" />
+-      <option name="presentableId" value="LOCAL-00064" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1686496180587</updated>
+-    </task>
+-    <task id="LOCAL-00065" summary="adding logic for update method for orders&#10;// Look for the orderId inside the database and throw the exception&#10;      //then we need to check if the order fields are exist or not">
+-      <created>1686496483267</created>
+-      <option name="number" value="00065" />
+-      <option name="presentableId" value="LOCAL-00065" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1686496483267</updated>
+-    </task>
+-    <task id="LOCAL-00066" summary="   Order willBeUpdatedOrder = mapperUtil.convert(orderDTO, new Order());&#10;        Order updatedOrder = orderRepository.save(willBeUpdatedOrder);&#10;        return mapperUtil.convert(updatedOrder,new OrderDTO());">
+-      <created>1686496690135</created>
+-      <option name="number" value="00066" />
+-      <option name="presentableId" value="LOCAL-00066" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1686496690135</updated>
+-    </task>
+-    <task id="LOCAL-00067" summary="Custom jason &#10; // only updatable fields should be exist in DTO">
+-      <created>1686500100279</created>
+-      <option name="number" value="00067" />
+-      <option name="presentableId" value="LOCAL-00067" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1686500100279</updated>
+-    </task>
+-    <task id="LOCAL-00068" summary="//if we are getting the same value, it is not necessary to update the actual value&#10;&#10;OrderDTO updateOrderById(Long id, UpdateOrderDTO updateOrderDTO)">
+-      <created>1686500279488</created>
+-      <option name="number" value="00068" />
+-      <option name="presentableId" value="LOCAL-00068" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1686500279488</updated>
+-    </task>
+-    <task id="LOCAL-00069" summary="  //create a json body and return it">
+-      <created>1686500484388</created>
+-      <option name="number" value="00069" />
+-      <option name="presentableId" value="LOCAL-00069" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1686500484388</updated>
+-    </task>
+-    <task id="LOCAL-00070" summary="practice of web flient">
+-      <created>1686542253959</created>
+-      <option name="number" value="00070" />
+-      <option name="presentableId" value="LOCAL-00070" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1686542253959</updated>
+-    </task>
+-    <task id="LOCAL-00071" summary="..">
+-      <created>1687058023901</created>
+-      <option name="number" value="00071" />
+-      <option name="presentableId" value="LOCAL-00071" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1687058023902</updated>
+-    </task>
+-    <task id="LOCAL-00072" summary="Search DS">
+-      <created>1687280159536</created>
+-      <option name="number" value="00072" />
+-      <option name="presentableId" value="LOCAL-00072" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1687280159536</updated>
+-    </task>
+-    <task id="LOCAL-00073" summary="Search DS">
+-      <created>1687280184752</created>
+-      <option name="number" value="00073" />
+-      <option name="presentableId" value="LOCAL-00073" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1687280184752</updated>
+-    </task>
+-    <task id="LOCAL-00074" summary="GetbyId">
+-      <created>1687280260885</created>
+-      <option name="number" value="00074" />
+-      <option name="presentableId" value="LOCAL-00074" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1687280260885</updated>
++      <workItem from="1690327549158" duration="11896000" />
++      <workItem from="1690349801028" duration="665000" />
++      <workItem from="1690352360376" duration="2269000" />
+     </task>
+     <task id="LOCAL-00075" summary="lab 09">
+       <created>1687294138290</created>
+@@ -636,7 +501,140 @@
+       <option name="project" value="LOCAL" />
+       <updated>1690333342706</updated>
+     </task>
+-    <option name="localTasksCounter" value="105" />
++    <task id="LOCAL-00105" summary="add config yaml for CI line">
++      <created>1690339692298</created>
++      <option name="number" value="00105" />
++      <option name="presentableId" value="LOCAL-00105" />
++      <option name="project" value="LOCAL" />
++      <updated>1690339692298</updated>
++    </task>
++    <task id="LOCAL-00106" summary="add config yaml for CI line">
++      <created>1690340611626</created>
++      <option name="number" value="00106" />
++      <option name="presentableId" value="LOCAL-00106" />
++      <option name="project" value="LOCAL" />
++      <updated>1690340611626</updated>
++    </task>
++    <task id="LOCAL-00107" summary="add config yaml for CI line">
++      <created>1690340906778</created>
++      <option name="number" value="00107" />
++      <option name="presentableId" value="LOCAL-00107" />
++      <option name="project" value="LOCAL" />
++      <updated>1690340906778</updated>
++    </task>
++    <task id="LOCAL-00108" summary="add config yaml for CI line">
++      <created>1690341077406</created>
++      <option name="number" value="00108" />
++      <option name="presentableId" value="LOCAL-00108" />
++      <option name="project" value="LOCAL" />
++      <updated>1690341077406</updated>
++    </task>
++    <task id="LOCAL-00109" summary="add config yaml for CI line">
++      <created>1690341149020</created>
++      <option name="number" value="00109" />
++      <option name="presentableId" value="LOCAL-00109" />
++      <option name="project" value="LOCAL" />
++      <updated>1690341149020</updated>
++    </task>
++    <task id="LOCAL-00110" summary="add config yaml for CI line">
++      <created>1690341195798</created>
++      <option name="number" value="00110" />
++      <option name="presentableId" value="LOCAL-00110" />
++      <option name="project" value="LOCAL" />
++      <updated>1690341195798</updated>
++    </task>
++    <task id="LOCAL-00111" summary="add config yaml for CI line">
++      <created>1690341223197</created>
++      <option name="number" value="00111" />
++      <option name="presentableId" value="LOCAL-00111" />
++      <option name="project" value="LOCAL" />
++      <updated>1690341223197</updated>
++    </task>
++    <task id="LOCAL-00112" summary="add config yaml for CI line">
++      <created>1690341286911</created>
++      <option name="number" value="00112" />
++      <option name="presentableId" value="LOCAL-00112" />
++      <option name="project" value="LOCAL" />
++      <updated>1690341286911</updated>
++    </task>
++    <task id="LOCAL-00113" summary="add config yaml for CI line">
++      <created>1690341382001</created>
++      <option name="number" value="00113" />
++      <option name="presentableId" value="LOCAL-00113" />
++      <option name="project" value="LOCAL" />
++      <updated>1690341382001</updated>
++    </task>
++    <task id="LOCAL-00114" summary="add config yaml for CI line">
++      <created>1690341565982</created>
++      <option name="number" value="00114" />
++      <option name="presentableId" value="LOCAL-00114" />
++      <option name="project" value="LOCAL" />
++      <updated>1690341565982</updated>
++    </task>
++    <task id="LOCAL-00115" summary="add config yaml for CI line">
++      <created>1690341701653</created>
++      <option name="number" value="00115" />
++      <option name="presentableId" value="LOCAL-00115" />
++      <option name="project" value="LOCAL" />
++      <updated>1690341701653</updated>
++    </task>
++    <task id="LOCAL-00116" summary="add config yaml for CI line">
++      <created>1690344253452</created>
++      <option name="number" value="00116" />
++      <option name="presentableId" value="LOCAL-00116" />
++      <option name="project" value="LOCAL" />
++      <updated>1690344253452</updated>
++    </task>
++    <task id="LOCAL-00117" summary="add config yaml for CI line">
++      <created>1690344405834</created>
++      <option name="number" value="00117" />
++      <option name="presentableId" value="LOCAL-00117" />
++      <option name="project" value="LOCAL" />
++      <updated>1690344405834</updated>
++    </task>
++    <task id="LOCAL-00118" summary="add config yaml for CI line">
++      <created>1690344489673</created>
++      <option name="number" value="00118" />
++      <option name="presentableId" value="LOCAL-00118" />
++      <option name="project" value="LOCAL" />
++      <updated>1690344489673</updated>
++    </task>
++    <task id="LOCAL-00119" summary="add config yaml for CI line">
++      <created>1690344585373</created>
++      <option name="number" value="00119" />
++      <option name="presentableId" value="LOCAL-00119" />
++      <option name="project" value="LOCAL" />
++      <updated>1690344585374</updated>
++    </task>
++    <task id="LOCAL-00120" summary="add config yaml for CI line">
++      <created>1690344858378</created>
++      <option name="number" value="00120" />
++      <option name="presentableId" value="LOCAL-00120" />
++      <option name="project" value="LOCAL" />
++      <updated>1690344858378</updated>
++    </task>
++    <task id="LOCAL-00121" summary="add config yaml for CI line">
++      <created>1690345316852</created>
++      <option name="number" value="00121" />
++      <option name="presentableId" value="LOCAL-00121" />
++      <option name="project" value="LOCAL" />
++      <updated>1690345316852</updated>
++    </task>
++    <task id="LOCAL-00122" summary="add config yaml for CI line">
++      <created>1690345374947</created>
++      <option name="number" value="00122" />
++      <option name="presentableId" value="LOCAL-00122" />
++      <option name="project" value="LOCAL" />
++      <updated>1690345374947</updated>
++    </task>
++    <task id="LOCAL-00123" summary="add config yaml for CI line">
++      <created>1690345502147</created>
++      <option name="number" value="00123" />
++      <option name="presentableId" value="LOCAL-00123" />
++      <option name="project" value="LOCAL" />
++      <updated>1690345502147</updated>
++    </task>
++    <option name="localTasksCounter" value="124" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -662,7 +660,6 @@
+     </option>
+   </component>
+   <component name="VcsManagerConfiguration">
+-    <MESSAGE value="lab 09" />
+     <MESSAGE value="Ticketing project Api" />
+     <MESSAGE value="UserController Api" />
+     <MESSAGE value="ProjectController Api" />
+@@ -687,7 +684,8 @@
+     <MESSAGE value="Security app done" />
+     <MESSAGE value="Docker container done" />
+     <MESSAGE value="Aws done" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Aws done" />
++    <MESSAGE value="add config yaml for CI line" />
++    <option name="LAST_COMMIT_MESSAGE" value="add config yaml for CI line" />
+     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+   </component>
+   <component name="XDebuggerManager">
