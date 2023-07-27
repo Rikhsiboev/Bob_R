@@ -7,7 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ticketing-project-security" />
+        <module name="app-client-management" />
+        <module name="app-domain-model" />
+        <module name="task-service" />
+        <module name="user-service" />
+        <module name="project-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -40,6 +44,7 @@
       <module name="ticketing-project-bob" target="11" />
       <module name="ticketing-project-mvc" target="11" />
       <module name="ticketing-project-rest" target="11" />
+      <module name="ticketing-project-security" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -47,9 +52,12 @@
       <module name="Spring-15-REST" options="-parameters" />
       <module name="Spring-16-REST-Jackson" options="-parameters" />
       <module name="Spring-19-REST-OpenAPI3" options="-parameters" />
+      <module name="app-client-management" options="-parameters" />
+      <module name="app-domain-model" options="-parameters" />
       <module name="lab-06-orm" options="-parameters" />
       <module name="lab-07-orm-queries" options="-parameters" />
       <module name="lab-08-rest" options="-parameters" />
+      <module name="project-service" options="-parameters" />
       <module name="spring-14-Data-Queries" options="-parameters" />
       <module name="spring-17-REST-ConsumingApis" options="-parameters" />
       <module name="spring-18-REST-SchoolLab" options="-parameters" />
@@ -60,9 +68,12 @@
       <module name="spring-24-UnitTesting-MockMVC" options="-parameters" />
       <module name="spring-25-Docker" options="-parameters" />
       <module name="stream-practice" options="-parameters" />
+      <module name="task-service" options="-parameters" />
+      <module name="ticketing-project-microservices" options="-parameters" />
       <module name="ticketing-project-mvc" options="-parameters" />
       <module name="ticketing-project-rest" options="-parameters" />
       <module name="ticketing-project-security" options="-parameters" />
+      <module name="user-service" options="-parameters" />
     </option>
   </component>
 </project>

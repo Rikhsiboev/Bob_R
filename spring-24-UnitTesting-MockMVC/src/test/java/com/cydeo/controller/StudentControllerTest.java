@@ -1,7 +1,7 @@
-package com.cydeo.controller;
+package com.Bob.controller;
 
-import com.cydeo.dto.StudentDTO;
-import com.cydeo.service.StudentService;
+import com.Bob.dto.StudentDTO;
+import com.Bob.service.StudentService;
 import org.junit.jupiter.api.Test;
 import org.skyscreamer.jsonassert.JSONAssert;
 import org.springframework.beans.factory.annotation.Autowired;

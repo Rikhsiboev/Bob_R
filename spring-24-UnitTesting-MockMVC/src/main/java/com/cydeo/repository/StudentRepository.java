@@ -1,6 +1,6 @@
-package com.cydeo.repository;
+package com.Bob.repository;
 
-import com.cydeo.entity.Student;
+import com.Bob.entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

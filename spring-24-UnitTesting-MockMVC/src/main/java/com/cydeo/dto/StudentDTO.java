@@ -1,4 +1,4 @@
-package com.cydeo.dto;
+package com.Bob.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;

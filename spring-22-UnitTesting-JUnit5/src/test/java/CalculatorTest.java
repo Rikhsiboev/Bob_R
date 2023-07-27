@@ -68,7 +68,7 @@ class CalculatorTest {
         System.out.println("Test Case 4");
 
         String nullString = null;
-        String notNullString = "Cydeo";
+        String notNullString = "Bob";
 
         assertNull(nullString);
         assertNotNull(notNullString);

@@ -1,9 +1,9 @@
-package com.cydeo.service.impl;
+package com.Bob.service.impl;
 
-import com.cydeo.dto.StudentDTO;
-import com.cydeo.repository.StudentRepository;
-import com.cydeo.service.StudentService;
-import com.cydeo.util.MapperUtil;
+import com.Bob.dto.StudentDTO;
+import com.Bob.repository.StudentRepository;
+import com.Bob.service.StudentService;
+import com.Bob.util.MapperUtil;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

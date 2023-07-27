@@ -8,7 +8,7 @@
         <version>2.7.7</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.cydeo</groupId>
+    <groupId>com.Bob</groupId>
     <artifactId>spring-25-Docker</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-25-Docker</name>

@@ -1,7 +1,7 @@
-package com.cydeo.controller;
+package com.Bob.controller;
 
-import com.cydeo.dto.StudentDTO;
-import com.cydeo.service.StudentService;
+import com.Bob.dto.StudentDTO;
+import com.Bob.service.StudentService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
