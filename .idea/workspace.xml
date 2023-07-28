@@ -4,140 +4,175 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="MicroServices">
-      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-client-management/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-client-management/src/main/java/com/Bob/service/UserClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/dto/ProjectDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/dto/RoleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/dto/TaskDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/dto/UserResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/ResponseWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/enums/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/enums/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/util/MapperUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/project-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/Bob/service/ProjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/Bob/service/impl/ProjectServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/cydeo/ProjectServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/cydeo/controller/ProjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/cydeo/exception/ProjectServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/cydeo/repository/ProjectRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/task-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/TaskServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/controller/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/exception/TaskServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/respository/TaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/service/TaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/service/impl/TaskServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/Bob/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/Bob/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/Bob/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/Bob/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/cydeo/UserServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/cydeo/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/cydeo/exception/UserServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/cydeo/repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/cydeo/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/resources/logback.xml" afterDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="aws">
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-client-management/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-client-management/src/main/java/com/Bob/service/UserClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/dto/ProjectDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/dto/RoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/dto/TaskDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/dto/UserResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/entity/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/entity/ResponseWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/entity/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/enums/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/enums/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/util/MapperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/docker-compose/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/docker-compose/init/init01.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/docker-compose/init/init02.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/docker-compose/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/project-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/project-service/src/main/java/com/Bob/ProjectServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/project-service/src/main/java/com/Bob/controller/ProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/project-service/src/main/java/com/Bob/exception/ProjectServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/project-service/src/main/java/com/Bob/repository/ProjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/project-service/src/main/java/com/Bob/service/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/project-service/src/main/java/com/Bob/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/project-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/task-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/task-service/src/main/java/com/Bob/TaskServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/task-service/src/main/java/com/Bob/controller/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/task-service/src/main/java/com/Bob/exception/TaskServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/task-service/src/main/java/com/Bob/respository/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/task-service/src/main/java/com/Bob/service/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/task-service/src/main/java/com/Bob/service/impl/TaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/task-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/java/com/Bob/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/java/com/Bob/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/java/com/Bob/exception/UserServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/java/com/Bob/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/java/com/Bob/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/java/com/Bob/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/java/com/Bob/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/java/com/Bob/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/java/com/Bob/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-21-AOP/src/main/java/com/bob_r/aspect/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-21-AOP/src/main/java/com/bob_r/aspect/LoggingAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-22-UnitTesting-JUnit5/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-22-UnitTesting-JUnit5/src/test/java/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/resources/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/resources/templates/fragments/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/resources/templates/fragments/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/resources/templates/fragments/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/resources/templates/fragments/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/target/classes/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/target/classes/templates/fragments/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/target/classes/templates/fragments/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/target/classes/templates/fragments/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/target/classes/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/target/classes/templates/fragments/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/target/classes/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/Spring24UnitTestingMockMvcApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/Spring24UnitTestingMockMvcApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/controller/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/controller/WelcomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/dto/StudentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/dto/StudentDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/repository/StudentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/util/MapperUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/util/MapperUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/test/java/com/cydeo/Spring24UnitTestingMockMvcApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/test/java/com/cydeo/Spring24UnitTestingMockMvcApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/test/java/com/cydeo/controller/StudentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/test/java/com/cydeo/controller/StudentControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/test/java/com/cydeo/controller/WelcomeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/test/java/com/cydeo/controller/WelcomeControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-25-Docker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-25-Docker/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-25-Docker/src/main/java/com/cydeo/Spring24DockerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-25-Docker/src/main/java/com/cydeo/Spring24DockerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-25-Docker/src/main/java/com/cydeo/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-25-Docker/src/main/java/com/cydeo/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-25-Docker/src/main/resources/static/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-25-Docker/src/main/resources/static/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-25-Docker/src/test/java/com/cydeo/Spring24DockerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-25-Docker/src/test/java/com/cydeo/Spring24DockerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-client-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-client-management/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-client-management/src/main/java/com/Bob/service/UserClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-client-management/src/main/java/com/Bob/service/UserClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/dto/ProjectDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/dto/ProjectDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/dto/RoleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/dto/RoleDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/dto/TaskDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/dto/TaskDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/dto/UserResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/dto/UserResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/entity/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/ResponseWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/entity/ResponseWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/entity/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/enums/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/enums/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/enums/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/enums/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/util/MapperUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/util/MapperUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/project-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/Bob/ProjectServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/src/main/java/com/Bob/ProjectServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/Bob/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/src/main/java/com/Bob/controller/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/Bob/exception/ProjectServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/src/main/java/com/Bob/exception/ProjectServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/Bob/repository/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/src/main/java/com/Bob/repository/ProjectRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/Bob/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/src/main/java/com/Bob/service/ProjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/Bob/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/src/main/java/com/Bob/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/task-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/TaskServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/src/main/java/com/Bob/TaskServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/src/main/java/com/Bob/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/exception/TaskServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/src/main/java/com/Bob/exception/TaskServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/respository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/src/main/java/com/Bob/respository/TaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/src/main/java/com/Bob/service/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/service/impl/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/src/main/java/com/Bob/service/impl/TaskServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/task-service/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/Bob/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/java/com/Bob/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/Bob/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/java/com/Bob/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/Bob/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/java/com/Bob/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/Bob/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/java/com/Bob/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/cydeo/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/java/com/cydeo/UserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/cydeo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/java/com/cydeo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/cydeo/exception/UserServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/java/com/cydeo/exception/UserServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/cydeo/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/java/com/cydeo/repository/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/cydeo/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/java/com/cydeo/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticketing-project-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/TicketingProjectSecurityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/TicketingProjectSecurityApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/config/AuthSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/config/AuthSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/controller/ProjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/controller/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/converter/ProjectDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/converter/ProjectDtoConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/converter/RoleDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/converter/RoleDtoConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/converter/UserDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/converter/UserDtoConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/dto/ProjectDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/dto/ProjectDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/dto/RoleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/dto/RoleDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/dto/TaskDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/dto/TaskDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/entity/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/entity/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/entity/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity/common/UserPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/entity/common/UserPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/enums/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/enums/Gender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/enums/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/enums/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/mapper/MapperUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/mapper/MapperUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/mapper/ProjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/mapper/ProjectMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/mapper/RoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/mapper/TaskMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/mapper/TaskMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/repository/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/repository/ProjectRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/repository/RoleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/repository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/repository/TaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/service/ProjectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/service/RoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/SecurityServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/service/SecurityServiceInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/service/TaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/service/impl/ProjectServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/impl/SecurityServiceIMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/service/impl/SecurityServiceIMP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/impl/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/service/impl/TaskServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/test/java/com/cydeo/TicketingProjectSecurityApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/test/java/com/cydeo/TicketingProjectSecurityApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/TicketingProjectSecurityApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/TicketingProjectSecurityApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/config/AuthSuccessHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/config/AuthSuccessHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/controller/ProjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/controller/ProjectController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/controller/TaskController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/controller/TaskController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/converter/ProjectDtoConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/converter/ProjectDtoConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/converter/RoleDtoConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/converter/RoleDtoConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/converter/UserDtoConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/converter/UserDtoConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/ProjectDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/ProjectDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/RoleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/RoleDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/TaskDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/TaskDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/BaseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/Project.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/common/UserPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/common/UserPrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/enums/Gender.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/enums/Gender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/enums/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/enums/Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/MapperUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/MapperUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/ProjectMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/ProjectMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/RoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/RoleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/TaskMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/TaskMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/ProjectRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/ProjectRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/RoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/RoleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/TaskRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/TaskRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/ProjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/ProjectService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/RoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/SecurityServiceInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/SecurityServiceInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/TaskService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/TaskService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/ProjectServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/ProjectServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/SecurityServiceIMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/SecurityServiceIMP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/TaskServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/TaskServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/test-classes/com/Bob/TicketingProjectSecurityApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/test-classes/com/Bob/TicketingProjectSecurityApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/ticketing-project-security-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/ticketing-project-security-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/ticketing-project-security-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/ticketing-project-security-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +199,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -237,12 +273,13 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.mocha.mocha_node_package_dir": "",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.editor",
-    "spring.configuration.checksum": "9dd381ef4392f2c6b045e8393c21f291",
+    "spring.configuration.checksum": "6427a1b00a7e6c950b87ae97dbcf9a45",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -291,7 +328,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TicketingProjectSecurityApplication">
+  <component name="RunManager" selected="Docker.docker-compose/services.yml.projectservice: Compose Deployment">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -303,9 +340,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ticketing-project-security [clean...]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="package" />
+                <option value="-DskipTests" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/ticketing-project-microservices" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProjectServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="project-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.ProjectServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectServiceApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="project-service (1) (com.Bob)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.ProjectServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectServiceApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="project-service (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.ProjectServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProjectServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="project-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.ProjectServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="task-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.TaskServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskServiceApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="task-service (1) (com.Bob)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.TaskServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskServiceApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="task-service (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.TaskServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -317,15 +423,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicketingProjectSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="TicketingProjectSecurityApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ticketing-project-security" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.TicketingProjectSecurityApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cydeo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.TicketingProjectSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user-service (1) (com.Bob)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user-service (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.UserServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -349,9 +470,79 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose/services.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="ticketing-project-microservices-containerized/docker-compose/services.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose/services.yml.database: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="database" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="ticketing-project-microservices-containerized/docker-compose/services.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose/services.yml.projectservice: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="projectservice" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="ticketing-project-microservices-containerized/docker-compose/services.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose/services.yml.userservice: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="userservice" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="ticketing-project-microservices-containerized/docker-compose/services.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose/services.yml.database: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose/services.yml.projectservice: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose/services.yml.userservice: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose/services.yml: Compose Deployment" />
+      <item itemvalue="Maven.ticketing-project-security [clean...]" />
+      <item itemvalue="Spring Boot.ProjectServiceApplication (3)" />
+      <item itemvalue="Spring Boot.TaskServiceApplication (3)" />
+      <item itemvalue="Spring Boot.UserServiceApplication (3)" />
+      <item itemvalue="Spring Boot.ProjectServiceApplication (1)" />
+      <item itemvalue="Spring Boot.ProjectServiceApplication (2)" />
+      <item itemvalue="Spring Boot.TaskServiceApplication (1)" />
+      <item itemvalue="Spring Boot.TaskServiceApplication (2)" />
+      <item itemvalue="Spring Boot.UserServiceApplication (1)" />
+      <item itemvalue="Spring Boot.UserServiceApplication (2)" />
+      <item itemvalue="Spring Boot.ProjectServiceApplication" />
+      <item itemvalue="Spring Boot.TaskServiceApplication" />
+      <item itemvalue="Spring Boot.TicketingProjectSecurityApplication (1)" />
+      <item itemvalue="Spring Boot.UserServiceApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.TicketingProjectSecurityApplication" />
+        <item itemvalue="Docker.docker-compose/services.yml.projectservice: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose/services.yml.userservice: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose/services.yml.database: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose/services.yml: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -449,20 +640,9 @@
       <workItem from="1690361365093" duration="28000" />
       <workItem from="1690432935956" duration="303000" />
       <workItem from="1690471195201" duration="705000" />
-    </task>
-    <task id="LOCAL-00081" summary="Keycloak manual">
-      <created>1687298125409</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1687298125409</updated>
-    </task>
-    <task id="LOCAL-00082" summary="SwaggerConfig">
-      <created>1687299879784</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1687299879784</updated>
+      <workItem from="1690517323162" duration="3384000" />
+      <workItem from="1690556340643" duration="3778000" />
+      <workItem from="1690581762154" duration="1169000" />
     </task>
     <task id="LOCAL-00083" summary="GlobalExceptionHandler">
       <created>1687300163221</created>
@@ -793,7 +973,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690360948860</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="aws">
+      <created>1690515409853</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1690515409853</updated>
+    </task>
+    <task id="LOCAL-00131" summary="aws">
+      <created>1690515701239</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1690515701239</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -819,7 +1013,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="UserController Api" />
     <MESSAGE value="ProjectController Api" />
     <MESSAGE value="TaskController Api" />
     <MESSAGE value="Keycloak" />
@@ -844,7 +1037,8 @@
     <MESSAGE value="Aws done" />
     <MESSAGE value="add config yaml for CI line" />
     <MESSAGE value="MicroServices" />
-    <option name="LAST_COMMIT_MESSAGE" value="MicroServices" />
+    <MESSAGE value="aws" />
+    <option name="LAST_COMMIT_MESSAGE" value="aws" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">

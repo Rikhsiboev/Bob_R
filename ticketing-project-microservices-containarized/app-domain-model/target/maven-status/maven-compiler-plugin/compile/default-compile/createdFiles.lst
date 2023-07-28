@@ -1,0 +1,16 @@
+com/Bob/dto/TaskDTO.class
+com/Bob/dto/ProjectDTO$ProjectDTOBuilder.class
+com/Bob/entity/Project.class
+com/Bob/enums/Status.class
+com/Bob/dto/UserResponseDTO.class
+com/Bob/entity/Task.class
+com/Bob/dto/UserDTO$UserDTOBuilder.class
+com/Bob/entity/ResponseWrapper.class
+com/Bob/entity/BaseEntity.class
+com/Bob/entity/Role.class
+com/Bob/dto/UserDTO.class
+com/Bob/entity/User.class
+com/Bob/enums/Gender.class
+com/Bob/dto/ProjectDTO.class
+com/Bob/util/MapperUtil.class
+com/Bob/dto/RoleDTO.class

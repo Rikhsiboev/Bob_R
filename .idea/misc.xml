@@ -13,11 +13,22 @@
         <option value="$PROJECT_DIR$/Pizzza/pom.xml" />
         <option value="$PROJECT_DIR$/Pizza/pizza-cloud-project/pom.xml" />
         <option value="$PROJECT_DIR$/ticketing-project-microservices/pom.xml" />
+        <option value="$PROJECT_DIR$/ticketing-project-microservices-decomponent/pom.xml" />
+        <option value="$PROJECT_DIR$/ticketing-project-microservices-containerized/pom.xml" />
+        <option value="$PROJECT_DIR$/ticketing-project-microservices-decomposed/pom.xml" />
+        <option value="$PROJECT_DIR$/ticketing-project-microservices-containarized/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/spring/pom.xml" />
+        <option value="$PROJECT_DIR$/ticketing-project-microservices-containerized/pom.xml" />
+        <option value="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-client-management/pom.xml" />
+        <option value="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/pom.xml" />
+        <option value="$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ticketing-project-microservices/pom.xml" />
       </set>
     </option>
   </component>

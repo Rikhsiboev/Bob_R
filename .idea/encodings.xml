@@ -119,18 +119,32 @@
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stream-practice.newone/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stream-practice.newone/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ticketing-project-microservices/app-client-management/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ticketing-project-microservices/app-client-management/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ticketing-project-microservices/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ticketing-project-microservices/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-containarized/app-client-management/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-containarized/project-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-containarized/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-containarized/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-containarized/task-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-containerized/app-client-management/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-containerized/app-domain-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-containerized/project-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-containerized/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-containerized/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-containerized/task-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-containerized/user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-client-management/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-client-management/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-decomposed/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-decomposed/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ticketing-project-mvc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ticketing-project-mvc/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ticketing-project-rest/src/main/java" charset="UTF-8" />

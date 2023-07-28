@@ -1,0 +1,14 @@
+/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/util/MapperUtil.java
+/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/dto/RoleDTO.java
+/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/entity/Role.java
+/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/entity/User.java
+/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/dto/UserResponseDTO.java
+/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/dto/UserDTO.java
+/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/entity/ResponseWrapper.java
+/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/entity/Project.java
+/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/entity/Task.java
+/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/dto/ProjectDTO.java
+/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/dto/TaskDTO.java
+/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/enums/Status.java
+/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/entity/BaseEntity.java
+/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/enums/Gender.java
