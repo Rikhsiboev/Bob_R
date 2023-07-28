@@ -12,7 +12,7 @@ public class LoggingAspect {
 
     Logger logger = LoggerFactory.getLogger(LoggingAspect.class);
 
-//    @Pointcut("execution(* com.cydeo.controller.CourseController.*(..))")
+//    @Pointcut("execution(* com.Bob.controller.CourseController.*(..))")
 //    public void myPointcut() {}
 //
 //    @Before("myPointcut()")
@@ -20,12 +20,12 @@ public class LoggingAspect {
 //        logger.info("Info log..........");
 //    }
 //
-//    @Before("execution(* com.cydeo.controller.CourseController.*(..))")
+//    @Before("execution(* com.Bob.controller.CourseController.*(..))")
 //    public void log() {
 //        logger.info("Info log..........");
 //    }
 //
-//    @Pointcut("execution(* com.cydeo.repository.CourseRepository.findById(*))")
+//    @Pointcut("execution(* com.Bob.repository.CourseRepository.findById(*))")
 //    public void courseRepositoryFindByIdPC() {}
 //
 //    @Before("courseRepositoryFindByIdPC()")
@@ -34,7 +34,7 @@ public class LoggingAspect {
 //                , joinPoint.getSignature(), joinPoint.getArgs(), joinPoint.getTarget());
 //    }
 //
-//    @Pointcut("within(com.cydeo.controller..*)")
+//    @Pointcut("within(com.Bob.controller..*)")
 //    public void anyControllerOperation() {}
 //
 //    @Pointcut("@within(org.springframework.stereotype.Service)")
@@ -55,7 +55,7 @@ public class LoggingAspect {
 //                , joinPoint.getSignature(), joinPoint.getArgs(), joinPoint.getTarget());
 //    }
 //
-//    @Pointcut("@annotation(com.cydeo.annotation.LoggingAnnotation)")
+//    @Pointcut("@annotation(com.Bob.annotation.LoggingAnnotation)")
 //    public void loggingAnnotationPC() {}
 //
 //    @Before("loggingAnnotationPC()")

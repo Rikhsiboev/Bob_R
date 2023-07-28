@@ -10,8 +10,9 @@
       <user-name>postgres</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="database" qname="@">
-            <node kind="schema" qname="@" />
+          <node kind="database">
+            <name qname="ticketing-app123" />
+            <name qname="database_name" />
           </node>
         </introspection-scope>
       </schema-mapping>

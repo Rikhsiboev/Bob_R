@@ -4,10 +4,140 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="MicroServices">
+      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-client-management/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-client-management/src/main/java/com/Bob/service/UserClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/dto/ProjectDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/dto/RoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/dto/TaskDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/dto/UserResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/ResponseWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/enums/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/enums/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/util/MapperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/project-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/Bob/service/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/Bob/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/cydeo/ProjectServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/cydeo/controller/ProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/cydeo/exception/ProjectServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/cydeo/repository/ProjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/task-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/TaskServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/controller/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/exception/TaskServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/respository/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/service/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/service/impl/TaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/Bob/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/Bob/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/Bob/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/Bob/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/cydeo/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/cydeo/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/cydeo/exception/UserServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/cydeo/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/cydeo/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/.circleci/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-21-AOP/src/main/java/com/bob_r/aspect/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-21-AOP/src/main/java/com/bob_r/aspect/LoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-22-UnitTesting-JUnit5/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-22-UnitTesting-JUnit5/src/test/java/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/resources/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/resources/templates/fragments/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/resources/templates/fragments/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/target/classes/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/target/classes/templates/fragments/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/target/classes/templates/fragments/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/target/classes/templates/fragments/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/target/classes/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/target/classes/templates/fragments/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/target/classes/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/Spring24UnitTestingMockMvcApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/Spring24UnitTestingMockMvcApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/controller/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/controller/WelcomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/dto/StudentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/dto/StudentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/repository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/util/MapperUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/main/java/com/cydeo/util/MapperUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/test/java/com/cydeo/Spring24UnitTestingMockMvcApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/test/java/com/cydeo/Spring24UnitTestingMockMvcApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/test/java/com/cydeo/controller/StudentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/test/java/com/cydeo/controller/StudentControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/test/java/com/cydeo/controller/WelcomeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/src/test/java/com/cydeo/controller/WelcomeControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-25-Docker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-25-Docker/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-25-Docker/src/main/java/com/cydeo/Spring24DockerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-25-Docker/src/main/java/com/cydeo/Spring24DockerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-25-Docker/src/main/java/com/cydeo/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-25-Docker/src/main/java/com/cydeo/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-25-Docker/src/main/resources/static/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-25-Docker/src/main/resources/static/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-25-Docker/src/test/java/com/cydeo/Spring24DockerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-25-Docker/src/test/java/com/cydeo/Spring24DockerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/TicketingProjectSecurityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/TicketingProjectSecurityApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/config/AuthSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/config/AuthSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/controller/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/converter/ProjectDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/converter/ProjectDtoConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/converter/RoleDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/converter/RoleDtoConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/converter/UserDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/converter/UserDtoConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/dto/ProjectDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/dto/ProjectDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/dto/RoleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/dto/RoleDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/dto/TaskDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/dto/TaskDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/entity/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/entity/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity/common/UserPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/entity/common/UserPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/enums/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/enums/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/enums/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/enums/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/mapper/MapperUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/mapper/MapperUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/mapper/ProjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/mapper/ProjectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/mapper/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/mapper/TaskMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/mapper/TaskMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/repository/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/repository/ProjectRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/repository/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/repository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/repository/TaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/service/ProjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/SecurityServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/service/SecurityServiceInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/service/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/impl/SecurityServiceIMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/service/impl/SecurityServiceIMP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/impl/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/service/impl/TaskServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/Bob/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/test/java/com/cydeo/TicketingProjectSecurityApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/test/java/com/cydeo/TicketingProjectSecurityApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,49 +222,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-security/src/main/java/com/cydeo/config&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;0130b86c8ede67e77f7e446873c8b751&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "spring.configuration.checksum": "9dd381ef4392f2c6b045e8393c21f291",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;PLAIN_TEXT&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.Bob_r.exception" />
       <recent name="com.Bob_r.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/.circleci" />
       <recent name="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/config" />
       <recent name="$PROJECT_DIR$/ticketing-project-security" />
       <recent name="$PROJECT_DIR$/ticketing-project-security/src/main/resources" />
-      <recent name="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/service" />
-      <recent name="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/FOR_ME/src/main/java" />
@@ -161,7 +291,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.TicketingProjectSecurityApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,6 +299,20 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="project-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.ProjectServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="task-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.TaskServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,6 +326,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.UserServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -291,182 +442,13 @@
       <workItem from="1690243037575" duration="6903000" />
       <workItem from="1690304086771" duration="10937000" />
       <workItem from="1690324751117" duration="2711000" />
-      <workItem from="1690327549158" duration="9659000" />
-    </task>
-    <task id="LOCAL-00056" summary="doc">
-      <created>1686284215694</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1686284215694</updated>
-    </task>
-    <task id="LOCAL-00057" summary="master.user=admin&#10;master.user.password=admin&#10;master.realm=master&#10;master.client=master-client">
-      <created>1686284355843</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1686284355843</updated>
-    </task>
-    <task id="LOCAL-00058" summary="KeycloakProperties">
-      <created>1686285492969</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1686285492969</updated>
-    </task>
-    <task id="LOCAL-00059" summary="KeycloakProperties with service">
-      <created>1686286185899</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1686286185899</updated>
-    </task>
-    <task id="LOCAL-00060" summary="fix class">
-      <created>1686288610546</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1686288610546</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Keycload">
-      <created>1686343652201</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1686343652202</updated>
-    </task>
-    <task id="LOCAL-00062" summary="SwaggerConfig">
-      <created>1686343674634</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1686343674634</updated>
-    </task>
-    <task id="LOCAL-00063" summary="SwaggerConfig">
-      <created>1686492904830</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1686492904831</updated>
-    </task>
-    <task id="LOCAL-00064" summary="adding logic for update method for orders&#10;// Look for the orderId inside the database and throw the exception&#10;      //then we need to check if the order fields are exist or not">
-      <created>1686496180587</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1686496180587</updated>
-    </task>
-    <task id="LOCAL-00065" summary="adding logic for update method for orders&#10;// Look for the orderId inside the database and throw the exception&#10;      //then we need to check if the order fields are exist or not">
-      <created>1686496483267</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1686496483267</updated>
-    </task>
-    <task id="LOCAL-00066" summary="   Order willBeUpdatedOrder = mapperUtil.convert(orderDTO, new Order());&#10;        Order updatedOrder = orderRepository.save(willBeUpdatedOrder);&#10;        return mapperUtil.convert(updatedOrder,new OrderDTO());">
-      <created>1686496690135</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1686496690135</updated>
-    </task>
-    <task id="LOCAL-00067" summary="Custom jason &#10; // only updatable fields should be exist in DTO">
-      <created>1686500100279</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1686500100279</updated>
-    </task>
-    <task id="LOCAL-00068" summary="//if we are getting the same value, it is not necessary to update the actual value&#10;&#10;OrderDTO updateOrderById(Long id, UpdateOrderDTO updateOrderDTO)">
-      <created>1686500279488</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1686500279488</updated>
-    </task>
-    <task id="LOCAL-00069" summary="  //create a json body and return it">
-      <created>1686500484388</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1686500484388</updated>
-    </task>
-    <task id="LOCAL-00070" summary="practice of web flient">
-      <created>1686542253959</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1686542253959</updated>
-    </task>
-    <task id="LOCAL-00071" summary="..">
-      <created>1687058023901</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1687058023902</updated>
-    </task>
-    <task id="LOCAL-00072" summary="Search DS">
-      <created>1687280159536</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1687280159536</updated>
-    </task>
-    <task id="LOCAL-00073" summary="Search DS">
-      <created>1687280184752</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1687280184752</updated>
-    </task>
-    <task id="LOCAL-00074" summary="GetbyId">
-      <created>1687280260885</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1687280260885</updated>
-    </task>
-    <task id="LOCAL-00075" summary="lab 09">
-      <created>1687294138290</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1687294138290</updated>
-    </task>
-    <task id="LOCAL-00076" summary="Ticketing project Api">
-      <created>1687296627588</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1687296627588</updated>
-    </task>
-    <task id="LOCAL-00077" summary="Ticketing project Api">
-      <created>1687296690547</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1687296690547</updated>
-    </task>
-    <task id="LOCAL-00078" summary="UserController">
-      <created>1687296805684</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1687296805684</updated>
-    </task>
-    <task id="LOCAL-00079" summary="ProjectController">
-      <created>1687296829819</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1687296829819</updated>
-    </task>
-    <task id="LOCAL-00080" summary="TaskController">
-      <created>1687296894727</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1687296894727</updated>
+      <workItem from="1690327549158" duration="11896000" />
+      <workItem from="1690349801028" duration="665000" />
+      <workItem from="1690352360376" duration="2269000" />
+      <workItem from="1690359041362" duration="2019000" />
+      <workItem from="1690361365093" duration="28000" />
+      <workItem from="1690432935956" duration="303000" />
+      <workItem from="1690471195201" duration="705000" />
     </task>
     <task id="LOCAL-00081" summary="Keycloak manual">
       <created>1687298125409</created>
@@ -636,7 +618,182 @@
       <option name="project" value="LOCAL" />
       <updated>1690333342706</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="add config yaml for CI line">
+      <created>1690339692298</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1690339692298</updated>
+    </task>
+    <task id="LOCAL-00106" summary="add config yaml for CI line">
+      <created>1690340611626</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1690340611626</updated>
+    </task>
+    <task id="LOCAL-00107" summary="add config yaml for CI line">
+      <created>1690340906778</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1690340906778</updated>
+    </task>
+    <task id="LOCAL-00108" summary="add config yaml for CI line">
+      <created>1690341077406</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1690341077406</updated>
+    </task>
+    <task id="LOCAL-00109" summary="add config yaml for CI line">
+      <created>1690341149020</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1690341149020</updated>
+    </task>
+    <task id="LOCAL-00110" summary="add config yaml for CI line">
+      <created>1690341195798</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1690341195798</updated>
+    </task>
+    <task id="LOCAL-00111" summary="add config yaml for CI line">
+      <created>1690341223197</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1690341223197</updated>
+    </task>
+    <task id="LOCAL-00112" summary="add config yaml for CI line">
+      <created>1690341286911</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1690341286911</updated>
+    </task>
+    <task id="LOCAL-00113" summary="add config yaml for CI line">
+      <created>1690341382001</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1690341382001</updated>
+    </task>
+    <task id="LOCAL-00114" summary="add config yaml for CI line">
+      <created>1690341565982</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1690341565982</updated>
+    </task>
+    <task id="LOCAL-00115" summary="add config yaml for CI line">
+      <created>1690341701653</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1690341701653</updated>
+    </task>
+    <task id="LOCAL-00116" summary="add config yaml for CI line">
+      <created>1690344253452</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1690344253452</updated>
+    </task>
+    <task id="LOCAL-00117" summary="add config yaml for CI line">
+      <created>1690344405834</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1690344405834</updated>
+    </task>
+    <task id="LOCAL-00118" summary="add config yaml for CI line">
+      <created>1690344489673</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1690344489673</updated>
+    </task>
+    <task id="LOCAL-00119" summary="add config yaml for CI line">
+      <created>1690344585373</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1690344585374</updated>
+    </task>
+    <task id="LOCAL-00120" summary="add config yaml for CI line">
+      <created>1690344858378</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1690344858378</updated>
+    </task>
+    <task id="LOCAL-00121" summary="add config yaml for CI line">
+      <created>1690345316852</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1690345316852</updated>
+    </task>
+    <task id="LOCAL-00122" summary="add config yaml for CI line">
+      <created>1690345374947</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1690345374947</updated>
+    </task>
+    <task id="LOCAL-00123" summary="add config yaml for CI line">
+      <created>1690345502147</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1690345502147</updated>
+    </task>
+    <task id="LOCAL-00124" summary="add config yaml for CI line">
+      <created>1690356405809</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1690356405809</updated>
+    </task>
+    <task id="LOCAL-00125" summary="add config yaml for CI line">
+      <created>1690356506163</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1690356506163</updated>
+    </task>
+    <task id="LOCAL-00126" summary="add config yaml for CI line">
+      <created>1690356724866</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1690356724866</updated>
+    </task>
+    <task id="LOCAL-00127" summary="add config yaml for CI line">
+      <created>1690359955775</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1690359955776</updated>
+    </task>
+    <task id="LOCAL-00128" summary="add config yaml for CI line">
+      <created>1690360892263</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1690360892263</updated>
+    </task>
+    <task id="LOCAL-00129" summary="add config yaml for CI line">
+      <created>1690360948860</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1690360948860</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -662,8 +819,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lab 09" />
-    <MESSAGE value="Ticketing project Api" />
     <MESSAGE value="UserController Api" />
     <MESSAGE value="ProjectController Api" />
     <MESSAGE value="TaskController Api" />
@@ -687,7 +842,9 @@
     <MESSAGE value="Security app done" />
     <MESSAGE value="Docker container done" />
     <MESSAGE value="Aws done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aws done" />
+    <MESSAGE value="add config yaml for CI line" />
+    <MESSAGE value="MicroServices" />
+    <option name="LAST_COMMIT_MESSAGE" value="MicroServices" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
