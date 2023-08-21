@@ -17,17 +17,30 @@
         <option value="$PROJECT_DIR$/ticketing-project-microservices-containerized/pom.xml" />
         <option value="$PROJECT_DIR$/ticketing-project-microservices-decomposed/pom.xml" />
         <option value="$PROJECT_DIR$/ticketing-project-microservices-containarized/pom.xml" />
+        <option value="$PROJECT_DIR$/ticketing-project-microservices-eruroka/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/pom.xml" />
+        <option value="$PROJECT_DIR$/ticketing-project-security/pom.xml" />
+        <option value="$PROJECT_DIR$/ticketing-project-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/ticketing-project-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/m9-HTML/pom.xml" />
+        <option value="$PROJECT_DIR$/Solid1/pom.xml" />
+        <option value="$PROJECT_DIR$/Solid11/pom.xml" />
+        <option value="$PROJECT_DIR$/FOR_ME/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/spring/pom.xml" />
+        <option value="$PROJECT_DIR$/ticketing-project-microservices-containarized/pom.xml" />
         <option value="$PROJECT_DIR$/ticketing-project-microservices-containerized/pom.xml" />
         <option value="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-client-management/pom.xml" />
         <option value="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/pom.xml" />
+        <option value="$PROJECT_DIR$/ticketing-project-microservices-decomposed/pom.xml" />
         <option value="$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/pom.xml" />
         <option value="$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/pom.xml" />
         <option value="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ticketing-project-microservices-eruroka/pom.xml" />
         <option value="$PROJECT_DIR$/ticketing-project-microservices/pom.xml" />
       </set>
     </option>

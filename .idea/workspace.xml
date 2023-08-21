@@ -4,175 +4,273 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="aws">
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-client-management/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-client-management/src/main/java/com/Bob/service/UserClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/dto/ProjectDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/dto/RoleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/dto/TaskDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/dto/UserResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/entity/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/entity/ResponseWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/entity/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/enums/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/enums/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/util/MapperUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/docker-compose/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/docker-compose/init/init01.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/docker-compose/init/init02.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/docker-compose/services.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/project-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/project-service/src/main/java/com/Bob/ProjectServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/project-service/src/main/java/com/Bob/controller/ProjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/project-service/src/main/java/com/Bob/exception/ProjectServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/project-service/src/main/java/com/Bob/repository/ProjectRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/project-service/src/main/java/com/Bob/service/ProjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/project-service/src/main/java/com/Bob/service/impl/ProjectServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/project-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/task-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/task-service/src/main/java/com/Bob/TaskServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/task-service/src/main/java/com/Bob/controller/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/task-service/src/main/java/com/Bob/exception/TaskServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/task-service/src/main/java/com/Bob/respository/TaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/task-service/src/main/java/com/Bob/service/TaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/task-service/src/main/java/com/Bob/service/impl/TaskServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/task-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/java/com/Bob/UserServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/java/com/Bob/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/java/com/Bob/exception/UserServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/java/com/Bob/repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/java/com/Bob/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/java/com/Bob/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/java/com/Bob/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/java/com/Bob/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/java/com/Bob/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/resources/logback.xml" afterDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="Decomposed / Containerized">
+      <change afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/Microservices.AntM3g/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/Microservices.AntM3g/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_25_23,_3_15_PM_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_25_23__3_15_PM__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_26_23,_1_22_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_26_23__1_22_AM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Reset_at_7_26_23,_1_21_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Reset_at_7_26_23,_1_23_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Reset_at_7_26_23__1_21_AM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Reset_at_7_26_23__1_23_AM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_25_23,_10_03_PM_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_25_23__10_03_PM__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_27_23,_9_30_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_7_27_23__9_30_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-client-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-client-management/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-client-management/src/main/java/com/Bob/service/UserClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-client-management/src/main/java/com/Bob/service/UserClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/dto/ProjectDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/dto/ProjectDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/dto/RoleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/dto/RoleDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/dto/TaskDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/dto/TaskDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/dto/UserResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/dto/UserResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/app-domain-model/src/main/java/com/Bob/entity/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/entity/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/ResponseWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/entity/ResponseWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/entity/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/enums/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/enums/Gender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/enums/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/enums/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/app-domain-model/src/main/java/com/Bob/util/MapperUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/app-domain-model/src/main/java/com/Bob/util/MapperUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/project-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/Bob/ProjectServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/src/main/java/com/Bob/ProjectServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/Bob/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/src/main/java/com/Bob/controller/ProjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/Bob/exception/ProjectServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/src/main/java/com/Bob/exception/ProjectServiceException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/Bob/repository/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/src/main/java/com/Bob/repository/ProjectRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/Bob/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/src/main/java/com/Bob/service/ProjectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/java/com/Bob/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/src/main/java/com/Bob/service/impl/ProjectServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/project-service/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/project-service/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/task-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/TaskServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/src/main/java/com/Bob/TaskServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/src/main/java/com/Bob/controller/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/exception/TaskServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/src/main/java/com/Bob/exception/TaskServiceException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/respository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/src/main/java/com/Bob/respository/TaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/src/main/java/com/Bob/service/TaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/java/com/Bob/service/impl/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/src/main/java/com/Bob/service/impl/TaskServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/task-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/task-service/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/task-service/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/Bob/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/java/com/Bob/service/RoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/Bob/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/java/com/Bob/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/Bob/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/java/com/Bob/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/Bob/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/java/com/Bob/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/cydeo/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/java/com/cydeo/UserServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/cydeo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/java/com/cydeo/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/cydeo/exception/UserServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/java/com/cydeo/exception/UserServiceException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/cydeo/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/java/com/cydeo/repository/RoleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/java/com/cydeo/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/java/com/cydeo/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-decomposed/user-service/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices/user-service/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/user-service/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/TicketingProjectSecurityApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/TicketingProjectSecurityApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/config/AuthSuccessHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/config/AuthSuccessHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/config/WebConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/controller/ProjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/controller/ProjectController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/controller/TaskController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/controller/TaskController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/converter/ProjectDtoConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/converter/ProjectDtoConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/converter/RoleDtoConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/converter/RoleDtoConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/converter/UserDtoConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/converter/UserDtoConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/ProjectDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/ProjectDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/RoleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/RoleDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/TaskDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/TaskDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/UserDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/BaseEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/Project.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/common/UserPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/common/UserPrincipal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/enums/Gender.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/enums/Gender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/enums/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/enums/Status.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/MapperUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/MapperUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/ProjectMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/ProjectMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/RoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/RoleMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/TaskMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/TaskMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/ProjectRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/ProjectRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/RoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/RoleRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/TaskRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/TaskRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/ProjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/ProjectService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/RoleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/SecurityServiceInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/SecurityServiceInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/TaskService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/TaskService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/ProjectServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/ProjectServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/RoleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/SecurityServiceIMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/SecurityServiceIMP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/TaskServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/TaskServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/test-classes/com/Bob/TicketingProjectSecurityApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/test-classes/com/Bob/TicketingProjectSecurityApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/ticketing-project-security-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/ticketing-project-security-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/ticketing-project-security-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/ticketing-project-security-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/FOR_ME-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Heap/HeapApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Heap/MyHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/HiglyProfitableMonth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/BOBPractice/KthItemsLinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/BOBPractice/MyNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/BOBPractice/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Hw/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Hw/MyNote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Hw/Note.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/LeetCode/MyNote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/LeetCode/Note.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/LeetCode/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Note.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/PalindromeList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/REVERSE_RECRUTION/NoteReverseAndRecreation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/REVERSE_RECRUTION/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/myLinklist/Node1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/myLinklist/NoteCreating.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/myLinklist/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/CircularLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/CircularLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/Node2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LotteryCoupon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/QueueProblem/MyQueueAllMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/QueueProblem/QueueNote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/QueueProblem/ReverseFirstKElementsQueueProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Tree/MyTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Tree/TNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Tree/TreeApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Tree/Trunk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Tree/VisualizeTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/qs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/stock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Solid/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/src/main/java/Homework/Css.css" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/src/main/java/Homework/Css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/src/main/java/Homework/LoginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/src/main/java/Homework/LoginPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/src/main/java/Homework/WelcomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/src/main/java/Homework/WelcomePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/src/main/java/Homework/WelcomePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/src/main/java/Homework/WelcomePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/src/main/java/Homework/user .css" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/src/main/java/Homework/user .css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/src/main/java/Homework/user-create.html" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/src/main/java/Homework/user-create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/src/main/java/RegistrationForm/RegistrationFORM.html" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/src/main/java/RegistrationForm/RegistrationFORM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/src/main/java/files/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/src/main/java/files/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/src/main/java/files/forms.html" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/src/main/java/files/forms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/src/main/java/files/hp.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/src/main/java/files/hp.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/src/main/java/files/hp2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/src/main/java/files/hp2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/src/main/java/files/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/src/main/java/files/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/src/main/java/files/practice.html" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/src/main/java/files/practice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m9-HTML/src/main/java/files/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/m9-HTML1/src/main/java/files/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/Spring18RestSchoolLabApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/client/CountryApiClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/client/WeatherApiClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/controller/SchoolController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/AddressDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/ClassDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/CourseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/ParentDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/ResponseCodeWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/StudentDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/TeacherDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Ara.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Bre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/CapitalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Ces.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/CoatOfArms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/CountryDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Currencies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Cym.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Demonyms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Deu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Eng.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Est.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Eur.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Fin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Fin__1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Flags.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Fra.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Fra__1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Gini.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Hrv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Hun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Idd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Ita.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Jpn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Kor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Languages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Maps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Name.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/NativeName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Nld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Per.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Pol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Por.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/PostalCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Rus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Slk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Spa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Srp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Swe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Swe__1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Translations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Tur.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Urd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/country/Zho.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/weather/Current.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/weather/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/weather/Request.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/dto/weather/WeatherDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/entity/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/entity/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/entity/Class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/entity/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/entity/Parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/entity/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/entity/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/enums/AddressType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/enums/EducationLevel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/enums/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/repository/AddressRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/repository/ClassRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/repository/CourseRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/repository/ParentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/repository/StudentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/repository/TeacherRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/service/AddressService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/service/ClassService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/service/CourseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/service/ParentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/service/TeacherService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/service/impl/AddressServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/service/impl/ClassServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/service/impl/CourseServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/service/impl/ParentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/service/impl/StudentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/service/impl/TeacherServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/classes/com/Bob_r/util/MapperUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-18-REST-SchoolLab/target/test-classes/com/Bob_r/Spring18RestSchoolLabApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-21-AOP/target/classes/com/bob_r/Spring21AopApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-21-AOP/target/classes/com/bob_r/annotation/LoggingAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-21-AOP/target/classes/com/bob_r/aspect/LoggingAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-21-AOP/target/classes/com/bob_r/controller/CourseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-21-AOP/target/classes/com/bob_r/dto/CourseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-21-AOP/target/classes/com/bob_r/entity/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-21-AOP/target/classes/com/bob_r/repository/CourseRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-21-AOP/target/classes/com/bob_r/service/CourseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-21-AOP/target/classes/com/bob_r/service/impl/CourseServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-21-AOP/target/classes/com/bob_r/util/MapperUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-21-AOP/target/test-classes/com/bob_r/Spring21AopApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/Lab08RestApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/client/CurrencyApiClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/controller/AddressController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/controller/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/controller/DiscountController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/controller/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/AddressDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/CartDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/CurrencyApiResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/CustomerDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/DiscountDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/OrderDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/PaymentDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/ProductDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/ProductRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/dto/UpdateOrderDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Balance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Cart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/CartItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Discount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/entity/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/enums/CartState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/enums/Currency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/enums/DiscountType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/enums/PaymentMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/exception/CurrencyTypeNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/exception/ExceptionWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/exception/NotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/exception/ValidationError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/mapper/MapperUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/model/ResponseWrapper$ResponseWrapperBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/model/ResponseWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/AddressRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/BalanceRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/CartItemRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/CartRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/CategoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/DiscountRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/OrderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/PaymentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/repository/ProductRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/service/AddressService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/service/CartService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/service/DiscountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/service/PaymentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/service/serviceIMP/AddressServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/service/serviceIMP/CartServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/service/serviceIMP/CustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/service/serviceIMP/DiscountServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/service/serviceIMP/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/service/serviceIMP/PaymentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/classes/com/Bob_r/service/serviceIMP/ProductServiceImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/test-classes/com/Bob_r/Lab08RestApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/test-classes/com/Bob_r/controller/AddressControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/test-classes/com/Bob_r/controller/CustomerControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/test-classes/com/Bob_r/controller/DiscountControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/test-classes/com/Bob_r/controller/OrderControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-labs/lab-08-rest/target/test-classes/com/Bob_r/controller/ProductControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-microservices-containarized/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-microservices-containarized/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/src/main/resources/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-rest/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-rest/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,12 +322,6 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar!/javax/validation/constraints/NotBlank.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar!/org/junit/jupiter/api/Assertions.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$MAVEN_REPOSITORY$/org/keycloak/keycloak-adapter-core/18.0.0/keycloak-adapter-core-18.0.0.jar!/org/keycloak/adapters/KeycloakDeploymentBuilder.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$MAVEN_REPOSITORY$/org/keycloak/keycloak-spring-security-adapter/18.0.0/keycloak-spring-security-adapter-18.0.0.jar!/org/keycloak/adapters/springsecurity/config/KeycloakWebSecurityConfigurerAdapter.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.7.7/spring-security-config-5.7.7.jar!/org/springframework/security/config/annotation/web/builders/WebSecurity.class" root0="SKIP_INSPECTION" />
-    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.25/spring-core-5.3.25.jar!/org/springframework/core/convert/converter/Converter.class" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/spring-11-Data-TableCreation/pom.xml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="HttpClientSelectedEnvironments">
@@ -245,6 +337,11 @@
       <MavenGeneralSettings>
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProblemsViewState">
@@ -278,8 +375,9 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.editor",
-    "spring.configuration.checksum": "6427a1b00a7e6c950b87ae97dbcf9a45",
+    "spring.configuration.checksum": "0f0089fbb321aabf3768e4b3ed538098",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -317,18 +415,13 @@
     </key>
   </component>
   <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
     <option name="excludedTypes">
       <set>
         <option value="HttpClient.HttpRequestRunConfigurationType" />
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose/services.yml.projectservice: Compose Deployment">
+  <component name="RunManager" selected="Spring Boot.Spring20RestSecurityKeycloakOrganizationsAppApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -340,120 +433,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ticketing-project-security [clean...]" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="clean" />
-                <option value="package" />
-                <option value="-DskipTests" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/ticketing-project-microservices" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="ProjectServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="project-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.ProjectServiceApplication" />
+    <configuration name="Spring20RestSecurityKeycloakLicenseAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-20-REST-Security-Keycloak-LicenseApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.Spring20RestSecurityKeycloakLicenseAppApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bob_r.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProjectServiceApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="project-service (1) (com.Bob)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.ProjectServiceApplication" />
+    <configuration name="Spring20RestSecurityKeycloakOrganizationsAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-20-REST-Security-Keycloak-OrganizationsApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_r.Spring20RestSecurityKeycloakOrganizationsAppApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bob_r.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProjectServiceApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="project-service (1)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.ProjectServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProjectServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="project-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.ProjectServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaskServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="task-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.TaskServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaskServiceApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="task-service (1) (com.Bob)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.TaskServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaskServiceApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="task-service (1)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.TaskServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaskServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="task-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.TaskServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TicketingProjectSecurityApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="ticketing-project-security" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.TicketingProjectSecurityApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="user-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.UserServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="user-service (1) (com.Bob)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.UserServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceApplication (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="user-service (1)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.UserServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="user-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.UserServiceApplication" />
+    <configuration name="TicketingProjectRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ticketing-project-rest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_R.TicketingProjectRestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -470,79 +478,15 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker-compose/services.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="ticketing-project-microservices-containerized/docker-compose/services.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="docker-compose/services.yml.database: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="database" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="ticketing-project-microservices-containerized/docker-compose/services.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="docker-compose/services.yml.projectservice: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="projectservice" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="ticketing-project-microservices-containerized/docker-compose/services.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="docker-compose/services.yml.userservice: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="userservice" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="ticketing-project-microservices-containerized/docker-compose/services.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Docker.docker-compose/services.yml.database: Compose Deployment" />
-      <item itemvalue="Docker.docker-compose/services.yml.projectservice: Compose Deployment" />
-      <item itemvalue="Docker.docker-compose/services.yml.userservice: Compose Deployment" />
-      <item itemvalue="Docker.docker-compose/services.yml: Compose Deployment" />
-      <item itemvalue="Maven.ticketing-project-security [clean...]" />
-      <item itemvalue="Spring Boot.ProjectServiceApplication (3)" />
-      <item itemvalue="Spring Boot.TaskServiceApplication (3)" />
-      <item itemvalue="Spring Boot.UserServiceApplication (3)" />
-      <item itemvalue="Spring Boot.ProjectServiceApplication (1)" />
-      <item itemvalue="Spring Boot.ProjectServiceApplication (2)" />
-      <item itemvalue="Spring Boot.TaskServiceApplication (1)" />
-      <item itemvalue="Spring Boot.TaskServiceApplication (2)" />
-      <item itemvalue="Spring Boot.UserServiceApplication (1)" />
-      <item itemvalue="Spring Boot.UserServiceApplication (2)" />
-      <item itemvalue="Spring Boot.ProjectServiceApplication" />
-      <item itemvalue="Spring Boot.TaskServiceApplication" />
-      <item itemvalue="Spring Boot.TicketingProjectSecurityApplication (1)" />
-      <item itemvalue="Spring Boot.UserServiceApplication" />
+      <item itemvalue="Spring Boot.TicketingProjectRestApplication" />
+      <item itemvalue="Spring Boot.Spring20RestSecurityKeycloakLicenseAppApplication" />
+      <item itemvalue="Spring Boot.Spring20RestSecurityKeycloakOrganizationsAppApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker-compose/services.yml.projectservice: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose/services.yml.userservice: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose/services.yml.database: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose/services.yml: Compose Deployment" />
+        <item itemvalue="Spring Boot.Spring20RestSecurityKeycloakOrganizationsAppApplication" />
+        <item itemvalue="Spring Boot.Spring20RestSecurityKeycloakLicenseAppApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -642,21 +586,19 @@
       <workItem from="1690471195201" duration="705000" />
       <workItem from="1690517323162" duration="3384000" />
       <workItem from="1690556340643" duration="3778000" />
-      <workItem from="1690581762154" duration="1169000" />
-    </task>
-    <task id="LOCAL-00083" summary="GlobalExceptionHandler">
-      <created>1687300163221</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1687300163221</updated>
-    </task>
-    <task id="LOCAL-00084" summary="Aop added">
-      <created>1687300580143</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1687300580143</updated>
+      <workItem from="1690581762154" duration="7184000" />
+      <workItem from="1690596528059" duration="10494000" />
+      <workItem from="1690653095000" duration="2583000" />
+      <workItem from="1690657257765" duration="956000" />
+      <workItem from="1690745280641" duration="1303000" />
+      <workItem from="1690905886913" duration="630000" />
+      <workItem from="1691164107113" duration="1567000" />
+      <workItem from="1691600225878" duration="878000" />
+      <workItem from="1691808137152" duration="1039000" />
+      <workItem from="1691893299044" duration="14425000" />
+      <workItem from="1691949807903" duration="9623000" />
+      <workItem from="1692064187106" duration="9388000" />
+      <workItem from="1692111048713" duration="4675000" />
     </task>
     <task id="LOCAL-00085" summary="Aop added Log4j2">
       <created>1687300651996</created>
@@ -987,7 +929,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690515701239</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="Decomposed / Containerized">
+      <created>1690583110231</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1690583110232</updated>
+    </task>
+    <task id="LOCAL-00133" summary="PRACTICE">
+      <created>1691967930103</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1691967930104</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1013,8 +969,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ProjectController Api" />
-    <MESSAGE value="TaskController Api" />
     <MESSAGE value="Keycloak" />
     <MESSAGE value="Keycloak manual" />
     <MESSAGE value="SwaggerConfig" />
@@ -1038,7 +992,9 @@
     <MESSAGE value="add config yaml for CI line" />
     <MESSAGE value="MicroServices" />
     <MESSAGE value="aws" />
-    <option name="LAST_COMMIT_MESSAGE" value="aws" />
+    <MESSAGE value="Decomposed / Containerized" />
+    <MESSAGE value="PRACTICE" />
+    <option name="LAST_COMMIT_MESSAGE" value="PRACTICE" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1063,11 +1019,6 @@
           <url>file://$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/BaseEntityListener.java</url>
           <line>40</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/qs.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/LotteryCoupon.java</url>

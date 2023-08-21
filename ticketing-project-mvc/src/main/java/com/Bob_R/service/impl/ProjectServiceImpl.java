@@ -95,7 +95,6 @@ public class ProjectServiceImpl implements ProjectService {
     public List<ProjectDTO> listAllProjectsDetails() {
 //we have to make sure which role in system from security and to show our projectionist
 //from hard code to soft code
-//        String username = SecurityContextHolder.getContext().getAuthentication().getName();
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         SimpleKeycloakAccount details = (SimpleKeycloakAccount) authentication.getDetails();
         String username = details.getKeycloakSecurityContext().getToken().getPreferredUsername();

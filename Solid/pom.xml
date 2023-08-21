@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.Bob_R</groupId>
-        <artifactId>Bob_R</artifactId>
+        <artifactId>Solid</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 

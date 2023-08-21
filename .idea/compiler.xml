@@ -7,19 +7,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="app-domain-model (1)" />
-        <module name="task-service (1)" />
-        <module name="project-service (1)" />
-        <module name="user-service (1)" />
-        <module name="app-client-management (1)" />
+        <module name="spring-20-REST-Security-Keycloak-LicenseApp" />
+        <module name="spring-20-REST-Security-Keycloak-OrganizationsApp" />
+        <module name="app-domain-model" />
+        <module name="ticketing-project-security" />
+        <module name="app-client-management" />
+        <module name="ticketing-project-rest" />
+        <module name="task-service" />
+        <module name="user-service" />
+        <module name="project-service" />
+        <module name="FOR_ME" />
+        <module name="ticketing-project-mvc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="app-client-management" target="11" />
+      <module name="app-client-management (1)" target="11" />
       <module name="app-client-management (1) (com.Bob)" target="11" />
-      <module name="app-domain-model" target="11" />
+      <module name="app-client-management (2) (com.cydeo)" target="11" />
+      <module name="app-domain-model (1)" target="11" />
       <module name="app-domain-model (1) (com.Bob)" target="11" />
+      <module name="app-domain-model (2) (com.cydeo)" target="11" />
       <module name="Bob_R" target="11" />
+      <module name="discovery-service" target="11" />
       <module name="dsa-04-LinkedLists" target="11" />
       <module name="dsa-05-Stacks" target="11" />
       <module name="dsa-06-AlgorithmProblems" target="11" />
@@ -27,36 +36,51 @@
       <module name="dsa-08-Trees" target="11" />
       <module name="dsa-09-Heap" target="11" />
       <module name="dsa-11-Sorting" target="17" />
-      <module name="FOR_ME" target="11" />
+      <module name="FOR_ME1" target="11" />
       <module name="lab-06-orm" target="11" />
       <module name="lab-07-orm-queries" target="11" />
       <module name="lab-08-rest" target="11" />
-      <module name="project-service" target="11" />
+      <module name="lambda-sort-doublecolon-task" target="11" />
+      <module name="m1-generics" target="11" />
+      <module name="m2-enum" target="11" />
+      <module name="m3-lambda" target="11" />
+      <module name="m4-double_colon_operators" target="11" />
+      <module name="m5-comparator_interface" target="11" />
+      <module name="m6-stream" target="11" />
+      <module name="m7-optional-bigdecimal" target="18" />
+      <module name="m8-new-version-updates" target="18" />
+      <module name="m9-HTML1" target="11" />
+      <module name="project-service (1)" target="11" />
       <module name="project-service (1) (com.Bob)" target="11" />
+      <module name="project-service (2) (com.cydeo)" target="11" />
+      <module name="Solid" target="11" />
+      <module name="spring-00-Coupling" target="11" />
+      <module name="spring-01-Core-IoC-Bean-Annotation" target="11" />
+      <module name="spring-02-Core-IoC-Stereotype-Annotation" target="11" />
+      <module name="spring-10-Thymeleaf" target="11" />
       <module name="spring-14-Data-Queries" target="11" />
       <module name="Spring-15-REST" target="11" />
       <module name="Spring-16-REST-Jackson" target="11" />
       <module name="spring-17-REST-ConsumingApis" target="11" />
       <module name="spring-18-REST-SchoolLab" target="11" />
       <module name="Spring-19-REST-OpenAPI3" target="11" />
-      <module name="spring-20-REST-Security-Keycloak-LicenseApp" target="11" />
-      <module name="spring-20-REST-Security-Keycloak-OrganizationsApp" target="11" />
       <module name="spring-21-AOP" target="11" />
       <module name="spring-22-UnitTesting-JUnit5" target="11" />
       <module name="spring-23-UnitTesting-Mockito" target="11" />
       <module name="spring-24-UnitTesting-MockMVC" target="11" />
       <module name="spring-25-Docker" target="11" />
       <module name="stream-practice" target="11" />
-      <module name="task-service" target="11" />
+      <module name="task-service (1)" target="11" />
       <module name="task-service (1) (com.Bob)" target="11" />
+      <module name="task-service (2) (com.cydeo)" target="11" />
       <module name="ticketing-project-bob" target="11" />
       <module name="ticketing-project-microservices" target="11" />
+      <module name="ticketing-project-microservices-containarized" target="11" />
       <module name="ticketing-project-microservices-containerized" target="11" />
-      <module name="ticketing-project-mvc" target="11" />
-      <module name="ticketing-project-rest" target="11" />
-      <module name="ticketing-project-security" target="11" />
-      <module name="user-service" target="11" />
+      <module name="ticketing-project-microservices-decomposed" target="11" />
+      <module name="user-service (1)" target="11" />
       <module name="user-service (1) (com.Bob)" target="11" />
+      <module name="user-service (2) (com.cydeo)" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -67,15 +91,20 @@
       <module name="app-client-management" options="-parameters" />
       <module name="app-client-management (1)" options="-parameters" />
       <module name="app-client-management (1) (com.Bob)" options="-parameters" />
+      <module name="app-client-management (2) (com.cydeo)" options="-parameters" />
       <module name="app-domain-model" options="-parameters" />
       <module name="app-domain-model (1)" options="-parameters" />
       <module name="app-domain-model (1) (com.Bob)" options="-parameters" />
+      <module name="app-domain-model (2) (com.cydeo)" options="-parameters" />
+      <module name="discovery-service" options="-parameters" />
       <module name="lab-06-orm" options="-parameters" />
       <module name="lab-07-orm-queries" options="-parameters" />
       <module name="lab-08-rest" options="-parameters" />
       <module name="project-service" options="-parameters" />
       <module name="project-service (1)" options="-parameters" />
       <module name="project-service (1) (com.Bob)" options="-parameters" />
+      <module name="project-service (2) (com.cydeo)" options="-parameters" />
+      <module name="spring-10-Thymeleaf" options="-parameters" />
       <module name="spring-14-Data-Queries" options="-parameters" />
       <module name="spring-17-REST-ConsumingApis" options="-parameters" />
       <module name="spring-18-REST-SchoolLab" options="-parameters" />
@@ -89,6 +118,7 @@
       <module name="task-service" options="-parameters" />
       <module name="task-service (1)" options="-parameters" />
       <module name="task-service (1) (com.Bob)" options="-parameters" />
+      <module name="task-service (2) (com.cydeo)" options="-parameters" />
       <module name="ticketing-project-microservices" options="-parameters" />
       <module name="ticketing-project-microservices-containarized" options="-parameters" />
       <module name="ticketing-project-microservices-containerized" options="-parameters" />
@@ -99,6 +129,7 @@
       <module name="user-service" options="-parameters" />
       <module name="user-service (1)" options="-parameters" />
       <module name="user-service (1) (com.Bob)" options="-parameters" />
+      <module name="user-service (2) (com.cydeo)" options="-parameters" />
     </option>
   </component>
 </project>

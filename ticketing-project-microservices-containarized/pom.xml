@@ -23,8 +23,8 @@
     <groupId>com.Bob</groupId>
     <artifactId>ticketing-project-microservices-containarized</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ticketing-project-microservices-containarized</name>
-    <description>ticketing-project-microservices-containarized</description>
+    <name>ticketing-project-microservices-containerized</name>
+    <description>ticketing-project-microservices-containerized</description>
 
     <properties>
         <java.version>11</java.version>

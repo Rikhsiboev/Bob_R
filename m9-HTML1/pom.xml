@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.Bob_R</groupId>
-        <artifactId>Bob_R</artifactId>
+        <groupId>org.Bob_r</groupId>
+        <artifactId>m9-HTML</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>m9-HTML</artifactId>
+    <artifactId>m9-HTML1</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

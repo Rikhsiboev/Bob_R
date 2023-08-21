@@ -12,10 +12,15 @@
         <introspection-scope>
           <node negative="1">
             <node kind="database">
+              <name qname="ticketing-project-rest" />
               <name qname="database_name" />
+              <name qname="spring-20-REST-Security-Keycloak-LicenseApp" />
+              <name qname="spring-20-REST-Security-Keycloak-OrganizationsApp" />
               <name qname="ticketing-app123" />
             </node>
-            <node kind="database" qname="Microservices">
+            <node kind="database">
+              <name qname="keycloak" />
+              <name qname="Microservices" />
               <node kind="schema" qname="public" />
             </node>
           </node>
