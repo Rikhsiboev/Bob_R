@@ -1,6 +1,0 @@
-com/Bob/service/TaskService.class
-com/Bob/exception/TaskServiceException.class
-com/Bob/respository/TaskRepository.class
-com/Bob/service/impl/TaskServiceImpl.class
-com/Bob/controller/TaskController.class
-com/Bob/TaskServiceApplication.class

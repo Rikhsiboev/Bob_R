@@ -1,9 +1,0 @@
-/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/user-service/src/main/java/com/Bob/service/impl/UserServiceImpl.java
-/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/user-service/src/main/java/com/cydeo/repository/UserRepository.java
-/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/user-service/src/main/java/com/cydeo/controller/UserController.java
-/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/user-service/src/main/java/com/Bob/service/impl/RoleServiceImpl.java
-/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/user-service/src/main/java/com/cydeo/repository/RoleRepository.java
-/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/user-service/src/main/java/com/Bob/service/RoleService.java
-/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/user-service/src/main/java/com/cydeo/UserServiceApplication.java
-/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/user-service/src/main/java/com/Bob/service/UserService.java
-/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/ticketing-project-microservices-decomposed/user-service/src/main/java/com/cydeo/exception/UserServiceException.java

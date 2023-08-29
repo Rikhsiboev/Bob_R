@@ -12,11 +12,30 @@
         <introspection-scope>
           <node negative="1">
             <node kind="database">
-              <name qname="ticketing-project-rest" />
+              <name qname="ticketing-project-security" />
               <name qname="database_name" />
+              <name qname="lab-06-orm-ecommerce" />
+              <name qname="lab-07-orm-queries" />
+              <name qname="lab-08-rest" />
+              <name qname="postgres" />
+              <name qname="rikhsiboevgmail.com" />
+              <name qname="spring-11-Data-TableCreation" />
+              <name qname="spring-12-Data-Relationship" />
+              <name qname="spring-13-Data-CinemaLLab" />
+              <name qname="Spring-14-Data-Queries" />
+              <name qname="spring-15-REST" />
+              <name qname="spring-16-REST-Jackson" />
+              <name qname="spring-17-REST-ConsumingApis" />
+              <name qname="spring-18-REST-SchoolLab" />
+              <name qname="spring-19-REST-OpenAPI3" />
               <name qname="spring-20-REST-Security-Keycloak-LicenseApp" />
               <name qname="spring-20-REST-Security-Keycloak-OrganizationsApp" />
+              <name qname="spring-21-AOP" />
+              <name qname="spring-23-UnitTesting-Mockito" />
+              <name qname="spring-24-UnitTesting-MockMVC" />
               <name qname="ticketing-app123" />
+              <name qname="ticketing-project-mvc" />
+              <name qname="ticketing-project-rest" />
             </node>
             <node kind="database">
               <name qname="keycloak" />
@@ -25,6 +44,7 @@
             </node>
           </node>
         </introspection-scope>
+        <substitutions use-mini-cat="false" />
       </schema-mapping>
     </data-source>
     <data-source name="ticketingdb@ticketingdb.cevozceebzsg.us-west-2.rds.amazonaws.com" uuid="23ab129f-5c65-40c9-bacf-34ec99621894">

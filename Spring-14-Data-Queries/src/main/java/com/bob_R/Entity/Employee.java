@@ -21,7 +21,7 @@ public class Employee extends com.bob_R.entity.BaseEntity {
     private Integer salary;
     @ManyToOne
     @JoinColumn(name = "department")
-    private Department department;ч
+    private Department department;
     @ManyToOne
     @JoinColumn(name = "region_id")
     private com.bob_R.entity.Region region;
