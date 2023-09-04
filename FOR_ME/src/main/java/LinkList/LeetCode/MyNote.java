@@ -40,7 +40,7 @@ public class MyNote {
             head=head.next;
         }
         Note current = head;
-        while (current.next!=null&& current.next.value!=value){
+        while (current.next!=null&& current.next.value!= value){
             current=current.next;
         }
         if (current.next!=null&& current.next.value==value){

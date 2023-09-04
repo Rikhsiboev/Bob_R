@@ -1,4 +1,4 @@
-package PrepInterview;
+package PrepInterview.array;
 
 import java.util.ArrayList;
 import java.util.List;
