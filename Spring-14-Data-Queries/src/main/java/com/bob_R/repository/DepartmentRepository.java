@@ -21,7 +21,7 @@ public interface DepartmentRepository extends JpaRepository<Department,String> {
     // Display top 3 departments with division name includes Hea without duplicates
     List<Department> findDistinctTop3ByDivisionContains(String name);
 
-    @Query("select d from Department d where d.division IN = ?1 ")
+    @Query("SELECT d FROM Department d WHERE d.division IN ?1")
     List<Department> retrieveDepartmentDivision(List<String> division);
 
 
