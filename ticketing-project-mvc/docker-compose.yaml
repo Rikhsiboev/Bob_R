@@ -1,30 +1,34 @@
-version: "3.7"
+version: '3.7'
+
 services:
   mypostgres:
-    image: postgres
+    image: postgres:13
     container_name: mypostgres
     environment:
       POSTGRES_USER: "postgres"
       POSTGRES_PASSWORD: "bob4158997"
-      POSTGRES_DB: "ticketing-app1"
+      POSTGRES_DB: "ticketing-project-mvc"
     ports:
       - "5435:5432"
     restart: always
     volumes:
       - volumeToSaveDb:/var/lib/postgresql/data
     networks:
-        - webnet
+      - webnet
+
   ticketing-app:
     build: .
     container_name: ticketingapp
     ports:
-      - "8080:8080"
+      - "8886:8086"
     networks:
       - webnet
     depends_on:
       - mypostgres
+
 networks:
   webnet:
     driver: bridge
+
 volumes:
   volumeToSaveDb:

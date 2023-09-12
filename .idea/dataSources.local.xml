@@ -29,7 +29,6 @@
               <name qname="spring-21-AOP" />
               <name qname="spring-23-UnitTesting-Mockito" />
               <name qname="spring-24-UnitTesting-MockMVC" />
-              <name qname="ticketing-app123" />
               <name qname="ticketing-project-rest" />
             </node>
             <node kind="database">
@@ -38,6 +37,7 @@
               <name qname="Spring-14-Data-Queries" />
               <name qname="spring-20-REST-Security-Keycloak-LicenseApp" />
               <name qname="spring-20-REST-Security-Keycloak-OrganizationsApp" />
+              <name qname="ticketing-app123" />
               <name qname="ticketing-project-mvc" />
               <name qname="ticketing-project-security" />
               <node kind="schema" qname="public" />
