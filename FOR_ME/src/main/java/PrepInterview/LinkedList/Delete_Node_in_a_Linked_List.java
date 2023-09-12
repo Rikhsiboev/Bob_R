@@ -25,7 +25,7 @@ public class Delete_Node_in_a_Linked_List {
     }
 
     private static void deleteNode( NoteForThis note) {
-       NoteForThis current = note;
+        NoteForThis current = note;
         current.val= current.next.val;
         current.next=current.next.next;
     }
