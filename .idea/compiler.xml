@@ -17,6 +17,7 @@
         <module name="Spring-16-REST-Jackson" />
         <module name="dsa-02-Arrays" />
         <module name="spring-12-Data-Relationship" />
+        <module name="Threadslifecycle" />
         <module name="lab-07-orm-queries" />
         <module name="m6-stream" />
         <module name="dsa-01-AlgortihmAnalysis" />

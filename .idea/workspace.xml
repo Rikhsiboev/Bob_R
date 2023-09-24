@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/BanarySearch/BnNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/BanarySearch/BrSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threadslifecycle/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threadslifecycle/src/main/java/com/Bob_r/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threadslifecycle/src/main/java/com/Bob_r/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threadslifecycle/src/main/java/com/Bob_r/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-12-Data-Relationship/spring-12-Data-Relationship.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/spring-12-Data-Relationship.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +170,7 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BrSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BanarySearch.BrSearch" />
       <module name="FOR_ME" />
@@ -179,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Largest_Range" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrepInterview.array.Largest_Range" />
-      <module name="FOR_ME" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Bob_r.Main" />
+      <module name="Threadslifecycle" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PrepInterview.array.*" />
+          <option name="PATTERN" value="com.Bob_r.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -435,9 +440,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.BrSearch" />
-      <item itemvalue="Application.Largest_Range" />
       <item itemvalue="Docker.spring-25-Docker/Dockerfile" />
       <item itemvalue="Docker.ticketing-project-mvc/docker-compose.yaml: Compose Deployment" />
       <item itemvalue="Spring Boot.BobApplication" />
@@ -471,11 +476,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.BrSearch" />
         <item itemvalue="Docker.ticketing-project-mvc/docker-compose.yaml: Compose Deployment" />
         <item itemvalue="Docker.spring-25-Docker/Dockerfile" />
-        <item itemvalue="Application.Largest_Range" />
       </list>
     </recent_temporary>
   </component>
@@ -623,13 +628,7 @@
       <workItem from="1694704963011" duration="7819000" />
       <workItem from="1694738941115" duration="1755000" />
       <workItem from="1695503301185" duration="652000" />
-    </task>
-    <task id="LOCAL-00098" summary="Spring 25 Docker">
-      <created>1689696831990</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1689696831990</updated>
+      <workItem from="1695568301418" duration="2481000" />
     </task>
     <task id="LOCAL-00099" summary="Docker container">
       <created>1690249633773</created>
@@ -967,7 +966,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694535804751</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="Stack">
+      <created>1695568353680</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1695568353681</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
