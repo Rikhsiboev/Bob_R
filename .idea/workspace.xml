@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/LinkedList/Delete_N_M_Nodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/Stack/CustomStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/array/Largest_Range.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/gasStattion/gasStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/BanarySearch/BnNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/BanarySearch/BrSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/LinkedList/Delete_Node_in_a_Linked_List.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/LinkedList/Delete_Node_in_a_Linked_List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/ticketing-project-security-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/ticketing-project-security-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,13 +165,13 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.TicketingProjectRestApplication">
-    <configuration name="Delete_N_M_Nodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrepInterview.LinkedList.Delete_N_M_Nodes" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="BrSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BanarySearch.BrSearch" />
       <module name="FOR_ME" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PrepInterview.LinkedList.*" />
+          <option name="PATTERN" value="BanarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,15 +192,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gasStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrepInterview.gasStattion.gasStation" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="FOR_ME" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PrepInterview.gasStattion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -436,10 +418,10 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="ticketing-project-mvc/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="docker-default">
+    <configuration name="spring-25-Docker/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="docker-default">
       <deployment type="dockerfile">
         <settings>
-          <option name="sourceFilePath" value="ticketing-project-mvc/Dockerfile" />
+          <option name="sourceFilePath" value="spring-25-Docker/Dockerfile" />
         </settings>
       </deployment>
       <method v="2" />
@@ -453,10 +435,10 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.BrSearch" />
       <item itemvalue="Application.Largest_Range" />
-      <item itemvalue="Application.gasStation" />
-      <item itemvalue="Application.Delete_N_M_Nodes" />
-      <item itemvalue="Docker.ticketing-project-mvc/Dockerfile" />
+      <item itemvalue="Docker.spring-25-Docker/Dockerfile" />
       <item itemvalue="Docker.ticketing-project-mvc/docker-compose.yaml: Compose Deployment" />
       <item itemvalue="Spring Boot.BobApplication" />
       <item itemvalue="Spring Boot.Bob_RApplication" />
@@ -489,11 +471,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Largest_Range" />
-        <item itemvalue="Application.gasStation" />
-        <item itemvalue="Application.Delete_N_M_Nodes" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.BrSearch" />
         <item itemvalue="Docker.ticketing-project-mvc/docker-compose.yaml: Compose Deployment" />
-        <item itemvalue="Docker.ticketing-project-mvc/Dockerfile" />
+        <item itemvalue="Docker.spring-25-Docker/Dockerfile" />
+        <item itemvalue="Application.Largest_Range" />
       </list>
     </recent_temporary>
   </component>
@@ -632,42 +614,15 @@
       <workItem from="1694439194877" duration="6265000" />
       <workItem from="1694473145125" duration="1388000" />
       <workItem from="1694483509405" duration="720000" />
-      <workItem from="1694534100823" duration="604000" />
-    </task>
-    <task id="LOCAL-00093" summary="Etsy">
-      <created>1689696652722</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1689696652723</updated>
-    </task>
-    <task id="LOCAL-00094" summary="lab rest 08">
-      <created>1689696706328</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1689696706328</updated>
-    </task>
-    <task id="LOCAL-00095" summary="UnitTest JUnit5">
-      <created>1689696747734</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1689696747735</updated>
-    </task>
-    <task id="LOCAL-00096" summary="UnitTest Mockito">
-      <created>1689696771836</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1689696771836</updated>
-    </task>
-    <task id="LOCAL-00097" summary="UnitTest MockMVC">
-      <created>1689696797126</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1689696797126</updated>
+      <workItem from="1694534100823" duration="2692000" />
+      <workItem from="1694612058179" duration="4798000" />
+      <workItem from="1694625647394" duration="68000" />
+      <workItem from="1694625721552" duration="46000" />
+      <workItem from="1694629378184" duration="723000" />
+      <workItem from="1694643325281" duration="1919000" />
+      <workItem from="1694704963011" duration="7819000" />
+      <workItem from="1694738941115" duration="1755000" />
+      <workItem from="1695503301185" duration="652000" />
     </task>
     <task id="LOCAL-00098" summary="Spring 25 Docker">
       <created>1689696831990</created>
@@ -977,7 +932,42 @@
       <option name="project" value="LOCAL" />
       <updated>1693969619455</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="changed">
+      <created>1694535727779</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1694535727779</updated>
+    </task>
+    <task id="LOCAL-00143" summary="largeRange">
+      <created>1694535745719</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1694535745719</updated>
+    </task>
+    <task id="LOCAL-00144" summary="gasStation">
+      <created>1694535763935</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1694535763936</updated>
+    </task>
+    <task id="LOCAL-00145" summary="Note">
+      <created>1694535792600</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1694535792600</updated>
+    </task>
+    <task id="LOCAL-00146" summary="Stack">
+      <created>1694535804751</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1694535804751</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1003,11 +993,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="AOP" />
-    <MESSAGE value="Aop added Log4j2,properties rolling file appender added" />
-    <MESSAGE value="Unit Test" />
-    <MESSAGE value="Etsy" />
-    <MESSAGE value="lab rest 08" />
     <MESSAGE value="UnitTest JUnit5" />
     <MESSAGE value="UnitTest Mockito" />
     <MESSAGE value="UnitTest MockMVC" />
@@ -1028,7 +1013,12 @@
     <MESSAGE value="new secret key for my Key cloak and as functionality" />
     <MESSAGE value="new secret key for my Key cloak and as functionality also Data to use for both project same information as data" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="changed" />
+    <MESSAGE value="largeRange" />
+    <MESSAGE value="gasStation" />
+    <MESSAGE value="Note" />
+    <MESSAGE value="Stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
