@@ -1,4 +1,4 @@
-package com.Bob_r;
+package com.Bob_r.calss;
 
 public class MyThread  extends Thread{
 

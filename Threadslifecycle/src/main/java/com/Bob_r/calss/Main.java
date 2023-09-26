@@ -1,4 +1,7 @@
-package com.Bob_r;
+package com.Bob_r.calss;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
@@ -22,8 +25,7 @@ public class Main {
         Thread myRunnableThread = new Thread(myRunnable1);
         myRunnableThread.start();
 
-
-
-
+            // we are creating tread pool
+        ExecutorService ExecutorService = Executors.newFixedThreadPool(5);
     }
 }
