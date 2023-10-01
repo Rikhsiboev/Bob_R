@@ -4,27 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/BanarySearch/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Threads/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/com/Bob_r/Deadlock/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/com/Bob_r/Deadlock/Runnable1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/com/Bob_r/Deadlock/Runnable2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/com/Bob_r/Threadpool/DownloadProcesor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/com/Bob_r/Threadpool/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/com/Bob_r/Threadpool/UploadProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/com/Bob_r/bookingthread/BookingTread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/com/Bob_r/bookingthread/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/com/Bob_r/counter/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/com/Bob_r/counter/CounterThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Threads/src/main/java/com/Bob_r/counter/Main.java" afterDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="Thread()">
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Graphs/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Trie/TriNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Trie/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Trie/trieMainApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Threadslifecycle/src/main/java/com/Bob_r/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Threadslifecycle/src/main/java/com/Bob_r/calss/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Threadslifecycle/src/main/java/com/Bob_r/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Threadslifecycle/src/main/java/com/Bob_r/calss/MyRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Threadslifecycle/src/main/java/com/Bob_r/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Threadslifecycle/src/main/java/com/Bob_r/calss/MyThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,26 +169,13 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.trieMainApp">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Bob_r.Threadpool.Main" />
       <module name="Threads" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.Bob_r.Threadpool.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrepInterview.BanarySearch.TreeNode" />
-      <module name="FOR_ME" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PrepInterview.BanarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,6 +212,19 @@
     <configuration name="sumAndGetTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sumAndGetTarget" />
       <module name="FOR_ME" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="trieMainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trie.trieMainApp" />
+      <module name="FOR_ME" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -469,10 +456,10 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.trieMainApp" />
       <item itemvalue="Application.com.Bob_r.bookingthread.Main" />
       <item itemvalue="Application.com.Bob_r.counter.Main" />
       <item itemvalue="Application.sumAndGetTarget" />
-      <item itemvalue="Application.TreeNode" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Spring Boot.Spring12DataRelationshipApplication" />
       <item itemvalue="Spring Boot.BobApplication" />
@@ -506,11 +493,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.trieMainApp" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.com.Bob_r.bookingthread.Main" />
         <item itemvalue="Application.com.Bob_r.counter.Main" />
         <item itemvalue="Application.sumAndGetTarget" />
-        <item itemvalue="Application.TreeNode" />
       </list>
     </recent_temporary>
   </component>
@@ -661,14 +648,12 @@
       <workItem from="1695568301418" duration="9470000" />
       <workItem from="1695619261628" duration="1642000" />
       <workItem from="1695660472033" duration="2908000" />
-      <workItem from="1695668944210" duration="8619000" />
-    </task>
-    <task id="LOCAL-00100" summary="Security app done">
-      <created>1690323229714</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1690323229714</updated>
+      <workItem from="1695668944210" duration="8709000" />
+      <workItem from="1695829733734" duration="1575000" />
+      <workItem from="1695997520204" duration="36000" />
+      <workItem from="1695998229940" duration="2052000" />
+      <workItem from="1696017441107" duration="828000" />
+      <workItem from="1696197739990" duration="3079000" />
     </task>
     <task id="LOCAL-00101" summary="Security app done">
       <created>1690323322968</created>
@@ -1006,7 +991,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695573919363</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="Thread()">
+      <created>1695701460346</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1695701460346</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -65,6 +65,7 @@
         <module name="m8-new-version-updates" />
         <module name="spring-20-REST-Security-Keycloak-LicenseApp" />
         <module name="Threads" />
+        <module name="Review1" />
         <module name="spring-14-Data-Queries" />
         <module name="dsa-03-CollectionsReview" />
         <module name="dsa-11-Sorting" />
