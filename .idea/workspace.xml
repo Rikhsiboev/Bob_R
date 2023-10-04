@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="Thread()">
       <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Graphs/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Trie/TriNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Trie/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Trie/trieMainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Graphs/GraphMainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/BSTamdLCA/LcaWithTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/BSTamdLCA/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,13 +167,39 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Application.trieMainApp">
+  <component name="RunManager" selected="Application.LcaWithTree">
+    <configuration name="LcaWithTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrepInterview.BSTamdLCA.LcaWithTree" />
+      <module name="FOR_ME" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PrepInterview.BSTamdLCA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Bob_r.Threadpool.Main" />
       <module name="Threads" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.Bob_r.Threadpool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BSTamdLCA.Solution" />
+      <module name="FOR_ME" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BSTamdLCA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,26 +216,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.Bob_r.counter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Bob_r.counter.Main" />
-      <module name="Threads" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Bob_r.counter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sumAndGetTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sumAndGetTarget" />
-      <module name="FOR_ME" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -456,10 +460,10 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.LcaWithTree" />
+      <item itemvalue="Application.Solution" />
       <item itemvalue="Application.trieMainApp" />
       <item itemvalue="Application.com.Bob_r.bookingthread.Main" />
-      <item itemvalue="Application.com.Bob_r.counter.Main" />
-      <item itemvalue="Application.sumAndGetTarget" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Spring Boot.Spring12DataRelationshipApplication" />
       <item itemvalue="Spring Boot.BobApplication" />
@@ -493,11 +497,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LcaWithTree" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.trieMainApp" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.com.Bob_r.bookingthread.Main" />
-        <item itemvalue="Application.com.Bob_r.counter.Main" />
-        <item itemvalue="Application.sumAndGetTarget" />
       </list>
     </recent_temporary>
   </component>
@@ -653,14 +657,9 @@
       <workItem from="1695997520204" duration="36000" />
       <workItem from="1695998229940" duration="2052000" />
       <workItem from="1696017441107" duration="828000" />
-      <workItem from="1696197739990" duration="3079000" />
-    </task>
-    <task id="LOCAL-00101" summary="Security app done">
-      <created>1690323322968</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1690323322968</updated>
+      <workItem from="1696197739990" duration="4092000" />
+      <workItem from="1696251056858" duration="3641000" />
+      <workItem from="1696424593306" duration="2045000" />
     </task>
     <task id="LOCAL-00102" summary="Security app done">
       <created>1690323811617</created>
@@ -998,7 +997,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695701460346</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="Trie">
+      <created>1696201320658</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1696201320659</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1024,7 +1030,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="UnitTest Mockito" />
     <MESSAGE value="UnitTest MockMVC" />
     <MESSAGE value="Spring 25 Docker" />
     <MESSAGE value="Docker container" />
@@ -1049,7 +1054,8 @@
     <MESSAGE value="Note" />
     <MESSAGE value="Stack" />
     <MESSAGE value="Thread()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread()" />
+    <MESSAGE value="Trie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trie" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
