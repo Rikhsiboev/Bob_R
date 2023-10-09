@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="Thread()">
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Comcast/Comcast.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Graphs/Edge.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Graphs/GraphMainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/BSTamdLCA/LcaWithTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/BSTamdLCA/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/LruCache/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/LruCache/LRUCashe1TestAPP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,6 +147,9 @@
       <recent name="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/client" />
       <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.cydeo.config" />
       <recent name="com.bob_R.annotation" />
@@ -167,13 +171,13 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Application.LcaWithTree">
-    <configuration name="LcaWithTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrepInterview.BSTamdLCA.LcaWithTree" />
+  <component name="RunManager" selected="Application.LRUCashe1TestAPP">
+    <configuration name="LRUCashe1TestAPP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrepInterview.LruCache.LRUCashe1TestAPP" />
       <module name="FOR_ME" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PrepInterview.BSTamdLCA.*" />
+          <option name="PATTERN" value="PrepInterview.LruCache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,12 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Bob_r.Threadpool.Main" />
-      <module name="Threads" />
+    <configuration name="LcaWithTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrepInterview.BSTamdLCA.LcaWithTree" />
+      <module name="FOR_ME" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Bob_r.Threadpool.*" />
+          <option name="PATTERN" value="PrepInterview.BSTamdLCA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,12 +211,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.Bob_r.bookingthread.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Bob_r.bookingthread.Main" />
-      <module name="Threads" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="FOR_ME" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Bob_r.bookingthread.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,7 +229,7 @@
       <module name="FOR_ME" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trie.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -460,11 +464,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.LRUCashe1TestAPP" />
+      <item itemvalue="Application.test" />
       <item itemvalue="Application.LcaWithTree" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.trieMainApp" />
-      <item itemvalue="Application.com.Bob_r.bookingthread.Main" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Spring Boot.Spring12DataRelationshipApplication" />
       <item itemvalue="Spring Boot.BobApplication" />
       <item itemvalue="Spring Boot.Bob_RApplication" />
@@ -497,11 +501,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LRUCashe1TestAPP" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.LcaWithTree" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.trieMainApp" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.com.Bob_r.bookingthread.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -659,14 +663,10 @@
       <workItem from="1696017441107" duration="828000" />
       <workItem from="1696197739990" duration="4092000" />
       <workItem from="1696251056858" duration="3641000" />
-      <workItem from="1696424593306" duration="2045000" />
-    </task>
-    <task id="LOCAL-00102" summary="Security app done">
-      <created>1690323811617</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1690323811617</updated>
+      <workItem from="1696424593306" duration="3185000" />
+      <workItem from="1696622135539" duration="3117000" />
+      <workItem from="1696638723974" duration="622000" />
+      <workItem from="1696856676076" duration="4259000" />
     </task>
     <task id="LOCAL-00103" summary="Docker container done">
       <created>1690332649586</created>
@@ -1004,7 +1004,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696201320659</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="LcaWithTree">
+      <created>1696426887026</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1696426887026</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1030,7 +1037,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="UnitTest MockMVC" />
     <MESSAGE value="Spring 25 Docker" />
     <MESSAGE value="Docker container" />
     <MESSAGE value="Security app done" />
@@ -1055,7 +1061,8 @@
     <MESSAGE value="Stack" />
     <MESSAGE value="Thread()" />
     <MESSAGE value="Trie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trie" />
+    <MESSAGE value="LcaWithTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="LcaWithTree" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
