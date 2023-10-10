@@ -7,8 +7,7 @@
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="Thread()">
       <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Graphs/Edge.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Graphs/GraphMainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/maxAndMinBySlidingWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/maxAndMinBySlidingWindows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/FibonacciStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,13 +169,13 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Application.maxAndMinBySlidingWindows">
-    <configuration name="LRUCashe1TestAPP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrepInterview.LruCache.LRUCashe1TestAPP" />
+  <component name="RunManager" selected="Application.FibonacciStairs">
+    <configuration name="FibonacciStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.FibonacciStairs" />
       <module name="FOR_ME" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PrepInterview.LruCache.*" />
+          <option name="PATTERN" value="PrepFromYoutube.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LcaWithTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrepInterview.BSTamdLCA.LcaWithTree" />
+    <configuration name="LRUCashe1TestAPP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrepInterview.LruCache.LRUCashe1TestAPP" />
       <module name="FOR_ME" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PrepInterview.BSTamdLCA.*" />
+          <option name="PATTERN" value="PrepInterview.LruCache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -463,11 +462,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.FibonacciStairs" />
       <item itemvalue="Application.maxAndMinBySlidingWindows" />
       <item itemvalue="Application.Two_Sum" />
       <item itemvalue="Application.LRUCashe1TestAPP" />
       <item itemvalue="Application.test" />
-      <item itemvalue="Application.LcaWithTree" />
       <item itemvalue="Spring Boot.Spring12DataRelationshipApplication" />
       <item itemvalue="Spring Boot.BobApplication" />
       <item itemvalue="Spring Boot.Bob_RApplication" />
@@ -500,11 +499,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FibonacciStairs" />
         <item itemvalue="Application.maxAndMinBySlidingWindows" />
         <item itemvalue="Application.Two_Sum" />
         <item itemvalue="Application.LRUCashe1TestAPP" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.LcaWithTree" />
       </list>
     </recent_temporary>
   </component>
@@ -668,13 +667,7 @@
       <workItem from="1696856676076" duration="4259000" />
       <workItem from="1696868903354" duration="6062000" />
       <workItem from="1696876868572" duration="12652000" />
-    </task>
-    <task id="LOCAL-00108" summary="add config yaml for CI line">
-      <created>1690341077406</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1690341077406</updated>
+      <workItem from="1696963410884" duration="614000" />
     </task>
     <task id="LOCAL-00109" summary="add config yaml for CI line">
       <created>1690341149020</created>
@@ -1012,7 +1005,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696958196585</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="Max in min By Sliding">
+      <created>1696963489642</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1696963489643</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1038,7 +1038,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add config yaml for CI line" />
     <MESSAGE value="MicroServices" />
     <MESSAGE value="aws" />
     <MESSAGE value="Decomposed / Containerized" />
@@ -1063,7 +1062,8 @@
     <MESSAGE value="Fib" />
     <MESSAGE value="Two sum" />
     <MESSAGE value="maxAndMinBySlidingWindows" />
-    <option name="LAST_COMMIT_MESSAGE" value="maxAndMinBySlidingWindows" />
+    <MESSAGE value="Max in min By Sliding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Max in min By Sliding" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
