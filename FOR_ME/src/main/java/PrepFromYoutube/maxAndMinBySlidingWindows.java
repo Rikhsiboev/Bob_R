@@ -1,12 +1,14 @@
 package PrepFromYoutube;
 
 import java.util.Arrays;
+import java.util.stream.IntStream;
 
 public class maxAndMinBySlidingWindows {
     public static void main(String[] args) {
         int[] prices1 = {7, 1, 5, 3, 6, 4};
         int[] prices2 = {7, 6, 4, 3, 1};
         System.out.println(maxProfit(prices1));
+        System.out.println(maxProfit1(prices1));
     }
 
 
@@ -23,15 +25,17 @@ public class maxAndMinBySlidingWindows {
         return profit;
     }
 
-
-
-
-
+    public static int maxProfit1(int[]prices){
+        return IntStream.range(0, prices.length)
+                .mapToObj(i -> IntStream.range(i + 1, prices.length)
+                        .map(j -> prices[j] - prices[i])
+                        .max()
+                        .orElse(0))
+                .max(Integer::compare)
+                .orElse(0);
 
     }
-
-
-
+}
 
 
 /***

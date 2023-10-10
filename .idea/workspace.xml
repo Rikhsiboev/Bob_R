@@ -7,8 +7,8 @@
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="Thread()">
       <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Graphs/Edge.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Graphs/GraphMainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/maxAndMinBySlidingWindows.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/maxAndMinBySlidingWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/maxAndMinBySlidingWindows.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -667,14 +667,7 @@
       <workItem from="1696638723974" duration="622000" />
       <workItem from="1696856676076" duration="4259000" />
       <workItem from="1696868903354" duration="6062000" />
-      <workItem from="1696876868572" duration="11551000" />
-    </task>
-    <task id="LOCAL-00107" summary="add config yaml for CI line">
-      <created>1690340906778</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1690340906778</updated>
+      <workItem from="1696876868572" duration="12652000" />
     </task>
     <task id="LOCAL-00108" summary="add config yaml for CI line">
       <created>1690341077406</created>
@@ -1012,7 +1005,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696886537401</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="maxAndMinBySlidingWindows">
+      <created>1696958196585</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1696958196585</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1038,7 +1038,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aws done" />
     <MESSAGE value="add config yaml for CI line" />
     <MESSAGE value="MicroServices" />
     <MESSAGE value="aws" />
@@ -1063,7 +1062,8 @@
     <MESSAGE value="LRUCache" />
     <MESSAGE value="Fib" />
     <MESSAGE value="Two sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Two sum" />
+    <MESSAGE value="maxAndMinBySlidingWindows" />
+    <option name="LAST_COMMIT_MESSAGE" value="maxAndMinBySlidingWindows" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
