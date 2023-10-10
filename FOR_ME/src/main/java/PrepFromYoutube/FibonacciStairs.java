@@ -2,21 +2,26 @@ package PrepFromYoutube;
 
 public class FibonacciStairs {
     public static void main(String[] args) {
-        System.out.println(climbStairs(2));
-        System.out.println(climbStairs(3));
+        System.out.println("----");
+        System.out.println(climbStairsArr(2));
+        System.out.println(climbStairsArr(3));
+        System.out.println(climbStairsArr(5));
+        System.out.println(climbStairsArr(20));
     }
 
-    public static int climbStairs(int n) {
-        int x = 1;
-        int y = 2;
+    public static int climbStairsArr(int n){
 
-        if (n < 2) return n;
-        for (int i = 2; i <= n; i++) {
-            int temp = x;
-            x = y;
-            y = temp;
+        int[] arr = new int[n];
+        arr[0]=1;
+        arr[1]=2;
+
+        if (n<2)return n;
+        for (int i = 2; i <n ; i++) {
+            arr[i]=arr[i-1]+arr[i-2];
         }
-        return y;
+        return arr[n-1];
+
+
     }
 
 
