@@ -7,7 +7,6 @@
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="climbStairs">
       <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Graphs/Edge.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Graphs/GraphMainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/FibonacciStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/FibonacciStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -668,14 +667,7 @@
       <workItem from="1696856676076" duration="4259000" />
       <workItem from="1696868903354" duration="6062000" />
       <workItem from="1696876868572" duration="12652000" />
-      <workItem from="1696963410884" duration="1955000" />
-    </task>
-    <task id="LOCAL-00111" summary="add config yaml for CI line">
-      <created>1690341223197</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1690341223197</updated>
+      <workItem from="1696963410884" duration="2608000" />
     </task>
     <task id="LOCAL-00112" summary="add config yaml for CI line">
       <created>1690341286911</created>
@@ -1013,7 +1005,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696964125098</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="climbStairs">
+      <created>1696965742512</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1696965742512</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

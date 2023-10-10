@@ -1,5 +1,7 @@
 package PrepFromYoutube;
 
+import java.util.stream.IntStream;
+
 public class FibonacciStairs {
     public static void main(String[] args) {
         System.out.println("----");
@@ -10,18 +12,28 @@ public class FibonacciStairs {
     }
 
     public static int climbStairsArr(int n){
-
-        int[] arr = new int[n];
+        int[] arr = new int[n+1];
         arr[0]=1;
         arr[1]=2;
-
         if (n<2)return n;
         for (int i = 2; i <n ; i++) {
             arr[i]=arr[i-1]+arr[i-2];
         }
-        return arr[n-1];
+        return arr[n];
+    }
 
-
+    public static int climbStairsStream(int n ){
+        if (n<2)return n;
+        int [] arr = new int[n+1];
+        arr[0]=1;
+        arr[1]=2;
+        return IntStream.range(2,n+1)
+                .map(i->{
+                    arr[i]=arr[i-1]+arr[i-2];
+                    return arr[i];
+                })
+                .reduce((a,b)->b)
+                .orElse(0);
     }
 
 
