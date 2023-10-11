@@ -7,7 +7,9 @@
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="climbStairs">
       <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Graphs/Edge.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Graphs/GraphMainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/FibonacciStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/FibonacciStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/maxChoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/maxRobber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,26 +171,13 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Application.FibonacciStairs">
+  <component name="RunManager" selected="Application.maxRobber">
     <configuration name="FibonacciStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.FibonacciStairs" />
       <module name="FOR_ME" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="PrepFromYoutube.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LRUCashe1TestAPP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrepInterview.LruCache.LRUCashe1TestAPP" />
-      <module name="FOR_ME" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PrepInterview.LruCache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,12 +211,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
+    <configuration name="maxChoc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.maxChoc" />
       <module name="FOR_ME" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="PrepFromYoutube.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="maxRobber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.maxRobber" />
+      <module name="FOR_ME" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PrepFromYoutube.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -463,10 +465,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.FibonacciStairs" />
+      <item itemvalue="Application.maxChoc" />
+      <item itemvalue="Application.maxRobber" />
       <item itemvalue="Application.maxAndMinBySlidingWindows" />
       <item itemvalue="Application.Two_Sum" />
-      <item itemvalue="Application.LRUCashe1TestAPP" />
-      <item itemvalue="Application.test" />
       <item itemvalue="Spring Boot.Spring12DataRelationshipApplication" />
       <item itemvalue="Spring Boot.BobApplication" />
       <item itemvalue="Spring Boot.Bob_RApplication" />
@@ -499,11 +501,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.maxRobber" />
+        <item itemvalue="Application.maxChoc" />
         <item itemvalue="Application.FibonacciStairs" />
         <item itemvalue="Application.maxAndMinBySlidingWindows" />
         <item itemvalue="Application.Two_Sum" />
-        <item itemvalue="Application.LRUCashe1TestAPP" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -667,14 +669,7 @@
       <workItem from="1696856676076" duration="4259000" />
       <workItem from="1696868903354" duration="6062000" />
       <workItem from="1696876868572" duration="12652000" />
-      <workItem from="1696963410884" duration="2608000" />
-    </task>
-    <task id="LOCAL-00112" summary="add config yaml for CI line">
-      <created>1690341286911</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1690341286911</updated>
+      <workItem from="1696963410884" duration="12236000" />
     </task>
     <task id="LOCAL-00113" summary="add config yaml for CI line">
       <created>1690341382001</created>
@@ -1012,7 +1007,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696965742512</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="climbStairs">
+      <created>1696966407487</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1696966407487</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
