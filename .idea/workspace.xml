@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="climbStairs">
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="Sum of array in">
       <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Graphs/Edge.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Graphs/GraphMainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/maxChoc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/maxRobber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/SumContinuousSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/LruCache/LRUCache2TestApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/LruCache/LRUCash2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/maxChoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/maxChoc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +173,7 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Application.maxRobber">
+  <component name="RunManager" selected="Application.maxChoc">
     <configuration name="FibonacciStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.FibonacciStairs" />
       <module name="FOR_ME" />
@@ -185,12 +187,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Two_Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.Two_Sum" />
+    <configuration name="LRUCache2TestApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrepInterview.LruCache.LRUCache2TestApp" />
       <module name="FOR_ME" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PrepFromYoutube.*" />
+          <option name="PATTERN" value="PrepInterview.LruCache.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,8 +200,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maxAndMinBySlidingWindows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.maxAndMinBySlidingWindows" />
+    <configuration name="SumContinuousSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.SumContinuousSequence" />
       <module name="FOR_ME" />
       <extension name="coverage">
         <pattern>
@@ -464,11 +466,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.LRUCache2TestApp" />
       <item itemvalue="Application.FibonacciStairs" />
+      <item itemvalue="Application.SumContinuousSequence" />
       <item itemvalue="Application.maxChoc" />
       <item itemvalue="Application.maxRobber" />
-      <item itemvalue="Application.maxAndMinBySlidingWindows" />
-      <item itemvalue="Application.Two_Sum" />
       <item itemvalue="Spring Boot.Spring12DataRelationshipApplication" />
       <item itemvalue="Spring Boot.BobApplication" />
       <item itemvalue="Spring Boot.Bob_RApplication" />
@@ -501,11 +503,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.maxRobber" />
         <item itemvalue="Application.maxChoc" />
+        <item itemvalue="Application.LRUCache2TestApp" />
+        <item itemvalue="Application.SumContinuousSequence" />
+        <item itemvalue="Application.maxRobber" />
         <item itemvalue="Application.FibonacciStairs" />
-        <item itemvalue="Application.maxAndMinBySlidingWindows" />
-        <item itemvalue="Application.Two_Sum" />
       </list>
     </recent_temporary>
   </component>
@@ -669,14 +671,8 @@
       <workItem from="1696856676076" duration="4259000" />
       <workItem from="1696868903354" duration="6062000" />
       <workItem from="1696876868572" duration="12652000" />
-      <workItem from="1696963410884" duration="12236000" />
-    </task>
-    <task id="LOCAL-00113" summary="add config yaml for CI line">
-      <created>1690341382001</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1690341382001</updated>
+      <workItem from="1696963410884" duration="13934000" />
+      <workItem from="1697029398836" duration="3642000" />
     </task>
     <task id="LOCAL-00114" summary="add config yaml for CI line">
       <created>1690341565982</created>
@@ -1014,7 +1010,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696966407487</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="Sum of array in dynamic function">
+      <created>1697019102634</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1697019102634</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1040,7 +1043,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="aws" />
     <MESSAGE value="Decomposed / Containerized" />
     <MESSAGE value="PRACTICE" />
     <MESSAGE value="˚" />
@@ -1065,7 +1067,8 @@
     <MESSAGE value="maxAndMinBySlidingWindows" />
     <MESSAGE value="Max in min By Sliding" />
     <MESSAGE value="climbStairs" />
-    <option name="LAST_COMMIT_MESSAGE" value="climbStairs" />
+    <MESSAGE value="Sum of array in dynamic function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sum of array in dynamic function" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
