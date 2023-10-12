@@ -10,7 +10,7 @@ public class MaximumAlternatingSum {
         int[] nums2 = {5, 6, 7, 8};  /// 8
         // (5+7)-(6+8)= 12-14=>2 =>
         int[] nums3 = {6, 2, 1, 2, 4, 5};  /// 10
-        System.out.println(maximumAlternatingSum(nums2));
+        System.out.println(streamSumMax(nums1));
     }
 
     public static int maximumAlternatingSum(int[] sum) {
@@ -23,10 +23,17 @@ public class MaximumAlternatingSum {
         return even;
     }
 
-    public static int streamSumMax(int[] sums) {
-        return IntStream.range(0, sums.length)
-                .mapToObj(i -> i % 2 == 0 ? sums[i] : -sums[i])
-                .mapToInt(Integer::intValue)
+    public static int streamSumMax(int[] nums) {
+        int evenSum = IntStream.range(0, nums.length)
+                .filter(i -> i % 2 == 0)
+                .map(i -> nums[i])
                 .sum();
+
+        int oddSum = IntStream.range(0, nums.length)
+                .filter(i -> i % 2 != 0)
+                .map(i -> nums[i])
+                .sum();
+
+        return Math.max(oddSum - evenSum, 0);
     }
 }
