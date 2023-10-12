@@ -7,11 +7,8 @@
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="Sum of array in">
       <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Graphs/Edge.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Graphs/GraphMainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/SumContinuousSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/LruCache/LRUCache2TestApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/LruCache/LRUCash2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/Duplicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/maxChoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/maxChoc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,9 +170,9 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Application.maxChoc">
-    <configuration name="FibonacciStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.FibonacciStairs" />
+  <component name="RunManager" selected="Application.Duplicate">
+    <configuration name="Duplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.Duplicate" />
       <module name="FOR_ME" />
       <extension name="coverage">
         <pattern>
@@ -466,8 +463,8 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Duplicate" />
       <item itemvalue="Application.LRUCache2TestApp" />
-      <item itemvalue="Application.FibonacciStairs" />
       <item itemvalue="Application.SumContinuousSequence" />
       <item itemvalue="Application.maxChoc" />
       <item itemvalue="Application.maxRobber" />
@@ -503,11 +500,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Duplicate" />
         <item itemvalue="Application.maxChoc" />
         <item itemvalue="Application.LRUCache2TestApp" />
         <item itemvalue="Application.SumContinuousSequence" />
         <item itemvalue="Application.maxRobber" />
-        <item itemvalue="Application.FibonacciStairs" />
       </list>
     </recent_temporary>
   </component>
@@ -672,28 +669,8 @@
       <workItem from="1696868903354" duration="6062000" />
       <workItem from="1696876868572" duration="12652000" />
       <workItem from="1696963410884" duration="13934000" />
-      <workItem from="1697029398836" duration="3642000" />
-    </task>
-    <task id="LOCAL-00114" summary="add config yaml for CI line">
-      <created>1690341565982</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1690341565982</updated>
-    </task>
-    <task id="LOCAL-00115" summary="add config yaml for CI line">
-      <created>1690341701653</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1690341701653</updated>
-    </task>
-    <task id="LOCAL-00116" summary="add config yaml for CI line">
-      <created>1690344253452</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1690344253452</updated>
+      <workItem from="1697029398836" duration="3868000" />
+      <workItem from="1697126423030" duration="9031000" />
     </task>
     <task id="LOCAL-00117" summary="add config yaml for CI line">
       <created>1690344405834</created>
@@ -1017,7 +994,28 @@
       <option name="project" value="LOCAL" />
       <updated>1697019102634</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="max Choc">
+      <created>1697033083255</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1697033083255</updated>
+    </task>
+    <task id="LOCAL-00164" summary="LRU Cache">
+      <created>1697033108012</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1697033108012</updated>
+    </task>
+    <task id="LOCAL-00165" summary="SumSequence">
+      <created>1697033135137</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1697033135137</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1043,9 +1041,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Decomposed / Containerized" />
-    <MESSAGE value="PRACTICE" />
-    <MESSAGE value="˚" />
     <MESSAGE value="coding" />
     <MESSAGE value="learn read files as CVS" />
     <MESSAGE value="fixing repo and Data" />
@@ -1068,7 +1063,10 @@
     <MESSAGE value="Max in min By Sliding" />
     <MESSAGE value="climbStairs" />
     <MESSAGE value="Sum of array in dynamic function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sum of array in dynamic function" />
+    <MESSAGE value="max Choc" />
+    <MESSAGE value="LRU Cache" />
+    <MESSAGE value="SumSequence" />
+    <option name="LAST_COMMIT_MESSAGE" value="SumSequence" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
