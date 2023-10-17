@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="Sum of array in">
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/MaximumAlternatingSum.java" afterDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/Product_of_Array_Except_Self.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/DSA_2D_Pilot/Pilot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +170,7 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Application.MaximumAlternatingSum">
+  <component name="RunManager" selected="Application.Product_of_Array_Except_Self">
     <configuration name="Duplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.Duplicate" />
       <module name="FOR_ME" />
@@ -182,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LRUCache2TestApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrepInterview.LruCache.LRUCache2TestApp" />
+    <configuration name="Largest_Range" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrepInterview.array.Largest_Range" />
       <module name="FOR_ME" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PrepInterview.LruCache.*" />
+          <option name="PATTERN" value="PrepInterview.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,12 +210,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumContinuousSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.SumContinuousSequence" />
+    <configuration name="Pilot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrepInterview.DSA_2D_Pilot.Pilot" />
       <module name="FOR_ME" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PrepFromYoutube.*" />
+          <option name="PATTERN" value="PrepInterview.DSA_2D_Pilot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,8 +223,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maxChoc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.maxChoc" />
+    <configuration name="Product_of_Array_Except_Self" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.Product_of_Array_Except_Self" />
       <module name="FOR_ME" />
       <extension name="coverage">
         <pattern>
@@ -461,11 +463,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Product_of_Array_Except_Self" />
+      <item itemvalue="Application.Largest_Range" />
+      <item itemvalue="Application.Pilot" />
       <item itemvalue="Application.Duplicate" />
       <item itemvalue="Application.MaximumAlternatingSum" />
-      <item itemvalue="Application.LRUCache2TestApp" />
-      <item itemvalue="Application.SumContinuousSequence" />
-      <item itemvalue="Application.maxChoc" />
       <item itemvalue="Spring Boot.Spring12DataRelationshipApplication" />
       <item itemvalue="Spring Boot.BobApplication" />
       <item itemvalue="Spring Boot.Bob_RApplication" />
@@ -498,11 +500,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Product_of_Array_Except_Self" />
+        <item itemvalue="Application.Pilot" />
+        <item itemvalue="Application.Largest_Range" />
         <item itemvalue="Application.MaximumAlternatingSum" />
         <item itemvalue="Application.Duplicate" />
-        <item itemvalue="Application.maxChoc" />
-        <item itemvalue="Application.LRUCache2TestApp" />
-        <item itemvalue="Application.SumContinuousSequence" />
       </list>
     </recent_temporary>
   </component>
@@ -668,21 +670,10 @@
       <workItem from="1696876868572" duration="12652000" />
       <workItem from="1696963410884" duration="13934000" />
       <workItem from="1697029398836" duration="3868000" />
-      <workItem from="1697126423030" duration="13111000" />
-    </task>
-    <task id="LOCAL-00119" summary="add config yaml for CI line">
-      <created>1690344585373</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1690344585374</updated>
-    </task>
-    <task id="LOCAL-00120" summary="add config yaml for CI line">
-      <created>1690344858378</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1690344858378</updated>
+      <workItem from="1697126423030" duration="14410000" />
+      <workItem from="1697169251725" duration="9196000" />
+      <workItem from="1697212583224" duration="5243000" />
+      <workItem from="1697561724794" duration="698000" />
     </task>
     <task id="LOCAL-00121" summary="add config yaml for CI line">
       <created>1690345316852</created>
@@ -1013,7 +1004,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697145299232</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="MaximumAlternatingSum">
+      <created>1697148686876</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1697148686876</updated>
+    </task>
+    <task id="LOCAL-00169" summary="MaximumAlternatingSum">
+      <created>1697148887756</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1697148887756</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1039,7 +1044,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="learn read files as CVS" />
     <MESSAGE value="fixing repo and Data" />
     <MESSAGE value="new secret key for my Key cloak and as functionality" />
     <MESSAGE value="new secret key for my Key cloak and as functionality also Data to use for both project same information as data" />
@@ -1064,7 +1068,8 @@
     <MESSAGE value="LRU Cache" />
     <MESSAGE value="SumSequence" />
     <MESSAGE value="Duplicate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Duplicate" />
+    <MESSAGE value="MaximumAlternatingSum" />
+    <option name="LAST_COMMIT_MESSAGE" value="MaximumAlternatingSum" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
