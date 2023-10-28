@@ -5,13 +5,15 @@ import java.util.stream.Stream;
 public class FibonacciNumber {
 
     public static void main(String[] args) {
-        System.out.println(fib(6));
+        System.out.println("this is answer "+fib(6));
     }
     public static int fib(int n){
         if (n<2){
+            System.out.println(n);
             return n;
         }else {
-           return fib(n-1)+fib(n-2);
+            System.out.println(n);
+            return fib(n-1)+fib(n-2);
         }
     }
 
