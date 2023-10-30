@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="Product_of_Array_Except_Self">
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/DSA_2D_Pilot/Pilot.java" afterDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/IntToRoman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/FibonacciNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/FibonacciNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/Product_of_Array_Except_Self.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/Product_of_Array_Except_Self.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +168,7 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Product_of_Array_Except_Self">
+  <component name="RunManager" selected="Application.IntToRoman">
     <configuration name="CycleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrepInterview.LinkedList.CycleLinkedList" />
       <module name="FOR_ME" />
@@ -210,9 +208,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HiglyProfitableMonth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HiglyProfitableMonth" />
+    <configuration name="IntToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.IntToRoman" />
       <module name="FOR_ME" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PrepFromYoutube.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -457,10 +461,10 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.IntToRoman" />
       <item itemvalue="Application.Product_of_Array_Except_Self" />
       <item itemvalue="Application.CycleLinkedList" />
       <item itemvalue="Application.FibonacciNumber" />
-      <item itemvalue="Application.HiglyProfitableMonth" />
       <item itemvalue="Application.Duplicate" />
       <item itemvalue="Spring Boot.Spring12DataRelationshipApplication" />
       <item itemvalue="Spring Boot.BobApplication" />
@@ -494,11 +498,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntToRoman" />
         <item itemvalue="Application.Product_of_Array_Except_Self" />
         <item itemvalue="Application.FibonacciNumber" />
         <item itemvalue="Application.CycleLinkedList" />
         <item itemvalue="Application.Duplicate" />
-        <item itemvalue="Application.HiglyProfitableMonth" />
       </list>
     </recent_temporary>
   </component>
@@ -672,14 +676,7 @@
       <workItem from="1697916095202" duration="2910000" />
       <workItem from="1698487780905" duration="469000" />
       <workItem from="1698488261689" duration="3434000" />
-      <workItem from="1698515806017" duration="7481000" />
-    </task>
-    <task id="LOCAL-00122" summary="add config yaml for CI line">
-      <created>1690345374947</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1690345374947</updated>
+      <workItem from="1698515806017" duration="13365000" />
     </task>
     <task id="LOCAL-00123" summary="add config yaml for CI line">
       <created>1690345502147</created>
@@ -1017,7 +1014,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697562446879</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="code">
+      <created>1698523999770</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1698523999770</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1043,7 +1047,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new secret key for my Key cloak and as functionality" />
     <MESSAGE value="new secret key for my Key cloak and as functionality also Data to use for both project same information as data" />
     <MESSAGE value="." />
     <MESSAGE value="changed" />
@@ -1068,7 +1071,8 @@
     <MESSAGE value="Duplicate" />
     <MESSAGE value="MaximumAlternatingSum" />
     <MESSAGE value="Product_of_Array_Except_Self" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product_of_Array_Except_Self" />
+    <MESSAGE value="code" />
+    <option name="LAST_COMMIT_MESSAGE" value="code" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
