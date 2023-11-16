@@ -11,9 +11,9 @@ class ParkingLot {
 
     public boolean parkVehicle(Vehicle vehicle) {
         for (Level level : levels) {
-            if (level.parkVehicle(vehicle)) {
-                return true;
-            }
+//            if (level.parkVehicle(vehicle)) {
+//                return true;
+//            }
         }
         return false;
     }

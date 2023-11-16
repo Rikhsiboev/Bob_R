@@ -18,20 +18,21 @@ public class Level {
         availableSpots++;
     }
 
-    public Object parkVehicle(Vehicle vehicle) {
-        ParkingSpot spot = findAvailableSpot(vehicle);
-        if (spot == null) {
-            return null;
-        } else {
-            spot.parkVehicle(vehicle);
-            return spot;
-        }
-    }
-
-    private ParkingSpot findAvailableSpot(Vehicle vehicle) {
-        // Find an available spot where vehicle can fit, or return null
-        // ...
-    }
+//    public boolean parkVehicle(Vehicle vehicle) {
+//        ParkingSpot spot = findAvailableSpot(vehicle);
+//        if (spot == null) {
+////            return null;
+//        } else {
+//            spot.parkVehicle(vehicle);
+//            return spot.isAvailable();
+//        }
+//
+//    }
+//
+//    private ParkingSpot findAvailableSpot(Vehicle vehicle) {
+//        // Find an available spot where vehicle can fit, or return null
+//        // ...
+//    }
 
     private void parkStartingAtSpot(ParkingSpot spot, Vehicle vehicle) {
         // Occupy starting at spot.spotNumber to vehicle.spotSize
