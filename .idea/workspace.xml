@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/parking/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/parking/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/parking/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/parking/ParkingLot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/a.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/a.java" afterDir="false" />
-    </list>
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -146,9 +142,11 @@
       <recent name="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/parking" />
+      <recent name="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv" />
+      <recent name="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/HashMap" />
       <recent name="$PROJECT_DIR$/FOR_ME/src/main/java" />
       <recent name="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/client" />
-      <recent name="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -689,28 +687,7 @@
       <workItem from="1699165979338" duration="6533000" />
       <workItem from="1699471546495" duration="644000" />
       <workItem from="1699925874903" duration="5896000" />
-      <workItem from="1700158951921" duration="779000" />
-    </task>
-    <task id="LOCAL-00125" summary="add config yaml for CI line">
-      <created>1690356506163</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1690356506163</updated>
-    </task>
-    <task id="LOCAL-00126" summary="add config yaml for CI line">
-      <created>1690356724866</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1690356724866</updated>
-    </task>
-    <task id="LOCAL-00127" summary="add config yaml for CI line">
-      <created>1690359955775</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1690359955776</updated>
+      <workItem from="1700158951921" duration="1162000" />
     </task>
     <task id="LOCAL-00128" summary="add config yaml for CI line">
       <created>1690360892263</created>
@@ -1034,7 +1011,28 @@
       <option name="project" value="LOCAL" />
       <updated>1700159609454</updated>
     </task>
-    <option name="localTasksCounter" value="174" />
+    <task id="LOCAL-00174" summary="Oop">
+      <created>1700159736314</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1700159736314</updated>
+    </task>
+    <task id="LOCAL-00175" summary="Oop">
+      <created>1700159872579</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1700159872579</updated>
+    </task>
+    <task id="LOCAL-00176" summary="Oop">
+      <created>1700160001873</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1700160001873</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
