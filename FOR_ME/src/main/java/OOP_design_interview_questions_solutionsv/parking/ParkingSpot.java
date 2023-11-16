@@ -1,7 +1,7 @@
 package OOP_design_interview_questions_solutionsv.parking;
 
-import OOP_design_interview_questions_solutionsv.enums.VehicleSize;
-import OOP_design_interview_questions_solutionsv.vehicles.Vehicle;
+import OOP_design_interview_questions_solutionsv.parking.enums.VehicleSize;
+import OOP_design_interview_questions_solutionsv.parking.vehicles.Vehicle;
 
 
 public class ParkingSpot {

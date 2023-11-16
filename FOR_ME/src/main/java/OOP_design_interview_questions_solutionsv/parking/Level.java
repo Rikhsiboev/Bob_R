@@ -2,7 +2,7 @@ package OOP_design_interview_questions_solutionsv.parking;
 
 
 
-import OOP_design_interview_questions_solutionsv.vehicles.Vehicle;
+import OOP_design_interview_questions_solutionsv.parking.vehicles.Vehicle;
 
 import java.util.List;
 
