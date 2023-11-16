@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/IntToRoman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/HashMap/HashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/enums/VehicleSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/parking/Level.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/parking/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/parking/ParkingSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/vehicles/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/vehicles/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/vehicles/Motorcycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/vehicles/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/PasswordTimeCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/Stirng.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/backspaceCompare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +35,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -58,6 +71,9 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3-sources.jar!/javax/persistence/Column.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_2.1_spec/2.0.1.Final/jboss-jaxrs-api_2.1_spec-2.0.1.Final.jar!/javax/ws/rs/core/Response.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/modelmapper/modelmapper/3.1.1/modelmapper-3.1.1.jar!/org/modelmapper/ModelMapper.class" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/spring-11-Data-TableCreation/pom.xml" root0="SKIP_HIGHLIGHTING" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-11.0.19/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-11.0.19/Contents/Home/lib/src.zip!/java.base/java/util/stream/IntStream.java" root0="SKIP_INSPECTION" />
@@ -129,6 +145,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="PrepFromYoutube" />
       <recent name="com.Bob_r.exception" />
       <recent name="com.Bob_r.controller" />
     </key>
@@ -148,11 +165,11 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Object_oriented_design_interview_questions_with_solutionsv.parking" />
       <recent name="com.cydeo.config" />
       <recent name="com.bob_R.annotation" />
       <recent name="com.bob_R.dto" />
       <recent name="com.bob_R.config" />
-      <recent name="com.bob_R.controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -168,26 +185,13 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Application.IntToRoman">
+  <component name="RunManager" selected="Application.backspaceCompare">
     <configuration name="CycleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrepInterview.LinkedList.CycleLinkedList" />
       <module name="FOR_ME" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="PrepInterview.LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Duplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.Duplicate" />
-      <module name="FOR_ME" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PrepFromYoutube.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,6 +227,19 @@
     </configuration>
     <configuration name="Product_of_Array_Except_Self" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.Product_of_Array_Except_Self" />
+      <module name="FOR_ME" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PrepFromYoutube.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="backspaceCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.backspaceCompare" />
       <module name="FOR_ME" />
       <extension name="coverage">
         <pattern>
@@ -463,9 +480,9 @@
     <list>
       <item itemvalue="Application.IntToRoman" />
       <item itemvalue="Application.Product_of_Array_Except_Self" />
+      <item itemvalue="Application.backspaceCompare" />
       <item itemvalue="Application.CycleLinkedList" />
       <item itemvalue="Application.FibonacciNumber" />
-      <item itemvalue="Application.Duplicate" />
       <item itemvalue="Spring Boot.Spring12DataRelationshipApplication" />
       <item itemvalue="Spring Boot.BobApplication" />
       <item itemvalue="Spring Boot.Bob_RApplication" />
@@ -498,11 +515,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.backspaceCompare" />
         <item itemvalue="Application.IntToRoman" />
         <item itemvalue="Application.Product_of_Array_Except_Self" />
         <item itemvalue="Application.FibonacciNumber" />
         <item itemvalue="Application.CycleLinkedList" />
-        <item itemvalue="Application.Duplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -676,14 +693,14 @@
       <workItem from="1697916095202" duration="2910000" />
       <workItem from="1698487780905" duration="469000" />
       <workItem from="1698488261689" duration="3434000" />
-      <workItem from="1698515806017" duration="13365000" />
-    </task>
-    <task id="LOCAL-00123" summary="add config yaml for CI line">
-      <created>1690345502147</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1690345502147</updated>
+      <workItem from="1698515806017" duration="20459000" />
+      <workItem from="1698954490015" duration="121000" />
+      <workItem from="1699126830053" duration="806000" />
+      <workItem from="1699127709242" duration="8409000" />
+      <workItem from="1699165979338" duration="6533000" />
+      <workItem from="1699471546495" duration="644000" />
+      <workItem from="1699925874903" duration="5896000" />
+      <workItem from="1700158951921" duration="411000" />
     </task>
     <task id="LOCAL-00124" summary="add config yaml for CI line">
       <created>1690356405809</created>
@@ -1021,7 +1038,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698523999770</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="IntToRoman">
+      <created>1698675556424</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1698675556424</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1047,7 +1071,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new secret key for my Key cloak and as functionality also Data to use for both project same information as data" />
     <MESSAGE value="." />
     <MESSAGE value="changed" />
     <MESSAGE value="largeRange" />
@@ -1072,7 +1095,8 @@
     <MESSAGE value="MaximumAlternatingSum" />
     <MESSAGE value="Product_of_Array_Except_Self" />
     <MESSAGE value="code" />
-    <option name="LAST_COMMIT_MESSAGE" value="code" />
+    <MESSAGE value="IntToRoman" />
+    <option name="LAST_COMMIT_MESSAGE" value="IntToRoman" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1082,11 +1106,6 @@
           <url>file://$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/SecurityServiceIMP.java</url>
           <line>20</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/common/UserPrincipal.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/BaseEntityListener.java</url>
