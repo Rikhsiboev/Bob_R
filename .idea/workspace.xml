@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/HashMap/HashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/enums/VehicleSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/parking/Level.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/parking/ParkingLot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/parking/ParkingSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/vehicles/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/vehicles/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/vehicles/Motorcycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/vehicles/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/PasswordTimeCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/Stirng.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/backspaceCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/parking/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/parking/Level.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/parking/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/parking/ParkingLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/a.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/a.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -700,14 +689,7 @@
       <workItem from="1699165979338" duration="6533000" />
       <workItem from="1699471546495" duration="644000" />
       <workItem from="1699925874903" duration="5896000" />
-      <workItem from="1700158951921" duration="411000" />
-    </task>
-    <task id="LOCAL-00124" summary="add config yaml for CI line">
-      <created>1690356405809</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1690356405809</updated>
+      <workItem from="1700158951921" duration="779000" />
     </task>
     <task id="LOCAL-00125" summary="add config yaml for CI line">
       <created>1690356506163</created>
@@ -1045,7 +1027,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698675556424</updated>
     </task>
-    <option name="localTasksCounter" value="173" />
+    <task id="LOCAL-00173" summary="Oop">
+      <created>1700159609454</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1700159609454</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1071,7 +1060,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="." />
     <MESSAGE value="changed" />
     <MESSAGE value="largeRange" />
     <MESSAGE value="gasStation" />
@@ -1096,7 +1084,8 @@
     <MESSAGE value="Product_of_Array_Except_Self" />
     <MESSAGE value="code" />
     <MESSAGE value="IntToRoman" />
-    <option name="LAST_COMMIT_MESSAGE" value="IntToRoman" />
+    <MESSAGE value="Oop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oop" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
