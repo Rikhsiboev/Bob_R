@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/java_Multithreading/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_Multithreading/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_Multithreading/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_Multithreading/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_Multithreading/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_Multithreading/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/creatTread/Case1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/creatTread/Case1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/creatTread/JavaMultithreadingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/creatTread/Main1_Thread_Runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/creatTread/Main2_Second_Way.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/creatTread/note " afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/termination/Thread1Termination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/termination/Thread2Termination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/termination/note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/tread_Join/JoinMainThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/tread_Join/note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/test/java/com/bob/java_multithreading/JavaMultithreadingApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,12 +39,15 @@
       <option value="module" />
     </option>
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,6 +89,7 @@
     <setting file="file://$PROJECT_DIR$/spring-11-Data-TableCreation/pom.xml" root0="SKIP_HIGHLIGHTING" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-11.0.19/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-11.0.19/Contents/Home/lib/src.zip!/java.base/java/util/stream/IntStream.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.9/Contents/Home/lib/src.zip!/java.base/java/lang/Class.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="HttpClientSelectedEnvironments">
     <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/requests-with-tests.http" environment="test" />
@@ -94,40 +122,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/FOR_ME/src/main/java/PrepInterview/BanarySearch&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.mocha.mocha_node_package_dir&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.42528737&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;1f2c21e9728466deb80ed5719393e9e8&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_directory_selection": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/java_Multithreading/src/test/java",
+    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/java_Multithreading/src/main/java/com/bob/java_multithreading",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.mocha.mocha_node_package_dir": "",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.42528737",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "spring.configuration.checksum": "1f2c21e9728466deb80ed5719393e9e8",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql",
+      "redis"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;PLAIN_TEXT&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="PrepFromYoutube" />
@@ -135,18 +166,18 @@
       <recent name="com.Bob_r.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading" />
       <recent name="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/BanarySearch" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/spring-12-Data-Relationship" />
       <recent name="$PROJECT_DIR$/.circleci" />
-      <recent name="$PROJECT_DIR$/ticketing-project-security/src/main/java/com/cydeo/config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/creatTread" />
+      <recent name="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading" />
+      <recent name="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/Design_a_least_recently_used_cache" />
       <recent name="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/parking" />
       <recent name="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv" />
-      <recent name="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/HashMap" />
-      <recent name="$PROJECT_DIR$/FOR_ME/src/main/java" />
-      <recent name="$PROJECT_DIR$/spring-18-REST-SchoolLab/src/main/java/com/Bob_r/client" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -172,13 +203,13 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Application.backspaceCompare">
-    <configuration name="CycleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrepInterview.LinkedList.CycleLinkedList" />
-      <module name="FOR_ME" />
+  <component name="RunManager" selected="Application.JoinMainThread">
+    <configuration name="Case1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bob.java_multithreading.Case1" />
+      <module name="java_Multithreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PrepInterview.LinkedList.*" />
+          <option name="PATTERN" value="com.bob.java_multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,12 +217,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.FibonacciNumber" />
-      <module name="FOR_ME" />
+    <configuration name="JoinMainThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bob.java_multithreading.tread_Join.JoinMainThread" />
+      <module name="java_Multithreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PrepFromYoutube.*" />
+          <option name="PATTERN" value="com.bob.java_multithreading.tread_Join.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,12 +230,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.IntToRoman" />
-      <module name="FOR_ME" />
+    <configuration name="Main1_Thread_Runnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bob.java_multithreading.Main1_Thread_Runnable" />
+      <module name="java_Multithreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PrepFromYoutube.*" />
+          <option name="PATTERN" value="com.bob.java_multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,12 +243,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Product_of_Array_Except_Self" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.Product_of_Array_Except_Self" />
-      <module name="FOR_ME" />
+    <configuration name="Thread1Termination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bob.java_multithreading.termination.Thread1Termination" />
+      <module name="java_Multithreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PrepFromYoutube.*" />
+          <option name="PATTERN" value="com.bob.java_multithreading.termination.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,12 +256,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="backspaceCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.backspaceCompare" />
-      <module name="FOR_ME" />
+    <configuration name="Thread2Termination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bob.java_multithreading.termination.Thread2Termination" />
+      <module name="java_Multithreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PrepFromYoutube.*" />
+          <option name="PATTERN" value="com.bob.java_multithreading.termination.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -287,6 +318,13 @@
     <configuration name="EmployeeLabApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-10-Thymeleaf (1)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_R.EmployeeLabApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaMultithreadingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="java_Multithreading" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob.java_multithreading.JavaMultithreadingApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -465,11 +503,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.IntToRoman" />
-      <item itemvalue="Application.Product_of_Array_Except_Self" />
-      <item itemvalue="Application.backspaceCompare" />
-      <item itemvalue="Application.CycleLinkedList" />
-      <item itemvalue="Application.FibonacciNumber" />
+      <item itemvalue="Application.Case1" />
+      <item itemvalue="Application.JoinMainThread" />
+      <item itemvalue="Application.Main1_Thread_Runnable" />
+      <item itemvalue="Application.Thread1Termination" />
+      <item itemvalue="Application.Thread2Termination" />
+      <item itemvalue="Spring Boot.JavaMultithreadingApplication" />
       <item itemvalue="Spring Boot.Spring12DataRelationshipApplication" />
       <item itemvalue="Spring Boot.BobApplication" />
       <item itemvalue="Spring Boot.Bob_RApplication" />
@@ -502,11 +541,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.backspaceCompare" />
-        <item itemvalue="Application.IntToRoman" />
-        <item itemvalue="Application.Product_of_Array_Except_Self" />
-        <item itemvalue="Application.FibonacciNumber" />
-        <item itemvalue="Application.CycleLinkedList" />
+        <item itemvalue="Application.JoinMainThread" />
+        <item itemvalue="Application.Thread2Termination" />
+        <item itemvalue="Application.Thread1Termination" />
+        <item itemvalue="Application.Case1" />
+        <item itemvalue="Application.Main1_Thread_Runnable" />
       </list>
     </recent_temporary>
   </component>
@@ -687,14 +726,8 @@
       <workItem from="1699165979338" duration="6533000" />
       <workItem from="1699471546495" duration="644000" />
       <workItem from="1699925874903" duration="5896000" />
-      <workItem from="1700158951921" duration="1162000" />
-    </task>
-    <task id="LOCAL-00128" summary="add config yaml for CI line">
-      <created>1690360892263</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1690360892263</updated>
+      <workItem from="1700158951921" duration="1993000" />
+      <workItem from="1700420365405" duration="18618000" />
     </task>
     <task id="LOCAL-00129" summary="add config yaml for CI line">
       <created>1690360948860</created>
@@ -1032,7 +1065,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700160001873</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="LRU">
+      <created>1700160334923</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1700160334923</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1058,7 +1098,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="largeRange" />
     <MESSAGE value="gasStation" />
     <MESSAGE value="Note" />
@@ -1083,7 +1123,8 @@
     <MESSAGE value="code" />
     <MESSAGE value="IntToRoman" />
     <MESSAGE value="Oop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oop" />
+    <MESSAGE value="LRU" />
+    <option name="LAST_COMMIT_MESSAGE" value="LRU" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">

@@ -87,6 +87,7 @@
         <option value="$PROJECT_DIR$/Threadslifecycle/pom.xml" />
         <option value="$PROJECT_DIR$/Threads/pom.xml" />
         <option value="$PROJECT_DIR$/Data Structure/dsa-01-AlgortihmAnalysis/Review1/pom.xml" />
+        <option value="$PROJECT_DIR$/java_Multithreading/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -109,7 +110,7 @@
     <option name="enabled" value="true" />
     <option name="wasEnabledAtLeastOnce" value="true" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/Java_Ecommersial/src/main/java/Java_Ecommersial.src/java-lab-ecommerce-project/out/out" />
   </component>
 </project>

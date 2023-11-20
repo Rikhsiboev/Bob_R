@@ -1,0 +1,11 @@
+Thread Termination stop:
+memory and kernel resources
+Cpu cycles and cache memory
+to stop manually thread (misbehaving error)
+
+methods:
+thread.interrupt()
+threadA{ threadB.interrupt } = > threadB
+
+
+Daemon threads

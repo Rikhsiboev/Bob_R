@@ -25,6 +25,7 @@
         <module name="m1-generics" />
         <module name="FOR_ME" />
         <module name="lab-04-springmvc" />
+        <module name="java_Multithreading" />
         <module name="ticketing-project-security" />
         <module name="spring-11-Data-TableCreation" />
         <module name="lab-02-di" />
@@ -122,6 +123,7 @@
       <module name="app-domain-model (1) (com.Bob)" options="-parameters" />
       <module name="app-domain-model (2) (com.cydeo)" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
+      <module name="java_Multithreading" options="-parameters" />
       <module name="lab-00-coupling" options="-parameters" />
       <module name="lab-01-ioc" options="-parameters" />
       <module name="lab-02-di" options="-parameters" />

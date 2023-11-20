@@ -1,0 +1,25 @@
+Threading
+CPU
+Disk/Hard Drive(task 1,task 2) => Process(Context isolated)
+Files Data Code => Main Treads (Stack(memory local variable function{task in side}) Instructor Pinter(pointer for next address))
+
+1 = > Responsiveness => (Concurrency)
+waiting, late response , no feedback
+Single Tread  = only one task
+Multi Tread   = one or more Task
+2 => Performance => (Parallelism)
+Completing a complex tax fast way
+finish work same period of time
+High scale service => less machine for performance
+                   => less spent money
+
+Context Switch
+task independent isolated as schedule task switch
+
+how it work in two part as Epoch1 and Epoch2
+Dynamic Priority = > Static Priority + Bonus
+
+
+
+
+
