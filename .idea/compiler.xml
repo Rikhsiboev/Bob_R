@@ -38,6 +38,7 @@
         <module name="spring-07-SpringBoot-Demo" />
         <module name="spring-13-Data-CinemaLLab" />
         <module name="m3-lambda" />
+        <module name="ReadBPMNFile" />
         <module name="stream-practice" />
         <module name="spring-10-Thymeleaf (2)" />
         <module name="spring-01-Core-IoC-Bean-Annotation" />
@@ -110,6 +111,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ReadBPMNFile" options="-parameters" />
       <module name="Solid" options="-parameters" />
       <module name="Spring-15-REST" options="-parameters" />
       <module name="Spring-16-REST-Jackson" options="-parameters" />

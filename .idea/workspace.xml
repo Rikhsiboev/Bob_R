@@ -4,26 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/java_Multithreading/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_Multithreading/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_Multithreading/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_Multithreading/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_Multithreading/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_Multithreading/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/creatTread/Case1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/creatTread/Case1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/creatTread/JavaMultithreadingApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/creatTread/Main1_Thread_Runnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/creatTread/Main2_Second_Way.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/creatTread/note " afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/termination/Thread1Termination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/termination/Thread2Termination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/termination/note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/tread_Join/JoinMainThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/tread_Join/note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/test/java/com/bob/java_multithreading/JavaMultithreadingApplicationTests.java" afterDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="Thread">
+      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/src/main/java/com/bob/readbpmnfile/ReadBpmnFileApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/src/main/java/com/bob/readbpmnfile/Read_File_BPMNFile/controller/ControllerBPMNFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/src/main/java/com/bob/readbpmnfile/Read_File_BPMNFile/entity/BPMNFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/src/main/resources/static/uploaded-files.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/src/test/java/com/bob/readbpmnfile/ReadBpmnFileApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/multyTreadPerformance/note" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -133,7 +127,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "jdk.selected.JAVA_MODULE": "11",
     "last_directory_selection": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/java_Multithreading/src/test/java",
     "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/java_Multithreading/src/main/java/com/bob/java_multithreading",
     "node.js.detected.package.eslint": "true",
@@ -146,7 +140,7 @@
     "project.structure.side.proportion": "0.42528737",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "spring.configuration.checksum": "1f2c21e9728466deb80ed5719393e9e8",
+    "spring.configuration.checksum": "6b0a9a3f1fce99e7ccd0d5ad7d252ba2",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -364,6 +358,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReadBpmnFileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ReadBPMNFile" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob.readbpmnfile.ReadBpmnFileApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spring12DataRelationshipApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-12-Data-Relationship" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.Spring12DataRelationshipApplication" />
@@ -508,6 +509,7 @@
       <item itemvalue="Application.Main1_Thread_Runnable" />
       <item itemvalue="Application.Thread1Termination" />
       <item itemvalue="Application.Thread2Termination" />
+      <item itemvalue="Spring Boot.ReadBpmnFileApplication" />
       <item itemvalue="Spring Boot.JavaMultithreadingApplication" />
       <item itemvalue="Spring Boot.Spring12DataRelationshipApplication" />
       <item itemvalue="Spring Boot.BobApplication" />
@@ -727,14 +729,9 @@
       <workItem from="1699471546495" duration="644000" />
       <workItem from="1699925874903" duration="5896000" />
       <workItem from="1700158951921" duration="1993000" />
-      <workItem from="1700420365405" duration="18618000" />
-    </task>
-    <task id="LOCAL-00129" summary="add config yaml for CI line">
-      <created>1690360948860</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1690360948860</updated>
+      <workItem from="1700420365405" duration="19816000" />
+      <workItem from="1700501734962" duration="1502000" />
+      <workItem from="1700580598037" duration="2586000" />
     </task>
     <task id="LOCAL-00130" summary="aws">
       <created>1690515409853</created>
@@ -1072,7 +1069,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700160334923</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="Thread">
+      <created>1700449086427</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1700449086428</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1099,7 +1103,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="largeRange" />
     <MESSAGE value="gasStation" />
     <MESSAGE value="Note" />
     <MESSAGE value="Stack" />
@@ -1124,7 +1127,8 @@
     <MESSAGE value="IntToRoman" />
     <MESSAGE value="Oop" />
     <MESSAGE value="LRU" />
-    <option name="LAST_COMMIT_MESSAGE" value="LRU" />
+    <MESSAGE value="Thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">

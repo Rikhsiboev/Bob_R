@@ -1,0 +1,5 @@
+Latency => Time for task
+latency = Time / Number of task
+break task to small task can not and parallel
+Throughput => amount of task in given during time
+
