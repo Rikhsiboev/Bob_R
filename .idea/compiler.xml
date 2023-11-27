@@ -21,8 +21,10 @@
         <module name="lab-07-orm-queries" />
         <module name="m6-stream" />
         <module name="dsa-01-AlgortihmAnalysis" />
+        <module name="tdd-02-03-project-end" />
         <module name="dsa-08-Trees" />
         <module name="m1-generics" />
+        <module name="tdd-02-02-project-end" />
         <module name="FOR_ME" />
         <module name="lab-04-springmvc" />
         <module name="java_Multithreading" />
@@ -39,6 +41,7 @@
         <module name="spring-13-Data-CinemaLLab" />
         <module name="m3-lambda" />
         <module name="ReadBPMNFile" />
+        <module name="tdd-02-02-project-begin (2)" />
         <module name="stream-practice" />
         <module name="spring-10-Thymeleaf (2)" />
         <module name="spring-01-Core-IoC-Bean-Annotation" />
@@ -58,6 +61,7 @@
         <module name="spring-25-Docker" />
         <module name="dsa-07-Queues" />
         <module name="dsa-06-AlgorithmProblems" />
+        <module name="tdd-02-02-project-begin (1)" />
         <module name="spring-17-REST-ConsumingApis" />
         <module name="spring-10-Thymeleaf (1)" />
         <module name="m2-enum" />
@@ -98,6 +102,13 @@
       <module name="task-service (1)" target="11" />
       <module name="task-service (1) (com.Bob)" target="11" />
       <module name="task-service (2) (com.cydeo)" target="11" />
+      <module name="tdd-02-02-project-begin" target="1.8" />
+      <module name="tdd-02-02-project-begin (3)" target="1.8" />
+      <module name="tdd-02-02-project-end" target="1.8" />
+      <module name="tdd-02-03-project-begin" target="1.8" />
+      <module name="tdd-03-02-project-begin" target="1.8" />
+      <module name="tdd-03-03-project-begin" target="1.8" />
+      <module name="tdd-04-02-project-begin" target="1.8" />
       <module name="ticketing-project-bob" target="11" />
       <module name="ticketing-project-microservices" target="11" />
       <module name="ticketing-project-microservices-containarized" target="11" />
@@ -163,6 +174,10 @@
       <module name="task-service (1)" options="-parameters" />
       <module name="task-service (1) (com.Bob)" options="-parameters" />
       <module name="task-service (2) (com.cydeo)" options="-parameters" />
+      <module name="tdd-02-02-project-begin" options="-parameters" />
+      <module name="tdd-02-02-project-begin (1)" options="-parameters" />
+      <module name="tdd-02-02-project-begin (2)" options="-parameters" />
+      <module name="tdd-02-02-project-begin (3)" options="-parameters" />
       <module name="ticketing-project-microservices" options="-parameters" />
       <module name="ticketing-project-microservices-containarized" options="-parameters" />
       <module name="ticketing-project-microservices-containerized" options="-parameters" />

@@ -4,24 +4,105 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="Thread">
-      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/src/main/java/com/bob/readbpmnfile/ReadBpmnFileApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/src/main/java/com/bob/readbpmnfile/Read_File_BPMNFile/controller/ControllerBPMNFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/src/main/java/com/bob/readbpmnfile/Read_File_BPMNFile/entity/BPMNFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/src/main/resources/static/uploaded-files.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadBPMNFile/src/test/java/com/bob/readbpmnfile/ReadBpmnFileApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/multyTreadPerformance/note" afterDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/23ab129f-5c65-40c9-bacf-34ec99621894.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/23ab129f-5c65-40c9-bacf-34ec99621894.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/Microservices.AntM3g.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/Microservices.AntM3g/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/Microservices.AntM3g/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/Microservices.AntM3g/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/Spring-14-Data-Queries.DbDgVQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/Spring-14-Data-Queries.DbDgVQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/database_name.z9arsA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/database_name.z9arsA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/database_name.z9arsA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/keycloak.0WATHg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/keycloak.0WATHg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/keycloak.0WATHg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/keycloak.0WATHg/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/spring-11-Data-TableCreation.90jR4g.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/spring-11-Data-TableCreation.90jR4g/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/spring-11-Data-TableCreation.90jR4g/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/spring-12-Data-Relationship.j0KdKA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/spring-12-Data-Relationship.j0KdKA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/spring-12-Data-Relationship.j0KdKA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/spring-13-Data-CinemaLLab.KpwRkg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/spring-13-Data-CinemaLLab.KpwRkg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/spring-13-Data-CinemaLLab.KpwRkg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/spring-20-REST-Security-Keycloak-LicenseApp.-f2Jkg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/spring-20-REST-Security-Keycloak-LicenseApp.-f2Jkg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/spring-20-REST-Security-Keycloak-LicenseApp.-f2Jkg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/spring-20-REST-Security-Keycloak-LicenseApp.-f2Jkg/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/spring-20-REST-Security-Keycloak-OrganizationsApp.etGqEQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/spring-20-REST-Security-Keycloak-OrganizationsApp.etGqEQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/spring-20-REST-Security-Keycloak-OrganizationsApp.etGqEQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/spring-20-REST-Security-Keycloak-OrganizationsApp.etGqEQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/ticketing-app123.yKDTRg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/ticketing-app123.yKDTRg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/ticketing-app123.yKDTRg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/ticketing-app123.yKDTRg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/ticketing-project-mvc.L7XQcg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/ticketing-project-mvc.L7XQcg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/ticketing-project-rest.H_lH5w.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/ticketing-project-rest.H_lH5w/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/ticketing-project-rest.H_lH5w/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/ticketing-project-security.C3cv7w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/ticketing-project-security.C3cv7w/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/TicketingProjectSecurityApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/TicketingProjectSecurityApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/config/AuthSuccessHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/config/AuthSuccessHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/controller/ProjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/controller/ProjectController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/controller/TaskController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/controller/TaskController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/converter/ProjectDtoConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/converter/ProjectDtoConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/converter/RoleDtoConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/converter/RoleDtoConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/converter/UserDtoConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/converter/UserDtoConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/ProjectDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/ProjectDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/RoleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/RoleDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/TaskDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/TaskDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/dto/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/BaseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/Project.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/common/UserPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/entity/common/UserPrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/enums/Gender.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/enums/Gender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/enums/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/enums/Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/MapperUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/MapperUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/ProjectMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/ProjectMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/RoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/RoleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/TaskMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/TaskMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/ProjectRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/ProjectRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/RoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/RoleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/TaskRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/TaskRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/ProjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/ProjectService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/RoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/SecurityServiceInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/SecurityServiceInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/TaskService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/TaskService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/ProjectServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/ProjectServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/SecurityServiceIMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/SecurityServiceIMP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/TaskServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/TaskServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/classes/com/Bob/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/surefire-reports/TEST-com.Bob.TicketingProjectSecurityApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/surefire-reports/com.Bob.TicketingProjectSecurityApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-security/target/test-classes/com/Bob/TicketingProjectSecurityApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-security/target/test-classes/com/Bob/TicketingProjectSecurityApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +153,7 @@
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="80cd394c-e150-4269-8108-65660a6d773a" />
-        <option name="url" value="https://github.com/Rikhsiboev/Bob_R.git" />
+        <option name="url" value="https://github.com/Rikhsiboev/ticketing-project-securityCI.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -80,6 +161,9 @@
     <setting file="jar://$MAVEN_REPOSITORY$/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3-sources.jar!/javax/persistence/Column.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_2.1_spec/2.0.1.Final/jboss-jaxrs-api_2.1_spec-2.0.1.Final.jar!/javax/ws/rs/core/Response.class" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/modelmapper/modelmapper/3.1.1/modelmapper-3.1.1.jar!/org/modelmapper/ModelMapper.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.7.5/spring-boot-autoconfigure-2.7.5-sources.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.7.6/spring-boot-autoconfigure-2.7.6.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.7.9/spring-boot-autoconfigure-2.7.9.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/spring-11-Data-TableCreation/pom.xml" root0="SKIP_HIGHLIGHTING" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-11.0.19/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-11.0.19/Contents/Home/lib/src.zip!/java.base/java/util/stream/IntStream.java" root0="SKIP_INSPECTION" />
@@ -94,41 +178,45 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
+    <option name="enabledProfiles">
+      <list>
+        <option value="native" />
+        <option value="nativeTest" />
+      </list>
     </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2QLm0MDy8MdZvbZccPE5v49t9A8" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_directory_selection": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/java_Multithreading/src/test/java",
+    "last_directory_selection": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/Exercise Files/Chapter2/02_03/begin/src/test/java/com/hanselnpetal/service",
     "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/java_Multithreading/src/main/java/com/bob/java_multithreading",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -139,14 +227,15 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.42528737",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "spring.configuration.checksum": "6b0a9a3f1fce99e7ccd0d5ad7d252ba2",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "spring.configuration.checksum": "901f4aaabc00ed60161c1db1abb84547",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
+      "redis",
       "postgresql",
-      "redis"
+      "mysql"
     ],
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
       "PLAIN_TEXT"
@@ -167,13 +256,15 @@
       <recent name="$PROJECT_DIR$/.circleci" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading/creatTread" />
       <recent name="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading" />
       <recent name="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/Design_a_least_recently_used_cache" />
       <recent name="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv/parking" />
-      <recent name="$PROJECT_DIR$/FOR_ME/src/main/java/OOP_design_interview_questions_solutionsv" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hanselnpetal" />
+      <recent name="com.hanselnpetal.service" />
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -182,6 +273,9 @@
       <recent name="com.bob_R.annotation" />
       <recent name="com.bob_R.dto" />
       <recent name="com.bob_R.config" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -197,68 +291,81 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="Application.JoinMainThread">
-    <configuration name="Case1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bob.java_multithreading.Case1" />
-      <module name="java_Multithreading" />
+  <component name="RunManager" selected="JUnit.CustomerContactRepositoryDbUnitTest">
+    <configuration name="ContactsManagementControllerUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-02-02-project-begin (2)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bob.java_multithreading.*" />
+          <option name="PATTERN" value="com.hanselnpetal.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.hanselnpetal.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.hanselnpetal.controller.ContactsManagementControllerUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinMainThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bob.java_multithreading.tread_Join.JoinMainThread" />
-      <module name="java_Multithreading" />
+    <configuration name="ContactsManagementControllerUnitTest.testAddContactBizServiceRuleNotSatisfied" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-02-02-project-begin (2)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bob.java_multithreading.tread_Join.*" />
+          <option name="PATTERN" value="com.hanselnpetal.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.hanselnpetal.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.hanselnpetal.controller.ContactsManagementControllerUnitTest" />
+      <option name="METHOD_NAME" value="testAddContactBizServiceRuleNotSatisfied" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1_Thread_Runnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bob.java_multithreading.Main1_Thread_Runnable" />
-      <module name="java_Multithreading" />
+    <configuration name="CustomerContactRepositoryDbUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-02-02-project-begin (2)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bob.java_multithreading.*" />
+          <option name="PATTERN" value="com.hanselnpetal.data.repos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.hanselnpetal.data.repos" />
+      <option name="MAIN_CLASS_NAME" value="com.hanselnpetal.data.repos.CustomerContactRepositoryDbUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Thread1Termination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bob.java_multithreading.termination.Thread1Termination" />
-      <module name="java_Multithreading" />
+    <configuration name="CustomerContactRepositoryDbUnitTest.testFindByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-02-02-project-begin (2)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bob.java_multithreading.termination.*" />
+          <option name="PATTERN" value="com.hanselnpetal.data.repos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.hanselnpetal.data.repos" />
+      <option name="MAIN_CLASS_NAME" value="com.hanselnpetal.data.repos.CustomerContactRepositoryDbUnitTest" />
+      <option name="METHOD_NAME" value="testFindByEmail" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Thread2Termination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bob.java_multithreading.termination.Thread2Termination" />
-      <module name="java_Multithreading" />
+    <configuration name="CustomerContactRepositoryIntegrationTest.testFindByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-02-02-project-begin (2)" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bob.java_multithreading.termination.*" />
+          <option name="PATTERN" value="com.hanselnpetal.data.repos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.hanselnpetal.data.repos" />
+      <option name="MAIN_CLASS_NAME" value="com.hanselnpetal.data.repos.CustomerContactRepositoryIntegrationTest" />
+      <option name="METHOD_NAME" value="testFindByEmail" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -270,6 +377,65 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tdd-02-03-project-end" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hanselnpetal.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tdd-02-02-project-begin (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hanselnpetal.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tdd-02-03-project-end" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hanselnpetal.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tdd-02-03-project-end" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hanselnpetal.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (5)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tdd-02-02-project-begin (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hanselnpetal.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="tdd-02-02-project-begin (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hanselnpetal.Application" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -312,6 +478,13 @@
     <configuration name="EmployeeLabApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-10-Thymeleaf (1)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob_R.EmployeeLabApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaMultithreadingApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="java_Multithreading" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob.java_multithreading.creatTread.JavaMultithreadingApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -485,6 +658,7 @@
       </method>
     </configuration>
     <configuration name="TicketingProjectSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="ticketing-project-security" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.TicketingProjectSecurityApplication" />
       <method v="2">
@@ -504,11 +678,18 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Case1" />
-      <item itemvalue="Application.JoinMainThread" />
-      <item itemvalue="Application.Main1_Thread_Runnable" />
-      <item itemvalue="Application.Thread1Termination" />
-      <item itemvalue="Application.Thread2Termination" />
+      <item itemvalue="JUnit.ContactsManagementControllerUnitTest" />
+      <item itemvalue="JUnit.ContactsManagementControllerUnitTest.testAddContactBizServiceRuleNotSatisfied" />
+      <item itemvalue="JUnit.CustomerContactRepositoryDbUnitTest" />
+      <item itemvalue="JUnit.CustomerContactRepositoryDbUnitTest.testFindByEmail" />
+      <item itemvalue="JUnit.CustomerContactRepositoryIntegrationTest.testFindByEmail" />
+      <item itemvalue="Spring Boot.Application (2)" />
+      <item itemvalue="Spring Boot.Application (3)" />
+      <item itemvalue="Spring Boot.Application (4)" />
+      <item itemvalue="Spring Boot.Application (5)" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Application (1)" />
+      <item itemvalue="Spring Boot.JavaMultithreadingApplication (1)" />
       <item itemvalue="Spring Boot.ReadBpmnFileApplication" />
       <item itemvalue="Spring Boot.JavaMultithreadingApplication" />
       <item itemvalue="Spring Boot.Spring12DataRelationshipApplication" />
@@ -543,11 +724,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JoinMainThread" />
-        <item itemvalue="Application.Thread2Termination" />
-        <item itemvalue="Application.Thread1Termination" />
-        <item itemvalue="Application.Case1" />
-        <item itemvalue="Application.Main1_Thread_Runnable" />
+        <item itemvalue="JUnit.CustomerContactRepositoryDbUnitTest" />
+        <item itemvalue="JUnit.CustomerContactRepositoryDbUnitTest.testFindByEmail" />
+        <item itemvalue="JUnit.CustomerContactRepositoryIntegrationTest.testFindByEmail" />
+        <item itemvalue="JUnit.ContactsManagementControllerUnitTest.testAddContactBizServiceRuleNotSatisfied" />
+        <item itemvalue="JUnit.ContactsManagementControllerUnitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -732,6 +913,19 @@
       <workItem from="1700420365405" duration="19816000" />
       <workItem from="1700501734962" duration="1502000" />
       <workItem from="1700580598037" duration="2586000" />
+      <workItem from="1700617058451" duration="4000" />
+      <workItem from="1700646954801" duration="297000" />
+      <workItem from="1700648214943" duration="252000" />
+      <workItem from="1700676485271" duration="5092000" />
+      <workItem from="1700694750999" duration="99000" />
+      <workItem from="1700754164935" duration="705000" />
+      <workItem from="1700772991587" duration="948000" />
+      <workItem from="1700780182913" duration="3982000" />
+      <workItem from="1700784383843" duration="2812000" />
+      <workItem from="1700805561283" duration="3497000" />
+      <workItem from="1700947281245" duration="6051000" />
+      <workItem from="1701034505495" duration="21209000" />
+      <workItem from="1701055959345" duration="10784000" />
     </task>
     <task id="LOCAL-00130" summary="aws">
       <created>1690515409853</created>
@@ -1131,49 +1325,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="Thread" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/service/impl/SecurityServiceIMP.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/BaseEntityListener.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ticketing-project-mvc/src/main/java/com/Bob_R/entity/BaseEntityListener.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/LotteryCoupon.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/HiglyProfitableMonth.java</url>
-          <line>9</line>
-          <properties class="HiglyProfitableMonth" method="highlyProfitableIntervals">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Bob_R$ContactsManagementServiceIntegrationTest.ic" NAME="ContactsManagementServiceIntegrationTest Coverage Results" MODIFIED="1701048448113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hanselnpetal.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Bob_R$Uniq.ic" NAME="Uniq Coverage Results" MODIFIED="1682262422432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Bob_R$CycleLinkedList.ic" NAME="CycleLinkedList Coverage Results" MODIFIED="1697918140974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>PrepInterview.LinkedList.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/Bob_R$Uniq.ic" NAME="Uniq Coverage Results" MODIFIED="1682262422432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

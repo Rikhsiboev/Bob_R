@@ -5,10 +5,10 @@ services:
     container_name: mypostgres
     environment:
       POSTGRES_USER: "postgres"
-      POSTGRES_PASSWORD: "bob4158997"
-      POSTGRES_DB: "ticketing-app123"
+      POSTGRES_PASSWORD: "Bob4158997"
+      POSTGRES_DB: "ticketing-project-security"
     ports:
-      - "5435:5432"
+      - "5432:5432"
     restart: always
     volumes:
       - initdb:/var/lib/postgresql/data
@@ -16,9 +16,10 @@ services:
       - webnet
   ticketing-app:
     build: .
+    platform: linux/amd64
     container_name: ticketingapp
     ports:
-      - "8088:8088"
+      - "1234:1234"
     networks:
       - webnet
     depends_on:

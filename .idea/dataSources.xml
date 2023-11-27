@@ -15,5 +15,12 @@
       <jdbc-url>jdbc:postgresql://ticketingdb.cevozceebzsg.us-west-2.rds.amazonaws.com:5432/ticketingdb</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="mydatabase@localhost" uuid="a44aa265-679e-49d6-8c6a-a22ef0f5d542">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/mydatabase</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

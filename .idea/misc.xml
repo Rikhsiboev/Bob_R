@@ -89,10 +89,25 @@
         <option value="$PROJECT_DIR$/Data Structure/dsa-01-AlgortihmAnalysis/Review1/pom.xml" />
         <option value="$PROJECT_DIR$/java_Multithreading/pom.xml" />
         <option value="$PROJECT_DIR$/ReadBPMNFile/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring Test-Driven Development with JUnit/Chapter2/02_02/begin/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring Test-Driven Development with JUnit/Chapter2/02_02/end/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter2/02_02/begin/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter2/02_02/end/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter2/02_03/begin/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter2/02_03/end/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter3/03_02/begin/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter3/03_03/begin/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter4/04_02/begin/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter4/04_03/begin/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter2/02_02/begin/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter2/02_02/end/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter3/03_02/begin/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter3/03_03/begin/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercise Files/Chapter4/04_02/begin/pom.xml" />
         <option value="$PROJECT_DIR$/spring/pom.xml" />
         <option value="$PROJECT_DIR$/ticketing-project-microservices-containarized/pom.xml" />
         <option value="$PROJECT_DIR$/ticketing-project-microservices-containerized/pom.xml" />
