@@ -4,80 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/Product_of_Array_Except_Self.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/Product_of_Array_Except_Self.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/Two_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/Two_Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Heap/HeapApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/Heap/HeapApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Heap/MyHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/Heap/MyHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/HiglyProfitableMonth.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/HiglyProfitableMonth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/BOBPractice/KthItemsLinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/BOBPractice/KthItemsLinkList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/BOBPractice/MyNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/BOBPractice/MyNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/BOBPractice/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/BOBPractice/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Hw/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Hw/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Hw/MyNote.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Hw/MyNote.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Hw/Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Hw/Note.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/LeetCode/MyNote.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/LeetCode/MyNote.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/LeetCode/Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/LeetCode/Note.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/LeetCode/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/LeetCode/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/Note.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/PalindromeList.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/PalindromeList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/REVERSE_RECRUTION/NoteReverseAndRecreation.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/REVERSE_RECRUTION/NoteReverseAndRecreation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/REVERSE_RECRUTION/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/REVERSE_RECRUTION/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/myLinklist/Node1.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/myLinklist/Node1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/myLinklist/NoteCreating.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/myLinklist/NoteCreating.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/myLinklist/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/myLinklist/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/CircularLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/CircularLinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/CircularLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/CircularLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/Node2.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/Node2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LinkList/note/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/LotteryCoupon.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/LotteryCoupon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Muhtar_practice/Anagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/Muhtar_practice/Anagram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Muhtar_practice/MaxAndMin.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/Muhtar_practice/MaxAndMin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Muhtar_practice/MergeTwoArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/Muhtar_practice/MergeTwoArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Muhtar_practice/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/Muhtar_practice/Palindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Muhtar_practice/RemoveDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/Muhtar_practice/RemoveDuplicates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Muhtar_practice/ReverseArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/Muhtar_practice/ReverseArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Muhtar_practice/Reverse_String.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/Muhtar_practice/Reverse_String.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Muhtar_practice/StrongPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/Muhtar_practice/StrongPassword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Muhtar_practice/SumDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/Muhtar_practice/SumDigits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Muhtar_practice/UniqueCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/Muhtar_practice/UniqueCharacters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/BanarySearch/BnNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/BanarySearch/BnNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/BanarySearch/BrSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/BanarySearch/BrSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/GenerateDocumentUniqueStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/GenerateDocumentUniqueStrings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/LineJumps.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/LineJumps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/LinkedList/CycleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/LinkedList/CycleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/LinkedList/Delete_N_M_Nodes$NoteDelete.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/LinkedList/Delete_N_M_Nodes$NoteDelete.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/LinkedList/Delete_N_M_Nodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/LinkedList/Delete_N_M_Nodes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/LinkedList/Delete_Node_in_a_Linked_List$NoteForThis.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/LinkedList/Delete_Node_in_a_Linked_List$NoteForThis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/LinkedList/Delete_Node_in_a_Linked_List.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/LinkedList/Delete_Node_in_a_Linked_List.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/LinkedList/DuplicatesFromLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/LinkedList/DuplicatesFromLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/LinkedList/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/LinkedList/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/LinkedList/NewNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/LinkedList/NewNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/Stack/CustomStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/Stack/CustomStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/Student_Grading.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/Student_Grading.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/array/Largest_Range.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/array/Largest_Range.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/array/MergeSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/array/MergeSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/array/RemoveDuplicatesFromSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/array/RemoveDuplicatesFromSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/array/Rotate_Image.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/array/Rotate_Image.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/array/SpiralTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/array/SpiralTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/gasStattion/gasStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/PrepInterview/gasStattion/gasStation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/QueueProblem/MyQueueAllMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/QueueProblem/MyQueueAllMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/QueueProblem/QueueNote.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/QueueProblem/QueueNote.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/QueueProblem/ReverseFirstKElementsQueueProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/QueueProblem/ReverseFirstKElementsQueueProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Tree/MyTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/Tree/MyTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Tree/TNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/Tree/TNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Tree/TreeApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/Tree/TreeApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Tree/Trunk.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/Tree/Trunk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/Tree/VisualizeTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/Tree/VisualizeTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/qs.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/qs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/readCVS/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/readCVS/Transaction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/readCVS/readCVS.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/readCVS/readCVS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/stock.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/stock.class" afterDir="false" />
-    </list>
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -899,7 +826,7 @@
       <workItem from="1701034505495" duration="21209000" />
       <workItem from="1701055959345" duration="10867000" />
       <workItem from="1701193087717" duration="1788000" />
-      <workItem from="1701271806423" duration="6363000" />
+      <workItem from="1701271806423" duration="6514000" />
     </task>
     <task id="LOCAL-00130" summary="aws">
       <created>1690515409853</created>
@@ -1244,7 +1171,7 @@
       <option name="project" value="LOCAL" />
       <updated>1700449086428</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
