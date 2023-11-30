@@ -1,7 +1,7 @@
 package PrepFromYoutube;
 
-import java.sql.Array;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.IntStream;
@@ -67,7 +67,54 @@ public class Two_Sum {
         }
         return answer;
     }
-}
+
+
+    public int[] twoSumHashMapApproach(int[] nums, int target) {
+            Map <Integer,Integer> map = new HashMap<>();
+            for(int i = 0; i<nums.length;i++){
+                int answer = target - nums[i];
+                if(map.containsKey(answer)){
+                    return new int[]{map.get(answer),i};
+                }
+                map.put(nums[i],i);
+            }
+            return new int[]{};
+        }
+
+    public int[] twoSumBruteForce(int[] nums, int target) {
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[i] + nums[j] == target) {
+                    return new int[] {i, j};
+                }
+            }
+        }
+        return new int[]{}; // No solution found!
+    }
+    public int[] twoSumTwoPointerApproach(int[] nums, int target) {
+        int[][] numsWithIndex = new int[nums.length][2];
+        for (int i = 0; i < nums.length; i++) {
+            numsWithIndex[i][0] = nums[i];
+            numsWithIndex[i][1] = i;
+        }
+
+
+        Arrays.sort(numsWithIndex, Comparator.comparingInt(arr -> arr[0]));
+        int left = 0, right = nums.length - 1;
+        while (left < right) {
+            int sum = numsWithIndex[left][0] + numsWithIndex[right][0];
+            if (sum == target) {
+                return new int[] {numsWithIndex[left][1], numsWithIndex[right][1]};
+            } else if (sum < target) {
+                left++;
+            } else {
+                right--;
+            }
+        }
+        return new int[]{}; // No solution found!
+    }
+
+    }
 /**
  * Example 1:
  * <p>

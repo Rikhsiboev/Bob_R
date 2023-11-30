@@ -13,17 +13,18 @@ public class Product_of_Array_Except_Self {
     public static int[] except(int[] nums) {
         // 1, 2, 3, 4
         int n = nums.length;
-        int aP = 1;
-        int bN = 1;
+        int aPositive = 1;
+        int bNegative = 1;
         int[] tempArray = new int[n];
 
         for (int i = 0; i < n; i++) {
-            tempArray[i] = aP;  // 1,1,2,6
-            aP *= nums[i];
+            //1,2,3,4
+            tempArray[i] = aPositive;  // 1,1,2,6
+            aPositive *= nums[i];
         }
         for (int i = n - 1; i >= 0; i--) {
-            tempArray[i] *= bN;
-            bN *= nums[i];
+            tempArray[i] *= bNegative;
+            bNegative *= nums[i];
         }
         return tempArray;
     }
