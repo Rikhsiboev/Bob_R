@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "spring.kafka.consumer.key-serializer",
+      "type": "java.lang.String",
+      "description": "Description for spring.kafka.consumer.key-serializer."
+    },
+    {
+      "name": "spring.kafka.consumer.value-serializer",
+      "type": "java.lang.String",
+      "description": "Description for spring.kafka.consumer.value-serializer."
+    },
+    {
+      "name": "spring.json.trusted.packages",
+      "type": "java.lang.String",
+      "description": "Description for spring.json.trusted.packages."
+    },
+    {
+      "name": "properties",
+      "type": "java.lang.String",
+      "description": "Description for properties."
+    }
+  ] }

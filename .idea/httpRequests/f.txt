@@ -1,6 +1,0 @@
-{
-  "timestamp": "2023-05-27T04:06:37.968+00:00",
-  "status": 404,
-  "error": "Not Found",
-  "path": "/courses/api.v3"
-}

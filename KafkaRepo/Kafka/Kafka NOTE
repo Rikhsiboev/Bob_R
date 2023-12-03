@@ -1,0 +1,193 @@
+	FIND CD FOR KAFKA
+
+	find folder first of kafka after that in terminal write this commant to run
+
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+	next open next terminal section 
+
+bin/kafka-server-start.sh config/server.properties
+
+
+	As default port 9092
+
+	Generate uuid 
+KAFKA_CLUSTER_ID="$(bin/kafka-storage.sh random-uuid)"
+
+	Log direction 
+bin/kafka-storage.sh format -t $KAFKA_CLUSTER_ID -c config/kraft/server.properties
+
+		Server 
+bin/kafka-server-start.sh config/kraft/server.properties
+
+
+	Create topic CREATE A TOPIC TO STORE YOUR EVENTS
+bin/kafka-topics.sh --create --topic quickstart-events --bootstrap-server localhost:9092
+
+	Disc-rib topic information
+bin/kafka-topics.sh --describe --topic quickstart-events --bootstrap-server localhost:9092
+
+	Topic: quickstart-events 
+       TopicId: NPmZHyhbR9y00wMglMH2sg PartitionCount: 1 
+       ReplicationFactor: 1	
+	Configs:
+    	Topic: quickstart-events 
+    	Partition: 0    
+    	Leader: 0   
+    	Replicas: 0 Isr: 0
+
+
+	White some events into the topic 
+bin/kafka-console-producer.sh --topic quickstart-events --bootstrap-server localhost:9092
+
+This is my first event
+This is my second event
+
+	READ THE EVENTS
+bin/kafka-console-consumer.sh --topic quickstart-events --from-beginning --bootstrap-server localhost:9092
+
+This is my first event
+This is my second event
+
+
+	POM kafka 
+<dependency>
+		<groupId>org.springframework.kafka</groupId>
+		<artifactId>spring-kafka</artifactId>
+</dependency>	
+
+
+
+
+		Aplication Properties 
+
+spring:
+  kafka:
+#    coming deserializer
+    consumer:
+      bootstrap-servers: localhost:9092
+      group-id: myGroup
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      # value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+       # for Json
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer 
+
+#      sending
+      properties:
+        spring.json.trusted.packages: '*'
+
+        #      sending mean serialized
+    producer:
+      bootstrap-servers: localhost:9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      # value-serializer: org.apache.kafka.common.serialization.StringSerializer
+        # for Json
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+
+      	CREATING CONGIF CLASS 
+
+@Configuration
+public class KafkaTopicConfig {
+
+    @Bean
+    public NewTopic alibouTopic() {
+        return TopicBuilder
+                .name("alibou")
+//                .partitions(5)
+//                .replicas(2)
+                .build();
+    }
+}
+
+
+
+CREATING PRODUCER CLASS
+
+@Service
+@RequiredArgsConstructor
+@Slf4j
+public class KafkaProducer {
+
+    private final KafkaTemplate<String, String> kafkaTemplate;
+
+    public void sendMessage(String msg) {
+        log.info(format("Sending message to alibou Topic:: %s", msg));
+        kafkaTemplate.send("alibou", msg);
+    }
+}
+
+
+Create rest to send meesaage from post man later 
+
+@RestController
+@RequestMapping("/api/v1/messages")
+@RequiredArgsConstructor
+public class MessageController {
+
+    private final KafkaProducer kafkaProducer;
+    private final KafkaJsonProducer kafkaJsonProducer;
+
+    @PostMapping
+    public ResponseEntity<String> sendMessage(@RequestBody String message) {
+        kafkaProducer.sendMessage(message);
+        return ResponseEntity.ok("Message queued successfully");
+    }
+
+    @PostMapping("/json")
+    public ResponseEntity<String> sendJsonMessage(@RequestBody Student message) {
+        kafkaJsonProducer.sendMessage(message);
+        return ResponseEntity.ok("Message queued successfully as JSON");
+    }
+}
+
+CREATING KAFKA CONSUMER WITH  @KafkaListener(topics = "alibou", groupId = "myGroup")
+
+@Service
+@Slf4j
+public class KafkaConsumer {
+
+    // @KafkaListener(topics = "alibou", groupId = "myGroup")
+    public void consumeMsg(String msg) {
+        log.info(format("Consuming the message from alibou Topic:: %s", msg));
+    }
+
+    @KafkaListener(topics = "alibou", groupId = "myGroup")
+    public void consumeJsonMsg(Student student) {
+        log.info(format("Consuming the message from alibou Topic:: %s", student.toString()));
+    }
+}
+
+CREATE FOR JSON OBEJECT
+
+@Getter
+@Setter
+@ToString
+public class Student {
+
+    private int id;
+    private String firstname;
+    private String lastname;
+}
+
+
+KafkaJsonProducer
+
+@Service
+@RequiredArgsConstructor
+public class KafkaJsonProducer {
+
+    private final KafkaTemplate<String, Student> kafkaTemplate;
+
+    public void sendMessage(Student student) {
+
+        Message<Student> message = MessageBuilder
+                .withPayload(student)
+                .setHeader(KafkaHeaders.TOPIC, "alibou")
+                .build();
+
+        kafkaTemplate.send(message);
+    }
+}
+
