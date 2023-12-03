@@ -101,6 +101,8 @@
         <option value="$PROJECT_DIR$/Exercise Files/Chapter4/04_03/begin/pom.xml" />
         <option value="$PROJECT_DIR$/Kafka/pom.xml" />
         <option value="$PROJECT_DIR$/KafkaRepo/Kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/KafkaRepo/producer/pom.xml" />
+        <option value="$PROJECT_DIR$/KafkaRepo/consumer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

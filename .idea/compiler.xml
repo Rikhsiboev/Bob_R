@@ -39,6 +39,7 @@
         <module name="spring-04-Autowiring" />
         <module name="lab-08-rest" />
         <module name="spring-07-SpringBoot-Demo" />
+        <module name="producer" />
         <module name="spring-13-Data-CinemaLLab" />
         <module name="m3-lambda" />
         <module name="ReadBPMNFile" />
@@ -61,6 +62,7 @@
         <module name="m4-double_colon_operators" />
         <module name="spring-25-Docker" />
         <module name="dsa-07-Queues" />
+        <module name="consumer" />
         <module name="dsa-06-AlgorithmProblems" />
         <module name="tdd-02-02-project-begin (1)" />
         <module name="spring-17-REST-ConsumingApis" />
@@ -136,6 +138,7 @@
       <module name="app-domain-model (1)" options="-parameters" />
       <module name="app-domain-model (1) (com.Bob)" options="-parameters" />
       <module name="app-domain-model (2) (com.cydeo)" options="-parameters" />
+      <module name="consumer" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
       <module name="java_Multithreading" options="-parameters" />
       <module name="kafka" options="-parameters" />
@@ -148,6 +151,7 @@
       <module name="lab-07-orm-queries" options="-parameters" />
       <module name="lab-08-rest" options="-parameters" />
       <module name="m9-HTML1" options="-parameters" />
+      <module name="producer" options="-parameters" />
       <module name="project-service" options="-parameters" />
       <module name="project-service (1)" options="-parameters" />
       <module name="project-service (1) (com.Bob)" options="-parameters" />
