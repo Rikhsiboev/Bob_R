@@ -1,0 +1,6 @@
+{
+  "timestamp": "2023-12-03T18:36:06.049+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/api/v1/messages/json"
+}

@@ -1,0 +1,6 @@
+{
+  "timestamp": "2023-12-03T18:12:49.604+00:00",
+  "status": 400,
+  "error": "Bad Request",
+  "path": "/api/v1/messages/json"
+}
