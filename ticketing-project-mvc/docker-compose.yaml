@@ -5,8 +5,8 @@ services:
     image: postgres:13
     container_name: mypostgres
     environment:
-      POSTGRES_USER: "postgres"
-      POSTGRES_PASSWORD: "bob4158997"
+      POSTGRES_USER: "localhost"
+      POSTGRES_PASSWORD: "Bob4158997"
       POSTGRES_DB: "ticketing-project-mvc"
     ports:
       - "5435:5432"

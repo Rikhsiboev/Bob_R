@@ -13,4 +13,7 @@
     <orderEntry type="library" name="Maven: name.remal.gradle-plugins.lombok:lombok:2.0.1" level="project" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="b95b35bd-d3a1-4848-bed2-4bbf4f6496d1" />
+  </component>
 </module>

@@ -66,6 +66,7 @@
         <module name="dsa-06-AlgorithmProblems" />
         <module name="tdd-02-02-project-begin (1)" />
         <module name="spring-17-REST-ConsumingApis" />
+        <module name="k8s" />
         <module name="spring-10-Thymeleaf (1)" />
         <module name="m2-enum" />
         <module name="spring-05-Core-Abstraction" />
@@ -141,6 +142,7 @@
       <module name="consumer" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
       <module name="java_Multithreading" options="-parameters" />
+      <module name="k8s" options="-parameters" />
       <module name="kafka" options="-parameters" />
       <module name="lab-00-coupling" options="-parameters" />
       <module name="lab-01-ioc" options="-parameters" />

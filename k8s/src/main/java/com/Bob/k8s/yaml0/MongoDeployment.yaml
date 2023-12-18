@@ -1,0 +1,53 @@
+#DEPLOYMENT OF OUR MONGO
+
+apiVersion: apps/v1
+kind: Deployment
+# DEPLOYMENT metadata 
+metadata:
+  name: mongo-deployment
+  labels:
+    app: mongo
+    #-------SPEC AND REPLICAS MATCHLABEL ------
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mongo
+      #------FROM HERE START OUR DEPLOYEMNT INFO-------
+  template:
+    metadata:
+      labels:
+        app: mongo
+    spec:
+      containers:
+      - name: mongodbcontainer
+        image: mongo:5.0
+        ports:
+        - containerPort: 27017
+        env:
+        - name: MANGO_INITB_ROOT_USERNAME
+          valueFrom:
+            secretKeyRef:
+              name: mongo-secret
+              key: MONGO_USER_NAMEKEY
+        - name: MANGO_INITB_ROOT_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: mongo-secret
+              key: Mongo_USER_PASSWORD
+      
+
+---
+#SERVICE TO CONTROL OUR PORT FROM INGRESS 
+apiVersion: v1
+kind: Service
+metadata:
+  name: mongo-service
+spec:
+  selector:  # HOW OUR CONNENT EACH OTHER
+    app: mongo
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 27017
+

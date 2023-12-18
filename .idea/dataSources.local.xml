@@ -12,8 +12,8 @@
         <introspection-scope>
           <node negative="1">
             <node kind="database">
-              <name qname="postgres" />
               <name qname="ticketing-project-mvc" />
+              <name qname="postgres" />
               <name qname="keycloak" />
               <name qname="Microservices" />
               <name qname="Spring-14-Data-Queries" />

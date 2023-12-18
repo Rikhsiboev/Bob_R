@@ -4,37 +4,106 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/consumer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/consumer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/consumer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/consumer/src/main/java/com/Bob/wikimedia/consumer/ConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/consumer/src/main/java/com/Bob/wikimedia/consumer/config/WikimediaTopicConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/consumer/src/main/java/com/Bob/wikimedia/consumer/consumer/WikimediaConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/consumer/src/test/java/com/Bob/wikimedia/consumer/ConsumerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/producer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/producer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/producer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/producer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/producer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/producer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/producer/src/main/java/com/Bob/wikimedia/producer/ProducerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/producer/src/main/java/com/Bob/wikimedia/producer/config/WebClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/producer/src/main/java/com/Bob/wikimedia/producer/config/WikimediaTopicConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/producer/src/main/java/com/Bob/wikimedia/producer/producer/WikimediaProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/producer/src/main/java/com/Bob/wikimedia/producer/rest/WikimediaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/producer/src/main/java/com/Bob/wikimedia/producer/stream/WikimediaStreamConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/producer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KafkaRepo/producer/src/test/java/com/Bob/wikimedia/producer/ProducerApplicationTests.java" afterDir="false" />
+    <list default="true" id="c1753430-7163-40ae-b62f-cae0e8501630" name="Changes" comment="practice for my self">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/06167dd51f90d9b52e37e8510d17d3fd44d2510e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a9fd92e336f0d44214781d4007c78455cd154a1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4cdb05b4726eb48e34c419d7544c55d396ade243" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f4fc58d84d639f479708c99d28cb93d3b49b929" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf4ba09ea793758efdfdef56433df96d3f46f7a6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/6/06167dd51f90d9b52e37e8510d17d3fd44d2510e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/a/3a9fd92e336f0d44214781d4007c78455cd154a1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/c/4cdb05b4726eb48e34c419d7544c55d396ade243" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/f/7f4fc58d84d639f479708c99d28cb93d3b49b929" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/f/bf4ba09ea793758efdfdef56433df96d3f46f7a6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Structure/dsa-01-AlgortihmAnalysis/Review1/Review1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Structure/dsa-01-AlgortihmAnalysis/dsa-01-AlgortihmAnalysis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Structure/dsa-02-Arrays/dsa-02-Arrays.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Structure/dsa-03-CollectionsReview/dsa-03-CollectionsReview.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Structure/dsa-04-LinkedLists/dsa-04-LinkedLists.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Structure/dsa-05-Stacks/dsa-05-Stacks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Structure/dsa-06-AlgorithmProblems/dsa-06-AlgorithmProblems.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Structure/dsa-07-Queues/dsa-07-Queues.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Structure/dsa-08-Trees/dsa-08-Trees.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Structure/dsa-09-Heap/dsa-09-Heap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Structure/dsa-10-Search/dsa-10-Search.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Structure/dsa-11-Sorting/dsa-11-Sorting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/FOR_ME.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/AnagramForAllChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/AnagramWithStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/Dublicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/Two_Sum_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/RotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/RotateArrayWithSortAndFindMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FOR_ME/src/main/java/RotateArrayWithSortAndFindTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid/Solid.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threads/Threads.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Threadslifecycle/Threadslifecycle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/src/main/java/com/Bob/k8s/K8sApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/src/main/java/com/Bob/k8s/yaml0/AppDeployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/src/main/java/com/Bob/k8s/yaml0/MongoDeployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/src/main/java/com/Bob/k8s/yaml0/mogno-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/src/main/java/com/Bob/k8s/yaml0/mongo-secret.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/src/test/java/com/Bob/k8s/K8sApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m1-generics/m1-generics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m2-enum/m2-enum.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m3-lambda/m3-lambda.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m4-double_colon_operators/m4-double_colon_operators.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m5-comparator_interface/m5-comparator_interface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m6-stream/m6-stream.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m7-optional-bigdecimal/m7-optional-bigdecimal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m8-new-version-updates/m8-new-version-updates.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/m9-HTML1/m9-HTML1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-00-Coupling/spring-00-Coupling.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-01-Core-IoC-Bean-Annotation/spring-01-Core-IoC-Bean-Annotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-02-Core-IoC-Stereotype-Annotation/spring-02-Core-IoC-Stereotype-Annotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-03-Wiring/spring-03-Wiring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04-Autowiring/spring-04-Autowiring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-05-Core-Abstraction/spring-05-Core-Abstraction.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-06-Core-BeanScope/spring-06-Core-BeanScope.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-08-MVC-Controller/spring-08-MVC-Controller.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-15-REST/Spring-15-REST.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-16-REST-Jackson/Spring-16-REST-Jackson.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-18-REST-SchoolLab/spring-18-REST-SchoolLab.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-19-REST-OpenAPI3/Spring-19-REST-OpenAPI3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-LicenseApp/spring-20-REST-Security-Keycloak-LicenseApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-20-REST-Security-Keycloak-OrganizationsApp/spring-20-REST-Security-Keycloak-OrganizationsApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-21-AOP/spring-21-AOP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-22-UnitTesting-JUnit5/spring-22-UnitTesting-JUnit5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-23-UnitTesting-Mockito/spring-23-UnitTesting-Mockito.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-24-UnitTesting-MockMVC/spring-24-UnitTesting-MockMVC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-00-coupling/lab-00-coupling.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-01-ioc/lab-01-ioc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-02-di/lab-02-di.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-04-springmvc/lab-04-springmvc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-05-thymeleaf/lab-05-thymeleaf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-06-orm/lab-06-orm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-07-orm-queries/lab-07-orm-queries.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-labs/lab-08-rest/lab-08-rest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-rest/ticketing-project-rest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticketing-project-security/ticketing-project-security.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/ticketing-project-mvc.L7XQcg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7dba3d2d-06a4-42f5-b0f9-612e76ad4a46/storage_v2/_src_/database/ticketing-project-mvc.L7XQcg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a44aa265-679e-49d6-8c6a-a22ef0f5d542.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a44aa265-679e-49d6-8c6a-a22ef0f5d542.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bob_R.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Bob_R.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FOR_ME/target/classes/PrepFromYoutube/Product_of_Array_Except_Self.class" beforeDir="false" afterPath="$PROJECT_DIR$/FOR_ME/target/classes/PrepFromYoutube/Product_of_Array_Except_Self.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-12-Data-Relationship/spring-12-Data-Relationship.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-12-Data-Relationship/spring-12-Data-Relationship.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticketing-project-mvc/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-project-mvc/docker-compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +150,9 @@
     <option name="currentCommit" value="1" />
     <option name="onto" value="c73b738c252bf3a036e9e8d0265ffa26dc284f9f" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -96,6 +168,12 @@
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.7.5/spring-boot-autoconfigure-2.7.5-sources.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.7.6/spring-boot-autoconfigure-2.7.6.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.7.9/spring-boot-autoconfigure-2.7.9.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.7/spring-security-core-5.7.7-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.7/spring-security-core-5.7.7-sources.jar!/org/springframework/security/core/userdetails/UserDetailsPasswordService.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.7/spring-security-core-5.7.7-sources.jar!/org/springframework/security/core/userdetails/UserDetailsService.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.7/spring-security-core-5.7.7-sources.jar!/org/springframework/security/core/userdetails/cache/EhCacheBasedUserCache.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.7/spring-security-core-5.7.7-sources.jar!/org/springframework/security/core/userdetails/cache/NullUserCache.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.7/spring-security-core-5.7.7-sources.jar!/org/springframework/security/core/userdetails/cache/SpringCacheBasedUserCache.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/6.1.1/spring-messaging-6.1.1-sources.jar!/org/springframework/messaging/Message.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/6.1.1/spring-messaging-6.1.1-sources.jar!/org/springframework/messaging/support/MessageBuilder.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/spring-11-Data-TableCreation/pom.xml" root0="SKIP_HIGHLIGHTING" />
@@ -159,7 +237,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "last_directory_selection": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/Exercise Files/Chapter2/02_03/begin/src/test/java/com/hanselnpetal/service",
-    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/KafkaRepo",
+    "last_opened_file_path": "/Users/rikhsiboevgmail.com/IdeaProjects/java-version-updates/Bob_R/Bob_R/k8s/src/main/java/com/Bob/k8s/yaml",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -169,7 +247,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.42528737",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "inlay.hints",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "901f4aaabc00ed60161c1db1abb84547",
     "vue.rearranger.settings.migration": "true"
   },
@@ -191,11 +269,11 @@
       <recent name="com.Bob_r.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/k8s/src/main/java/com/Bob/k8s/yaml" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/KafkaRepo" />
       <recent name="$PROJECT_DIR$/Kafka" />
       <recent name="$PROJECT_DIR$/java_Multithreading/src/main/java/com/bob/java_multithreading" />
-      <recent name="$PROJECT_DIR$/FOR_ME/src/main/java/PrepInterview/BanarySearch" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/KafkaRepo" />
@@ -233,12 +311,40 @@
     </option>
     <option name="openRunningConfigInTab" value="true" />
   </component>
-  <component name="RunManager" selected="HTTP Request.generated-requests | #3">
-    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
+  <component name="RunManager" selected="Application.Two_Sum_2">
+    <configuration name="RotateArrayWithSortAndFindMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RotateArrayWithSortAndFindMin" />
+      <module name="FOR_ME" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
-      <method v="2" />
+    <configuration name="Two_Sum_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrepFromYoutube.Two_Sum_2" />
+      <module name="FOR_ME" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PrepFromYoutube.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a" />
+      <module name="FOR_ME" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="abc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abc" />
+      <module name="FOR_ME" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
       <method v="2" />
@@ -341,15 +447,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.wikimedia.consumer.ConsumerApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Bob.wikimedia.consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -385,6 +485,13 @@
     <configuration name="JavaMultithreadingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="java_Multithreading" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bob.java_multithreading.JavaMultithreadingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="K8sApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="k8s" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.k8s.K8sApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -431,15 +538,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ProducerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="producer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Bob.wikimedia.producer.ProducerApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Bob.wikimedia.producer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -598,9 +699,14 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.generated-requests | #1" />
-      <item itemvalue="HTTP Request.generated-requests | #2" />
+      <item itemvalue="Application.Two_Sum_2" />
+      <item itemvalue="Application.abc" />
+      <item itemvalue="Application.RotateArrayWithSortAndFindMin" />
+      <item itemvalue="Application.a" />
       <item itemvalue="HTTP Request.generated-requests | #3" />
+      <item itemvalue="Spring Boot.K8sApplication" />
+      <item itemvalue="Spring Boot.ConsumerApplication (1)" />
+      <item itemvalue="Spring Boot.ProducerApplication (1)" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
       <item itemvalue="Spring Boot.ProducerApplication" />
       <item itemvalue="Spring Boot.KafkaApplication" />
@@ -642,16 +748,14 @@
       <item itemvalue="Spring Boot.TicketingProjectMvcApplication" />
       <item itemvalue="Spring Boot.TicketingProjectSecurityApplication" />
       <item itemvalue="Spring Boot.TicketingProjectRestApplication" />
-      <item itemvalue="Spring Boot.ConsumerApplication (1)" />
-      <item itemvalue="Spring Boot.ProducerApplication (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Two_Sum_2" />
+        <item itemvalue="Application.abc" />
+        <item itemvalue="Application.RotateArrayWithSortAndFindMin" />
+        <item itemvalue="Application.a" />
         <item itemvalue="HTTP Request.generated-requests | #3" />
-        <item itemvalue="Spring Boot.ConsumerApplication (1)" />
-        <item itemvalue="Spring Boot.ProducerApplication (1)" />
-        <item itemvalue="HTTP Request.generated-requests | #1" />
-        <item itemvalue="HTTP Request.generated-requests | #2" />
       </list>
     </recent_temporary>
   </component>
@@ -854,7 +958,22 @@
       <workItem from="1701367245318" duration="184000" />
       <workItem from="1701615454249" duration="13293000" />
       <workItem from="1701629483158" duration="4276000" />
-      <workItem from="1701634491729" duration="5163000" />
+      <workItem from="1701634491729" duration="5278000" />
+      <workItem from="1701647954076" duration="2983000" />
+      <workItem from="1701797245511" duration="5616000" />
+      <workItem from="1701813357790" duration="7124000" />
+      <workItem from="1701856217418" duration="1167000" />
+      <workItem from="1701885580073" duration="6878000" />
+      <workItem from="1701988815122" duration="2849000" />
+      <workItem from="1702072475432" duration="1386000" />
+      <workItem from="1702192609003" duration="2489000" />
+      <workItem from="1702211501156" duration="6130000" />
+      <workItem from="1702319648240" duration="7162000" />
+      <workItem from="1702362930630" duration="1221000" />
+      <workItem from="1702497017873" duration="682000" />
+      <workItem from="1702576614776" duration="789000" />
+      <workItem from="1702869679322" duration="5000" />
+      <workItem from="1702920587354" duration="4343000" />
     </task>
     <task id="LOCAL-00130" summary="aws">
       <created>1690515409853</created>
@@ -1199,7 +1318,7 @@
       <option name="project" value="LOCAL" />
       <updated>1700449086428</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1226,8 +1345,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Note" />
-    <MESSAGE value="Stack" />
     <MESSAGE value="Thread()" />
     <MESSAGE value="Trie" />
     <MESSAGE value="LcaWithTree" />
@@ -1251,7 +1368,9 @@
     <MESSAGE value="LRU" />
     <MESSAGE value="Thread" />
     <MESSAGE value="UPDATE" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE" />
+    <MESSAGE value="Kafka with microservice as React" />
+    <MESSAGE value="practice for my self" />
+    <option name="LAST_COMMIT_MESSAGE" value="practice for my self" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1264,7 +1383,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/KafkaRepo/Kafka/src/main/java/com/bob/kafka/restController/MessageController.java</url>
           <line>30</line>
-          <properties class="com.bob.kafka.restController.MessageController">
+          <properties class="com.bob.kafka.restController.MessageController" method="sendJsonMessage">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -1273,11 +1392,66 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/KafkaRepo/Kafka/src/main/java/com/bob/kafka/restController/MessageController.java</url>
           <line>24</line>
-          <properties class="com.bob.kafka.restController.MessageController">
+          <properties class="com.bob.kafka.restController.MessageController" method="sendMessage">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/RotateArrayWithSortAndFindMin.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/Two_Sum_2.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/Two_Sum_2.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/Two_Sum_2.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/Two_Sum_2.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/Two_Sum_2.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/Two_Sum_2.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/Two_Sum_2.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/Two_Sum_2.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/Two_Sum_2.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FOR_ME/src/main/java/PrepFromYoutube/Two_Sum_2.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
