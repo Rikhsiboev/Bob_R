@@ -1,0 +1,7 @@
+
+0
+java:S1220""Move this file to a named package.
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒýÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ÚÕ­Ù

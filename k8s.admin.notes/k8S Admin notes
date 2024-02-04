@@ -1,0 +1,1575 @@
+# Creating instance in AWS and create
+create VPC
+## 1 master node inbound 
+Port range					Protocol		sources									Name 
+10250 - 10252					TCP				172.31.0.0/16 					API-scheduler-manager
+6443									TCP				0.0.0.0/0      					Kubernetes API server
+2379 - 2380						TCP				172.31.0.0/16  					etcd server clientAPI
+22										TCP				0.0.0.0/0      					VPC port defoult		
+
+## 2 workining nodes inbound for all 
+Port 								range		Protocol		sources				Name 
+10250									TCP				172.31.0.0/16  Working node Api
+30000 - 32767					TCP				0.0.0.0/0      Working-Node-Range
+22										TCP				0.0.0.0/0      VPC port defoult	
+====================================
+
+## Login to AWS cloud Version 
+#master-node
+ssh -i ~/.ssh/k8s-node.pem ubuntu@54.224.243.111
+
+# working-node1
+ssh -i ~/.ssh/k8s-node.pem ubuntu@54.172.89.210
+
+# working-node2
+ssh -i ~/.ssh/k8s-node.pem ubuntu@3.84.33.123
+
+====================================
+## changing entry for node name not port 
+#  creating inside file host and add mapping 
+sudo vim /etc/host 
+4.224.243.111 	master-node
+54.172.89.210 	working-node1
+3.84.33.123 	working-node2
+
+# after that we have to master after that same in working note1 and node2
+sudo hostnamectl set-hosname master 
+sudo hostnamectl set-hosname note1 
+sudo hostnamectl set-hosname node2 
+# after that exit and re enter ## Login to AWS cloud Version 
+====================================
+
+1 Container runtime  	master and working node 
+2 install  				master and working node 
+	kubelet => starting pod 
+	kubeadm => Command tool to classter
+	kubectl => tool to talk to the clouster
+3 kube proxy            master and working node 
+4 Pod Network 			weave  for master and working node
+5 create token and use in note 1 and 2
+6 Connect pods 
+====================================
+#  on master Creating Claster
+------------------------------------
+#Configure required modules 
+
+cat <<EOF | sudo tee /etc/modules-load.d/k8s.conf
+overlay
+br_netfilter
+EOF
+
+# Configure required modules to load on boot 
+
+sudo modprobe overlay
+sudo modprobe br_netfilter
+
+# sysctl params required by setup, params persist across reboots
+cat <<EOF | sudo tee /etc/sysctl.d/k8s.conf
+net.bridge.bridge-nf-call-iptables  = 1
+net.bridge.bridge-nf-call-ip6tables = 1
+net.ipv4.ip_forward                 = 1
+EOF
+
+# Apply sysctl params without reboot
+sudo sysctl --system
+
+====================================
+	#1 ContainerD Container runtime master and nodes 
+------------------------------------
+# Load kernel modules for ContainerD
+cat <<EOF | sudo tee /etc/modules-load.d/containerd.conf
+overlay
+br_netfilter
+EOF
+
+sudo modprobe overlay
+sudo modprobe br_netfilter
+
+# Setup required sysctl params for ContainerD
+cat <<EOF | sudo tee /etc/sysctl.d/99-kubernetes-cri.conf
+net.bridge.bridge-nf-call-iptables = 1
+net.ipv4.ip_forward = 1
+net.bridge.bridge-nf-call-ip6tables = 1
+EOF
+
+# Apply sysctl params without reboot
+sudo sysctl --system
+
+##create file 
+-------------------------
+=    vim install.sh 	=
+-------------------------
+#!/bin/bash
+
+# Update package list
+sudo apt-get update
+
+# Install ContainerD
+sudo apt-get -y install containerd
+
+# Create ContainerD configuration directory
+sudo mkdir -p /etc/containerd
+
+# Create and configure ContainerD's TOML configuration file
+cat <<EOF | sudo tee /etc/containerd/config.toml
+# Add your ContainerD configuration here
+# ...
+EOF
+
+# Restart ContainerD
+sudo systemctl restart containerd
+----------------------------------------
+# bring permision 
+chmod u+x install.sh
+# to see is permosion in which state 
+ls -l install.sh
+# run our script 
+./install.sh
+# to check status of ContainerD to make sure is it works 
+service containerd status
+====================================================================
+
+		#step 2.1 Install all Packages kubelet kubeadm kubectl
+## step 1 create file 
+-------------------------------------
+=   vim install-k8s-components.sh	=
+-------------------------------------
+# Update package list
+sudo apt-get update
+
+sudo apt-get install -y apt-transport-https ca-certificates curl
+sudo mkdir -p -m 755 /etc/apt/keyrings
+curl -fsSL https://pkgs.k8s.io/core:/stable:/v1.29/deb/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/kubernetes-apt-keyring.gpg
+
+
+# Add Kubernetes APT repository
+echo 'deb [signed-by=/etc/apt/keyrings/kubernetes-apt-keyring.gpg] https://pkgs.k8s.io/core:/stable:/v1.29/deb/ /' | sudo tee /etc/apt/sources.list.d/kubernetes.list
+
+# Hold the package versions to prevent automatic upgrades
+sudo apt-mark hold kubelet kubeadm kubectl
+
+## step 3 permision 
+ chmod u+x install-k8s-components.sh  
+## step 4 install 
+./install-k8s-components.sh
+
+==================================================
+		#Install SSL Sertifice security
+==================================================
+###  AFTER in master to set up all SSL security
+sudo kubeadm reset
+sudo kubeadm init 
+sudo chown $(id -u):$(id -g) $HOME/admin.conf
+export KUBECONFIG=$HOME/admin.conf
+
+--------------Problem solving with init-----------------m
+sudo systemctl stop kubelet
+sudo rm -rf /var/lib/etcd/*
+sudo systemctl start kubelet
+sudo kubeadm reset
+sudo kubeadm init
+sudo cp /etc/kubernetes/admin.conf $HOME/
+sudo chown $(id -u):$(id -g) $HOME/admin.conf
+export KUBECONFIG=$HOME/admin.conf
+		
+
+sudo lsof -i :10259
+sudo lsof -i :10257
+
+--------------------------------
+##  TO SEE LOCATION OF MASTER FILE 
+ls /etc/kubernetes
+## to see all information about admin and sertificates
+###  kube-apiserver.yaml ###
+sudo cat /etc/kubernetes/manifests/kube-apiserver.yaml | less
+###  etcd.yaml ###
+sudo cat /etc/kubernetes/manifests/etcd.yaml | less
+--------------------------------
+# this location all config files 
+sudo ls /var/lib/
+# i want to see kubelet and pki sertificate for my security
+sudo ls /var/lib/kubelet
+sudo ls /var/lib/kubelet/pki
+# config in static path you can see direction minifest as security
+sudo cat /var/lib/kubelet/config.yaml
+===============================================================
+		###  managing Admin with CLASTER 
+## to see node stus Kubectl 
+kubectl get node 
+# as admin config status notreadt
+
+# we are creating admin.config or to see certificvate and admin and clinet also for end points from aws all thins for kubectl
+sudo vim /etc/kubernetes/admin.conf
+###  Ovveride kubectl to use easy way
+sudo -i export KUBECONFIG=/etc/kubernetes/admin.conf
+=====================================================
+		# STATUS RUNNING 
+
+kubectl get node 
+###  make easy way location to connect to run our kubectl 
+ls ~/.kube 
+###  direction as deoult file so we can use any time
+mkdir -p ~/.kube
+## creating config file 
+sudo cp -i /etc/kubernetes/admin.conf ~/.kube/config
+## permision to see 
+ls -l ~/.kube/config
+
+----Other Solution----
+# Check the status of the Kubernetes nodes
+kubectl get node
+
+# Make it easier to connect and run kubectl commands
+kube_config_dir=~/.kube
+mkdir -p $kube_config_dir
+
+# Create the kube config file
+sudo cp -i /etc/kubernetes/admin.conf $kube_config_dir/config
+
+# Optional: Check the permissions of the config file
+ls -l $kube_config_dir/config
+
+# Optional: Make a backup of the original config file
+cp $kube_config_dir/config $kube_config_dir/config_backup
+----------------------------
+
+===========================================
+			#ROOT PERMISION 
+
+###  making group and user defoult same so i can use mush faster 
+echo $(id -u)  	# corrent user id 
+echo $(id -g)	# group id
+# as admin id i can use without dudo i done here permit for adminall
+sudo chown $(id -u):$(id -g) ~/.kube/config
+
+##PERMISION FOR ADMIN 
+sudo chown ubuntu:ubuntu /home/ubuntu/admin.conf
+
+============================================
+			### NAMESPECE
+kubectl get ns
+
+# to see on this kube-system namespeace pods
+kubectl get pod -n kube-system 
+
+# kube-proxy-p7bc6 dns as 1 node and 2 coredns1/coredns2 as nodes
+============================================
+			## NETWORKING GATEWAY PLOGIN 
+## manulaly intsal file got network master
+
+wget https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml -O weave.yaml
+
+cat weave.yaml  to see yaml file 
+vim weave.yaml  to change 
+
+# and make sure that in Dimonset you set up range 
+
+        containers:
+            - name: weave
+              command:
+                - /home/weave/launch.sh
+                - --ipalloc-range=100.32.0.0/12
+
+# reAppy with our end point range 
+kubectl apply -f weave.yaml
+# to make sure that status ready 
+kubectl get node
+# and make sure that stas of pod running 
+kubectl get pod -n kube-system
+============================================
+		# to see ip pod in claster 
+kubectl get pod -n kube-system -o wide
+============================================
+		# to see Master Internal port
+kubectl get node -o wide
+============================================
+		# working for working node 
+sudo swapoff -a   ## in each working note 
+
+# on master note to get token and hash code for join in workernode
+kubeadm token create --print-join-command 
+
+# this is my token from amster to working  
+
+" kubeadm join 172.31.95.121:6443 --token 3ybltg.qtjwy6v3i7mbbo67 --discovery-token-ca-cert-hash sha256:38cd0243be8e8cdb55e19d27112c6e37192dc667336a98f50b820e1ead6bcc6e  "
+
+# after that use  in node 1 nad node 2 
+kubeadm token create --print-join-command 
+
+
+--------------Solotion with working not token---------------------
+
+sudo kubeadm reset --force
+sudo rm -rf /etc/kubernetes/kubelet.conf /etc/kubernetes/pki/ca.crt
+
+
+sudo kubeadm join 172.31.95.121:6443 --token u0u9cw.8obk9il0346n3pmu --discovery-token-ca-cert-hash sha256:beaabbf48e20981ac66a9256d48a4fecd7e8abcca0271d7ad7c7a96f5dbfa69a
+
+
+--------------------------------------------
+##to see resoult as ip
+kubectl get node
+kubectl get node -o wide
+kubectl get pod -A -o wide
+
+===========================================
+
+## to se weave-net tolking as network 
+
+kubectl get pod -A | grep weave-net
+# code 	logs 	name 			namespeace 		container 
+kubectl logs weave-net-nhk66  -n kube-system  -c weave
+# to see ip in working connection between weave notes 
+kubectl get pod -n kube-system -o wide | grep weave
+							#name
+kubectl exec -n kube-system weave-net-gmm6g -c weave -- /home/weave/weave --local status
+kubectl exec -n kube-system weave-net-ds6rz -c weave -- /home/weave/weave --local status
+kubectl exec -n kube-system weave-net-ppqs5 -c weave -- /home/weave/weave --local status
+===========================================
+# Now we can schudule working note and find port and open n aws security
+
+# For master-node: to see no errors in port ?
+kubectl logs -n kube-system weave-net-gmm6g -c weave
+# For working-node1: to see no errors in port ?
+kubectl logs -n kube-system weave-net-ds6rz  -c weave
+# For working-node2: to see no errors in port ?
+kubectl logs -n kube-system weave-net-ppqs5 -c weave
+
+
+# Weave Pod Restart: 
+kubectl delete pod -n kube-system weave-net-jr666
+# Review Kubernetes Events
+kubectl get events --field-selector involvedObject.name=weave-net-jr666 -n kube-system
+
+# in master node to see any error 
+ps aux | grep kube-apiserver
+ps aux | grep kube-controller-manager
+ps aux | grep kube-scheduler
+
+# Restart Weave
+kubectl rollout restart daemonset -n kube-system weave-net
+
+# to see all net 
+kubectl get pods -n kube-system -l name=weave-net
+
+================================================================
+
+	#			NGINX
+			
+	# 1 Config file NGINX
+	# 2 Deploy Pod to connect #1 make accessible external 
+	# 3 Config external service 
+	# 4 Ingress 
+	# 5 label 
+	# 6 Service Network 
+
+----------------------------------
+
+	# 1 file 
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    app: nginx
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+        ports:
+        - containerPort: 80
+
+#/////////////////////////////////////////
+#---Apply 
+   kubectl apply -f nginx-deployment.yaml
+#---Deployment 
+   kubectl get deployment
+#---Service   
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+spec:
+  selector:
+    app: MyApp
+  ports:
+    - protocol: TCP
+      port: 10
+      targetPort: 80
+
+# ---
+# When service resive requast from 
+	service 
+		service port 10
+		targetPort: 80 => sending to Deployment  - containerPort: 80 
+
+# --- 
+# Labels & Selectors 
+	# labels => metadata
+	# Selecters => spesification 
+
+	# flow in Service get info Selecter 
+		spec:
+  		selector:
+    		app: MyApp  => labal name in Deploymnet 
+  # after that port direction 
+    
+  # in Deployment 	
+  template:
+    metadata:
+      labels:
+        app: nginx	
+
+  and each selecter and label talk with each other key and value      
+
+ kubectl get svc
+ kubectl describe svc nginx-service
+ kubectl get pod -o wide
+ kubectl get ep
+
+
+ #/////////////////////////////////////////
+
+
+ # Proxy managing service end points of Pods
+ Requst to service to proxy and Pod 
+ #///////////////////TO GET LABELS//////////
+ kubectl get deployment --show-labels
+ kubectl get svc --show-labels 
+ kubectl get svc -l app=nginx
+ kubectl get pod --show-labels
+ kubectl get pod -l app=nginx
+ kubectl logs -l app=nginx 
+ kubectl get pod -n kube-system --show-labels
+ kubectl get node --show-labels
+
+ ------
+
+ -- For test ----
+-- record rollout ---
+kubectl rollout --help
+  *  deployments
+  *  daemonsets
+  *  statefulsets
+kubectl rollout history deployment/
+
+ -- For Inside POd command And Debug----
+-- exec ---
+kubectl exec -it nameOfPod -- bash
+kubectl exec -it nginx-deployment-7c5ddbdf54-gbhs4 -- bash
+
+
+ #///////////////////  DNS  /////////// DEBUG ///////////
+kubectl get pod -n kube-system 
+sudo cat  /var/lib/kubelet/config.yaml  # to see dns port 
+
+
+
+/////////////////// short cut ///////////
+// kubectl
+alias k=kubectl 
+// Minifest config file 						name   										Preview 					yaml  file 
+kubectl craete service clusterip test-new-cidr --tcp=80:80 --dry-run==client 	-o yaml >myservice.yaml
+// creating Deployment 
+k create deployment nameOFDeployment --image=nging:1.20 --port=80 --replicas=2 --dry-run -o yuml > mydep1
+// creating config for Pod 
+kubectl run 
+kubectl create 
+kubectl run my-pod --image=nginx:1.20 --labels="app=nginx,env=prod"
+--dry-run=client -o yaml > my-pod-yaml
+
+
+///////////// External Service 3 ways 
+1) Node pod
+		in yaml file spec section type: NodePort 
+		and 
+			ports:
+				protacal: TCP 
+				port: 8080 
+				targetPort: 80
+				nodePort: range from AWS workig node   
+
+2) Lowbalancing 
+		in yaml file spec section type: LoadBalacer
+		and 			
+				nodePort: range from AWS workig node   
+  
+3) ingress 
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: myapp-ingress
+spec:
+  rules:
+  - host: myadd.com      # domain in web page 
+  - http:									# incoming requast not security Http://
+      paths:							# url apth Http://myadd.com/ ... 
+      - backend:
+          serviceName: myapp-internall-service   # from host coming to hire for inside App
+          servicePort: 8080
+
+  FLOW
+   	 from clinet ingress host => path: backend => Service yaml file and port and next to target port  
+
+  Steps for Ingress 
+  	Ingress Controller   == > all rules 
+
+
+  In AWS Flow 
+  ip outside						translater						trasnlater				Inside
+  LoadBalanser => Ingress Controller Pod => AppIngress => AppService=>AppPod	
+
+
+  In Sing Sing on in yaml file ingress
+   paths:							# url apth Http://myadd.com/frontend
+      - frontend:
+          serviceName: myapp-internall-service   # from host coming to hire for inside App
+          servicePort: 7070
+   paths:							# url apth Http://myadd.com/backend 
+     	- backend:
+          serviceName: myapp-internall-service   # from host coming to hire for inside App
+          servicePort: 8080
+   paths:							# url apth Http://myadd.com/swaggerDoc
+     	- swaggerDoc:
+          serviceName: myapp-internall-service   # from host coming to hire for inside App
+          servicePort: 8762
+   soon ... 
+------------------------------------
+   Ingres Sectificate TLS Security 
+
+   in Ingress
+    spec:
+    	tls:
+    	- myapp.com
+    	secretName: myapp-secre-tls
+
+==   and direction will be in 
+   
+apiVersion: v1
+kind: Secret
+metadata:
+  name: myapp-secret-tls
+  namespeace: defoult						# have to be same 
+data:
+  tls.crt: base64 encoded cert  # have to be same 
+  tls.key: base64 encoded key 	# have to be same 
+type: kubernetes.io/tls  
+
+====> Deployment Ingress
+1) ingress control 
+				we will use Helm 
+						mychart/			 		 top level 
+						Chart.yaml         metainfo
+						value.yaml         value       value.yaml => myvalues.yaml => resoult
+											helm install --alues = my-values.yaml <Chart name> 
+						chart/						 chart dependenceies 
+						templates/				 temolates 
+						readMe 
+						licince 
+						soon .. 
+2) ingress Componenets FLOW -> LOADBALANCING -> INGRESSCONTROLLER-> Ingress
+==========intsall halm=============
+curl https://baltocdn.com/helm/signing.asc | gpg --dearmor | sudo tee /usr/share/keyrings/helm.gpg > /dev/null
+sudo apt-get install apt-transport-https --yes
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/helm.gpg] https://baltocdn.com/helm/stable/debian/ all main" | sudo tee /etc/apt/sources.list.d/helm-stable-debian.list
+sudo apt-get update
+sudo apt-get install helm
+
+========== Ingres From helm install====
+## repo https://github.com/kubernetes/ingress-nginx/tree/main/charts/ingress-nginx
+
+helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
+helm repo update
+helm install [RELEASE_NAME] ingress-nginx/ingress-nginx
+helm install ingress-nginx  ingress-nginx/ingress-nginx
+
+ helm ls
+ kubectl get pod 
+ kubectl get svc
+ Port; information external 80 security 443
+ 80:31330/TCP,443:31769/TCP
+ 
+== Config loadBalancing ==
+	in Aws created LoadBalancing 
+	with target group working note1 and node 2 with seccurity defoult but as port for target 
+	31330 
+
+== ingress Controller == 	
+we delete nginx-service and we are ajusting vim nginx-service.yaml  
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+  labels:
+    app: nginx
+    vsc: test-nginx    
+spec:
+  selector:
+    app: nginx
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 80
+
+== Ingress Configuratin file ==  
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: my-app-ingress
+spec:
+  rules:
+  - host: host
+    http:
+      paths:
+      - backend:
+          service:
+            name: nginx-service
+            port:
+              number: 8080
+        path: /
+        pathType: Exact
+
+kubectl apply -f myingress.yaml
+
+i got error 
+Error from server (InternalError): error when creating "myingress.yaml": Internal error occurred: failed calling webhook "validate.nginx.ingress.kubernetes.io": failed to call webhook: Post "https://ingress-nginx-controller-admission.default.svc:443/networking/v1/ingresses?timeout=10s": dial tcp 10.100.235.24:443: connect: no route to host
+
+means that ingress-nginx-controller-admission  service can not connect 
+
+solution 
+kubectl get ValidatingWebjookConfiguration
+kubectl edit ValidatingWebjookConfiguration
+chnage
+ failurePolicy: Fail => ignore 
+
+ kubectl apply -f myingress.yaml
+
+ +++++ we are change path in brouser 
+
+ apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: my-app-ingress
+spec:
+  rules:
+  - host: ingress-nginx-controller-lb-1067334869.us-east-1.elb.amazonaws.com
+    http:
+      paths:
+      - backend:
+          service:
+            name: nginx-service
+            port:
+              number: 8080
+        path: /my-app
+        pathType: Exact
+
+
+we are adding 
+
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target:
+
+//////////////////////////////////////
+RBAC =Role Base Access Control
+Cluster Role roles 
+
+Service Account => ROLE or ROLEBINDING => jenkins
+Service Account => Clouster Role => prompthous   
+
+/// Role Configuration 											
+kind Role 															kind: RoleBinding
+metadata:																metadata:	
+	name: developers											  	name: developers	
+	namespeace: my-app                     
+rules:																	subject:
+- apiGroups: [""]												- kind: User		
+	resources: ["pod"] or deployment 			  name: jane
+	vers: ['pod',"create","list"]						apiGroup: rbac.authorization.k8s.io
+	resources: ["secrets"]								roleRef:
+																					- kind: User
+	verns:["get"]															name: developer
+																					apiGroup: rbac.authorization.k8s.io
+	
+	////////////////////									subject:
+																					- kind: Group
+																						name: "devop-admins"
+																						apiGroup: rbac.authorization.k8s.io
+																					subject:
+																					- kind: ServiceAccount
+																						name: "defoult"
+																						apiGroup: kube-system
+
+///////////////
+apiVersion: rbac.authorization.k8s.io/vl
+kind: ClusterRole
+metadata:
+	name: cluster-admin
+rules:
+- apiGroups: [""]
+	resources: ["nodes","namespaces"]
+	verbs: ["get","create", "list", "delete", "update"]
+
+
+////// CHecking Api Access /////
+kubectl auth can-i create deployments --namespace dev 
+
+
+Security two Layers two ways 
+
+Jenkin create defoult namespace ApiService (authentication user from jenkin)-> (Authorization)
+
+Rbac 4 ways Authorization in Apiservice 
+
+1 Node 
+2 Abac
+3 Rbac
+4 Webhook
+# to see security location kube-apiserver
+sudo vim /etc/kubernetes/manifests/kube-apiserver.yaml
+
+
+==//// DEMO Creating Security
+admin creating key for new user openSSL
+admin creating sertificate Singin Request 
+admin Approve Sertificate to Usur Developer
+Get Singed Sertifica for user 
+Give Permision create, delete, update,k8s resources
+Validate user permision 
+
+=======/////////=========
+//  Creating user Account 
+openssl genrsa -out dev-tom.key 2048 
+
+//  Creating sertificate with User private key 
+openssl req -new -key dev-tom.key -subj "/CN=tom" -out dev-tom.csr
+
+//  We have to send to k8s automaticly will work
+
+vim dev-tom-csr.yaml
+
+apiVersion: certificates.k8s.io/v1
+kind: CertificateSigningRequest
+metadata:
+  name: myuser
+spec:
+  request: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURSBSRVFVRVNULS0tLS0KTUlJQ1ZqQ0NBVDRDQVFBd0VURVBNQTBHQTFVRUF3d0dZVzVuWld4aE1JSUJJakFOQmdrcWhraUc5dzBCQVFFRgpBQU9DQVE4QU1JSUJDZ0tDQVFFQTByczhJTHRHdTYxakx2dHhWTTJSVlRWMDNHWlJTWWw0dWluVWo4RElaWjBOCnR2MUZtRVFSd3VoaUZsOFEzcWl0Qm0wMUFSMkNJVXBGd2ZzSjZ4MXF3ckJzVkhZbGlBNVhwRVpZM3ExcGswSDQKM3Z3aGJlK1o2MVNrVHF5SVBYUUwrTWM5T1Nsbm0xb0R2N0NtSkZNMUlMRVI3QTVGZnZKOEdFRjJ6dHBoaUlFMwpub1dtdHNZb3JuT2wzc2lHQ2ZGZzR4Zmd4eW8ybmlneFNVekl1bXNnVm9PM2ttT0x1RVF6cXpkakJ3TFJXbWlECklmMXBMWnoyalVnald4UkhCM1gyWnVVV1d1T09PZnpXM01LaE8ybHEvZi9DdS8wYk83c0x0MCt3U2ZMSU91TFcKcW90blZtRmxMMytqTy82WDNDKzBERHk5aUtwbXJjVDBnWGZLemE1dHJRSURBUUFCb0FBd0RRWUpLb1pJaHZjTgpBUUVMQlFBRGdnRUJBR05WdmVIOGR4ZzNvK21VeVRkbmFjVmQ1N24zSkExdnZEU1JWREkyQTZ1eXN3ZFp1L1BVCkkwZXpZWFV0RVNnSk1IRmQycVVNMjNuNVJsSXJ3R0xuUXFISUh5VStWWHhsdnZsRnpNOVpEWllSTmU3QlJvYXgKQVlEdUI5STZXT3FYbkFvczFqRmxNUG5NbFpqdU5kSGxpT1BjTU1oNndLaTZzZFhpVStHYTJ2RUVLY01jSVUyRgpvU2djUWdMYTk0aEpacGk3ZnNMdm1OQUxoT045UHdNMGM1dVJVejV4T0dGMUtCbWRSeEgvbUNOS2JKYjFRQm1HCkkwYitEUEdaTktXTU0xMzhIQXdoV0tkNjVoVHdYOWl4V3ZHMkh4TG1WQzg0L1BHT0tWQW9FNkpsYWFHdTlQVmkKdjlOSjVaZlZrcXdCd0hKbzZXdk9xVlA3SVFjZmg3d0drWm89Ci0tLS0tRU5EIENFUlRJRklDQVRFIFJFUVVFU1QtLS0tLQo=
+  signerName: kubernetes.io/kube-apiserver-client
+  expirationSeconds: 86400  # one day
+  usages:
+  - client auth
+
+we are changing spec code to base64 
+cat dev-tom.csr | base64 | tr -d "\n"
+
+LS0tLS1CRUdJTiBDRVJUSUZJQ0FURSBSRVFVRVNULS0tLS0KTUlJQ1V6Q0NBVHNDQVFBd0RqRU1NQW9HQTFVRUF3d0RkRzl0TUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQwpBUThBTUlJQkNnS0NBUUVBdkIrVjFsNmE1dktsTFduVFltSlJsMmg0WnR0Q3BhRHNkdS84ZUtXTEplaVFSYXV6CnNaREVGQklOaWhxMzJscHB2QWVKbGdFdXhBZ2c3eUdjajRXaEo1VHljaVBBRUxhem5ZU2xuK29KeXByWGNvVFQKWVZOdXpzcG1nNE5xdEVNNUdvVW9rc2tQcUJVT29OeGVDZlFES3dmcFRDRU1SVm1HUW84VDRpUmcyOGkrZnVnZQpuNlZ5Zk93cUxCSHljd29jeWVydUI4M1dsYTd3cmh3ZnkzQm4rNkV2a0NlQlRuS2Q4aG9mSjhYTEtIZENiZmF3CjAvempkSTBNWXZDODNXNzlXN2tYd2ZMdkNNejZIRmxaRk0yMERpckUwR1h0aXZRLzRFQ055Ym9RRkJMWUw5dHEKR2IrY0tJNTFjZ2xybTdBY3h5RmJUMWlxVktOSzcwdkRDQnc5a1FJREFRQUJvQUF3RFFZSktvWklodmNOQVFFTApCUUFEZ2dFQkFLQlh4azRiVFZpUFVENXp3VG5zZ0luVkJ3MWF3VXhjcm5pUnRCeGNEaDJqZXBrL3FRNUFTbjViCkxoNGtIUTNSL1FSSGx1a3NCTEY4RWJPcDduV1VBb0Zka21Hd3p1Z3VSTTNPazE3WjBibVNyaWJySVBPWG8vdHYKQlk0TmVmbkxST3IwZzFmQ2JUQ2srbEZxVmw2Q3NpdVJjN0drYkRPNm1VVTFmTWdWOVVHMXlHejMyTElFYXNaZQpEdnVzR0NaZVpaeUxiTFVVZnVBRlpoNXNRMUd3S2JqcFF6ZGdrU25iUjNSanRKcVlVdEhhWTliUHh5Sm1ibHFzCnVxbWUxRVJ4SGdwbmZMUWgrb1E5MnZmMTIweVVVcVVOa1gwU0RTaExrM2ZTVm1SZHE0VGxpRnZaN2dacGRxUloKempGblFiMno4a3RaS0ovblR4RVE3YXdDY1ZjdEZOMD0KLS0tLS1FTkQgQ0VSVElGSUNBVEUgUkVRVUVTVC0tLS0tCg==
+
+
+vim dev-tom-csr.yaml
+
+apiVersion: certificates.k8s.io/v1
+kind: CertificateSigningRequest
+metadata:
+  name: dev-tom
+spec:
+  request: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURSBSRVFVRVNULS0tLS0KTUlJQ1V6Q0NBVHNDQVFBd0RqRU1NQW9HQTFVRUF3d0RkRzl0TUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQwpBUThBTUlJQkNnS0NBUUVBdkIrVjFsNmE1dktsTFduVFltSlJsMmg0WnR0Q3BhRHNkdS84ZUtXTEplaVFSYXV6CnNaREVGQklOaWhxMzJscHB2QWVKbGdFdXhBZ2c3eUdjajRXaEo1VHljaVBBRUxhem5ZU2xuK29KeXByWGNvVFQKWVZOdXpzcG1nNE5xdEVNNUdvVW9rc2tQcUJVT29OeGVDZlFES3dmcFRDRU1SVm1HUW84VDRpUmcyOGkrZnVnZQpuNlZ5Zk93cUxCSHljd29jeWVydUI4M1dsYTd3cmh3ZnkzQm4rNkV2a0NlQlRuS2Q4aG9mSjhYTEtIZENiZmF3CjAvempkSTBNWXZDODNXNzlXN2tYd2ZMdkNNejZIRmxaRk0yMERpckUwR1h0aXZRLzRFQ055Ym9RRkJMWUw5dHEKR2IrY0tJNTFjZ2xybTdBY3h5RmJUMWlxVktOSzcwdkRDQnc5a1FJREFRQUJvQUF3RFFZSktvWklodmNOQVFFTApCUUFEZ2dFQkFLQlh4azRiVFZpUFVENXp3VG5zZ0luVkJ3MWF3VXhjcm5pUnRCeGNEaDJqZXBrL3FRNUFTbjViCkxoNGtIUTNSL1FSSGx1a3NCTEY4RWJPcDduV1VBb0Zka21Hd3p1Z3VSTTNPazE3WjBibVNyaWJySVBPWG8vdHYKQlk0TmVmbkxST3IwZzFmQ2JUQ2srbEZxVmw2Q3NpdVJjN0drYkRPNm1VVTFmTWdWOVVHMXlHejMyTElFYXNaZQpEdnVzR0NaZVpaeUxiTFVVZnVBRlpoNXNRMUd3S2JqcFF6ZGdrU25iUjNSanRKcVlVdEhhWTliUHh5Sm1ibHFzCnVxbWUxRVJ4SGdwbmZMUWgrb1E5MnZmMTIweVVVcVVOa1gwU0RTaExrM2ZTVm1SZHE0VGxpRnZaN2dacGRxUloKempGblFiMno4a3RaS0ovblR4RVE3YXdDY1ZjdEZOMD0KLS0tLS1FTkQgQ0VSVElGSUNBVEUgUkVRVUVTVC0tLS0tCg== 
+  signerName: kubernetes.io/kube-apiserver-client
+  expirationSeconds: 8640000  # days
+  usages:
+  - client auth
+
+--- APPLY
+kubectl apply -f dev-tom-csr.yaml  
+--- To see Certificates 
+ kubectl get 
+--- We have to make sure for aprove as admin
+to see who have permision 
+cat ~/.kube/config | grep kubernetes-admin -A2
+
+to proving vor dave tom serttifivate crs
+kubectl certificate --help 
+kubectl certificate approve dev-tom
+
+--- Singin Get Singed Sertifica for user get ditails 
+kubectl get csr dev-tom -o yaml 
+
+status:
+  certificate: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUM5RENDQWR5Z0F3SUJBZ0lSQUtNUE45eCtaYkhCWFNNekE4bzlCQ0V3RFFZSktvWklodmNOQVFFTEJRQXcKRlRFVE1CRUdBMVVFQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRBeE1qTXhOalF4TXpGYUZ3MHlOREExTURJeApOalF4TXpGYU1BNHhEREFLQmdOVkJBTVRBM1J2YlRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQUx3ZmxkWmVtdWJ5cFMxcDAySmlVWmRvZUdiYlFxV2c3SGJ2L0hpbGl5WG9rRVdyczdHUXhCUVMKRFlvYXQ5cGFhYndIaVpZQkxzUUlJTzhobkkrRm9TZVU4bklqd0JDMnM1MkVwWi9xQ2NxYTEzS0UwMkZUYnM3Swpab09EYXJSRE9ScUZLSkxKRDZnVkRxRGNYZ24wQXlzSDZVd2hERVZaaGtLUEUrSWtZTnZJdm43b0hwK2xjbnpzCktpd1I4bk1LSE1ucTdnZk4xcFd1OEs0Y0g4dHdaL3VoTDVBbmdVNXluZklhSHlmRnl5aDNRbTMyc05QODQzU04KREdMd3ZOMXUvVnU1RjhIeTd3ak0raHhaV1JUTnRBNHF4TkJsN1lyMFArQkFqY202RUJRUzJDL2JhaG0vbkNpTwpkWElKYTV1d0hNY2hXMDlZcWxTalN1OUx3d2djUFpFQ0F3RUFBYU5HTUVRd0V3WURWUjBsQkF3d0NnWUlLd1lCCkJRVUhBd0l3REFZRFZSMFRBUUgvQkFJd0FEQWZCZ05WSFNNRUdEQVdnQlJjcitXM2lJYlpQbG9pUElBdDRobUEKb0ZWRVVUQU5CZ2txaGtpRzl3MEJBUXNGQUFPQ0FRRUFCcGJyYjk5NEJtdFRzOUJRMTZtNTJtOUZienBxbTB5bgppTUJxWmg3eXZETitORHZHZ05MTDNKVy9HNWlHS2NFQ3V6aW92cmdNL3M3cHkzWXAxSjFVVFN5cVBwbnU1TXBKCmtKQ0ozYXJvS2RqNlFDZFBSYzJrbUxWVzRZZjNJMTF5bUI1ak5GV0x1SFBXVWhrSzRodmZ0Y0ZNeS9oeGtTM3AKM084dFdTV3hmUVpScDB2MURHUUp3djh5WlVTU1VWNVVqTFA0YWRPTjl0OGhobCtpcWtEZ2tRQlZKQWJxV0NOVwpCZk5KRlZPUUI2NEx5VUE1Nlk5SjJMdlVaLzM5ZWZjcjN1VXNDMDRVcm9MQWRmU0pYVDRIandJdHIzZE1iNlB4CmJTNUpFN3V6MGlydHZ2eEV5NnlTOGtjTE13SWZzaG1tN0FtRFVZa2hvNXFGNDVWZ2pQRGwwQT09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+
+
+  -- to see Base 64 Sertificate 
+  echo 'LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUM5RENDQWR5Z0F3SUJBZ0lSQUtNUE45eCtaYkhCWFNNekE4bzlCQ0V3RFFZSktvWklodmNOQVFFTEJRQXcKRlRFVE1CRUdBMVVFQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRBeE1qTXhOalF4TXpGYUZ3MHlOREExTURJeApOalF4TXpGYU1BNHhEREFLQmdOVkJBTVRBM1J2YlRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQUx3ZmxkWmVtdWJ5cFMxcDAySmlVWmRvZUdiYlFxV2c3SGJ2L0hpbGl5WG9rRVdyczdHUXhCUVMKRFlvYXQ5cGFhYndIaVpZQkxzUUlJTzhobkkrRm9TZVU4bklqd0JDMnM1MkVwWi9xQ2NxYTEzS0UwMkZUYnM3Swpab09EYXJSRE9ScUZLSkxKRDZnVkRxRGNYZ24wQXlzSDZVd2hERVZaaGtLUEUrSWtZTnZJdm43b0hwK2xjbnpzCktpd1I4bk1LSE1ucTdnZk4xcFd1OEs0Y0g4dHdaL3VoTDVBbmdVNXluZklhSHlmRnl5aDNRbTMyc05QODQzU04KREdMd3ZOMXUvVnU1RjhIeTd3ak0raHhaV1JUTnRBNHF4TkJsN1lyMFArQkFqY202RUJRUzJDL2JhaG0vbkNpTwpkWElKYTV1d0hNY2hXMDlZcWxTalN1OUx3d2djUFpFQ0F3RUFBYU5HTUVRd0V3WURWUjBsQkF3d0NnWUlLd1lCCkJRVUhBd0l3REFZRFZSMFRBUUgvQkFJd0FEQWZCZ05WSFNNRUdEQVdnQlJjcitXM2lJYlpQbG9pUElBdDRobUEKb0ZWRVVUQU5CZ2txaGtpRzl3MEJBUXNGQUFPQ0FRRUFCcGJyYjk5NEJtdFRzOUJRMTZtNTJtOUZienBxbTB5bgppTUJxWmg3eXZETitORHZHZ05MTDNKVy9HNWlHS2NFQ3V6aW92cmdNL3M3cHkzWXAxSjFVVFN5cVBwbnU1TXBKCmtKQ0ozYXJvS2RqNlFDZFBSYzJrbUxWVzRZZjNJMTF5bUI1ak5GV0x1SFBXVWhrSzRodmZ0Y0ZNeS9oeGtTM3AKM084dFdTV3hmUVpScDB2MURHUUp3djh5WlVTU1VWNVVqTFA0YWRPTjl0OGhobCtpcWtEZ2tRQlZKQWJxV0NOVwpCZk5KRlZPUUI2NEx5VUE1Nlk5SjJMdlVaLzM5ZWZjcjN1VXNDMDRVcm9MQWRmU0pYVDRIandJdHIzZE1iNlB4CmJTNUpFN3V6MGlydHZ2eEV5NnlTOGtjTE13SWZzaG1tN0FtRFVZa2hvNXFGNDVWZ2pQRGwwQT09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K' | base64 --decode
+
+  -- saving in file as dev-tom.crs
+  ubuntu@master-node:~$ echo 'LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUM5RENDQWR5Z0F3SUJBZ0lSQUtNUE45eCtaYkhCWFNNekE4bzlCQ0V3RFFZSktvWklodmNOQVFFTEJRQXcKRlRFVE1CRUdBMVVFQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRBeE1qTXhOalF4TXpGYUZ3MHlOREExTURJeApOalF4TXpGYU1BNHhEREFLQmdOVkJBTVRBM1J2YlRDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDCkFRb0NnZ0VCQUx3ZmxkWmVtdWJ5cFMxcDAySmlVWmRvZUdiYlFxV2c3SGJ2L0hpbGl5WG9rRVdyczdHUXhCUVMKRFlvYXQ5cGFhYndIaVpZQkxzUUlJTzhobkkrRm9TZVU4bklqd0JDMnM1MkVwWi9xQ2NxYTEzS0UwMkZUYnM3Swpab09EYXJSRE9ScUZLSkxKRDZnVkRxRGNYZ24wQXlzSDZVd2hERVZaaGtLUEUrSWtZTnZJdm43b0hwK2xjbnpzCktpd1I4bk1LSE1ucTdnZk4xcFd1OEs0Y0g4dHdaL3VoTDVBbmdVNXluZklhSHlmRnl5aDNRbTMyc05QODQzU04KREdMd3ZOMXUvVnU1RjhIeTd3ak0raHhaV1JUTnRBNHF4TkJsN1lyMFArQkFqY202RUJRUzJDL2JhaG0vbkNpTwpkWElKYTV1d0hNY2hXMDlZcWxTalN1OUx3d2djUFpFQ0F3RUFBYU5HTUVRd0V3WURWUjBsQkF3d0NnWUlLd1lCCkJRVUhBd0l3REFZRFZSMFRBUUgvQkFJd0FEQWZCZ05WSFNNRUdEQVdnQlJjcitXM2lJYlpQbG9pUElBdDRobUEKb0ZWRVVUQU5CZ2txaGtpRzl3MEJBUXNGQUFPQ0FRRUFCcGJyYjk5NEJtdFRzOUJRMTZtNTJtOUZienBxbTB5bgppTUJxWmg3eXZETitORHZHZ05MTDNKVy9HNWlHS2NFQ3V6aW92cmdNL3M3cHkzWXAxSjFVVFN5cVBwbnU1TXBKCmtKQ0ozYXJvS2RqNlFDZFBSYzJrbUxWVzRZZjNJMTF5bUI1ak5GV0x1SFBXVWhrSzRodmZ0Y0ZNeS9oeGtTM3AKM084dFdTV3hmUVpScDB2MURHUUp3djh5WlVTU1VWNVVqTFA0YWRPTjl0OGhobCtpcWtEZ2tRQlZKQWJxV0NOVwpCZk5KRlZPUUI2NEx5VUE1Nlk5SjJMdlVaLzM5ZWZjcjN1VXNDMDRVcm9MQWRmU0pYVDRIandJdHIzZE1iNlB4CmJTNUpFN3V6MGlydHZ2eEV5NnlTOGtjTE13SWZzaG1tN0FtRFVZa2hvNXFGNDVWZ2pQRGwwQT09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K' | base64 --decode > dav-tom.crt
+
+  =====/////////////////===================
+
+  Connect to Cluster creating for tom all in one 
+
+  kubectl get pod
+  //Api server
+  kubectl cluster-info
+  // go inside server and sing in sertificate for user 
+  kubectl --server https://172.31.95.121:6443 	\
+
+# get server with sert auth clint sert and key 
+kubectl --server https://172.31.95.121:6443 --certificate-authority /etc/kubernetes/pki/ca.crt --client-certificate dev-tom.crt --client-key dev-tom.key get pod 
+
+to see where  cat ~/.kube/config
+moving that file 
+mv ~/.kube/config .
+ls ~/.kube/
+
+/// we are using Use kubeconfig file 
+// we dont want to use this again again 
+kubectl --server https://172.31.95.121:6443 --certificate-authority /etc/kubernetes/pki/ca.crt --client-certificate dev-tom.crt --client-key dev-tom.key get pod 
+// we are creating kube config file 
+cp config dev-tom.conf
+// and we are changing name as dev-tom and as refferentce  
+
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJSzdxUzFBZVcrMjB3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRBeE1qRXlNek14TlRsYUZ3MHpOREF4TVRneU16TTJOVGxhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUNxSVdhMWluUDhHVGR5c2JCV3NCWGRCRzV3TC9HRVN5Ykdycm0zbTk1Rm1UUXhBNEhEcmd0SVhtdTQKSFlJKzBEaUpOUUdmNGRhM2lSK3pDMnpPWFUveXJjVWEweG1pMnJWa3JxaThGcDdRdVFTOEJoQUU3enpVNjBMTQpWVkVmRTVqWHR2OERJLzZ1WWlzSFZRTnh0ZUdVenV1RTY4U1hXU0NWMVV0U3lpVFBxT1lFRGFhYjhKNzd3RVEvClZGN1pxQlBlUnlZTUYrY3ExMzFweVQwNXBCQTQrV25CbE03ZDgycTg5MVdlem9CSkVkZXBsU3BnODgyWlVOd3oKRmZDMVVqSXNYREx1OEQ3OGhWVzM5WUh1TFhLc3B6TFpnZTNTbFVnR2pGT2owTE5HZ09mTGwxNitNNm53angvMQpmazhDZnhwZktxbHErVHNzWktucTBUR3R6cmRoQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJSY3IrVzNpSWJaUGxvaVBJQXQ0aG1Bb0ZWRVVUQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQUZ6NkdhTU1IMgpvbUNZVWIvU1NpUmJhZDVlMndJV0hkVWpwVFJFeXZPWHZvUGhLVmdKV2hPcSsrZk9UeDlLZ1ludkV3Q0cxdmJtCkVicXRQYU9BVER5bjlJMnh6T1ljbVhrR1hSUUR1ejRXMCtiZlNjRmhiN3BPY0oyUXhZS1ZMOG5sc0ZzTEh3amcKTHBoYTZNcDVJckkvbHZVaFVvYitUbklMWXAwdVR2TUx1OWlsSGJMNFBCcS9BcWQzdmxQa3FRZ1A1MEROdEZndQpUNWVnUkZ4Z2RJSXc2eXVKZ2RiUlVoamM4SXR4RUxhZm5qaXd4MnA2TnU5bGNNeWxiODJYV0g1QXozazBydkZOClFPTXg0eUFJSmNtVklyalJ5TERwNEQ5bGNkNDhUU3NvUFgwcGYzTDB5RExvNmNwZkxLaUZvK2RrQWRPVFVSS04KbVhJZCtqbWE0TEVVCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://172.31.95.121:6443
+  name: kubernetes
+contexts:
+- context:
+    cluster: kubernetes
+    user: dev-tom 
+  name: dev-tom@kubernetes
+current-context: dev-tom@kubernetes
+kind: Config
+preferences: {}
+users:
+- name: dev-tom
+  user:
+    client-certificate-data: /home/ubuntu/dev-tom.crt
+    client-key-data: /home/ubuntu/dev-tom.key  
+
+//we are appying config 
+ kubectl --kubeconfig dev-tom.conf get pod 
+
+// We are bring all file to Tom 
+dev-tom.conf
+dev-tom.crt
+dev-tom.key
+
+// and copy and bring in config
+ cp dev-tom.conf ~/.kube/config
+
+// now i am creating one file and bring to developer
+vim ~/.kube/config
+base64 dev-tom.crt | tr -d "\n"  # add this in sertificate 
+base64 dev-tom.key | tr -d "\n"	 # add this in key 
+kubectl get pod
+
+
+///////////////////////////////////////////////////////////
+
+Authorization 
+RBAC => Claster Role => Role 
+1) we are creating Crud Claster Role 
+2) Role
+
+
+==>1) we are created 
+kubectl create clusterrole  dev-cr --verb=get,list,create,update,delete --resource=deployments.apps,pods --dry-run=client -o yaml > dev-cr.yaml
+
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  creationTimestamp: null
+  name: dev-cr
+rules:
+- apiGroups:
+  - ""
+  resources:
+  - pods
+  verbs:
+  - get
+  - list
+  - create
+  - update
+  - delete
+- apiGroups:
+  - apps
+  resources:
+  - deployments
+  verbs:
+  - get
+  - list
+  - create
+  - update
+  - delete
+
+
+ #to see resources 
+  https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.29/ #api-groups
+
+kubectl apply -f dev-cr.yaml
+kubectl get clusterroles
+kubectl get config discribe clusterroles
+kubectl describe clusterrole dev-cr
+
+///// Creating Binding Roles 
+kubectl create clusterrolebinding dev-crb --clusterrole=dev-cr --user=tom --dry-run=client -o yaml > dev-crb.yaml
+
+ls
+vim dev-crb.yaml
+//  as admin 
+kubectl apply --kubeconfig config -f  dev-crb.yaml
+//  or
+kubectl apply --kubeconfig ~/.kube/config -f dev-crb.yaml
+kubectl describe clusterrolebinding dev-crb
+
+kubectl auth --kubeconfig config  can-i create pod --as tom
+kubectl auth --kubeconfig config  can-i create node --as tom
+kubectl auth --kubeconfig config  can-i create svc --as tom
+kubectl auth --kubeconfig config  can-i delate deployment --as tom
+kubectl auth --kubeconfig config  can-i create svc --as tom
+
+kubectl config get-contexts
+
+=======Create servoce Account  ==== 
+
+# Create Jenkins Service Account YAML
+kubectl create serviceaccount jenkins --dry-run=client -o yaml > jenkins-sa.yaml
+
+# View the Jenkins Service Account YAML
+vim jenkins-sa.yaml  
+
+# Apply the Jenkins Service Account YAML
+kubectl apply -f jenkins-sa.yaml 
+
+# Describe the Jenkins Service Account
+kubectl describe serviceaccount jenkins
+
+kubectl apply -f - <<EOF
+apiVersion: v1
+kind: Secret
+metadata:
+  name: jenkins
+  annotations:
+    kubernetes.io/service-account.name: jenkins
+type: kubernetes.io/service-account-token
+EOF
+
+# Verify the automatically created Service Account
+kubectl describe serviceaccount jenkins
+
+
+
+========== Clouster ====================================
+
+ kubectl --server=https://172.31.95.121:6443 --certificate-authority /etc/kubernetes/pki/ca.crt --token $token get pod
+
+cp config ~/.kube/config
+ rm ~/.kube/config
+
+ ##createing command file that using log file 
+
+ cp dev-tom.conf jenkins.conf
+
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJSzdxUzFBZVcrMjB3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRBeE1qRXlNek14TlRsYUZ3MHpOREF4TVRneU16TTJOVGxhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUNxSVdhMWluUDhHVGR5c2JCV3NCWGRCRzV3TC9HRVN5Ykdycm0zbTk1Rm1UUXhBNEhEcmd0SVhtdTQKSFlJKzBEaUpOUUdmNGRhM2lSK3pDMnpPWFUveXJjVWEweG1pMnJWa3JxaThGcDdRdVFTOEJoQUU3enpVNjBMTQpWVkVmRTVqWHR2OERJLzZ1WWlzSFZRTnh0ZUdVenV1RTY4U1hXU0NWMVV0U3lpVFBxT1lFRGFhYjhKNzd3RVEvClZGN1pxQlBlUnlZTUYrY3ExMzFweVQwNXBCQTQrV25CbE03ZDgycTg5MVdlem9CSkVkZXBsU3BnODgyWlVOd3oKRmZDMVVqSXNYREx1OEQ3OGhWVzM5WUh1TFhLc3B6TFpnZTNTbFVnR2pGT2owTE5HZ09mTGwxNitNNm53angvMQpmazhDZnhwZktxbHErVHNzWktucTBUR3R6cmRoQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJSY3IrVzNpSWJaUGxvaVBJQXQ0aG1Bb0ZWRVVUQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQUZ6NkdhTU1IMgpvbUNZVWIvU1NpUmJhZDVlMndJV0hkVWpwVFJFeXZPWHZvUGhLVmdKV2hPcSsrZk9UeDlLZ1ludkV3Q0cxdmJtCkVicXRQYU9BVER5bjlJMnh6T1ljbVhrR1hSUUR1ejRXMCtiZlNjRmhiN3BPY0oyUXhZS1ZMOG5sc0ZzTEh3amcKTHBoYTZNcDVJckkvbHZVaFVvYitUbklMWXAwdVR2TUx1OWlsSGJMNFBCcS9BcWQzdmxQa3FRZ1A1MEROdEZndQpUNWVnUkZ4Z2RJSXc2eXVKZ2RiUlVoamM4SXR4RUxhZm5qaXd4MnA2TnU5bGNNeWxiODJYV0g1QXozazBydkZOClFPTXg0eUFJSmNtVklyalJ5TERwNEQ5bGNkNDhUU3NvUFgwcGYzTDB5RExvNmNwZkxLaUZvK2RrQWRPVFVSS04KbVhJZCtqbWE0TEVVCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://172.31.95.121:6443
+  name: kubernetes
+contexts:
+- context:
+    cluster: kubernetes
+    user: jenkins
+  name: jenkins@kubernetes
+current-context: jenkins@kubernetes
+kind: Config
+preferences: {}
+users:
+- name: jenkins
+  user:
+   token: eyJhbGciOiJSUzI1NiIsImtpZCI6ImZmYlhsRkxjNmJ2bER0OHhCaW8teW1fSjNXSnotMy1sNVR5dGN6M01qZTQifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJkZWZhdWx0Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZWNyZXQubmFtZSI6ImplbmtpbnMiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC5uYW1lIjoiamVua2lucyIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50LnVpZCI6ImFkOTRiZDU2LTdjYzItNDUxNS04NGNmLWI2NTU5N2ZiYTMwZCIsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDpkZWZhdWx0OmplbmtpbnMifQ.g6yb5pnNx1yUQvYV1O-TBG1ts1m1H1G5aohdTZvzwJKaqa2rrc88CfoR5YLCOlifXObZd7lAgvh4HWwCa8UcL6id6fL5ZTgbFep5YCnjXQ0FgqGFzZNRAJPIzpU0oTfCUaXlw44qEXJ_plJj_8z1TXukW1t0Y0R-GmLT8OM2FD8GxdS-i8guzIN-LoSNSfiZsWHYSojI8yJum1-6UTyvm85JfuE9EwmmbuO0NSPVYZJGdwsOzQ_pd5DY31A8zkYzAOS34FAYeljJxieGbP3gF9mrpDUIiX8AuVN-0He8DNC_tfZzKW95J5HZnC5D4rptkQ21iIRfV_YfOfGK8StXOA
+
+
+  kubectl --kubeconfig jenkins.conf get pod 
+  
+===================================================================
+  ====== Creating Permision ===== for Jenkins ==== 
+kubectl create role cicd-role --verb=create,update,list --resource=deployments.apps,services --dry-run=client -o yaml>cicd-role.yaml 
+
+cp config ~/.kube/config
+ kubectl apply -f cicd-role.yaml
+
+  kubectl describe role cicd-role -n default
+==========================================================
+==== Binding Role 
+kubectl create rolebinding cicd-binding --role=cicd-role --serviceaccount=default:jenkins --dry-run=client -o yaml > cicd-binding.yaml
+
+kubectl apply -f cicd-binding.yaml
+ kubectl describe rolebinding cicd-binding
+
+kubectl auth can-i create service --as system:serviceaccount:default:jenkins -n default 
+===================================================
+#======= To see all Roles in a specific namespace:
+kubectl get clusterroles  # as Admin
+
+kubectl get roles --namespace=<namespace>
+kubectl describe clusterrole <role-name>
+kubectl describe role <role-name> --namespace=<namespace>
+
+====================================================
+####   HOW DEBUG   #####
+1 Pod 
+2 Service config
+3 Servoce forwarding the requast 
+4 Service running 
+5 Networking issue 
+
+# checking step by step
+1 => kubectl get pod <name>
+2 => pod register to service is service forwarding 
+			kubectl get ep  							# end point  or discribe
+			nc SERVICE_IP SERVICE_PORT  	# by port 
+			ping Servuce_name             # by pin name id 
+3 => Check aplication logs 
+				kubectl logs POD_NAME
+			# Check Pod Status and recent events 		
+				kubectl describe pod POD_NAME	
+
+FOR netWork Temporary Pod
+		BUSYBOX image wich have commant look like if 
+		kubectl run debug-pod --image=busybox		#Complited status Pod 
+		kubectl exec -it debug-pod -- sh
+		kubectl run debug-pod-2 --image=busybox -it #Running status Pod 
+
+		kubectl exec -it debug-pod-2 -- sh
+
+
+docker run <image name> <command>	
+
+Enterpoint is the Command 
+CMD is the arguments
+
+
+======== debug with kubectl =============
+
+kubectl get pod 
+kubectl get pod -o wide
+kubectl get pod -o yaml 
+kubectl get pod -o json
+
+kubectl get pod -o jsonpath='{range .items[*]}{.metadata.name}{"\n"}{end}'
+
+service kubelet status
+which kubelet
+
+kubectl config view 
+kubectl cluster-info
+
+auth and logs cash 
+
+
+===============================================================
+					In each pod adding pod side as image to see logs 
+					Workign with pods with as logs-sidecar 
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    app: nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.20
+        ports:
+        - containerPort: 80
+      - name: log-sidecar
+        image: busybox:1.28
+        command: ["sh", "-c", "while true; do echo sync app logs; sleep 20; done"]
+
+ kubectl apply -f nginx-deployment.yaml
+ kubectl pods
+ kubectl logs nginx-deployment.yaml-5b966b4cd5-kjkz7  -c log-sidecar
+       
+
+===============================================================
+	Addding unit Container for it starting forst after that other 
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    app: nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.20
+        ports:
+        - containerPort: 80
+      - name: log-sidecar
+        image: busybox:1.28
+        command: ["sh", "-c", "while true; do echo sync app logs; sleep 20; done"]
+      initContainers:
+      - name: mydb-available
+        image: busybox:1.28
+        command: ["sh","-c","until nslookup mydb-service; do echo waiting for database; sleep 4; done"]
+
+
+kubectl delete deployment  nginx-deployment
+kubectl apply -f  nginx-deployment.yaml
+kubectl get pods
+kubectl logs nginx-deployment-6cc95f7d7b-cqlx7 -c mydb-available
+
+=================================================================
+
+POd configuration inside container 
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    app: nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.20
+        ports:
+        - containerPort: 80
+      - name: log-sidecar
+        image: busybox:1.28
+        command: ["sh", "-c"]
+        args:
+        -  while true; do 
+             echo sync app logs; 
+             printenv POD_NAME POD_SERVICE_ACCOUNT POD_IP; 
+             sleep 20;
+             done
+        env: 
+        - name: POD_NAME 
+          valueFrom:
+            fieldRef:
+              fieldPath:  metadata.name
+        - name: POD_SERVICE_ACCOUNT
+          valueFrom:
+            fieldRef:
+              fieldPath:  spec.serviceAccountName
+        - name: POD_IP
+          valueFrom:
+            fieldRef:
+              fieldPath:  status.podIP
+
+
+kubectl delete deployment  nginx-deployment
+kubectl apply -f  nginx-deployment.yaml
+kubectl get pods
+kubectl logs nginx-deployment-5f464f5d96-wkcmm -c log-sidecar
+
+
+===============================================================
+
+
+==========VALUME DATA +++++++++++++++
+--------------
+ pod => PVC  ==> PC => storage backend
+   (storage ReadWriteOnce)
+------------------ 
+not in namespeace ==> PC 
+------------------
+1 PERSISTENT VOLUME 
+2 PERSISTENT VOLUME CLAIM 
+3 STORAGE.CLASS
+
+Local and Remote Valume tyoe 
+=============== Creating Persistent Value ==============
+ubuntu@master-node:~$ vim myapp-persistenValue.yaml 
+
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: data-pv   
+spec:
+  hostPath:     
+    path: "/mnt/daya"      #any kind data 
+  capacity:
+    storage: 10Gi
+  accessModes:
+  - ReadWriteMany 
+
+
+kubectl apply -f myapp-persistenValue.yaml
+
+kubectl get pv     
+-----------------------------------
+vim myapp-persistenValueClaim.yaml
+
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: mysql-data-pvc
+spec:
+  resources:
+    requests:
+      storage: 5Gi
+  accessModes:
+- ReadWriteMany
+
+kubectl apply -f myapp-persistenValueClaim.yaml
+
+kubectl get pvc 
+
+========== we can Deployment with value our aplication =====
+
+vim mysql-deployment.yaml
+
+
+apiVersion: apps/v1 # Specify the API version for the deployment
+kind: Deployment # Define the kind of Kubernetes resource, which is a Deployment
+metadata:
+  name: my-db # Assign a name to the Deployment
+  labels:
+    app: my-db # Set labels for the Deployment
+spec:
+  replicas: 1 # Set the number of replicas to 1
+  selector:
+    matchLabels:
+      app: my-db # Specify the labels to match for the Deployment
+  template: # Define the pod template
+    metadata:
+      labels:
+        app: my-db
+    spec:
+      containers:
+      - name: mysql
+        image: mysql:8.0 # Use a valid image tag (e.g., mysql:8.0)
+        env:
+        - name: MYSQL_ROOT_PASSWORD
+          value: mypwd # Set the root password for MySQL
+        volumeMounts:
+        - name: db-data
+          mountPath: "/var/lib/mysql" # Mount the persistent volume at this path
+      volumes: # Define volumes for the pod
+      - name: db-data
+        persistentVolumeClaim:
+          claimName: mysql-data-pvc # Reference the persistent volume claim (PVC) name
+
+
+kubectl apply -f mysql-deployment.yaml
+
+kubectl get pod
+
+kubectl describe pod <name>
+
+/////// to see location ///// data information 
+kubectl exec -it my-db-98879666f-2cl45 -- bash 
+
+ls /var/lib/mysql/
+
+////////// or in working node DATA//////////////
+
+kubectl describe pod <name>   /// to see which node 
+i can see that in my Working node 
+go to working node1 
+ls /mnt/data
+--------------
+
+
+=======================================================
+				EmtyDir Config between Container to get data and save mode 
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    app: nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+
+    spec:
+      containers:
+      # Container 1 main
+      - name: nginx
+        image: nginx:1.20
+        ports:
+        - containerPort: 80
+        command:
+          - "sh"
+          - "-c"
+        args:
+          - |
+            while true; do
+              echo "$(date) INFO some app data" >> /var/log/myapp.log
+              sleep 5;
+            done
+        # emtyDir sending logs     
+        volumeMounts:
+        - name: log-data
+          mountPath: /var/log
+
+      # Container 2 sidecar
+      - name: log-sidecar
+        image: busybox:1.28
+        command: ["sh", "-c"]
+        args:
+          - tail -f /var/sidecar/myapp.log
+
+        # emtyDir resiving logs from emtyDir   
+        volumeMounts:
+        - name: log-data
+          mountPath: /var/sidecar
+
+      volumes:
+      - name: log-data
+        emptyDir: {}
+
+
+
+=====/////======/////=======//////=====/////======/////=======
+
+		COONFIGMAP  AND SECRET 
+
+								2 ways to resive secret info 
+	1=> as individual VALUE           2=> as Environment Variable 
+			DB_URL															Using Valumes
+			DB_USER
+			DB_PWD
+
+steps creating  
+	Congfig MAp 
+	Secret 
+	Pass data to Pod using Env Variables 
+
+
+ 
+	mkdir external-config
+	vim my-configmap.yaml
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: myapp-config
+data:
+  db_host: mysql-service
+
+	vim my-secret
+
+apiVersion: v1
+kind: Secret
+metadata:
+  name: myapp-secret
+type: Opaque
+data:
+  username: bXl1c2Vy
+  password: bXlwd2Q=
+
+echo -n "myuser" | base64  
+echo -n "mypwd" | base64  
+
+
+vim myapp-deployment.yaml
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-app
+  labels:
+    app: my-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-app
+  template:
+    metadata:
+      labels:
+        app: my-app
+    spec:
+      containers:
+      - name: my-app
+        image: busybox:1.28
+        command: ['sh','-c','printenv MYSQL_USER MYSQL_PWD MYSQL_SERVER; sleep 10']
+        env: 
+        - name: MYSQL_USER
+          valueFrom:
+            secretKeyRef: 
+              name: myapp-secret # this is in my secret file metadata myapp-secret 
+              key: username # getting from secret username Key and it will bring back value of user
+        - name: MYSQL_PWD
+          valueFrom:
+            secretKeyRef:      
+              name: myapp-secret # this is in my secret file metadata myapp-secret 
+              key: password # getting from secret password Key and it will bring back value of user
+        - name: MYSQL_SERVER
+          valueFrom:
+            configMapKeyRef:  
+              name: myapp-config # metadata from my-configmap.yaml file
+              key: db_host # data key and return me back value of mysql-service
+
+kubectl apply -f myapp-deployment.yaml
+
+
+====== instand using key value now we will create as file for Secret ======== 
+
+vim my-configmap-file.yaml
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-config
+data:
+  mysql.conf: |
+    [mysqld]
+    port=3306
+    socket=/tmp/mysql.sock
+    key_buffer_size=16M
+    max_allowed_packet=128M
+
+vim my-secret-file.yaml
+
+apiVersion: v1
+kind: Secret
+metadata:
+  name: mysql-secret-file
+type: Opaque
+data:
+  secret.file: |
+    IyEvYmluL2Jhc2gKCiMgVXBkYXRlIHBhY2thZ2UgbGlzdApzdWRvIGFwdC1nZXQgdXBkYXRlCgojIEluc3RhbGwgQ29udGFpbmVyRApzdWRvIGFwdC1nZXQgLXkgaW5zdGFsbCBjb250YWluZXJkCgojIENyZWF0ZSBDb250YWluZXJEIGNvbmZpZ3VyYXRpb24gZGlyZWN0b3J5CnN1ZG8gbWtkaXIgLXAgL2V0Yy9jb250YWluZXJkCgojIENyZWF0ZSBhbmQgY29uZmlndXJlIENvbnRhaW5lckQncyBUT01MIGNvbmZpZ3VyYXRpb24gZmlsZQpjYXQgPDxFT0YgfCBzdWRvIHRlZSAvZXRjL2NvbnRhaW5lcmQvY29uZmlnLnRvbWwKIyBBZGQgeW91ciBDb250YWluZXJEIGNvbmZpZ3VyYXRpb24gaGVyZQojIC4uLgpFT0YKCiMgUmVzdGFydCBDb250YWluZXJECnN1ZG8gc3lzdGVtY3RsIHJlc3RhcnQgY29udGFpbmVyZAoK
+
+base64 install.sh | tr -d "\n"   to make file code 
+
+vim my-deployment-file.yaml
+
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-db
+  labels:
+    app: my-db
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-db
+  template:
+    metadata:
+      labels:
+        app: my-db
+    spec:
+      containers:
+      - name: my-db
+        image: busybox:1.28
+        command: ['sh', '-c', "cat /mysql/db-config/mysql.conf; cat /mysql/db-secret/secret.file; sleep 20"]
+
+        volumeMounts:
+        - name: db-config
+          mountPath: /mysql/db-config
+        - name: db-secret
+          mountPath: /mysql/db-secret
+          readOnly: true
+
+      volumes:
+      - name: db-config
+        configMap:
+          name: mysql-config-file # coming from configMap file and have o match with name 
+      - name: db-secret
+        secret:
+          secretName: mysql-secret-file # coming from secret file and have o match with name 
+
+
+
+
+kubectl rollout restart deployment / {name pod}          
+
+============Understanding Resourses and Limits =======================
+
+
+ vim nginx-deployment-with-resources.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-app-resources
+  labels:
+    app: my-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-app
+  template:
+    metadata:
+      labels:
+        app: my-app
+    spec:
+      containers:
+      - name: my-app
+        image: nginx:1.20
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "250m"
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+      - name: logging-sidecar
+        image: busybox:1.28
+        command: ['sh', '-c', "while true; do echo sync logs; sleep 20; done"]
+        resources:
+          requests:
+            memory: "32Mi"
+            cpu: "125m"
+          limits:
+            memory: "64Mi"
+            cpu: "250m"
+
+kubectl get pod -o jsonpath="{range .items[*]}{.metadata.name}{.spec.containers[*].resources}{'\n'}"

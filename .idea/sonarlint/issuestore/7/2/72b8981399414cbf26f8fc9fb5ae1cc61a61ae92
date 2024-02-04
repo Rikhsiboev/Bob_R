@@ -1,0 +1,7 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·†ªãúÿÿÿÿ
+N
+java:S1172%"8Remove these unused method parameters "spot", "vehicle".(Ð«›Ä
+V	java:S125"<This block of commented-out lines of code should be removed.(¸ãý§ùÿÿÿÿ
+M
+java:S1144%"7Remove this unused private "parkStartingAtSpot" method.(Ð«›Ä

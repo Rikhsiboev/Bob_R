@@ -61,6 +61,7 @@
         <module name="spring-06-Core-BeanScope" />
         <module name="m4-double_colon_operators" />
         <module name="spring-25-Docker" />
+        <module name="k8s.admin.notes" />
         <module name="dsa-07-Queues" />
         <module name="consumer" />
         <module name="dsa-06-AlgorithmProblems" />
